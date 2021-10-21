@@ -1,0 +1,113 @@
+{
+  "id": "raid.matthias.allAndMarkers",
+  "name": "Matthias\nGlobal Mechanics (with markers)",
+  "category": "Salvation Pass",
+  "description": "Displays the following:\n• All Corruptions and where to go (with markers).\n• The first four Sacrifices.",
+  "author": "QuitarHero",
+  "icon": "data/matthias.png",
+  "map": 1149,
+  "reset": {
+    "position": [-150.5, 149.9, 131.5],
+    "radius": 35,
+    "requireOutOfCombat": true,
+    "requireDeparture": false,
+  },
+  "phases": [
+    {
+      "name": "All Timers",
+      "start": {
+        "position": [-150.5, 149.9, 131.5],
+        "radius": 35,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "alerts": [
+        {
+          "alert": "Corruption & Sacs\nwith Markers",
+          "alertDuration": 4,
+          "icon": "data/Matthias.png",
+          "fillColor": [194, 45, 45, 0],
+          "timestamps": [0]
+        },
+        {
+          "warning": "Corruption soon",
+          "warningDuration": 5,
+          "alert": "Go to ARROW",
+          "alertDuration": 5,
+          "icon": "data/arrow.png",
+          "fillColor": [194, 45, 45, 0],
+          "timestamps": [5, 125, 245, 365, 485]
+        },
+        {
+          "warning": "Corruption soon",
+          "warningDuration": 5,
+          "alert": "Go to CIRCLE",
+          "alertDuration": 5,
+          "icon": "data/arrow.png",
+          "fillColor": [194, 45, 45, 0],
+          "timestamps": [35, 155, 275, 395, 515]
+        },
+        {
+          "warning": "Corruption soon",
+          "warningDuration": 5,
+          "alert": "Go to HEART",
+          "alertDuration": 5,
+          "icon": "data/arrow.png",
+          "fillColor": [194, 45, 45, 0],
+          "timestamps": [65, 185, 305, 425, 545]
+        },
+        {
+          "warning": "Corruption soon",
+          "warningDuration": 5,
+          "alert": "Go to SQUARE",
+          "alertDuration": 5,
+          "icon": "data/arrow.png",
+          "fillColor": [194, 45, 45, 0],
+          "timestamps": [95, 215, 335, 455, 575]
+        },
+        {
+          "warning": "Sacrifice soon",
+          "warningDuration": 15,
+          "alert": "Sacrifice!",
+          "alertDuration": 5,
+          "icon": "data/arrow.png",
+          "fillColor": [194, 45, 45, 0],
+          "timestamps": [20, 65, 110, 155]
+        },
+        {
+          "alert": "Enrage",
+          "alertDuration": 5,
+          "icon": "data/Matthias.png",
+          "fillColor": [194, 45, 45, 0],
+          "timestamps": [600]
+        }
+      ],
+      "markers": [
+        {
+          "position": [-171.9, 128.5, 133.1],
+          "timestamps": [5, 125, 245, 365, 485],
+          "duration": 5,
+          "texture": "data/Gw2Arrow1.png"
+        },
+        {
+          "position": [-172.3, 171.0, 133.1],
+          "timestamps": [35, 155, 275, 395, 515],
+          "duration": 5,
+          "texture": "data/Gw2Arrow1.png"
+        },
+        {
+          "position": [-129.7, 171.2, 133.1],
+          "timestamps": [65, 185, 305, 425, 545],
+          "duration": 5,
+          "texture": "data/Gw2Arrow1.png"
+        },
+        {
+          "position": [-129.3, 128.7, 133.1],
+          "timestamps": [95, 215, 335, 455, 575],
+          "duration": 5,
+          "texture": "data/Gw2Arrow1.png"
+        },
+      ]
+    }
+  ]
+}

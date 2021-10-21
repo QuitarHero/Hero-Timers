@@ -1,0 +1,219 @@
+{
+  "id": "raid.w3.b3.all",
+  "name": "Xera\nGlobal Mechanics",
+  "category": "Stronghold of the Faithful",
+  "description": "Displays stuff",
+  "author": "QuitarHero",
+  "icon": "data/Xera.png",
+  "map": 1156,
+  "reset": {
+    "position": [-77.2949, -80.5495, 512.355],
+    "radius": 100,
+    "requireOutOfCombat": true,
+    "requireDeparture": false
+  },
+  "phases": [
+    {
+      "name": "Phase 1",
+      "start": {
+        "position": [-77.2949, -80.5495, 512.355],
+        "radius": 35,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [-77.2949, -80.5495, 512.355],
+        "radius": 35,
+        "requireOutOfCombat": false,
+        "requireDeparture": true
+      },
+      "alerts": [
+        {
+          "warning": "Gravity Well soon",
+          "warningDuration": "15",
+          "alert": "Move",
+          "alertDuration": 3,
+          "fillColor": [154,99,167,1],
+          "icon": "data/GravityWell.png",
+          "timestamps": [30, 60, 90, 120, 150, 180, 210, 240, 270]
+        },
+        {
+          "warning": "Laser soon",
+          "warningDuration": 20,
+          "alert": "Move",
+          "alertDuration": 4,
+          "fillColor": [154,99,167,1],
+          "icon": "data/Xera.png",
+          "timestamps": [40, 109, 178, 247]
+        },
+        {
+          "warning": "Laser ends soon",
+          "warningDuration": 10,
+          "fillColor": [154,99,167,1],
+          "icon": "data/Xera.png",
+          "timestamps": [64, 133, 202, 271]
+        }
+      ],
+      "markers": [
+        {
+          "position": [-76.6949, -80.5495, 511.355],
+          "timestamps": [23, 143, 263],
+          "duration": 7,
+          "texture": "data/GoHere.png",
+          "size": 45,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-76.6949, -80.5495, 511.355],
+          "timestamps": [53, 173],
+          "duration": 7,
+          "texture": "data/GoHere.png",
+          "size": 45,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-76.6949, -80.5495, 511.355],
+          "timestamps": [83, 203],
+          "duration": 7,
+          "texture": "data/GoHere.png",
+          "size": 45,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-76.6949, -80.5495, 511.355],
+          "timestamps": [113, 233],
+          "duration": 7,
+          "texture": "data/GoHere.png",
+          "size": 45,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-55.524, -92.326, 512.354],
+          "timestamps": [0],
+          "duration": 44,
+          "texture": "data/1.png",
+          "size": 1.5
+        },
+        {
+          "position": [-64.367, -58.505, 512.354],
+          "timestamps": [59],
+          "duration": 50,
+          "texture": "data/2.png",
+          "size": 1.5
+        },
+        {
+          "position": [-98.724, -68.167, 512.354],
+          "timestamps": [128],
+          "duration": 50,
+          "texture": "data/3.png",
+          "size": 1.5
+        },
+        {
+          "position": [-98.724, -68.167, 512.354],
+          "timestamps": [197],
+          "duration": 50,
+          "texture": "data/4.png",
+          "size": 1.5
+        }
+      ]
+    },
+    {
+      "name": "Phase 2",
+      "start": {
+        "position": [-77.2949, -80.5495, 512.355],
+        "radius": 35,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "alerts": [
+        {
+          "warning": "Gravity Well soon",
+          "warningDuration": 10,
+          "alert": "Move",
+          "alertDuration": 3,
+          "fillColor": [154,99,167,1],
+          "icon": "data/GravityWell.png",
+          "timestamps": [25, 50, 75, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425, 450, 475, 500]
+        },
+        {
+          "warning": "Laser soon",
+          "warningDuration": 20,
+          "alert": "Move",
+          "alertDuration": 4,
+          "fillColor": [154,99,167,1],
+          "icon": "data/Xera.png",
+          "timestamps": [40, 104, 168, 232, 296, 360, 424, 488]
+        },
+        {
+          "warning": "Laser ends soon",
+          "warningDuration": 10,
+          "fillColor": [154,99,167,1],
+          "icon": "data/Xera.png",
+          "timestamps": [64, 128, 192, 256, 320, 384, 448, 512]
+        }
+      ],
+      "markers": [
+        {
+          "position": [-76.6949, -80.5495, 511.355],
+          "timestamps": [18, 118, 218, 318, 418],
+          "duration": 7,
+          "texture": "data/GoHere.png",
+          "size": 45,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-76.6949, -80.5495, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "data/GoHere.png",
+          "size": 45,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-76.6949, -80.5495, 511.355],
+          "timestamps": [68, 168, 268, 368, 468],
+          "duration": 7,
+          "texture": "data/GoHere.png",
+          "size": 45,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-76.6949, -80.5495, 511.355],
+          "timestamps": [93, 193, 293, 393, 493],
+          "duration": 7,
+          "texture": "data/GoHere.png",
+          "size": 45,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-98.724, -68.167, 512.354],
+          "timestamps": [0, 251],
+          "duration": 44,
+          "texture": "data/1.png",
+          "size": 1.5
+        },
+        {
+          "position": [-64.367, -58.505, 512.354],
+          "timestamps": [59, 315],
+          "duration": 45,
+          "texture": "data/2.png",
+          "size": 1.5
+        },
+        {
+          "position": [-55.524, -92.326, 512.354],
+          "timestamps": [123, 379],
+          "duration": 45,
+          "texture": "data/3.png",
+          "size": 1.5
+        },
+        {
+          "position": [-98.724, -68.167, 512.354],
+          "timestamps": [187, 443],
+          "duration": 45,
+          "texture": "data/4.png",
+          "size": 1.5
+        }
+      ]
+    }
+  ]
+}

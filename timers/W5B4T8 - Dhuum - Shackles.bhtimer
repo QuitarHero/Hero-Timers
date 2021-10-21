@@ -1,0 +1,40 @@
+{
+  "id": "raid.w5.b4.shackles",
+  "name": "Dhuum\nShackles",
+  "category": "Hall of Chains",
+  "description": "Displays when shackles happen.",
+  "author": "QuitarHero",
+  "icon": "data/Dhuum.png",
+  "map": 1264,
+  "reset": {
+    "position": [460, 70, 150],
+    "antipode": [345, -32, 225],
+    "requireOutOfCombat": false,
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "Dhuum Shackles",
+      "start": {
+        "position": [460, 70, 150],
+        "antipode": [345, -32, 225],
+        "type": "key",
+        "key": "RightAlt",
+        "keyModifier": "None",
+        "requireEntry": true,
+        "requireCombat": false
+      },
+      "alerts": [
+        {
+          "warning": "Shackles soon",
+          "warningDuration": 25,
+          "alert": "Shackles move!",
+          "alertDuration": 5,
+          "fillColor": [12, 95, 21, 1],
+          "icon": "data/Shackles.png",
+          "timestamps": [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420, 450, 480]
+        }
+      ]
+    }
+  ]
+}

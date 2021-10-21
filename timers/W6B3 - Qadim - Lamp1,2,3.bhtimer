@@ -1,0 +1,229 @@
+{
+  "id": "raid.w6.b3.lamp1-2-3",
+  "name": "Qadim\nLamp 1/2/3",
+  "category": "Mythwright Gambit",
+  "description": "Displays the path to take each time you go down for lamp.",
+  "author": "QuitarHero",
+  "icon": "data/Lamp.png",
+  "map": 1303,
+  "reset": {
+    "position": [-188.691, 306.715, 120.168],
+    "radius": 200,
+    "requireOutOfCombat": true,
+    "requireDeparture": false
+  },
+  "phases": [
+    {
+      "name": "Lamp 1",
+      "start": {
+        "position": [-120.352, 375.847, -5],
+        "antipode": [-257.394, 235.503, 25],
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [-120.352, 375.847, -5],
+        "antipode": [-257.394, 235.503, 25],
+        "requireOutOfCombat": false,
+        "requireDeparture": true
+      },
+      "alerts": [
+        {
+          "warning": "Time until 2nd CC",
+          "warningDuration": 45,
+          "icon": "data/Hydra.png",
+          "fillColor": [244, 240, 4, 1],
+          "timestamps": [45]
+        }
+      ],
+      "markers": [
+        {
+          "position": [-226.08, 357.74, 2.065],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 90]
+        },
+        {
+          "position": [-190.134, 358.13, 2.061],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 90]
+        },
+        {
+          "position": [-171.058, 344.751, 2.063],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 360]
+        },
+        {
+          "position": [-155.432, 323.891, 2.063],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 90]
+        },
+        {
+          "position": [-137.639, 309.91, 2.062],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 360]
+        },
+        {
+          "position": [-136.983, 274.554, 2.063],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 360]
+        }
+      ]
+    },
+    {
+      "name": "Lamp 2",
+      "start": {
+        "position": [-120.352, 375.847, -5],
+        "antipode": [-257.394, 235.503, 25],
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [-120.352, 375.847, -5],
+        "antipode": [-257.394, 235.503, 25],
+        "requireOutOfCombat": false,
+        "requireDeparture": true
+      },
+      "alerts": [
+        {
+          "warning": "Time until 2nd CC",
+          "warningDuration": 36,
+          "icon": "data/Destroyer.png",
+          "timestamps": [36]
+        }
+      ],
+      "markers": [
+        {
+          "position": [-238.567, 345.13, 2.065],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 360]
+        },
+        {
+          "position": [-239.23, 309.766, 2.065],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 360]
+        },
+        {
+          "position": [-225.955, 289.505, 2.063],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 90]
+        },
+        {
+          "position": [-190.34, 289.509, 2.065],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 90]
+        },
+        {
+          "position": [-170.551, 274.748, 2.063],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 360]
+        },
+        {
+          "position": [-156.061, 255.222, 2.063],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 90]
+        }
+      ]
+    },
+    {
+      "name": "Lamp #3",
+      "start": {
+        "position": [-120.352, 375.847, -5],
+        "antipode": [-257.394, 235.503, 25],
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "markers": [
+        {
+          "position": [-226.08, 357.74, 2.065],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 90],
+          "uid": "raid.w6.b3.lamp3.1"
+        },
+        {
+          "position": [-206.081, 345.031, 2.061],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 360],
+          "uid": "raid.w6.b3.lamp3.2"
+        },
+        {
+          "position": [-206.072, 310.548, 2.062],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 360],
+          "uid": "raid.w6.b3.lamp3.3"
+        },
+        {
+          "position": [-205.592, 274.549, 2.061],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 360],
+          "uid": "raid.w6.b3.lamp3.4"
+        },
+        {
+          "position": [-190.48, 255.346, 2.061],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 90],
+          "uid": "raid.w6.b3.lamp3.5"
+        },
+        {
+          "position": [-156.061, 255.222, 2.063],
+          "timestamps": [0],
+          "duration": 120,
+          "texture": "data/Gw2Arrow1.png",
+          "size": 2,
+          "rotation": [0, 0, 90],
+          "uid": "raid.w6.b3.lamp3.6"
+        }
+      ]
+    }
+  ]
+}

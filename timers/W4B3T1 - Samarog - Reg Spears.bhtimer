@@ -1,0 +1,52 @@
+{
+  "id": "raid.w4.b3.spear-spawns",
+  "name": "Samarog\nSpear Spawns",
+  "category": "Bastion of the Penitent",
+  "description": "Displays when spears spawn.",
+  "author": "QuitarHero",
+  "icon": "data/samarog.png",
+  "map": 1188,
+  "reset": {
+    "position": [-64.451, 25.229, 125.889],
+    "antipode": [-148.819, 136.537, 150.477],
+    "requireOutOfCombat": true,
+    "requireDeparture": false
+  },
+  "phases": [
+    {
+      "name": "Spear Spawns",
+      "start": {
+        "position": [-64.451, 25.229, 125.889],
+        "antipode": [-148.819, 136.537, 150.477],
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "alerts": [
+        {
+          "alert": "Timer Start\nSpear Spawns",
+          "alertDuration": 4,
+          "icon": "data/Samarog.png",
+          "fillColor": [202, 175, 92, 0],
+          "timestamps": [0]
+        },
+        {
+          "warning": "Spears soon",
+          "warningDuration": 5,
+          "alert": "Spears spawned",
+          "alertDuration": 3,
+          "icon": "data/Samarog.png",
+          "fillColor": [202, 175, 92, 0],
+          "timestamps": [22, 42, 62, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 282, 302, 322, 342, 362, 382, 402, 422, 442, 462, 482, 502, 522, 542, 562, 582, 602, 622, 642, 662]
+        },
+        {
+          "alert": "Enrage",
+          "alertDuration": 5,
+          "icon": "data/Samarog.png",
+          "fillColor": [202, 175, 92, 0],
+          "timestamps": [660],
+          "uid": "raid.w4.b3.enrage"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "raid.dhuum.all",
+  "name": "Dhuum\nAll Greens",
+  "category": "Hall of Chains",
+  "description": "Displays all green timings.",
+  "author": "QuitarHero",
+  "icon": "data/dhuum.png",
+  "map": 1264,
+  "reset": {
+    "position": [460, 70, 150],
+    "antipode": [345, -32, 225],
+    "requireOutOfCombat": false,
+    "requireDeparture": true
+    },
+    "phases": [
+      {
+        "name": "All Green Timings",
+        "start": {
+          "position": [460, 70, 150],
+          "antipode": [345, -32, 225],
+          "requireEntry": true,
+          "requireCombat": true
+        },
+        "alerts": [
+          {
+            "alert": "All Green Timings",
+            "alertDuration": 4,
+            "fillColor": [12, 95, 21, 1],
+            "icon": "data/Dhuum.png",
+            "timestamps": [0]
+          },
+          {
+            "warning": "Green #1 soon",
+            "warningDuration": 17,
+            "fillColor": [12, 95, 21, 1],
+            "icon": "data/Dhuum.png",
+            "timestamps": [30, 120, 210, 300, 390, 480, 570]
+          },
+          {
+            "warning": "Green #2 soon",
+            "warningDuration": 17,
+            "fillColor": [12, 95, 21, 1],
+            "icon": "data/Dhuum.png",
+            "timestamps": [60, 150, 240, 330, 420, 510]
+          },
+          {
+            "warning": "Green #3 soon",
+            "warningDuration": 17,
+            "fillColor": [12, 95, 21, 1],
+            "icon": "data/Dhuum.png",
+            "timestamps": [90, 180, 270, 360, 450, 540]
+          },
+          {
+            "alert": "Go to ARROW",
+            "alertDuration": 8,
+            "fillColor": [12, 95, 21, 1],
+            "icon": "data/arrow.png",
+            "timestamps": [30, 240, 450]
+          },
+          {
+            "alert": "Go to CIRCLE",
+            "alertDuration": 8,
+            "fillColor": [12, 95, 21, 1],
+            "icon": "data/circle.png",
+            "timestamps": [60, 270, 480]
+          },
+          {
+            "alert": "Go to HEART",
+            "alertDuration": 8,
+            "fillColor": [12, 95, 21, 1],
+            "icon": "data/heart.png",
+            "timestamps": [90, 300, 510]
+          },
+          {
+            "alert": "Go to SQUARE",
+            "alertDuration": 8,
+            "fillColor": [12, 95, 21, 1],
+            "icon": "data/square.png",
+            "timestamps": [120, 330, 540]
+          },
+          {
+            "alert": "Go to STAR",
+            "alertDuration": 8,
+            "fillColor": [12, 95, 21, 1],
+            "icon": "data/star.png",
+            "timestamps": [150, 360, 570]
+          },
+          {
+            "alert": "Go to SWIRL",
+            "alertDuration": 8,
+            "fillColor": [12, 95, 21, 1],
+            "icon": "data/swirl.png",
+            "timestamps": [180, 390]
+          },
+          {
+            "alert": "Go to TRIANGLE",
+            "alertDuration": 8,
+            "fillColor": [12, 95, 21, 1],
+            "icon": "data/triangle.png",
+            "timestamps": [210, 420]
+          }
+        ]
+      }
+    ]
+}

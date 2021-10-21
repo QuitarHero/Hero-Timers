@@ -1,0 +1,39 @@
+{
+  "id": "raid.w4.b4.oils",
+  "name": "Deimos\nOil Timings",
+  "category": "Bastion of the Penitent",
+  "description": "Displays when Oils spawn.",
+  "author": "QuitarHero",
+  "icon": "data/Deimos.png",
+  "map": 1188,
+  "reset": {
+    "position": [-214.518, 78.521, 101.924],
+    "radius": 400,
+    "requireOutOfCombat": true,
+    "requireDeparture": false,
+  },
+  "phases": [
+    {
+      "name": "Oils",
+      "start": {
+        "position": [-214.518, 78.521, 101.924],
+        "radius": 40,
+	    "type": "key",
+	    "key": "RightAlt",
+	    "keyModifier": "None",
+        "requireEntry": true,
+        "requireCombat": false
+      },
+	  "alerts": [
+	    {
+		  "warning": "Oil Soon",
+		  "warningDuration": 12,
+		  "alert": "Move!",
+		  "alertDuration": 3,
+		  "fillColor": [202, 175, 92, 0],
+		  "timestamps": [0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425, 450, 475, 500, 525, 550, 575, 600]
+		}
+	  ]
+    }
+  ]
+}

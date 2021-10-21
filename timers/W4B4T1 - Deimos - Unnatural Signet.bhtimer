@@ -1,0 +1,39 @@
+{
+  "id": "raid.w4.b4.unnatural-signet",
+  "name": "Deimos\nUnnatural Signet",
+  "category": "Bastion of the Penitent",
+  "description": "INCOMPLETE!\nDisplays when Saul uses his Unnatural Signet.\nThis timers assumes 0% Alacrity uptime on Saul.",
+  "author": "QuitarHero",
+  "icon": "data/Deimos.png",
+  "map": 1155,
+  "reset": {
+    "position": [-214.518, 78.521, 101.924],
+    "radius": 400,
+    "requireOutOfCombat": true,
+    "requireDeparture": false,
+  },
+  "phases": [
+    {
+      "name": "Unnatural Signet",
+      "start": {
+        "position": [-214.518, 78.521, 101.924],
+        "radius": 40,
+        "type": "key",
+        "key": "LeftAlt",
+        "keyModifier": "None",
+        "requireEntry": true,
+        "requireCombat": false
+      },
+      "alerts": [
+        {
+          "warning": "Signet soon",
+          "warningDuration": "15",
+          "alert": "Burst!",
+          "alertDuration": "10",
+          "fillColor": [202, 175, 92, 0],
+          "timestamps": [0, 60, 120, 180, 240, 300, 360, 420, 480]
+        }
+      ]
+    }
+  ]
+}
