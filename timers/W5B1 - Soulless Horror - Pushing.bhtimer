@@ -2,8 +2,8 @@
   "id": "raid.soullesshorror",
   "name": "Soulless Horror\nPushing",
   "category": "Hall of Chains",
-  "description": "Displays when to push the golem on SH.",
-  "author": "QuitarHero",
+  "description": "Displays when to push the golem on SH.\nNOTE: This is a hotkey timer which is not supported well.\nYou can activate this timer using 'Right Alt' when SH reaches 90% Health.",
+  "author": "QuitarHero.1645",
   "icon": "data/SH.png",
   "map": 1264,
   "reset": {

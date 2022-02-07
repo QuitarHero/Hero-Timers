@@ -3,7 +3,7 @@
   "name": "Bandit Trio\nGlobal Mechanics",
   "category": "Salvation Pass",
   "description": "Displays the following:\n• When each boss spawns.\n• When saboteurs spawn.\n• When mortars must be dealt with.",
-  "author": "QuitarHero",
+  "author": "QuitarHero.1645",
   "icon": "data/Narella.png",
   "map": 1149,
   "reset": {

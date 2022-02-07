@@ -3,7 +3,7 @@
   "name": "Dhuum\nBoss Attacks",
   "category": "Hall of Chains",
   "description": "Displays the following:\n• Dip timings.\n• Soul Split timings.\n• When it's safe to hold affliction.",
-  "author": "QuitarHero",
+  "author": "QuitarHero.1645",
   "icon": "data/dhuum.png",
   "map": 1264,
   "reset": {

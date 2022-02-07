@@ -3,7 +3,7 @@
   "name": "Samarog\nChallenge Mode",
   "category": "Bastion of the Penitent",
   "description": "Displays the following:\n• When the next spear spawns.\n• When 'Spear Return' happens.\n• When Inevitable Betrayal happens.",
-  "author": "QuitarHero",
+  "author": "QuitarHero.1645",
   "icon": "data/samarog.png",
   "map": 1188,
   "reset": {

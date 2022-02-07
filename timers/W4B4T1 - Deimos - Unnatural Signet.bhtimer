@@ -2,8 +2,8 @@
   "id": "raid.w4.b4.unnatural-signet",
   "name": "Deimos\nUnnatural Signet",
   "category": "Bastion of the Penitent",
-  "description": "INCOMPLETE!\nDisplays when Saul uses his Unnatural Signet.\nThis timers assumes 0% Alacrity uptime on Saul.",
-  "author": "QuitarHero",
+  "description": "Displays when Saul uses his Unnatural Signet.\nThis timer assumes 0% Alacrity uptime on Saul.\nNOTE: This is a hotkey timer which is not supported well.\nYou can activate this timer using 'Left Alt' when Saul uses his Signet the first time.",
+  "author": "QuitarHero.1645",
   "icon": "data/Deimos.png",
   "map": 1155,
   "reset": {

@@ -2,8 +2,8 @@
   "id": "raid.w5.b4.shackles",
   "name": "Dhuum\nShackles",
   "category": "Hall of Chains",
-  "description": "Displays when shackles happen.",
-  "author": "QuitarHero",
+  "description": "Displays when shackles happen.\nNOTE: This is a hotkey timer which is not supported well.\nYou can activate this timer using 'Right Alt' when Dhuum reaches 60% Health.",
+  "author": "QuitarHero.1645",
   "icon": "data/Dhuum.png",
   "map": 1264,
   "reset": {

@@ -3,7 +3,7 @@
   "name": "Dhuum\nGolem Spawns",
   "category": "Hall of Chains",
   "description": "Displays Golem spawn timings that happen after the second green #2.",
-  "author": "QuitarHero",
+  "author": "QuitarHero.1645",
   "icon": "data/dhuum.png",
   "map": 1264,
   "reset": {

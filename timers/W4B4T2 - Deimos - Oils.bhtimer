@@ -2,8 +2,8 @@
   "id": "raid.w4.b4.oils",
   "name": "Deimos\nOil Timings",
   "category": "Bastion of the Penitent",
-  "description": "Displays when Oils spawn.",
-  "author": "QuitarHero",
+  "description": "Displays when Oils spawn.\nNOTE: This is a hotkey timer, which is not supported well.\nYou can activate this timer using 'Right Alt' when Deimos reaches 60% Health.",
+  "author": "QuitarHero.1645",
   "icon": "data/Deimos.png",
   "map": 1188,
   "reset": {
