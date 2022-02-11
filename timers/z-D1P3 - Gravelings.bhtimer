@@ -2,7 +2,7 @@
   "id": "dungeon.ascaloniancatacombs.path3.gravelings",
   "name": "Ascalonian Catacombs P3\nGravelings",
   "category": "Dungeons",
-  "description": "Displays when and where gravelings spawn.",
+  "description": "Displays when and where gravelings spawn.\nNOTE: This is a hotkey timer which is not supported well.\nYou can activate this timer using 'Right Alt' when the event begins.",
   "author": "QuitarHero.1645",
   "icon": "data/Ascalonian-Catacombs.png",
   "map": 36,

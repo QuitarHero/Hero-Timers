@@ -2,7 +2,7 @@
   "id": "raid.w6.b3.lamp3",
   "name": "Qadim\nLamp #3",
   "category": "Mythwright Gambit",
-  "description": "Displays the path to take for Lamp #3.",
+  "description": "Displays the path to take for Lamp #3.\nNOTE: This timer may not reset correctly after a wipe.\nIt's recommended to toggle this timer off/on if a wipe occurs.",
   "author": "QuitarHero.1645",
   "icon": "data/Lamp.png",
   "map": 1303,

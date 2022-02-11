@@ -2,7 +2,7 @@
   "id": "raid.w3.b3.all",
   "name": "Xera\nGlobal Mechanics",
   "category": "Stronghold of the Faithful",
-  "description": "Displays stuff",
+  "description": "Displays the following:\n• When and where Gravity Wells spawn.\n• When the Laser spawns and despawns.\n• Tanking locations (via markers).",
   "author": "QuitarHero.1645",
   "icon": "data/Xera.png",
   "map": 1156,
