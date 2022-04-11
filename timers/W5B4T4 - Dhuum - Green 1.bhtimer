@@ -24,7 +24,7 @@
         "alerts": [
           {
             "alert": "Green #1",
-            "alertDuration": 4,
+            "alertDuration": 2,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/Dhuum.png",
             "timestamps": [0]
@@ -103,56 +103,56 @@
           {
             "name": "Arrow",
             "destination": [429.2, 30.9, 157.9],
-            "timestamps": [30],
-            "duration": 8,
+            "timestamps": [20],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Square",
             "destination": [377.7, -6.6, 157.9],
-            "timestamps": [120],
-            "duration": 8,
+            "timestamps": [110],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Triangle",
             "destination": [407.8, 50.0, 157.9],
-            "timestamps": [210],
-            "duration": 8,
+            "timestamps": [205],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Heart",
             "destination": [404.9, -14.8, 157.9],
-            "timestamps": [300],
-            "duration": 8,
+            "timestamps": [290],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Swirl",
             "destination": [379.1, 44.9, 157.9],
-            "timestamps": [390],
-            "duration": 8,
+            "timestamps": [385],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Circle",
             "destination": [427.9, 2.0, 157.9],
-            "timestamps": [480],
-            "duration": 8,
+            "timestamps": [475],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Star",
             "destination": [366.0, 19.4, 157.9],
-            "timestamps": [570],
-            "duration": 8,
+            "timestamps": [560],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           }
@@ -199,7 +199,7 @@
             "timestamps": [500],
             "duration": 75,
             "texture": "data/1.png"
-          },
+          }
         ]
       }
     ]
