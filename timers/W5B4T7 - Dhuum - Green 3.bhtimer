@@ -24,14 +24,8 @@
         "alerts": [
           {
             "alert": "Green #3",
-            "alertDuration": 4,
+            "alertDuration": 2,
             "timestamps": [0]
-          },
-          {
-            "warning": "Your green is soon",
-            "warningDuration": 17,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [90, 180, 270, 360, 450, 540]
           },
           {
             "warning": "Time left",
@@ -40,38 +34,56 @@
             "timestamps": [110, 200, 290, 380, 470, 560]
           },
           {
+            "warning": "Your green is soon",
+            "warningDuration": 17,
             "alert": "Go to HEART",
             "alertDuration": 8,
+            "icon": "data/heart.png",
             "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
             "timestamps": [90]
           },
           {
+            "warning": "Your green is soon",
+            "warningDuration": 17,
             "alert": "Go to SWIRL",
             "alertDuration": 8,
+            "icon": "data/swirl.png",
             "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
             "timestamps": [180]
           },
           {
+            "warning": "Your green is soon",
+            "warningDuration": 17,
             "alert": "Go to CIRCLE",
             "alertDuration": 8,
+            "icon": "data/circle.png",
             "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
             "timestamps": [270]
           },
           {
+            "warning": "Your green is soon",
+            "warningDuration": 17,
             "alert": "Go to STAR",
             "alertDuration": 8,
+            "icon": "data/star.png",
             "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
             "timestamps": [360]
           },
           {
+            "warning": "Your green is soon",
+            "warningDuration": 17,
             "alert": "Go to ARROW",
             "alertDuration": 8,
+            "icon": "data/arrow.png",
             "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
             "timestamps": [450]
           },
           {
+            "warning": "Your green is soon",
+            "warningDuration": 17,
             "alert": "Go to SQUARE",
             "alertDuration": 8,
+            "icon": "data/square.png",
             "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
             "timestamps": [540]
           }
@@ -80,48 +92,48 @@
           {
             "name": "Heart",
             "destination": [404.9, -14.8, 157.9],
-            "timestamps": [90],
-            "duration": 8,
+            "timestamps": [80],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Swirl",
             "destination": [379.1, 44.9, 157.9],
-            "timestamps": [180],
-            "duration": 8,
+            "timestamps": [170],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Circle",
             "destination": [427.9, 2.0, 157.9],
-            "timestamps": [270],
-            "duration": 8,
+            "timestamps": [260],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Star",
             "destination": [366.0, 19.4, 157.9],
-            "timestamps": [360],
-            "duration": 8,
+            "timestamps": [350],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Arrow",
             "destination": [429.2, 30.9, 157.9],
-            "timestamps": [450],
-            "duration": 8,
+            "timestamps": [440],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Square",
             "destination": [377.7, -6.6, 157.9],
-            "timestamps": [540],
-            "duration": 8,
+            "timestamps": [530],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           }
@@ -162,7 +174,7 @@
             "timestamps": [470],
             "duration": 75,
             "texture": "data/3.png"
-          },
+          }
         ]
       }
     ]

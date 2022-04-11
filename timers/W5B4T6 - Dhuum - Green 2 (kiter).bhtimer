@@ -23,15 +23,9 @@
         "alerts": [
           {
             "alert": "Green #2 (kiter)",
-            "alertDuration": 4,
+            "alertDuration": 2,
             "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
             "timestamps": [0]
-          },
-          {
-            "warning": "Your green is soon",
-            "warningDuration": 17,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [150, 240, 330, 420, 510]
           },
           {
             "warning": "Time left",
@@ -40,32 +34,47 @@
             "timestamps": [170, 260, 350, 440, 530]
           },
           {
+            "warning": "Your green is soon",
+            "warningDuration": 17,
             "alert": "Go to STAR",
             "alertDuration": 8,
+            "icon": "data/star.png",
             "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
             "timestamps": [150]
           },
           {
+            "warning": "Your green is soon",
+            "warningDuration": 17,
             "alert": "Go to ARROW",
             "alertDuration": 8,
+            "icon": "data/arrow.png",
             "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
             "timestamps": [240]
           },
           {
+            "warning": "Your green is soon",
+            "warningDuration": 17,
             "alert": "Go to SQUARE",
             "alertDuration": 8,
+            "icon": "data/square.png",
             "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
             "timestamps": [330]
           },
           {
+            "warning": "Your green is soon",
+            "warningDuration": 17,
             "alert": "Go to TRIANGLE",
             "alertDuration": 8,
+            "icon": "data/triangle.png",
             "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
             "timestamps": [420]
           },
           {
+            "warning": "Your green is soon",
+            "warningDuration": 17,
             "alert": "Go to HEART",
             "alertDuration": 8,
+            "icon": "data/heart.png",
             "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
             "timestamps": [510]
           }
@@ -74,40 +83,40 @@
           {
             "name": "Star",
             "destination": [366.0, 19.4, 157.9],
-            "timestamps": [150],
-            "duration": 8,
+            "timestamps": [140],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Arrow",
             "destination": [429.2, 30.9, 157.9],
-            "timestamps": [240],
-            "duration": 8,
+            "timestamps": [230],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Square",
             "destination": [377.7, -6.6, 157.9],
-            "timestamps": [330],
-            "duration": 8,
+            "timestamps": [320],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Triangle",
             "destination": [407.8, 50.0, 157.9],
-            "timestamps": [420],
-            "duration": 8,
+            "timestamps": [410],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           },
           {
             "name": "Heart",
             "destination": [404.9, -14.8, 157.9],
-            "timestamps": [510],
-            "duration": 8,
+            "timestamps": [500],
+            "duration": 10,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
           }
@@ -142,7 +151,7 @@
             "timestamps": [440],
             "duration": 75,
             "texture": "data/2.png"
-          },
+          }
         ]
       }
     ]
