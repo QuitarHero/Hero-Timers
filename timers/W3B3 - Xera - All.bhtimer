@@ -29,6 +29,13 @@
       },
       "alerts": [
         {
+          "alert": "Xera - Phase 1",
+          "alertDuration": 4,
+          "fillColor": [154,99,167,1],
+          "icon": "Data/Xera.png",
+          "timestamps": [0]
+        },
+        {
           "warning": "Gravity Well soon",
           "warningDuration": "15",
           "alert": "Move",
@@ -126,6 +133,13 @@
         "requireCombat": true
       },
       "alerts": [
+        {
+          "alert": "Xera - Phase 2",
+          "alertDuration": 4,
+          "fillColor": [154,99,167,1],
+          "icon": "Data/Xera.png",
+          "timestamps": [0]
+        },
         {
           "warning": "Gravity Well soon",
           "warningDuration": 10,

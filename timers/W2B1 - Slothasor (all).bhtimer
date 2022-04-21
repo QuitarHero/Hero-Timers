@@ -23,7 +23,7 @@
       },
       "alerts": [
         {
-          "alert": "Timer Start\nMushrooms & Slubs",
+          "alert": "Mushrooms & Slubs",
           "alertDuration": 4,
           "icon": "data/Slothasor.png",
           "fillColor": [194, 45, 45, 1],

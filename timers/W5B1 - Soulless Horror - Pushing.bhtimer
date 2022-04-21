@@ -18,7 +18,6 @@
       "start": {
         "position": [-269.575, 21.91, 20.763],
         "radius": 45,
-        "type": "key",
         "key": "RightAlt",
         "keyModifier": "None",
         "requireEntry": true,
@@ -35,7 +34,7 @@
         {
           "warning": "Golem Soon",
           "warningDuration": 15,
-          "alert": "Push",
+          "alert": "Golem Spawned",
           "alertDuration": 5,
           "icon": "data/Golem.png",
           "fillColor": [12, 95, 21, 1],

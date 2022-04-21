@@ -27,7 +27,7 @@
       "alerts": [
         {
           "warning": "Signet soon",
-          "warningDuration": "15",
+          "warningDuration": "50",
           "alert": "Burst!",
           "alertDuration": "10",
           "fillColor": [202, 175, 92, 0],

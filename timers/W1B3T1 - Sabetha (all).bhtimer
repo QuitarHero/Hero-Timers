@@ -1,5 +1,5 @@
 {
-  "id": "raid.sabetha.all",
+  "id": "raid.w1.b4.all",
   "name": "Sabetha the Saboteur\nAll Cannons",
   "category": "Spirit Vale",
   "description": "Displays all cannon timings and where to throw.",
@@ -17,9 +17,9 @@
       "name": "All Cannon",
       "start": {
         "position": [-130, 85, 62],
-        "radius": 35,
+        "radius": 38,
         "requireEntry": true,
-        "requireCombat": true
+        "requireCombat": false
       },
       "alerts": [
         {
@@ -31,34 +31,34 @@
         },
         {
           "warning": "South Cannon soon",
-          "warningDuration": 20,
+          "warningDuration": 25,
           "alert": "Throw South",
-          "alertDuration": 15,
+          "alertDuration": 5,
           "icon": "data/arrow.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [35, 155, 275, 395, 515]
         },
         {
           "warning": "West Cannon soon",
-          "warningDuration": 20,
+          "warningDuration": 25,
           "alert": "Throw West",
-          "alertDuration": 15,
+          "alertDuration": 5,
           "icon": "data/circle.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [65, 215, 305, 455]
         },
         {
           "warning": "North Cannon soon",
-          "warningDuration": 20,
+          "warningDuration": 25,
           "alert": "Throw North",
-          "alertDuration": 15,
+          "alertDuration": 5,
           "icon": "data/heart.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [95, 185, 335, 425]
         },
         {
           "warning": "East Cannon soon",
-          "warningDuration": 20,
+          "warningDuration": 25,
           "alert": "Throw East",
           "alertDuration": 5,
           "icon": "data/square.png",

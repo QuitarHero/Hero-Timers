@@ -23,6 +23,13 @@
       },
       "alerts": [
         {
+          "alert": "Boss spawns and Mechanics",
+          "alertDuration": 4,
+          "icon": "Data/Narella.png",
+          "fillColor": [194, 45, 45, 0],
+          "timestamps": [0]
+        },
+        {
           "warning": "Berg soon",
           "warningDuration": 25,
           "icon": "data/Berg.png",

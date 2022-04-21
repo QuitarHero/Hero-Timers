@@ -30,74 +30,74 @@
             "timestamps": [0]
           },
           {
-            "warning": "Green #1 soon",
-            "warningDuration": 17,
+            "warning": "Green #1",
+            "warningDuration": 30,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/Dhuum.png",
-            "timestamps": [30, 120, 210, 300, 390, 480, 570]
+            "timestamps": [35, 125, 215, 305, 395, 485, 575]
           },
           {
-            "warning": "Green #2 soon",
-            "warningDuration": 17,
+            "warning": "Green #2",
+            "warningDuration": 30,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/Dhuum.png",
-            "timestamps": [60, 150, 240, 330, 420, 510]
+            "timestamps": [65, 155, 245, 335, 425, 515]
           },
           {
-            "warning": "Green #3 soon",
-            "warningDuration": 17,
+            "warning": "Green #3",
+            "warningDuration": 30,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/Dhuum.png",
-            "timestamps": [90, 180, 270, 360, 450, 540]
+            "timestamps": [95, 185, 275, 365, 455, 545]
           },
           {
-            "alert": "Go to ARROW",
-            "alertDuration": 8,
+            "warning": "Arrow next",
+            "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/arrow.png",
-            "timestamps": [30, 240, 450]
+            "timestamps": [35, 245, 455]
           },
           {
-            "alert": "Go to CIRCLE",
-            "alertDuration": 8,
+            "warning": "Circle next",
+            "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/circle.png",
-            "timestamps": [60, 270, 480]
+            "timestamps": [65, 275, 485]
           },
           {
-            "alert": "Go to HEART",
-            "alertDuration": 8,
+            "warning": "Heart next",
+            "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/heart.png",
-            "timestamps": [90, 300, 510]
+            "timestamps": [95, 305, 515]
           },
           {
-            "alert": "Go to SQUARE",
-            "alertDuration": 8,
+            "warning": "Square next",
+            "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/square.png",
-            "timestamps": [120, 330, 540]
+            "timestamps": [125, 335, 545]
           },
           {
-            "alert": "Go to STAR",
-            "alertDuration": 8,
+            "warning": "Star next",
+            "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/star.png",
-            "timestamps": [150, 360, 570]
+            "timestamps": [155, 365, 575]
           },
           {
-            "alert": "Go to SWIRL",
-            "alertDuration": 8,
+            "warning": "Swirl next",
+            "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/swirl.png",
-            "timestamps": [180, 390]
+            "timestamps": [185, 395]
           },
           {
-            "alert": "Go to TRIANGLE",
-            "alertDuration": 8,
+            "warning": "Triangle next",
+            "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/triangle.png",
-            "timestamps": [210, 420]
+            "timestamps": [215, 425]
           }
         ]
       }

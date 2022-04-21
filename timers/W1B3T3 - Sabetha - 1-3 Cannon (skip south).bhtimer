@@ -1,5 +1,5 @@
 {
-  "id": "raid.sabetha.cannon.oneThree.skipSouth",
+  "id": "raid.w1.b4.cannon.first.skip",
   "name": "Sabetha the Saboteur\nCannon 1/3 (skip south)",
   "category": "Spirit Vale",
   "description": "Displays where to go for each cannon (with trails).",
@@ -8,7 +8,7 @@
   "map": 1062,
   "reset": {
     "position": [-130, 85, 62],
-    "radius": 105,
+    "radius": 115,
     "requireOutOfCombat": true,
     "requireDeparture": false
   },
@@ -19,18 +19,19 @@
         "position": [-130, 85, 62],
         "radius": 35,
         "requireEntry": true,
-        "requireCombat": true
+        "requireCombat": false
       },
       "alerts": [
         {
           "alert": "Cannon 1/3 (no south)",
           "alertDuration": 4,
+          "icon": "data/Sabetha.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [0]
         },
         {
           "warning": "West Cannon soon",
-          "warningDuration": 20,
+          "warningDuration": 25,
           "alert": "Go West",
           "alertDuration": 5,
           "icon": "data/circle.png",
@@ -39,7 +40,7 @@
         },
         {
           "warning": "North Cannon soon",
-          "warningDuration": 20,
+          "warningDuration": 25,
           "alert": "Go North",
           "alertDuration": 5,
           "icon": "data/heart.png",

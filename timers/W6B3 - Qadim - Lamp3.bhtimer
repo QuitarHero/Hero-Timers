@@ -7,8 +7,8 @@
   "icon": "data/Lamp.png",
   "map": 1303,
   "reset": {
-    "position": [-188.691, 306.715, 120.168],
-    "radius": 200,
+    "position": [-39.08, 306.656, 121.39],
+    "radius": 15,
     "requireOutOfCombat": true,
     "requireDeparture": false
   },

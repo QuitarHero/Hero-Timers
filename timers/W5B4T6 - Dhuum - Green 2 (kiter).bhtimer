@@ -22,59 +22,60 @@
         },
         "alerts": [
           {
-            "alert": "Green #2 (kiter)",
+            "alert": "Green #2 Timer (kiter)",
             "alertDuration": 4,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
+            "icon": "Data/Dhuum.png",
+            "fillColor": [12, 95, 21, 1],
             "timestamps": [0]
-          },
-          {
-            "warning": "Your green is soon",
-            "warningDuration": 17,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [150, 240, 330, 420, 510]
           },
           {
             "warning": "Time left",
             "warningDuration": 15,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
+            "icon": "Data/Dhuum.png",
+            "fillColor": [12, 95, 21, 1],
             "timestamps": [170, 260, 350, 440, 530]
           },
           {
-            "alert": "Go to STAR",
-            "alertDuration": 8,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [150]
+            "warning": "Green (2/6)",
+            "warningDuration": 75,
+            "icon": "Data/star.png",
+            "fillColor": [12, 95, 21, 1],
+            "timestamps": [155]
           },
           {
-            "alert": "Go to ARROW",
-            "alertDuration": 8,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [240]
+            "warning": "Green (3/6)",
+            "warningDuration": 75,
+            "icon": "Data/arrow.png",
+            "fillColor": [12, 95, 21, 1],
+            "timestamps": [245]
           },
           {
-            "alert": "Go to SQUARE",
-            "alertDuration": 8,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [330]
+            "warning": "Green (4/6)",
+            "warningDuration": 75,
+            "icon": "Data/square.png",
+            "fillColor": [12, 95, 21, 1],
+            "timestamps": [335]
           },
           {
-            "alert": "Go to TRIANGLE",
-            "alertDuration": 8,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [420]
+            "warning": "Green (5/6)",
+            "warningDuration": 75,
+            "icon": "Data/triangle.png",
+            "fillColor": [12, 95, 21, 1],
+            "timestamps": [425]
           },
           {
-            "alert": "Go to HEART",
-            "alertDuration": 8,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [510]
+            "warning": "Green (6/6)",
+            "warningDuration": 75,
+            "icon": "Data/heart.png",
+            "fillColor": [12, 95, 21, 1],
+            "timestamps": [515]
           }
         ],
         "directions": [
           {
             "name": "Star",
             "destination": [366.0, 19.4, 157.9],
-            "timestamps": [150],
+            "timestamps": [147],
             "duration": 8,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
@@ -82,7 +83,7 @@
           {
             "name": "Arrow",
             "destination": [429.2, 30.9, 157.9],
-            "timestamps": [240],
+            "timestamps": [237],
             "duration": 8,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
@@ -90,7 +91,7 @@
           {
             "name": "Square",
             "destination": [377.7, -6.6, 157.9],
-            "timestamps": [330],
+            "timestamps": [327],
             "duration": 8,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
@@ -98,7 +99,7 @@
           {
             "name": "Triangle",
             "destination": [407.8, 50.0, 157.9],
-            "timestamps": [420],
+            "timestamps": [417],
             "duration": 8,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
@@ -106,7 +107,7 @@
           {
             "name": "Heart",
             "destination": [404.9, -14.8, 157.9],
-            "timestamps": [510],
+            "timestamps": [507],
             "duration": 8,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0

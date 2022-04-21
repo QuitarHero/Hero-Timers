@@ -22,34 +22,34 @@
       },
       "alerts": [
         {
-          "alert": "Agony #4",
+          "alert": "Agony #4 (no-kite strat)",
           "alertDuration": 4,
           "icon": "data/Cairn.png",
-          "fillColor": [ 0.9, 0.7, 0.0, 0.9 ],
-          "timestamps": [1]
+          "fillColor": [202, 175, 92, 0],
+          "timestamps": [0]
         },
         {
           "warning": "Agony #4",
           "warningDuration": 20,
           "alert": "Move",
-          "alertDuration": 3,
+          "alertDuration": 4,
           "icon": "data/Agony2.png",
-          "fillColor": [ 0.9, 0.7, 0.0, 0.9 ],
+          "fillColor": [202, 175, 92, 0],
           "timestamps": [82, 162, 242, 322, 402, 482]
         },
         {
           "warning": "Agony End",
-          "warningDuration": 20,
+          "warningDuration": 56,
           "icon": "data/Agony2.png",
-          "fillColor": [ 0.9, 0.7, 0.0, 0.9 ],
+          "fillColor": [202, 175, 92, 0],
           "timestamps": [142, 222, 302, 382, 462, 542]
         }
       ],
       "markers": [
         {
           "position": [359.106, 50.503, 34.9],
-          "timestamps": [80, 160, 240, 320, 400, 480],
-          "duration": 62,
+          "timestamps": [77, 157, 237, 317, 397, 477],
+          "duration": 65,
           "texture": "data/Gw2Arrow1.png"
         }
       ]

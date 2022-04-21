@@ -30,22 +30,29 @@
             "timestamps": [0]
           },
           {
-            "warning": "Dip soon",
-            "warningDuration": 15,
+            "warning": "Death Mark",
+            "warningDuration": 25,
             "alert": "Move",
             "alertDuration": 3,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/Dhuum.png",
-            "timestamps": [175, 225, 335, 415, 495, 565]
+            "timestamps": [175, 255, 335, 415, 495, 575]
           },
           {
-            "warning": "Soul Split soon",
-            "warningDuration": 12,
-            "alert": "Look at boss",
+            "warning": "Greater Death Mark",
+            "warningDuration": 34,
+            "alert": "Look at Dhuum",
             "alertDuration": 3,
             "fillColor": [12, 95, 21, 1],
             "icon": "data/Dhuum.png",
             "timestamps": [212, 292, 372, 452, 532]
+          },
+          {
+            "warning": "Greater Death Mark",
+            "warningDuration": 15,
+            "fillColor": [12, 95, 21, 1],
+            "icon": "Data/Dhuum.png",
+            "timestamps": [230, 310, 390, 470, 550]
           },
           {
             "alert": "Newly afflicted can stay",

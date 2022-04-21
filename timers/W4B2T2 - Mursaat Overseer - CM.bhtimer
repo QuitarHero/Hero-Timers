@@ -23,7 +23,7 @@
       },
       "alerts": [
         {
-          "alert": "Timer Start\nChallenge Mode",
+          "alert": "Challenge Mode Timer",
           "alertDuration": 3,
           "icon": "data/MO.png",
           "fillColor": [202, 175, 92, 0],
@@ -31,7 +31,7 @@
         },
         {
           "warning": "Blues soon",
-          "warningDuration": 10,
+          "warningDuration": 25,
           "icon": "data/Blues.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [25, 55, 85, 115, 145, 175, 205, 235, 265, 295, 325, 355]

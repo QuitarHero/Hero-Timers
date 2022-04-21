@@ -23,64 +23,67 @@
         },
         "alerts": [
           {
-            "alert": "Green #3",
+            "alert": "Green #3 Timer",
             "alertDuration": 4,
+            "icon": "Data/Dhuum.png",
+            "fillColor": [12, 95, 21, 1],
             "timestamps": [0]
-          },
-          {
-            "warning": "Your green is soon",
-            "warningDuration": 17,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [90, 180, 270, 360, 450, 540]
           },
           {
             "warning": "Time left",
             "warningDuration": 15,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
+            "icon": "Data/Dhuum.png",
+            "fillColor": [12, 95, 21, 1],
             "timestamps": [110, 200, 290, 380, 470, 560]
           },
           {
-            "alert": "Go to HEART",
-            "alertDuration": 8,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [90]
+            "warning": "Green (1/6)",
+            "warningDuration": 75,
+            "icon": "Data/heart.png",
+            "fillColor": [12, 95, 21, 1],
+            "timestamps": [95]
           },
           {
-            "alert": "Go to SWIRL",
-            "alertDuration": 8,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [180]
+            "warning": "Green (2/6)",
+            "warningDuration": 75,
+            "icon": "Data/swirl.png",
+            "fillColor": [12, 95, 21, 1],
+            "timestamps": [185]
           },
           {
-            "alert": "Go to CIRCLE",
-            "alertDuration": 8,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [270]
+            "warning": "Green (3/6)",
+            "warningDuration": 75,
+            "icon": "Data/circle.png",
+            "fillColor": [12, 95, 21, 1],
+            "timestamps": [275]
           },
           {
-            "alert": "Go to STAR",
-            "alertDuration": 8,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [360]
+            "warning": "Green (4/6)",
+            "warningDuration": 75,
+            "icon": "Data/star.png",
+            "fillColor": [12, 95, 21, 1],
+            "timestamps": [365]
           },
           {
-            "alert": "Go to ARROW",
-            "alertDuration": 8,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [450]
+            "warning": "Green (5/6)",
+            "warningDuration": 75,
+            "icon": "Data/arrow.png",
+            "fillColor": [12, 95, 21, 1],
+            "timestamps": [455]
           },
           {
-            "alert": "Go to SQUARE",
-            "alertDuration": 8,
-            "fillColor": [ 0.3, 0.5, 0.0, 0.0 ],
-            "timestamps": [540]
+            "warning": "Green (6/6)",
+            "warningDuration": 75,
+            "icon": "Data/square.png",
+            "fillColor": [12, 95, 21, 1],
+            "timestamps": [545]
           }
         ],
         "directions": [
           {
             "name": "Heart",
             "destination": [404.9, -14.8, 157.9],
-            "timestamps": [90],
+            "timestamps": [87],
             "duration": 8,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
@@ -88,7 +91,7 @@
           {
             "name": "Swirl",
             "destination": [379.1, 44.9, 157.9],
-            "timestamps": [180],
+            "timestamps": [177],
             "duration": 8,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
@@ -96,7 +99,7 @@
           {
             "name": "Circle",
             "destination": [427.9, 2.0, 157.9],
-            "timestamps": [270],
+            "timestamps": [267],
             "duration": 8,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
@@ -104,7 +107,7 @@
           {
             "name": "Star",
             "destination": [366.0, 19.4, 157.9],
-            "timestamps": [360],
+            "timestamps": [357],
             "duration": 8,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
@@ -112,7 +115,7 @@
           {
             "name": "Arrow",
             "destination": [429.2, 30.9, 157.9],
-            "timestamps": [450],
+            "timestamps": [447],
             "duration": 8,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0
@@ -120,7 +123,7 @@
           {
             "name": "Square",
             "destination": [377.7, -6.6, 157.9],
-            "timestamps": [540],
+            "timestamps": [537],
             "duration": 8,
             "texture": "data/ArrowTest2.png",
             "animSpeed": 0

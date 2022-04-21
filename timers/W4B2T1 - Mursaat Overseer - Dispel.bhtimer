@@ -23,7 +23,7 @@
       },
       "alerts": [
         {
-          "alert": "Timer Start\nDispel",
+          "alert": "Dispel Timer",
           "alertDuration": 3,
           "icon": "data/MO.png",
           "fillColor": [202, 175, 92, 0],
@@ -31,7 +31,7 @@
         },
         {
           "warning": "Shield soon",
-          "warningDuration": 10,
+          "warningDuration": 21,
           "alert": "Dispel now",
           "alertDuration": 4,
           "icon": "data/Dispel.png",

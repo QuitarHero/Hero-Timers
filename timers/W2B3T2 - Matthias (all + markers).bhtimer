@@ -23,7 +23,7 @@
       },
       "alerts": [
         {
-          "alert": "Corruption & Sacs\nwith Markers",
+          "alert": "Corruption & Sacs (Markers)",
           "alertDuration": 4,
           "icon": "data/Matthias.png",
           "fillColor": [194, 45, 45, 0],
@@ -31,7 +31,7 @@
         },
         {
           "warning": "Corruption soon",
-          "warningDuration": 5,
+          "warningDuration": 10,
           "alert": "Go to ARROW",
           "alertDuration": 5,
           "icon": "data/arrow.png",
@@ -40,7 +40,7 @@
         },
         {
           "warning": "Corruption soon",
-          "warningDuration": 5,
+          "warningDuration": 10,
           "alert": "Go to CIRCLE",
           "alertDuration": 5,
           "icon": "data/arrow.png",
@@ -49,7 +49,7 @@
         },
         {
           "warning": "Corruption soon",
-          "warningDuration": 5,
+          "warningDuration": 10,
           "alert": "Go to HEART",
           "alertDuration": 5,
           "icon": "data/arrow.png",
@@ -58,7 +58,7 @@
         },
         {
           "warning": "Corruption soon",
-          "warningDuration": 5,
+          "warningDuration": 10,
           "alert": "Go to SQUARE",
           "alertDuration": 5,
           "icon": "data/arrow.png",

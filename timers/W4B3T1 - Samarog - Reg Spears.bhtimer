@@ -23,7 +23,7 @@
       },
       "alerts": [
         {
-          "alert": "Timer Start\nSpear Spawns",
+          "alert": "Spear Spawns",
           "alertDuration": 4,
           "icon": "data/Samarog.png",
           "fillColor": [202, 175, 92, 0],
@@ -31,7 +31,7 @@
         },
         {
           "warning": "Spears soon",
-          "warningDuration": 5,
+          "warningDuration": 17,
           "alert": "Spears spawned",
           "alertDuration": 3,
           "icon": "data/Samarog.png",

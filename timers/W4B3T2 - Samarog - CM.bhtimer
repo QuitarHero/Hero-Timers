@@ -23,7 +23,7 @@
       },
       "alerts": [
         {
-          "alert": "Timer Start\nChallenge Mode",
+          "alert": "Challenge Mode",
           "alertDuration": 3,
           "icon": "data/Samarog.png",
           "fillColor": [202, 175, 92, 0],
@@ -32,138 +32,160 @@
         {
           "warning": "Spear Spawn (1/12)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [6, 71, 136, 201, 266, 331, 396, 461, 526, 591]
         },
         {
           "warning": "Spear Spawn (2/12)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [11, 76, 141, 206, 271, 336, 401, 466, 531, 596]
         },
         {
           "warning": "Spear Spawn (3/12)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [16, 81, 146, 211, 276, 341, 406, 471, 536, 601]
         },
         {
           "warning": "Spear Spawn (4/12)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [21, 86, 151, 216, 281, 346, 411, 476, 541, 606]
         },
         {
           "warning": "Spear Spawn (5/12)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [26, 91, 156, 221, 286, 351, 416, 481, 546, 611]
         },
         {
           "warning": "Spear Spawn (6/12)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [31, 96, 161, 226, 291, 356, 421, 486, 551, 616]
         },
         {
           "warning": "Spear Spawn (7/12)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [36, 101, 166, 231, 296, 361, 426, 491, 556, 621]
         },
         {
           "warning": "Spear Spawn (8/12)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [41, 106, 171, 236, 301, 366, 431, 496, 561, 626]
         },
         {
           "warning": "Spear Spawn (9/12)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [46, 111, 176, 241, 306, 371, 436, 501, 566, 631]
         },
         {
           "warning": "Spear Spawn (10/12)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [51, 116, 181, 246, 311, 376, 441, 506, 571, 636]
         },
         {
           "warning": "Spear Spawn (11/12)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [56, 121, 186, 251, 316, 381, 446, 511, 576, 641]
         },
         {
           "warning": "Spear Spawn (12/12)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [61, 126, 191, 256, 321, 386, 451, 516, 581, 646]
         },
         {
           "warning": "Spear Return (1/10)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [66]
         },
         {
           "warning": "Spear Return (2/10)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [131]
         },
         {
           "warning": "Spear Return (3/10)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [196]
         },
         {
           "warning": "Spear Return (4/10)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [261]
         },
         {
           "warning": "Spear Return (5/10)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [326]
         },
         {
           "warning": "Spear Return (6/10)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [391]
         },
         {
           "warning": "Spear Return (7/10)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [456]
         },
         {
           "warning": "Spear Return (8/10)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [521]
         },
         {
           "warning": "Spear Return (9/10)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [586]
         },
         {
           "warning": "Spear Return (10/10)",
           "warningDuration": 5,
+          "icon": "Data/Spear.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [651]
         },
         {
           "warning": "Inevitable Betrayal soon",
-          "warningDuration": 10,
+          "warningDuration": 20,
           "alert": "Move",
           "alertDuration": 4,
           "icon": "data/Samarog.png",
@@ -173,6 +195,7 @@
         {
           "alert": "Enrage",
           "alertDuration": 5,
+          "icon": "Data/Samarog.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [660],
           "uid": "raid.w4.b3.enrage"
