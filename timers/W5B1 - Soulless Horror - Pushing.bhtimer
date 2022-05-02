@@ -18,6 +18,7 @@
       "start": {
         "position": [-269.575, 21.91, 20.763],
         "radius": 45,
+        "type": "key",
         "key": "RightAlt",
         "keyModifier": "None",
         "requireEntry": true,
