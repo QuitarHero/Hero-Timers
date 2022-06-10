@@ -7,19 +7,24 @@
   "icon": "data/sabetha.png",
   "map": 1062,
   "reset": {
-    "position": [-130, 85, 67],
-    "radius": 115,
-    "requireOutOfCombat": true,
-    "requireDeparture": false
+    "position": [-59.57044, 192.4689, 72.23109],
+    "radius": 5,
+    "requireEntry": true,
+    "requireOutOfCombat": true
   },
   "phases": [
     {
       "name": "All Cannon",
       "start": {
         "position": [-130, 85, 62],
-        "radius": 38,
+        "radius": 50,
         "requireEntry": true,
-        "requireCombat": false
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [-169.8675, 50.4107, 69.32044],
+        "radius": 10,
+        "requireEntry": true
       },
       "alerts": [
         {
