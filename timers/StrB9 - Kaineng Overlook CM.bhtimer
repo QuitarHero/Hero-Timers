@@ -1010,98 +1010,121 @@
         {
           "alert": "Phase 3 Begin",
           "alertDuration": 4,
-          "icon": "Data/Strike_B9/Default.png",
+          "icon": "Data/Strike_KO_Reg/Default.png",
           "timestamps": [0]
-        },
-        {
-          "alert": "Next: Wave, Spread, Green",
-          "alertDuration": 8.5,
-          "icon": "Data/Strike_B9/Default.png",
-          "fillColor": [181, 144, 6, 0],
-          "timestamps": [23.5, 60, 114]
-        },
-        {
-          "alert": "Next: Burst, Spread",
-          "alertDuration": 8.5,
-          "icon": "Data/Strike_B9/Default.png",
-          "fillColor": [181, 144, 6, 0],
-          "timestamps": [0, 90]
-        },
-        {
-          "alert": "Next: Burst, Green",
-          "alertDuration": 8.5,
-          "icon": "Data/Strike_B9/Default.png",
-          "fillColor": [181, 144, 6, 0],
-          "timestamps": [36.5, 127]
-        },
-        {
-          "alert": "Next: Burst, Spread, Green",
-          "alertDuration": 8.5,
-          "icon": "Data/Strike_B9/Default.png",
-          "fillColor": [181, 144, 6, 0],
-          "timestamps": [73]
         },
         {
           "warning": "Spread",
           "warningDuration": 5,
-          "icon": "Data/Strike_B9/Default.png",
-          "timestamps": [13.5, 37.5, 74, 87, 104, 128]
+          "icon": "Data/Strike_KO_Reg/Default.png",
+          "timestamps": [13.5, 37.5, 74, 86.5, 104, 128, 164.5, 177, 194.5, 218.5, 255, 267.5, 285, 309, 345.5, 358]
         },
         {
           "warning": "Shared Destruction",
           "warningDuration": 6,
-          "icon": "Data/Strike_B9/Default.png",
+          "icon": "Data/Strike_KO_Reg/Default.png",
           "fillColor": [71, 165, 65, 1],
-          "timestamps": [38.5, 51.5, 75, 88, 129, 142]
+          "timestamps": [38.5, 75, 87.5, 129, 165.5, 178, 219.5, 256, 268.5, 310, 346.5, 359]
+        },
+        {
+          "warning": "Shared Destruction",
+          "warningDuration": 6.5,
+          "icon": "Data/Strike_KO_Reg/Default.png",
+          "fillColor": [71, 165, 65, 1],
+          "timestamps": [51.5, 142, 232.5, 323]
         },
         {
           "warning": "Dragon Slash - Rush",
           "warningDuration": 6,
-          "icon": "Data/Strike_B9/DS-Boost.png",
+          "icon": "Data/Strike_KO_Reg/DS-Boost.png",
           "fillColor": [181, 144, 6, 0],
-          "timestamps": [5.5, 29.5, 42.5, 66, 79, 120, 133, 156.5]
+          "timestamps": [5.5]
+        },
+        {
+          "warning": "Dragon Slash - Rush",
+          "warningDuration": 6.5,
+          "icon": "Data/Strike_KO_Reg/DS-Boost.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [42.5, 79, 133, 169.5, 223.5, 260, 314, 350.5]
+        },
+        {
+          "warning": "Dragon Slash - Rush",
+          "warningDuration": 8,
+          "icon": "Data/Strike_KO_Reg/DS-Boost.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [29.5, 66, 120, 156.5, 210.5, 247, 301, 337.5]
         },
         {
           "warning": "Dragon Slash - Wave",
-          "warningDuration": 6,
-          "icon": "Data/Strike_B9/DS-Wave.png",
+          "warningDuration": 6.5,
+          "icon": "Data/Strike_KO_Reg/DS-Wave.png",
           "fillColor": [181, 144, 6, 0],
-          "timestamps": [36, 72.5, 126.5]
+          "timestamps": [36, 72.5, 126.5, 163, 217, 253.5, 307.5, 344]
         },
         {
           "warning": "Dragon Slash - Burst",
           "warningDuration": 8,
-          "icon": "Data/Strike_B9/1.png",
+          "icon": "Data/Strike_KO_Reg/1.png",
           "fillColor": [181, 144, 6, 0],
-          "timestamps": [16.5, 53, 90, 107, 143.5]
+          "timestamps": [16.5, 53, 89.5, 107, 143.5, 180, 197.5, 234, 270.5, 288, 324.5, 361]
         },
         {
           "warning": "Dragon Slash - Burst",
           "warningDuration": 9.5,
-          "icon": "Data/Strike_B9/2.png",
+          "icon": "Data/Strike_KO_Reg/2.png",
           "fillColor": [181, 144, 6, 0],
-          "timestamps": [18, 54.5, 91.5, 108.5, 145]
+          "timestamps": [18, 54.5, 91, 108.5, 145, 181.5, 199, 235.5, 272, 289.5, 326, 362.5]
         },
         {
           "warning": "Dragon Slash - Burst",
           "warningDuration": 10.5,
-          "icon": "Data/Strike_B9/3.png",
+          "icon": "Data/Strike_KO_Reg/3.png",
           "fillColor": [181, 144, 6, 0],
-          "timestamps": [19, 55.5, 92.5, 109.5, 146]
+          "timestamps": [19, 55.5, 92, 109.5, 146, 182.5, 200, 236.5, 273, 290.5, 327, 363.5]
         },
         {
           "warning": "Dragon Slash - Burst",
           "warningDuration": 12,
-          "icon": "Data/Strike_B9/4.png",
+          "icon": "Data/Strike_KO_Reg/4.png",
           "fillColor": [181, 144, 6, 0],
-          "timestamps": [20.5, 57, 94, 111, 147.5]
+          "timestamps": [20.5, 57, 93.5, 111, 147.5, 184, 201.5, 238, 274.5, 292, 328.5, 365]
         },
         {
           "warning": "Dragon Slash - Burst",
           "warningDuration": 13,
-          "icon": "Data/Strike_B9/5.png",
+          "icon": "Data/Strike_KO_Reg/5.png",
           "fillColor": [181, 144, 6, 0],
-          "timestamps": [21.5, 58, 95, 112, 148.5]
+          "timestamps": [21.5, 58, 94.5, 112, 148.5, 185, 202.5, 239, 275.5, 293, 329.5, 366]
+        },
+        {
+          "warning": "Next: Wave, Spread, Green",
+          "warningDuration": 11,
+          "icon": "Data/Strike_KO_Reg/Default.png",
+          "timestamps": [32.5, 69, 123, 159.5, 213.5, 250, 304, 340.5]
+        },
+        {
+          "warning": "Next: Burst, Spread",
+          "warningDuration": 4.5,
+          "icon": "Data/Strike_KO_Reg/Default.png",
+          "timestamps": [99, 189.5, 280]
+        },
+        {
+          "warning": "Next: Burst, Spread",
+          "warningDuration": 8.5,
+          "icon": "Data/Strike_KO_Reg/Default.png",
+          "timestamps": [8.5]
+        },
+        {
+          "warning": "Next: Burst, Green",
+          "warningDuration": 9,
+          "icon": "Data/Strike_KO_Reg/Default.png",
+          "timestamps": [45, 135.5, 226, 316.5]
+        },
+        {
+          "warning": "Next: Burst, Spread, Green",
+          "warningDuration": 9.5,
+          "icon": "Data/Strike_KO_Reg/Default.png",
+          "timestamps": [81.5, 172, 262.5, 353]
         }
       ],
       "markers": [
@@ -1109,66 +1132,66 @@
           "position": [-589.507, -414.095, 275.174],
           "timestamps": [0],
           "duration": 5.5,
-          "texture": "Data/GW2Arrow1.png"
+          "texture": "data/GW2Arrow1.png"
         },
         {
           "position": [-576.971, -404.882, 275.284],
           "timestamps": [5.5],
           "duration": 16,
-          "texture": "Data/GW2Arrow1.png",
+          "texture": "data/GW2Arrow1.png",
           "opacity": 0.65
         },
         {
           "position": [-576.971, -404.882, 275.284],
           "timestamps": [99, 189.5, 280],
           "duration": 13,
-          "texture": "Data/GW2Arrow1.png",
+          "texture": "data/GW2Arrow1.png",
           "opacity": 0.65
         },
         {
           "position": [-576.971, -404.882, 275.284],
           "timestamps": [21.5, 112, 202.5, 293],
           "duration": 8,
-          "texture": "Data/GW2Arrow1.png"
+          "texture": "data/GW2Arrow1.png"
         },
         {
           "position": [-586.141, -392.267, 275.174],
           "timestamps": [29.5, 120, 210.5, 301],
           "duration": 6.5,
-          "texture": "Data/GW2Arrow1.png",
+          "texture": "data/GW2Arrow1.png",
           "opacity": 0.65
         },
         {
           "position": [-586.141, -392.267, 275.174],
           "timestamps": [36, 126.5, 217, 307.5],
           "duration": 6.5,
-          "texture": "Data/GW2Arrow1.png"
+          "texture": "data/GW2Arrow1.png"
         },
         {
           "position": [-598.629, -401.577, 275.186],
           "timestamps": [42.5, 133, 223.5, 314],
           "duration": 15.5,
-          "texture": "Data/GW2Arrow1.png",
+          "texture": "data/GW2Arrow1.png",
           "opacity": 0.65
         },
         {
           "position": [-598.629, -401.577, 275.186],
           "timestamps": [58, 148.5, 239, 329.5],
           "duration": 8,
-          "texture": "Data/GW2Arrow1.png"
+          "texture": "data/GW2Arrow1.png"
         },
         {
           "position": [-587.906, -403.306, 275.26],
           "timestamps": [66, 156.5, 247, 337.5],
           "duration": 6.5,
-          "texture": "Data/GW2Arrow1.png",
+          "texture": "data/GW2Arrow1.png",
           "opacity": 0.65
         },
         {
           "position": [-587.906, -403.306, 275.26],
           "timestamps": [72.5, 163, 253.5, 344],
           "duration": 26.5,
-          "texture": "Data/GW2Arrow1.png"
+          "texture": "data/GW2Arrow1.png"
         }
       ]
     }
