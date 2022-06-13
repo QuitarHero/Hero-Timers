@@ -1,35 +1,33 @@
 {
-  "id": "raid.w3.b3.all",
+  "id": "htp.raid.w3.b3.all",
   "name": "Xera\nGlobal Mechanics",
   "category": "Stronghold of the Faithful",
-  "description": "Displays the following:\n• When and where Gravity Wells spawn.\n• When the Laser spawns and despawns.\n• Tanking locations (via markers).",
-  "author": "QuitarHero.1645",
-  "icon": "data/Xera.png",
+  "description": "Displays:\n• When and where Gravity Wells spawn\n• When the Laser spawns and despawns\n• Tanking locations (markers)",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Xera.png",
   "map": 1156,
   "reset": {
-    "position": [-77.2949, -80.5495, 512.355],
-    "radius": 100,
-    "requireOutOfCombat": true,
-    "requireDeparture": false
+    "position": [-31.68428, 4.803734, 521.007],
+    "radius": 5,
+    "requireEntry": true,
+	  "requireOutOfCombat": true
   },
   "phases": [
     {
       "name": "Phase 1",
       "start": {
-        "position": [-77.2949, -80.5495, 512.355],
+        "position": [-77.061, -80.438, 512.354],
         "radius": 35,
-        "requireEntry": true,
-        "requireCombat": true
+        "requireEntry": true
       },
       "finish": {
-        "position": [-77.2949, -80.5495, 512.355],
+        "position": [-77.061, -80.438, 512.354],
         "radius": 35,
-        "requireOutOfCombat": false,
         "requireDeparture": true
       },
       "alerts": [
         {
-          "alert": "Xera - Phase 1",
+          "alert": "Timer: Phase 1",
           "alertDuration": 4,
           "fillColor": [154,99,167,1],
           "icon": "Data/Xera.png",
@@ -41,7 +39,7 @@
           "alert": "Move",
           "alertDuration": 3,
           "fillColor": [154,99,167,1],
-          "icon": "data/GravityWell.png",
+          "icon": "Data/GravityWell.png",
           "timestamps": [30, 60, 90, 120, 150, 180, 210, 240, 270]
         },
         {
@@ -50,76 +48,404 @@
           "alert": "Move",
           "alertDuration": 4,
           "fillColor": [154,99,167,1],
-          "icon": "data/Xera.png",
+          "icon": "Data/Xera.png",
           "timestamps": [40, 109, 178, 247]
         },
         {
           "warning": "Laser ends soon",
           "warningDuration": 10,
           "fillColor": [154,99,167,1],
-          "icon": "data/Xera.png",
+          "icon": "Data/Xera.png",
           "timestamps": [64, 133, 202, 271]
         }
       ],
       "markers": [
         {
-          "position": [-76.6949, -80.5495, 511.355],
+          "position": [-85.9549, -97.1995, 511.355],
           "timestamps": [23, 143, 263],
           "duration": 7,
-          "texture": "data/GoHere.png",
-          "size": 45,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-84.1049, -93.8695, 511.355],
+          "timestamps": [23, 143, 263],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-82.2549, -90.5395, 511.355],
+          "timestamps": [23, 143, 263],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-80.4049, -87.2095, 511.355],
+          "timestamps": [23, 143, 263],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-78.5449, -83.8795, 511.355],
+          "timestamps": [23, 143, 263],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
           "rotation": [0, 180, 240.9]
         },
         {
           "position": [-76.6949, -80.5495, 511.355],
+          "timestamps": [23, 143, 263],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-74.8449, -77.2095, 511.355],
+          "timestamps": [23, 143, 263],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-72.9949, -73.8795, 511.355],
+          "timestamps": [23, 143, 263],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-71.1449, -70.5495, 511.355],
+          "timestamps": [23, 143, 263],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-69.2949, -67.2195, 511.355],
+          "timestamps": [23, 143, 263],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-67.4449, -63.8895, 511.355],
+          "timestamps": [23, 143, 263],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-59.1449, -89.7995, 511.355],
           "timestamps": [53, 173],
           "duration": 7,
-          "texture": "data/GoHere.png",
-          "size": 45,
+          "texture": "Data/GoHere.png",
+          "size": 4,
           "rotation": [0, 180, 330.9]
         },
         {
-          "position": [-76.6949, -80.5495, 511.355],
+          "position": [-62.4749, -87.9495, 511.355],
+          "timestamps": [53, 173],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-65.8049, -86.0995, 511.355],
+          "timestamps": [53, 173],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+         {
+          "position": [-69.1349, -84.2495, 511.355],
+          "timestamps": [53, 173],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-72.4649, -82.3995, 511.355],
+          "timestamps": [53, 173],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-75.7949, -80.5495, 511.355],
+          "timestamps": [53, 173],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-79.0249, -78.7495, 511.355],
+          "timestamps": [53, 173],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-82.3549, -76.8995, 511.355],
+          "timestamps": [53, 173],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-85.6849, -75.0495, 511.355],
+          "timestamps": [53, 173],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-89.0149, -73.1995, 511.355],
+          "timestamps": [53, 173],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-92.3449, -71.3495, 511.355],
+          "timestamps": [53, 173],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-95.6749, -69.4995, 511.355],
+          "timestamps": [53, 173],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-86.4449, -97.1995, 511.355],
           "timestamps": [83, 203],
           "duration": 7,
-          "texture": "data/GoHere.png",
-          "size": 45,
+          "texture": "Data/GoHere.png",
+          "size": 4,
           "rotation": [0, 180, 60.9]
         },
         {
-          "position": [-76.6949, -80.5495, 511.355],
+          "position": [-84.5949, -93.8695, 511.355],
+          "timestamps": [83, 203],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-82.7449, -90.5395, 511.355],
+          "timestamps": [83, 203],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-80.8949, -87.2095, 511.355],
+          "timestamps": [83, 203],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-79.0449, -83.8795, 511.355],
+          "timestamps": [83, 203],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-77.1949, -80.5495, 511.355],
+          "timestamps": [83, 203],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-75.3449, -77.2195, 511.355],
+          "timestamps": [83, 203],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-73.4949, -73.8895, 511.355],
+          "timestamps": [83, 203],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-71.6449, -70.5595, 511.355],
+          "timestamps": [83, 203],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-69.7949, -67.2295, 511.355],
+          "timestamps": [83, 203],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-67.9449, -63.8995, 511.355],
+          "timestamps": [83, 203],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-93.3449, -71.7995, 511.355],
           "timestamps": [113, 233],
           "duration": 7,
-          "texture": "data/GoHere.png",
-          "size": 45,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-90.0149, -73.6495, 511.355],
+          "timestamps": [113, 233],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-86.6849, -75.4995, 511.355],
+          "timestamps": [113, 233],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-83.3549, -77.3495, 511.355],
+          "timestamps": [113, 233],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-80.0249, -79.1995, 511.355],
+          "timestamps": [113, 233],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-76.6949, -81.0495, 511.355],
+          "timestamps": [113, 233],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-73.3649, -82.8995, 511.355],
+          "timestamps": [113, 233],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-70.0349, -84.7495, 511.355],
+          "timestamps": [113, 233],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-66.7049, -86.5995, 511.355],
+          "timestamps": [113, 233],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-63.3749, -88.4495, 511.355],
+          "timestamps": [113, 233],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-60.0449, -90.2995, 511.355],
+          "timestamps": [113, 233],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
           "rotation": [0, 180, 150.9]
         },
         {
           "position": [-55.524, -92.326, 512.354],
           "timestamps": [0],
           "duration": 44,
-          "texture": "data/1.png",
+          "texture": "Data/1.png",
           "size": 1.5
         },
         {
           "position": [-64.367, -58.505, 512.354],
           "timestamps": [59],
           "duration": 50,
-          "texture": "data/2.png",
+          "texture": "Data/2.png",
           "size": 1.5
         },
         {
           "position": [-98.724, -68.167, 512.354],
           "timestamps": [128],
           "duration": 50,
-          "texture": "data/3.png",
+          "texture": "Data/3.png",
           "size": 1.5
         },
         {
           "position": [-98.724, -68.167, 512.354],
           "timestamps": [197],
           "duration": 50,
-          "texture": "data/4.png",
+          "texture": "Data/4.png",
           "size": 1.5
         }
       ]
@@ -127,14 +453,19 @@
     {
       "name": "Phase 2",
       "start": {
-        "position": [-77.2949, -80.5495, 512.355],
+        "position": [-77.061, -80.438, 512.354],
         "radius": 35,
         "requireEntry": true,
         "requireCombat": true
       },
+	    "finish": {
+	    	"position": [-77.061, -80.438, 512.354],
+        "radius": 80,
+        "requireDeparture": true
+	    },
       "alerts": [
         {
-          "alert": "Xera - Phase 2",
+          "alert": "Phase 2 Begin",
           "alertDuration": 4,
           "fillColor": [154,99,167,1],
           "icon": "Data/Xera.png",
@@ -146,7 +477,7 @@
           "alert": "Move",
           "alertDuration": 3,
           "fillColor": [154,99,167,1],
-          "icon": "data/GravityWell.png",
+          "icon": "Data/GravityWell.png",
           "timestamps": [25, 50, 75, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425, 450, 475, 500]
         },
         {
@@ -155,76 +486,404 @@
           "alert": "Move",
           "alertDuration": 4,
           "fillColor": [154,99,167,1],
-          "icon": "data/Xera.png",
+          "icon": "Data/Xera.png",
           "timestamps": [40, 104, 168, 232, 296, 360, 424, 488]
         },
         {
           "warning": "Laser ends soon",
           "warningDuration": 10,
           "fillColor": [154,99,167,1],
-          "icon": "data/Xera.png",
+          "icon": "Data/Xera.png",
           "timestamps": [64, 128, 192, 256, 320, 384, 448, 512]
         }
       ],
       "markers": [
         {
-          "position": [-76.6949, -80.5495, 511.355],
-          "timestamps": [18, 118, 218, 318, 418],
+          "position": [-85.9549, -97.1995, 511.355],
+          "timestamps": [93, 193, 293, 393, 493],
           "duration": 7,
-          "texture": "data/GoHere.png",
-          "size": 45,
-          "rotation": [0, 180, 60.9]
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
         },
         {
-          "position": [-76.6949, -80.5495, 511.355],
-          "timestamps": [43, 143, 243, 343, 443],
+          "position": [-84.1049, -93.8695, 511.355],
+          "timestamps": [93, 193, 293, 393, 493],
           "duration": 7,
-          "texture": "data/GoHere.png",
-          "size": 45,
-          "rotation": [0, 180, 330.9]
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
         },
         {
-          "position": [-76.6949, -80.5495, 511.355],
-          "timestamps": [68, 168, 268, 368, 468],
+          "position": [-82.2549, -90.5395, 511.355],
+          "timestamps": [93, 193, 293, 393, 493],
           "duration": 7,
-          "texture": "data/GoHere.png",
-          "size": 45,
-          "rotation": [0, 180, 150.9]
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-80.4049, -87.2095, 511.355],
+          "timestamps": [93, 193, 293, 393, 493],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-78.5449, -83.8795, 511.355],
+          "timestamps": [93, 193, 293, 393, 493],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
         },
         {
           "position": [-76.6949, -80.5495, 511.355],
           "timestamps": [93, 193, 293, 393, 493],
           "duration": 7,
-          "texture": "data/GoHere.png",
-          "size": 45,
+          "texture": "Data/GoHere.png",
+          "size": 4,
           "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-74.8449, -77.2095, 511.355],
+          "timestamps": [93, 193, 293, 393, 493],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-72.9949, -73.8795, 511.355],
+          "timestamps": [93, 193, 293, 393, 493],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-71.1449, -70.5495, 511.355],
+          "timestamps": [93, 193, 293, 393, 493],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-69.2949, -67.2195, 511.355],
+          "timestamps": [93, 193, 293, 393, 493],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-67.4449, -63.8895, 511.355],
+          "timestamps": [93, 193, 293, 393, 493],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 240.9]
+        },
+        {
+          "position": [-59.1449, -89.7995, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-62.4749, -87.9495, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-65.8049, -86.0995, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-69.1349, -84.2495, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-72.4649, -82.3995, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-75.7949, -80.5495, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-79.0249, -78.7495, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-82.3549, -76.8995, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-85.6849, -75.0495, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-89.0149, -73.1995, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-92.3449, -71.3495, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-95.6749, -69.4995, 511.355],
+          "timestamps": [43, 143, 243, 343, 443],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 330.9]
+        },
+        {
+          "position": [-86.4449, -97.1995, 511.355],
+          "timestamps": [18, 118, 218, 318, 418],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-84.5949, -93.8695, 511.355],
+          "timestamps": [18, 118, 218, 318, 418],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-82.7449, -90.5395, 511.355],
+          "timestamps": [18, 118, 218, 318, 418],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-80.8949, -87.2095, 511.355],
+          "timestamps": [18, 118, 218, 318, 418],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-79.0449, -83.8795, 511.355],
+          "timestamps": [18, 118, 218, 318, 418],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-77.1949, -80.5495, 511.355],
+          "timestamps": [18, 118, 218, 318, 418],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-75.3449, -77.2195, 511.355],
+          "timestamps": [18, 118, 218, 318, 418],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-73.4949, -73.8895, 511.355],
+          "timestamps": [18, 118, 218, 318, 418],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-71.6449, -70.5595, 511.355],
+          "timestamps": [18, 118, 218, 318, 418],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-69.7949, -67.2295, 511.355],
+          "timestamps": [18, 118, 218, 318, 418],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-67.9449, -63.8995, 511.355],
+          "timestamps": [18, 118, 218, 318, 418],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 60.9]
+        },
+        {
+          "position": [-93.3449, -71.7995, 511.355],
+          "timestamps": [68, 168, 268, 368, 468],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-90.0149, -73.6495, 511.355],
+          "timestamps": [68, 168, 268, 368, 468],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-86.6849, -75.4995, 511.355],
+          "timestamps": [68, 168, 268, 368, 468],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-83.3549, -77.3495, 511.355],
+          "timestamps": [68, 168, 268, 368, 468],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-80.0249, -79.1995, 511.355],
+          "timestamps": [68, 168, 268, 368, 468],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-76.6949, -81.0495, 511.355],
+          "timestamps": [68, 168, 268, 368, 468],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-73.3649, -82.8995, 511.355],
+          "timestamps": [68, 168, 268, 368, 468],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-70.0349, -84.7495, 511.355],
+          "timestamps": [68, 168, 268, 368, 468],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-66.7049, -86.5995, 511.355],
+          "timestamps": [68, 168, 268, 368, 468],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-63.3749, -88.4495, 511.355],
+          "timestamps": [68, 168, 268, 368, 468],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
+        },
+        {
+          "position": [-60.0449, -90.2995, 511.355],
+          "timestamps": [68, 168, 268, 368, 468],
+          "duration": 7,
+          "texture": "Data/GoHere.png",
+          "size": 4,
+          "rotation": [0, 180, 150.9]
         },
         {
           "position": [-98.724, -68.167, 512.354],
           "timestamps": [0, 251],
           "duration": 44,
-          "texture": "data/1.png",
+          "texture": "Data/1.png",
           "size": 1.5
         },
         {
           "position": [-64.367, -58.505, 512.354],
           "timestamps": [59, 315],
           "duration": 45,
-          "texture": "data/2.png",
+          "texture": "Data/2.png",
           "size": 1.5
         },
         {
           "position": [-55.524, -92.326, 512.354],
           "timestamps": [123, 379],
           "duration": 45,
-          "texture": "data/3.png",
+          "texture": "Data/3.png",
           "size": 1.5
         },
         {
           "position": [-98.724, -68.167, 512.354],
           "timestamps": [187, 443],
           "duration": 45,
-          "texture": "data/4.png",
+          "texture": "Data/4.png",
           "size": 1.5
         }
       ]

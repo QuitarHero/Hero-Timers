@@ -1,15 +1,14 @@
 {
-  "id": "raid.dhuum.all",
+  "id": "htp.raid.w5.b4.all",
   "name": "Dhuum\nAll Greens",
   "category": "Hall of Chains",
-  "description": "Displays all green timings.",
-  "author": "QuitarHero.1645",
-  "icon": "data/dhuum.png",
+  "description": "Displays:\n• All green timings",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Dhuum.png",
   "map": 1264,
   "reset": {
     "position": [460, 70, 150],
     "antipode": [345, -32, 225],
-    "requireOutOfCombat": false,
     "requireDeparture": true
     },
     "phases": [
@@ -23,80 +22,80 @@
         },
         "alerts": [
           {
-            "alert": "All Green Timings",
+            "alert": "Timer: All Green Timings",
             "alertDuration": 4,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/Dhuum.png",
+            "icon": "Data/Dhuum.png",
             "timestamps": [0]
           },
           {
             "warning": "Green #1",
             "warningDuration": 30,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/Dhuum.png",
+            "icon": "Data/Dhuum.png",
             "timestamps": [35, 125, 215, 305, 395, 485, 575]
           },
           {
             "warning": "Green #2",
             "warningDuration": 30,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/Dhuum.png",
+            "icon": "Data/Dhuum.png",
             "timestamps": [65, 155, 245, 335, 425, 515]
           },
           {
             "warning": "Green #3",
             "warningDuration": 30,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/Dhuum.png",
+            "icon": "Data/Dhuum.png",
             "timestamps": [95, 185, 275, 365, 455, 545]
           },
           {
             "warning": "Arrow next",
             "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/arrow.png",
+            "icon": "Data/cmdrArrow.png",
             "timestamps": [35, 245, 455]
           },
           {
             "warning": "Circle next",
             "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/circle.png",
+            "icon": "Data/cmdrCircle.png",
             "timestamps": [65, 275, 485]
           },
           {
             "warning": "Heart next",
             "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/heart.png",
+            "icon": "Data/cmdrHeart.png",
             "timestamps": [95, 305, 515]
           },
           {
             "warning": "Square next",
             "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/square.png",
+            "icon": "Data/cmdrSquare.png",
             "timestamps": [125, 335, 545]
           },
           {
             "warning": "Star next",
             "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/star.png",
+            "icon": "Data/cmdrStar.png",
             "timestamps": [155, 365, 575]
           },
           {
             "warning": "Swirl next",
             "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/swirl.png",
+            "icon": "Data/cmdrSwirl.png",
             "timestamps": [185, 395]
           },
           {
             "warning": "Triangle next",
             "warningDuration": 15,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/triangle.png",
+            "icon": "Data/cmdrTriangle.png",
             "timestamps": [215, 425]
           }
         ]

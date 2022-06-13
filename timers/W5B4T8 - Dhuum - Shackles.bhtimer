@@ -1,15 +1,14 @@
 {
-  "id": "raid.w5.b4.shackles",
+  "id": "htp.raid.w5.b4.shackles",
   "name": "Dhuum\nShackles",
   "category": "Hall of Chains",
-  "description": "Displays when shackles happen.\nNOTE: This is a hotkey timer which is not supported well.\nYou can activate this timer using 'Right Alt' when Dhuum reaches 60% Health.",
-  "author": "QuitarHero.1645",
-  "icon": "data/Dhuum.png",
+  "description": "Uses Hotkey 0\nActivate when Dhuum reaches 60%.\nDisplays:\n• When shackles happen",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Dhuum.png",
   "map": 1264,
   "reset": {
     "position": [460, 70, 150],
     "antipode": [345, -32, 225],
-    "requireOutOfCombat": false,
     "requireDeparture": true
   },
   "phases": [
@@ -19,10 +18,16 @@
         "position": [460, 70, 150],
         "antipode": [345, -32, 225],
         "type": "key",
-        "key": "RightAlt",
-        "keyModifier": "None",
+        "keyBind": "0",
         "requireEntry": true,
-        "requireCombat": false
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [460, 70, 150],
+        "antipode": [345, -32, 225],
+        "type": "key",
+        "keyBind": "0",
+        "requireEntry": true
       },
       "alerts": [
         {
@@ -31,7 +36,7 @@
           "alert": "Shackles move!",
           "alertDuration": 5,
           "fillColor": [12, 95, 21, 1],
-          "icon": "data/Shackles.png",
+          "icon": "Data/Shackles.png",
           "timestamps": [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420, 450, 480]
         }
       ]

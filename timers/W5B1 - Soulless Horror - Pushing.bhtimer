@@ -1,16 +1,16 @@
 {
-  "id": "raid.soullesshorror",
+  "id": "htp.raid.w5.b1.pushing",
   "name": "Soulless Horror\nPushing",
   "category": "Hall of Chains",
-  "description": "Displays when to push the golem on SH.\nNOTE: This is a hotkey timer which is not supported well.\nYou can activate this timer using 'Right Alt' when SH reaches 90% Health.",
-  "author": "QuitarHero.1645",
-  "icon": "data/SH.png",
+  "description": "Uses Hotkey 0\nActivate when SH reaches 90%.\nDisplays:\n• When Golems Spawn",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/SH.png",
   "map": 1264,
   "reset": {
-    "position": [-269.575, 21.91, 20.763],
-    "radius": 45,
-    "requireOutOfCombat": true,
-    "requireDeparture": false
+    "position": [-394.231, 6.962108, 37.47275],
+    "radius": 15,
+    "requireEntry": true,
+	  "requireOutOfCombat": true
   },
   "phases": [
     {
@@ -19,27 +19,35 @@
         "position": [-269.575, 21.91, 20.763],
         "radius": 45,
         "type": "key",
-        "key": "RightAlt",
-        "keyModifier": "None",
+        "keyBind": "0",
         "requireEntry": true,
         "requireCombat": true
       },
+      "finish": {
+        "position": [-269.575, 21.91, 20.763],
+        "radius": 999,
+        "type": "key",
+        "keyBind": "0",
+        "requireEntry": true
+      },
       "alerts": [
         {
-          "alert": "SH Pushing",
+          "warning": "Golem Soon",
+          "warningDuration": 20,
+          "alert": "Golem Spawned",
           "alertDuration": 5,
-          "icon": "data/SH.png",
+          "icon": "Data/Golem.png",
           "fillColor": [12, 95, 21, 1],
-          "timestamps": [0]
+          "timestamps": [20]
         },
         {
           "warning": "Golem Soon",
           "warningDuration": 15,
           "alert": "Golem Spawned",
           "alertDuration": 5,
-          "icon": "data/Golem.png",
+          "icon": "Data/Golem.png",
           "fillColor": [12, 95, 21, 1],
-          "timestamps": [20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480]
+          "timestamps": [40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480]
         }
       ]
     }

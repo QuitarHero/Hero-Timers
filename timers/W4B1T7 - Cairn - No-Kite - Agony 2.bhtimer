@@ -1,15 +1,14 @@
 {
-  "id": "raid.cairn.nokite.agony2",
+  "id": "htp.raid.w4.b1.nokite2",
   "name": "Cairn the Indomitable\nNo-Kite Strategy: Agony #2",
   "category": "Bastion of the Penitent",
-  "description": "Displays the following:\n• When Agony #2 is applied.\n• Where to go when agonized.\n• How long the agony lasts.",
-  "author": "QuitarHero.1645",
-  "icon": "data/cairn.png",
+  "description": "Displays:\n• When Agony #2 is applied\n• Where to go when agonized\n• How long the agony lasts",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Cairn.png",
   "map": 1188,
   "reset": {
     "position": [365, 51, 34],
     "radius": 50,
-    "requireOutOfCombat": false,
     "requireDeparture": true
   },
   "phases": [
@@ -23,9 +22,9 @@
       },
       "alerts": [
         {
-          "alert": "Agony #2 (no-kite strat)",
+          "alert": "Timer: Agony #2 (no-kite)",
           "alertDuration": 4,
-          "icon": "data/Cairn.png",
+          "icon": "Data/Cairn.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [0]
         },
@@ -34,14 +33,14 @@
           "warningDuration": 20,
           "alert": "Move",
           "alertDuration": 4,
-          "icon": "data/Agony2.png",
+          "icon": "Data/Agony.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [42, 122, 202, 282, 362, 442]
         },
         {
           "warning": "Agony End",
           "warningDuration": 56,
-          "icon": "data/Agony2.png",
+          "icon": "Data/Agony.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [102, 182, 262, 342, 422, 502]
         }
@@ -51,7 +50,7 @@
           "position": [368.492, 47.646, 34.9],
           "timestamps": [37, 117, 199, 277, 357, 437],
           "duration": 65,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         }
       ]
     }

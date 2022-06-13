@@ -1,15 +1,14 @@
 {
-  "id": "raid.dhuum.golemTimings",
+  "id": "htp.raid.w5.b4.golems",
   "name": "Dhuum\nGolem Spawns",
   "category": "Hall of Chains",
-  "description": "Displays Golem spawn timings that happen after the second green #2.",
-  "author": "QuitarHero.1645",
-  "icon": "data/dhuum.png",
+  "description": "Displays:\n• Golem spawn timings post-2nd green #2",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/dhuum.png",
   "map": 1264,
   "reset": {
     "position": [460, 70, 150],
     "antipode": [345, -32, 225],
-    "requireOutOfCombat": false,
     "requireDeparture": true
     },
     "phases": [
@@ -23,10 +22,10 @@
         },
         "alerts": [
           {
-            "alert": "Golem Spawns",
+            "alert": "Timer: Golem Spawns",
             "alertDuration": 4,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/Dhuum.png",
+            "icon": "Data/Dhuum.png",
             "timestamps": [0]
           },
           {
@@ -35,7 +34,7 @@
             "alert": "Golem Spawned",
             "alertDuration": 5,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/Golem.png",
+            "icon": "Data/Golem.png",
             "timestamps": [215, 265, 325, 385, 455, 505, 565]
           }
         ]

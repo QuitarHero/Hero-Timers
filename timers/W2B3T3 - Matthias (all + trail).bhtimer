@@ -1,16 +1,15 @@
 {
-  "id": "raid.matthias.allAndTrails",
+  "id": "htp.raid.w2.b3.all.trails",
   "name": "Matthias\nGlobal Mechanics (with trails)",
   "category": "Salvation Pass",
-  "description": "Displays the following:\n• All Corruptions and where to go (with trails).\n• The first four Sacrifices.",
-  "author": "QuitarHero.1645",
-  "icon": "data/matthias.png",
+  "description": "Displays:\n• All Corruptions and where to go (with trails)\n• The first four Sacrifices",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Matthias.png",
   "map": 1149,
   "reset": {
     "position": [-150.5, 149.9, 131.5],
     "radius": 35,
-    "requireOutOfCombat": true,
-    "requireDeparture": false,
+    "requireDeparture": true
   },
   "phases": [
     {
@@ -23,9 +22,9 @@
       },
       "alerts": [
         {
-          "alert": "Corruption & Sacs (trails)",
+          "alert": "Timer: Global Mechanics (Trails)",
           "alertDuration": 4,
-          "icon": "data/Matthias.png",
+          "icon": "Data/Matthias.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [0]
         },
@@ -34,7 +33,7 @@
           "warningDuration": 10,
           "alert": "Go to ARROW",
           "alertDuration": 5,
-          "icon": "data/arrow.png",
+          "icon": "Data/cmdrArrow.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [5, 125, 245, 365, 485]
         },
@@ -43,7 +42,7 @@
           "warningDuration": 10,
           "alert": "Go to CIRCLE",
           "alertDuration": 5,
-          "icon": "data/circle.png",
+          "icon": "Data/cmdrCircle.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [35, 155, 275, 395, 515]
         },
@@ -52,7 +51,7 @@
           "warningDuration": 10,
           "alert": "Go to HEART",
           "alertDuration": 5,
-          "icon": "data/heart.png",
+          "icon": "Data/cmdrHeart.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [65, 185, 305, 425, 545]
         },
@@ -61,7 +60,7 @@
           "warningDuration": 10,
           "alert": "Go to SQUARE",
           "alertDuration": 5,
-          "icon": "data/square.png",
+          "icon": "Data/cmdrSquare.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [95, 215, 335, 455, 575]
         },
@@ -70,14 +69,14 @@
           "warningDuration": 15,
           "alert": "Sacrifice!",
           "alertDuration": 5,
-          "icon": "data/Matthias.png",
+          "icon": "Data/Matthias.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [20, 65, 110, 155]
         },
         {
           "alert": "Enrage",
           "alertDuration": 5,
-          "icon": "data/Matthias.png",
+          "icon": "Data/Matthias.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [600]
         }
@@ -88,7 +87,7 @@
           "destination": [-171.9, 128.5, 131.6],
           "timestamps": [5, 125, 245, 365, 485],
           "duration": 5,
-          "texture": "data/ArrowTest2.png",
+          "texture": "Data/ArrowTrail.png",
           "animSpeed": 0
         },
         {
@@ -96,7 +95,7 @@
           "destination": [-172.3, 171.0, 131.6],
           "timestamps": [35, 155, 275, 395, 515],
           "duration": 5,
-          "texture": "data/ArrowTest2.png",
+          "texture": "Data/ArrowTrail.png",
           "animSpeed": 0
         },
         {
@@ -104,7 +103,7 @@
           "destination": [-129.7, 171.2, 131.6],
           "timestamps": [65, 185, 305, 425, 545],
           "duration": 5,
-          "texture": "data/ArrowTest2.png",
+          "texture": "Data/ArrowTrail.png",
           "animSpeed": 0
         },
         {
@@ -112,7 +111,7 @@
           "destination": [-129.3, 128.7, 131.6],
           "timestamps": [95, 215, 335, 455, 575],
           "duration": 5,
-          "texture": "data/ArrowTest2.png",
+          "texture": "Data/ArrowTrail.png",
           "animSpeed": 0
         }
       ]

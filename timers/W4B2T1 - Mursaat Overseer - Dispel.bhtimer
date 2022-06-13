@@ -1,16 +1,15 @@
 {
-  "id": "raid.w4.b2.dispel",
+  "id": "htp.raid.w4.b2.dispel",
   "name": "Mursaat Overseer\nDispel",
   "category": "Bastion of the Penitent",
-  "description": "Displays when Dispel needs to be used.",
-  "author": "QuitarHero.1645",
-  "icon": "data/MO.png",
+  "description": "Displays:\n• When Dispel needs to be used",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/MO.png",
   "map": 1188,
   "reset": {
     "position": [98.835, 132.927, 100.187],
     "antipode": [35.145, 69.167, 115.19],
-    "requireOutOfCombat": true,
-    "requireDeparture": false
+    "requireDeparture": true
   },
   "phases": [
     {
@@ -23,9 +22,9 @@
       },
       "alerts": [
         {
-          "alert": "Dispel Timer",
-          "alertDuration": 3,
-          "icon": "data/MO.png",
+          "alert": "Timer: Dispel",
+          "alertDuration": 4,
+          "icon": "Data/MO.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [0]
         },
@@ -34,14 +33,14 @@
           "warningDuration": 21,
           "alert": "Dispel now",
           "alertDuration": 4,
-          "icon": "data/Dispel.png",
+          "icon": "Data/Dispel.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [10, 35, 60, 85, 110, 135, 160, 185, 210, 235, 260, 285, 310, 335, 360]
         },
         {
           "alert": "Enrage",
           "alertDuration": 5,
-          "icon": "data/MO.png",
+          "icon": "Data/MO.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [360],
           "uid": "raid.w4.b2.enrage"

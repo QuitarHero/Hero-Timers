@@ -1,15 +1,14 @@
 {
-  "id": "raid.dhuum.green2.kiter",
+  "id": "htp.raid.w5.b4.green2.kiter",
   "name": "Dhuum\nGreen #2 (kiter)",
   "category": "Hall of Chains",
-  "description": "Displays the following:\n• All green timings for Green #2 (with trails).\n• How long to collect orbs.\n• Where the next green is.",
-  "author": "QuitarHero.1645",
-  "icon": "data/dhuum.png",
+  "description": "Displays:\n• All green timings for Green #2 (with trails)\n• How long to collect orbs\n• Where the next green is",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Dhuum.png",
   "map": 1264,
   "reset": {
     "position": [460, 70, 150],
     "antipode": [345, -32, 225],
-    "requireOutOfCombat": false,
     "requireDeparture": true
     },
     "phases": [
@@ -18,11 +17,12 @@
         "start": {
           "position": [460, 70, 150],
           "antipode": [345, -32, 225],
+		      "requireEntry": true,
           "requireCombat": true
         },
         "alerts": [
           {
-            "alert": "Green #2 Timer (kiter)",
+            "alert": "Timer: Green #2 (kiter)",
             "alertDuration": 4,
             "icon": "Data/Dhuum.png",
             "fillColor": [12, 95, 21, 1],
@@ -38,35 +38,35 @@
           {
             "warning": "Green (2/6)",
             "warningDuration": 75,
-            "icon": "Data/star.png",
+            "icon": "Data/cmdrStar.png",
             "fillColor": [12, 95, 21, 1],
             "timestamps": [155]
           },
           {
             "warning": "Green (3/6)",
             "warningDuration": 75,
-            "icon": "Data/arrow.png",
+            "icon": "Data/cmdrArrow.png",
             "fillColor": [12, 95, 21, 1],
             "timestamps": [245]
           },
           {
             "warning": "Green (4/6)",
             "warningDuration": 75,
-            "icon": "Data/square.png",
+            "icon": "Data/cmdrSquare.png",
             "fillColor": [12, 95, 21, 1],
             "timestamps": [335]
           },
           {
             "warning": "Green (5/6)",
             "warningDuration": 75,
-            "icon": "Data/triangle.png",
+            "icon": "Data/cmdrTriangle.png",
             "fillColor": [12, 95, 21, 1],
             "timestamps": [425]
           },
           {
             "warning": "Green (6/6)",
             "warningDuration": 75,
-            "icon": "Data/heart.png",
+            "icon": "Data/cmdrHeart.png",
             "fillColor": [12, 95, 21, 1],
             "timestamps": [515]
           }
@@ -77,7 +77,7 @@
             "destination": [366.0, 19.4, 157.9],
             "timestamps": [147],
             "duration": 8,
-            "texture": "data/ArrowTest2.png",
+            "texture": "Data/ArrowTrail.png",
             "animSpeed": 0
           },
           {
@@ -85,7 +85,7 @@
             "destination": [429.2, 30.9, 157.9],
             "timestamps": [237],
             "duration": 8,
-            "texture": "data/ArrowTest2.png",
+            "texture": "Data/ArrowTrail.png",
             "animSpeed": 0
           },
           {
@@ -93,7 +93,7 @@
             "destination": [377.7, -6.6, 157.9],
             "timestamps": [327],
             "duration": 8,
-            "texture": "data/ArrowTest2.png",
+            "texture": "Data/ArrowTrail.png",
             "animSpeed": 0
           },
           {
@@ -101,7 +101,7 @@
             "destination": [407.8, 50.0, 157.9],
             "timestamps": [417],
             "duration": 8,
-            "texture": "data/ArrowTest2.png",
+            "texture": "Data/ArrowTrail.png",
             "animSpeed": 0
           },
           {
@@ -109,7 +109,7 @@
             "destination": [404.9, -14.8, 157.9],
             "timestamps": [507],
             "duration": 8,
-            "texture": "data/ArrowTest2.png",
+            "texture": "Data/ArrowTrail.png",
             "animSpeed": 0
           }
         ],
@@ -118,31 +118,31 @@
             "position": [366.0, 19.4, 159.4],
             "timestamps": [80],
             "duration": 75,
-            "texture": "data/2.png"
+            "texture": "Data/2.png"
           },
           {
             "position": [429.2, 30.9, 159.4],
             "timestamps": [170],
             "duration": 75,
-            "texture": "data/2.png"
+            "texture": "Data/2.png"
           },
           {
             "position": [377.7, -6.6, 159.4],
             "timestamps": [260],
             "duration": 75,
-            "texture": "data/2.png"
+            "texture": "Data/2.png"
           },
           {
             "position": [407.8, 50.0, 159.4],
             "timestamps": [350],
             "duration": 75,
-            "texture": "data/2.png"
+            "texture": "Data/2.png"
           },
           {
             "position": [404.9, -14.8, 159.4],
             "timestamps": [440],
             "duration": 75,
-            "texture": "data/2.png"
+            "texture": "Data/2.png"
           },
         ]
       }

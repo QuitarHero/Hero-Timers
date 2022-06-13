@@ -1,10 +1,10 @@
 {
-  "id": "raid.w1.b4.all",
+  "id": "htp.raid.w1.b4.all",
   "name": "Sabetha the Saboteur\nAll Cannons",
   "category": "Spirit Vale",
-  "description": "Displays all cannon timings and where to throw.",
-  "author": "QuitarHero.1645",
-  "icon": "data/sabetha.png",
+  "description": "Displays:\n• When cannons spawn\n• Where to throw",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Sabetha.png",
   "map": 1062,
   "reset": {
     "position": [-59.57044, 192.4689, 72.23109],
@@ -28,9 +28,9 @@
       },
       "alerts": [
         {
-          "alert": "All Cannons",
-          "alertDuration": 5,
-          "icon": "data/Sabetha.png",
+          "alert": "Timer: All Cannons",
+          "alertDuration": 4,
+          "icon": "Data/Sabetha.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [0]
         },
@@ -39,7 +39,7 @@
           "warningDuration": 25,
           "alert": "Throw South",
           "alertDuration": 5,
-          "icon": "data/arrow.png",
+          "icon": "Data/cmdrArrow.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [35, 155, 275, 395, 515]
         },
@@ -48,7 +48,7 @@
           "warningDuration": 25,
           "alert": "Throw West",
           "alertDuration": 5,
-          "icon": "data/circle.png",
+          "icon": "Data/cmdrCircle.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [65, 215, 305, 455]
         },
@@ -57,7 +57,7 @@
           "warningDuration": 25,
           "alert": "Throw North",
           "alertDuration": 5,
-          "icon": "data/heart.png",
+          "icon": "Data/cmdrHeart.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [95, 185, 335, 425]
         },
@@ -66,14 +66,14 @@
           "warningDuration": 25,
           "alert": "Throw East",
           "alertDuration": 5,
-          "icon": "data/square.png",
+          "icon": "Data/cmdrSquare.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [125, 245, 365, 485]
         },
         {
           "alert": "Enrage",
           "alertDuration": 5,
-          "icon": "data/Sabetha.png",
+          "icon": "Data/Sabetha.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [540]
         }

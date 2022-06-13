@@ -1,15 +1,14 @@
 {
-  "id": "dungeon.ascaloniancatacombs.path3.gravelings",
+  "id": "htp.dungeon.d1.p3.gravelings",
   "name": "Ascalonian Catacombs P3\nGravelings",
   "category": "Dungeons",
-  "description": "Displays when and where gravelings spawn.\nNOTE: This is a hotkey timer which is not supported well.\nYou can activate this timer using 'Right Alt' when the event begins.",
-  "author": "QuitarHero.1645",
-  "icon": "data/Ascalonian-Catacombs.png",
+  "description": "Uses Hotkey 0\nActivate when the event starts.\nDisplays:\n• When and where gravelings spawn",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/AC_Default.png",
   "map": 36,
   "reset": {
     "position": [348.165, -42.847, 35.974],
-    "radius": 75,
-    "requireOutOfCombat": false,
+    "radius": 100,
     "requireDeparture": true
   },
   "phases": [
@@ -19,30 +18,35 @@
         "position": [348.165, -42.847, 35.974],
         "radius": 85,
         "type": "key",
-        "key": "RightAlt",
-        "keyModifier": "None",
-        "requireEntry": true,
-        "requireCombat": false
+        "keyBind": "0",
+        "requireEntry": true
+      },
+      "finish": {
+        "position": [348.165, -42.847, 35.974],
+        "radius": 85,
+        "type": "key",
+        "keyBind": "0",
+        "requireEntry": true
       },
       "alerts": [
         {
-          "alert": "Start",
-          "alertDuration": 3,
-          "icon": "data/Ascalonian-Catacombs.png",
+          "alert": "Timer: Graveling Spawns",
+          "alertDuration": 4,
+          "icon": "Data/AC_Default.png",
           "fillColor": [74, 218, 240, 0],
           "timestamps": [0]
         },
         {
           "warning": "Tunnel soon",
           "warningDuration": 10,
-          "icon": "data/Ascalonian-Catacombs.png",
+          "icon": "Data/AC_Default.png",
           "fillColor": [74, 218, 240, 0],
           "timestamps": [12, 24, 42, 54, 72, 88, 106, 124, 143, 161, 179, 197, 215, 233]
         },
         {
           "warning": "Last Tunnel soon",
           "warningDuration": 10,
-          "icon": "data/Ascalonian-Catacombs.png",
+          "icon": "Data/AC_Default.png",
           "fillColor": [74, 218, 240, 0],
           "timestamps": [251]
         }
@@ -52,91 +56,91 @@
           "position": [345.578, -34.2554, 21.9142],
           "timestamps": [0],
           "duration": 12,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [340.116, -59.5617, 21.8581],
           "timestamps": [12],
           "duration": 12,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [298.769, -47.8832, 25.9841],
           "timestamps": [24],
           "duration": 18,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [338.106, -80.5819, 26.1261],
           "timestamps": [42],
           "duration": 12,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [301.846, -70.106, 21.6945],
           "timestamps": [54],
           "duration": 18,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [368.948, -47.8882, 25.2695],
           "timestamps": [72],
           "duration": 18,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [336.976, -17.086, 25.6494],
           "timestamps": [88],
           "duration": 18,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [361.218, -40.5936, 21.9397],
           "timestamps": [106],
           "duration": 18,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [334.398, -41.6013, 21.671],
           "timestamps": [124],
           "duration": 17,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [318.581, -76.7373, 20.8829],
           "timestamps": [143],
           "duration": 18,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [355.241, -79.7259, 26.2364],
           "timestamps": [161],
           "duration": 18,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [314.146, -33.9202, 25.8649],
           "timestamps": [179],
           "duration": 18,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [362.081, -33.2436, 21.1712],
           "timestamps": [197],
           "duration": 18,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [324.966, -61.2681, 21.5279],
           "timestamps": [215],
           "duration": 18,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         },
         {
           "position": [368.315, -21.9292, 20.8069],
           "timestamps": [233],
           "duration": 18,
-          "texture": "data/Gw2Arrow1.png"
+          "texture": "Data/Arrow.png"
         }
       ]
     }

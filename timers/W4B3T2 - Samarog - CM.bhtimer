@@ -1,15 +1,14 @@
 {
-  "id": "raid.w4.b3.cm",
+  "id": "htp.raid.w4.b3.challenge",
   "name": "Samarog\nChallenge Mode",
   "category": "Bastion of the Penitent",
-  "description": "Displays the following:\n• When the next spear spawns.\n• When 'Spear Return' happens.\n• When Inevitable Betrayal happens.",
-  "author": "QuitarHero.1645",
-  "icon": "data/samarog.png",
+  "description": "Displays:\n• When the next spear spawns\n• When 'Spear Return' happens\n• When Inevitable Betrayal happens",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Samarog.png",
   "map": 1188,
   "reset": {
     "position": [-99.6, 78.0, 129.5],
     "radius": 55,
-    "requireOutOfCombat": false,
     "requireDeparture": true
   },
   "phases": [
@@ -23,9 +22,9 @@
       },
       "alerts": [
         {
-          "alert": "Challenge Mode",
-          "alertDuration": 3,
-          "icon": "data/Samarog.png",
+          "alert": "Timer: Challenge Mode",
+          "alertDuration": 4,
+          "icon": "Data/Samarog.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [0]
         },
@@ -188,7 +187,7 @@
           "warningDuration": 20,
           "alert": "Move",
           "alertDuration": 4,
-          "icon": "data/Samarog.png",
+          "icon": "Data/Samarog.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [1, 25, 49, 73, 97, 121, 145, 169, 193, 217, 241, 265, 289, 313, 337, 361, 385, 409, 433, 457, 481, 505, 529, 553, 577, 601, 625, 649]
         },
@@ -206,91 +205,91 @@
           "position": [-99.9579, 88.3492, 130.52],
           "timestamps": [0],
           "duration": 6,
-          "texture": "data/1.png",
+          "texture": "Data/1.png",
           "size": 1.5
         },
         {
           "position": [-99.9579, 88.3492, 130.52],
           "timestamps": [61, 126, 191, 256, 321, 386, 451, 516, 581],
           "duration": 10,
-          "texture": "data/1.png",
+          "texture": "Data/1.png",
           "size": 1.5
         },
         {
           "position": [-100.077, 68.0541, 130.52],
           "timestamps": [1, 66, 131, 196, 261, 326, 391, 456, 521, 586],
           "duration": 10,
-          "texture": "data/2.png",
+          "texture": "Data/2.png",
           "size": 1.5
         },
         {
           "position": [-100.291, 47.5306, 130.52],
           "timestamps": [6, 71, 136, 201, 266, 331, 396, 461, 526, 591],
           "duration": 10,
-          "texture": "data/3.png",
+          "texture": "Data/3.png",
           "size": 1.5
         },
         {
           "position": [-81.6473, 48.7055, 130.52],
           "timestamps": [11, 76, 141, 206, 271, 336, 401, 466, 531, 596],
           "duration": 10,
-          "texture": "data/4.png",
+          "texture": "Data/4.png",
           "size": 1.5
         },
         {
           "position": [-80.8687, 68.2828, 130.52],
           "timestamps": [16, 81, 146, 211, 276, 341, 406, 471, 536, 601],
           "duration": 10,
-          "texture": "data/5.png",
+          "texture": "Data/5.png",
           "size": 1.5
         },
         {
           "position": [-80.1187, 87.1555, 130.52],
           "timestamps": [21, 86, 151, 216, 281, 346, 411, 476, 541, 606],
           "duration": 10,
-          "texture": "data/6.png",
+          "texture": "Data/6.png",
           "size": 1.5
         },
         {
           "position": [-79.5845, 106.197, 130.52],
           "timestamps": [26, 91, 156, 221, 286, 351, 416, 481, 546, 611],
           "duration": 10,
-          "texture": "data/7.png",
+          "texture": "Data/7.png",
           "size": 1.5
         },
         {
           "position": [-99.0345, 108.038, 130.52],
           "timestamps": [31, 96, 161, 226, 291, 356, 421, 486, 551, 616],
           "duration": 10,
-          "texture": "data/8.png",
+          "texture": "Data/8.png",
           "size": 1.5
         },
         {
           "position": [-118.275, 108.482, 130.52],
           "timestamps": [36, 101, 166, 231, 296, 361, 426, 491, 556, 621],
           "duration": 10,
-          "texture": "data/9.png",
+          "texture": "Data/9.png",
           "size": 1.5
         },
         {
           "position": [-119.001, 88.5207, 130.52],
           "timestamps": [41, 106, 171, 236, 301, 366, 431, 496, 561, 626],
           "duration": 10,
-          "texture": "data/10.png",
+          "texture": "Data/10.png",
           "size": 1.5
         },
         {
           "position": [-119.412, 67.7453, 130.52],
           "timestamps": [46, 111, 176, 241, 306, 371, 436, 501, 566, 631],
           "duration": 10,
-          "texture": "data/11.png",
+          "texture": "Data/11.png",
           "size": 1.5
         },
         {
           "position": [-119.615, 46.3155, 130.52],
           "timestamps": [51, 116, 181, 246, 311, 376, 441, 506, 571, 636],
           "duration": 10,
-          "texture": "data/12.png",
+          "texture": "Data/12.png",
           "size": 1.5
         }
       ]

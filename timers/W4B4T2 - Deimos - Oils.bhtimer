@@ -1,16 +1,16 @@
 {
-  "id": "raid.w4.b4.oils",
+  "id": "htp.raid.w4.b4.oils",
   "name": "Deimos\nOil Timings",
   "category": "Bastion of the Penitent",
-  "description": "Displays when Oils spawn.\nNOTE: This is a hotkey timer, which is not supported well.\nYou can activate this timer using 'Right Alt' when Deimos reaches 60% Health.",
-  "author": "QuitarHero.1645",
-  "icon": "data/Deimos.png",
+  "description": "Uses Hotkey 0\nActivate when Deimos reaches 60%.\nDisplays:\n• When Oils spawn",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Deimos.png",
   "map": 1188,
   "reset": {
-    "position": [-214.518, 78.521, 101.924],
-    "radius": 400,
-    "requireOutOfCombat": true,
-    "requireDeparture": false,
+    "position": [-123.2258, 126.8591, 129.5106],
+    "radius": 15,
+    "requireEntry": true,
+	  "requireOutOfCombat": true
   },
   "phases": [
     {
@@ -18,22 +18,28 @@
       "start": {
         "position": [-214.518, 78.521, 101.924],
         "radius": 40,
-	    "type": "key",
-	    "key": "RightAlt",
-	    "keyModifier": "None",
+	      "type": "key",
+	      "keyBind": "0",
         "requireEntry": true,
-        "requireCombat": false
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [-214.518, 78.521, 101.924],
+        "radius": 999,
+	      "type": "key",
+	      "keyBind": "0",
+        "requireEntry": true
       },
 	  "alerts": [
-	    {
-		  "warning": "Oil Soon",
-		  "warningDuration": 12,
-		  "alert": "Move!",
-		  "alertDuration": 3,
-		  "fillColor": [202, 175, 92, 0],
-		  "timestamps": [0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425, 450, 475, 500, 525, 550, 575, 600]
-		}
-	  ]
+	      {
+		      "warning": "Oil Soon",
+		      "warningDuration": 12,
+		      "alert": "Move!",
+		      "alertDuration": 3,
+		      "fillColor": [202, 175, 92, 0],
+		      "timestamps": [0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425, 450, 475, 500, 525, 550, 575, 600]
+		    }
+	    ]
     }
   ]
 }

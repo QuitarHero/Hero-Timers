@@ -1,0 +1,1176 @@
+{
+  "id": "htp.strike.b9.challenge",
+  "name": "Kaineng Overlook\nChallenge Mode",
+  "category": "Strikes",
+  "description": "Begins when entering Li's platform.\nPlease zipline first or with the group\nfor best accuracy.\nDisplays all of Normal's features plus:\n• Higher amount of existing mechanics\n• When Li twitches in P1\n• Fixates in Trio Phase\n• CM-specific mechanics",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Strike_B9/Default.png",
+  "map": 1451,
+  "reset": {
+    "position": [-511.402, -346.302, 266.058],
+    "radius": 7,
+    "requireEntry": true
+  },
+  "phases": [
+    {
+      "name": "Minister Li - Phase 1",
+      "start": {
+        "position": [-578.279, -395.871, 274.56],
+        "radius": 3,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [-553.285, -377.447, 264.633],
+        "radius": 10,
+        "requireEntry": true
+      },
+      "alerts": [
+        {
+          "alert": "Timer: Phase 1",
+          "alertDuration": 4,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [0]
+        },
+        {
+          "warning": "Twitch",
+          "warningDuration": 2.5,
+          "icon": "Data/Strike_B9/DS-Wave.png",
+          "fillColor": [192, 133, 83, 1],
+          "timestamps": [2.5, 47.5, 92.5, 137.5]
+        },
+        {
+          "warning": "Twitch",
+          "warningDuration": 3.5,
+          "icon": "Data/Strike_B9/DS-Wave.png",
+          "fillColor": [192, 133, 83, 1],
+          "timestamps": [3.5, 48.5, 93.5, 138.5]
+        },
+        {
+          "warning": "Shared Destruction",
+          "warningDuration": 6.5,
+          "icon": "Data/Strike_B9/Default.png",
+          "fillColor": [71, 165, 65, 1],
+          "timestamps": [6.5, 21, 51.5, 66, 96.5, 111, 141.5, 156]
+        },
+        {
+          "warning": "Next: Wave, Green",
+          "warningDuration": 8,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [14.5, 59.5, 104.5, 149.5]
+        },
+        {
+          "warning": "Next: Wave, Green",
+          "warningDuration": 4.5,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [45, 90, 135]
+        },
+        {
+          "warning": "Next: Burst",
+          "warningDuration": 9,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [27.5, 72.5, 117.5, 162.5]
+        },
+        {
+          "warning": "Dragon Slash - Wave",
+          "warningDuration": 6,
+          "icon": "Data/Strike_B9/DS-Wave.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [6, 51, 96, 141]
+        },
+        {
+          "warning": "Dragon Slash - Wave",
+          "warningDuration": 6.5,
+          "icon": "Data/Strike_B9/DS-Wave.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [18.5, 63.5, 108.5, 153.5]
+        },
+        {
+          "warning": "Dragon Slash - Rush",
+          "warningDuration": 6,
+          "icon": "Data/Strike_B9/DS-Boost.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [12, 24.5, 57, 69.5, 102, 114.5, 147, 159.5],
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 8,
+          "icon": "Data/Strike_B9/1.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [35.5, 80.5, 125.5, 170.5]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 9.5,
+          "icon": "Data/Strike_B9/2.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [37, 82, 127, 172]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 10.5,
+          "icon": "Data/Strike_B9/3.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [38, 83, 128, 173]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 12,
+          "icon": "Data/Strike_B9/4.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [39.5, 84.5, 129.5, 174.5]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 13,
+          "icon": "Data/Strike_B9/5.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [40.5, 85.5, 130.5, 175.5]
+        }
+      ]
+    },
+    {
+      "name": "Minister Li - Trio Phase",
+      "start": {
+        "position": [-553.285, -377.447, 264.633],
+        "radius": 5,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [-578.279, -395.871, 274.56],
+        "radius": 8,
+        "requireEntry": true
+      },
+      "alerts": [
+        {
+          "alert": "Trio Phase Begin",
+          "alertDuration": 4,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [0]
+        },
+        {
+          "warning": "Bosses Spawn",
+          "warningDuration": 10,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [10]
+        },
+        {
+          "warning": "Fixate Change",
+          "warningDuration": 6,
+          "icon": "Data/Strike_B9/Fixated.png",
+          "timestamps": [44, 167, 269, 371, 473]
+        },
+        {
+          "warning": "Fixate Change",
+          "warningDuration": 7,
+          "icon": "Data/Strike_B9/Fixated.png",
+          "timestamps": [219, 321, 423]
+        },
+        {
+          "warning": "Fixate Change",
+          "warningDuration": 10,
+          "icon": "Data/Strike_B9/Fixated.png",
+          "timestamps": [138, 189, 240, 291, 342, 393, 444, 495]
+        },
+        {
+          "warning": "Fixate Change",
+          "warningDuration": 12,
+          "icon": "Data/Strike_B9/Fixated.png",
+          "timestamps": [12]
+        },
+        {
+          "warning": "Fixate Change",
+          "warningDuration": 15,
+          "icon": "Data/Strike_B9/Fixated.png",
+          "timestamps": [117]
+        },
+        {
+          "warning": "Fixate Change",
+          "warningDuration": 16,
+          "icon": "Data/Strike_B9/Fixated.png",
+          "timestamps": [81]
+        },
+        {
+          "warning": "Next: Shared Destruction",
+          "warningDuration": 6,
+          "icon": "Data/Strike_B9/Default.png",
+          "fillColor": [71, 165, 65, 1],
+          "timestamps": [65, 128, 179, 230, 281, 332, 383, 434, 485]
+        },
+        {
+          "warning": "Shared Destruction",
+          "warningDuration": 6,
+          "icon": "Data/Strike_B9/Default.png",
+          "fillColor": [71, 165, 65, 1],
+          "timestamps": [71, 134, 185, 236, 287, 338, 389, 440, 491]
+        },
+        {
+          "warning": "Next: Rushing Justice",
+          "warningDuration": 10,
+          "icon": "Data/Strike_B9/Enforcer_Dash.png",
+          "fillColor": [160, 212, 231, 0],
+          "timestamps": [22]
+        },
+        {
+          "warning": "Next: Rushing Justice",
+          "warningDuration": 13,
+          "icon": "Data/Strike_B9/Enforcer_Dash.png",
+          "fillColor": [160, 212, 231, 0],
+          "timestamps": [94]
+        },
+        {
+          "warning": "Next: Rushing Justice",
+          "warningDuration": 7,
+          "icon": "Data/Strike_B9/Enforcer_Dash.png",
+          "fillColor": [160, 212, 231, 0],
+          "timestamps": [145, 196, 247, 298, 349, 400, 451]
+        },
+        {
+          "warning": "Rushing Justice",
+          "warningDuration": 16,
+          "icon": "Data/Strike_B9/Enforcer_Dash.png",
+          "fillColor": [160, 212, 231, 0],
+          "timestamps": [38, 110, 161, 212, 263, 314, 365, 416, 467]
+        },
+        {
+          "warning": "Booming Command",
+          "warningDuration": 5,
+          "icon": "Data/Strike_B9/Enforcer_Spin.png",
+          "fillColor": [160, 212, 231, 0],
+          "timestamps": [43, 115, 166, 217, 268, 319, 370, 421, 472]
+        },
+        {
+          "warning": "Next: Heaven's Palm",
+          "warningDuration": 11,
+          "icon": "Data/Strike_B9/Enforcer_Palm.png",
+          "fillColor": [160, 212, 231, 0],
+          "timestamps": [172, 274, 376, 478]
+        },
+        {
+          "warning": "Next: Heaven's Palm",
+          "warningDuration": 16,
+          "icon": "Data/Strike_B9/Enforcer_Palm.png",
+          "fillColor": [160, 212, 231, 0],
+          "timestamps": [75]
+        },
+        {
+          "warning": "Next: Heaven's Palm",
+          "warningDuration": 17,
+          "icon": "Data/Strike_B9/Enforcer_Palm.png",
+          "fillColor": [160, 212, 231, 0],
+          "timestamps": [111, 213, 315, 417]
+        },
+        {
+          "warning": "Heaven's Palm",
+          "warningDuration": 5,
+          "icon": "Data/Strike_B9/Enforcer_Palm.png",
+          "fillColor": [160, 212, 231, 0],
+          "timestamps": [80, 116, 177, 218, 279, 320, 381, 422, 483]
+        },
+        {
+          "warning": "Next: Volatile Expulsion (edges)",
+          "warningDuration": 10,
+          "icon": "Data/Strike_B9/Ritualist.png",
+          "fillColor": [93, 120, 89, 0],
+          "timestamps": [59]
+        },
+        {
+          "warning": "Next: Volatile Expulsion (edges)",
+          "warningDuration": 12,
+          "icon": "Data/Strike_B9/Ritualist.png",
+          "fillColor": [93, 120, 89, 0],
+          "timestamps": [173, 275, 377, 479]
+        },
+        {
+          "warning": "Volatile Expulsion (edges)",
+          "warningDuration": 15,
+          "icon": "Data/Strike_B9/Ritualist.png",
+          "fillColor": [93, 120, 89, 0],
+          "timestamps": [74, 188, 290, 392, 494]
+        },
+        {
+          "warning": "Next: Volatile Expulsion (stack)",
+          "warningDuration": 5,
+          "icon": "Data/Strike_B9/Ritualist.png",
+          "fillColor": [93, 120, 89, 0],
+          "timestamps": [122, 224, 326, 428]
+        },
+        {
+          "warning": "Volatile Expulsion (stack)",
+          "warningDuration": 15,
+          "icon": "Data/Strike_B9/Ritualist.png",
+          "fillColor": [93, 120, 89, 0],
+          "timestamps": [137, 239, 341, 443]
+        },
+        {
+          "warning": "Next: Lightning Storm",
+          "warningDuration": 5,
+          "icon": "Data/Strike_B9/Ritualist_Storm.png",
+          "fillColor": [93, 120, 89, 0],
+          "timestamps": [15]
+        },
+        {
+          "warning": "Next: Lightning Storm",
+          "warningDuration": 15,
+          "icon": "Data/Strike_B9/Ritualist_Storm.png",
+          "fillColor": [93, 120, 89, 0],
+          "timestamps": [109, 160, 211, 262, 313, 364, 415, 466]
+        },
+        {
+          "warning": "Lightning Storm",
+          "warningDuration": 5,
+          "icon": "Data/Strike_B9/Ritualist_Storm.png",
+          "fillColor": [93, 120, 89, 0],
+          "timestamps": [20, 114, 165, 216, 267, 318, 369, 420, 471]
+        },
+        {
+          "warning": "Next: Storm of Swords",
+          "warningDuration": 18,
+          "icon": "Data/Strike_B9/Mindblade_SoS.png",
+          "fillColor": [154, 99, 167, 0],
+          "timestamps": [99]
+        },
+        {
+          "warning": "Next: Storm of Swords",
+          "warningDuration": 12,
+          "icon": "Data/Strike_B9/Mindblade_SoS.png",
+          "fillColor": [154, 99, 167, 0],
+          "timestamps": [201, 303, 405]
+        },
+        {
+          "warning": "Storm of Swords",
+          "warningDuration": 3,
+          "icon": "Data/Strike_B9/Mindblade_SoS.png",
+          "fillColor": [154, 99, 167, 0],
+          "timestamps": [102, 204, 306, 408]
+        },
+        {
+          "warning": "Next: Rain of Blades",
+          "warningDuration": 11,
+          "icon": "Data/Strike_B9/Mindblade_RoB.png",
+          "fillColor": [154, 99, 167, 0],
+          "timestamps": [49]
+        },
+        {
+          "warning": "Next: Rain of Blades",
+          "warningDuration": 18,
+          "icon": "Data/Strike_B9/Mindblade_RoB.png",
+          "fillColor": [154, 99, 167, 0],
+          "timestamps": [163, 265, 367, 469]
+        },
+        {
+          "warning": "First: Rain of Blades",
+          "warningDuration": 8,
+          "icon": "Data/Strike_B9/Mindblade_RoB.png",
+          "fillColor": [154, 99, 167, 0],
+          "timestamps": [57, 171, 273, 375, 477]
+        },
+        {
+          "warning": "Others: Rain of Blades",
+          "warningDuration": 8,
+          "icon": "Data/Strike_B9/Mindblade_RoB.png",
+          "fillColor": [154, 99, 167, 0],
+          "timestamps": [65, 179, 281, 383, 485]
+        }
+      ],
+      "markers": [
+        {
+          "position": [-545.892, -362.225, 266.136],
+          "timestamps": [10, 133, 235, 337, 439],
+          "duration": 15,
+          "texture": "Data/Strike_B9/BigLine.png",
+          "size": 19,
+          "rotation": [180, 0, 2]
+        },
+        {
+          "position": [-546.274, -354.797, 267.086],
+          "timestamps": [22, 145, 247, 349, 451],
+          "duration": 3,
+          "texture": "Data/GW2Arrow1.png",
+          "size": 1.25
+        },
+        {
+          "position": [-553.913, -360.42, 266.133],
+          "timestamps": [13, 136, 238, 340, 442],
+          "duration": 15,
+          "texture": "Data/Strike_B9/BigLine.png",
+          "size": 23,
+          "rotation": [180, 0, 126.5]
+        },
+        {
+          "position": [-561.637, -366.228, 267.086],
+          "timestamps": [25, 148, 250, 352, 454],
+          "duration": 3,
+          "texture": "Data/GW2Arrow1.png",
+          "size": 1.25
+        },
+        {
+          "position": [-554.651, -368.638, 266.136],
+          "timestamps": [14, 137, 239, 341, 443],
+          "duration": 15,
+          "texture": "Data/Strike_B9/BigLine.png",
+          "size": 19,
+          "rotation": [180, 0, 71]
+        },
+        {
+          "position": [-545.552, -371.802, 267.086],
+          "timestamps": [27, 150, 252, 354, 456],
+          "duration": 2,
+          "texture": "Data/GW2Arrow1.png",
+          "size": 1.25
+        },
+        {
+          "position": [-545.292, -381.225, 266.136],
+          "timestamps": [16, 139, 241, 343, 445],
+          "duration": 15,
+          "texture": "Data/Strike_B9/BigLine.png",
+          "size": 19,
+          "rotation": [180, 0, 2]
+        },
+        {
+          "position": [-544.961, -388.65, 267.086],
+          "timestamps": [29, 152, 254, 356, 458],
+          "duration": 2,
+          "texture": "Data/GW2Arrow1.png",
+          "size": 1.25
+        },
+        {
+          "position": [-537.213, -382.92, 266.133],
+          "timestamps": [18, 141, 243, 345, 447],
+          "duration": 15,
+          "texture": "Data/Strike_B9/BigLine.png",
+          "size": 23,
+          "rotation": [180, 0, 126.5]
+        },
+        {
+          "position": [-529.456, -376.93, 267.086],
+          "timestamps": [30, 153, 255, 357, 459],
+          "duration": 3,
+          "texture": "Data/GW2Arrow1.png",
+          "size": 1.25
+        },
+        {
+          "position": [-536.601, -374.758, 266.136],
+          "timestamps": [20, 143, 245, 347, 449],
+          "duration": 15,
+          "texture": "Data/Strike_B9/BigLine.png",
+          "size": 19,
+          "rotation": [180, 0, 71.5]
+        },
+        {
+          "position": [-545.552, -371.802, 267.086],
+          "timestamps": [33, 156, 258, 360, 462],
+          "duration": 2,
+          "texture": "Data/GW2Arrow1.png",
+          "size": 1.25
+        },
+        {
+          "position": [-552.009, -376.417, 266.183],
+          "timestamps": [82, 184, 286, 388, 490],
+          "duration": 15,
+          "texture": "Data/Strike_B9/BigLine.png",
+          "size": 19,
+          "rotation": [180, 0, 126.5]
+        },
+        {
+          "position": [-556.971, -380.077, 267.084],
+          "timestamps": [94, 196, 298, 400, 502],
+          "duration": 3,
+          "texture": "Data/GW2Arrow1.png",
+          "size": 1.25
+        },
+        {
+          "position": [-547.212, -381.501, 266.186],
+          "timestamps": [85, 187, 289, 391, 493],
+          "duration": 15,
+          "texture": "Data/Strike_B9/BigLine.png",
+          "size": 23,
+          "rotation": [180, 0, 82]
+        },
+        {
+          "position": [-537.328, -382.823, 267.094],
+          "timestamps": [97, 199, 301, 403, 505],
+          "duration": 3,
+          "texture": "Data/GW2Arrow1.png",
+          "size": 1.25
+        },
+        {
+          "position": [-540.859, -378.117, 266.183],
+          "timestamps": [86, 188, 290, 392, 494],
+          "duration": 15,
+          "texture": "Data/Strike_B9/BigLine.png",
+          "size": 19,
+          "rotation": [180, 0, 36]
+        },
+        {
+          "position": [-545.612, -371.709, 267.090],
+          "timestamps": [99, 201, 303, 405, 507],
+          "duration": 2,
+          "texture": "Data/GW2Arrow1.png",
+          "size": 1.25
+        },
+        {
+          "position": [-539.159, -366.917, 266.183],
+          "timestamps": [88, 190, 292, 394, 496],
+          "duration": 15,
+          "texture": "Data/Strike_B9/BigLine.png",
+          "size": 19,
+          "rotation": [180, 0, 126.5]
+        },
+        {
+          "position": [-533.839, -363.068, 267.09],
+          "timestamps": [101, 203, 305, 407, 509],
+          "duration": 2,
+          "texture": "Data/GW2Arrow1.png",
+          "size": 1.25
+        },
+        {
+          "position": [-543.712, -361.501, 266.186],
+          "timestamps": [90, 192, 294, 396, 498],
+          "duration": 15,
+          "texture": "Data/Strike_B9/BigLine.png",
+          "size": 23,
+          "rotation": [180, 0, 82]
+        },
+        {
+          "position": [-553.749, -360.509, 267.093],
+          "timestamps": [102.5, 204.5, 306.5, 408.5, 510.5],
+          "duration": 2.5,
+          "texture": "Data/GW2Arrow1.png",
+          "size": 1.25
+        },
+        {
+          "position": [-550.259, -365.167, 266.183],
+          "timestamps": [92, 194, 296, 398, 500],
+          "duration": 15,
+          "texture": "Data/Strike_B9/BigLine.png",
+          "size": 19,
+          "rotation": [180, 0, 36]
+        },
+        {
+          "position": [-545.612, -371.709, 267.090],
+          "timestamps": [105, 207, 309, 411, 513],
+          "duration": 2,
+          "texture": "Data/GW2Arrow1.png",
+          "size": 1.25
+        }
+      ]
+    },
+    {
+      "name": "Minister Li - Phase 2",
+      "start": {
+        "position": [-578.279, -395.871, 274.56],
+        "radius": 3,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [-553.285, -377.447, 264.633],
+        "radius": 10,
+        "requireEntry": true
+      },
+      "alerts": [
+        {
+          "alert": "Phase 2 Begin",
+          "alertDuration": 4,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [0]
+        },
+        {
+          "warning": "Spread",
+          "warningDuration": 5,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [26.5, 52, 106.5, 132, 186.5, 212]
+        },
+        {
+          "warning": "Shared Destruction",
+          "warningDuration": 6.5,
+          "icon": "Data/Strike_B9/Default.png",
+          "fillColor": [71, 165, 65, 1],
+          "timestamps": [15, 40.5, 95, 120.5, 175, 200.5]
+        },
+        {
+          "warning": "Next: Wave, Green",
+          "warningDuration": 9,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [8.5, 88.5, 168.5]
+        },
+        {
+          "warning": "Next: Wave, Spread",
+          "warningDuration": 6.5,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [21.5, 47, 101.5, 127, 181.5, 207]
+        },
+        {
+          "warning": "Next: Wave, Green",
+          "warningDuration": 7.5,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [34, 114, 194]
+        },
+        {
+          "warning": "Next: Burst",
+          "warningDuration": 7.5,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [59.5, 139.5, 219.5]
+        },
+        {
+          "warning": "Next: Rush",
+          "warningDuration": 7,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [79.5, 159.5]
+        },
+        {
+          "warning": "Dragon Slash - Rush",
+          "warningDuration": 6,
+          "icon": "Data/Strike_B9/DS-Boost.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [5.5, 31, 56.5, 85.5, 111, 136.5, 165.5, 191, 216.5]
+        },
+        {
+          "warning": "Dragon Slash - Rush",
+          "warningDuration": 6.5,
+          "icon": "Data/Strike_B9/DS-Boost.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [18.5, 44, 98.5, 124, 178.5, 204]
+        },
+        {
+          "warning": "Dragon Slash - Wave",
+          "warningDuration": 6.5,
+          "icon": "Data/Strike_B9/DS-Wave.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [12, 25, 37.5, 50.5, 92, 105, 117.5, 130.5, 172, 185, 197.5, 210.5]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 8,
+          "icon": "Data/Strike_B9/1.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [67.5, 147.5, 227.5]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 9.5,
+          "icon": "Data/Strike_B9/2.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [69, 149, 229]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 10.5,
+          "icon": "Data/Strike_B9/3.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [70, 150, 230]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 12,
+          "icon": "Data/Strike_B9/4.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [71.5, 151.5, 231.5]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 13,
+          "icon": "Data/Strike_B9/5.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [72.5, 152.5, 232.5]
+        }
+      ],
+      "markers": [
+        {
+          "position": [-589.507, -414.095, 275.174],
+          "timestamps": [72.5, 152.5],
+          "duration": 7,
+          "texture": "Data/Gw2Arrow1.png",
+          "opacity": 0.65
+        },
+        {
+          "position": [-589.507, -414.095, 275.274],
+          "timestamps": [0],
+          "duration": 5.5,
+          "texture": "Data/Gw2Arrow1.png",
+        },
+        {
+          "position": [-589.507, -414.095, 275.274],
+          "timestamps": [79.5, 159.5],
+          "duration": 6,
+          "texture": "Data/Gw2Arrow1.png"
+        },
+        {
+          "position": [-598.629, -401.577, 275.186],
+          "timestamps": [5.5, 85.5, 165.5],
+          "duration": 6.5,
+          "texture": "Data/Gw2Arrow1.png",
+          "opacity": 0.65
+        },
+        {
+          "position": [-598.629, -401.577, 275.286],
+          "timestamps": [12, 92, 172],
+          "duration": 6.5,
+          "texture": "Data/Gw2Arrow1.png"
+        },
+        {
+          "position": [-586.141, -392.267, 275.174],
+          "timestamps": [18.5, 98.5, 178.5],
+          "duration": 6.5,
+          "texture": "Data/Gw2Arrow1.png",
+          "opacity": 0.65
+        },
+        {
+          "position": [-586.141, -392.267, 275.274],
+          "timestamps": [25, 105, 185],
+          "duration": 6,
+          "texture": "Data/Gw2Arrow1.png"
+        },
+        {
+          "position": [-576.971, -404.882, 275.184],
+          "timestamps": [31, 111, 191],
+          "duration": 6.5,
+          "texture": "Data/Gw2Arrow1.png",
+          "opacity": 0.65
+        },
+        {
+          "position": [-576.971, -404.882, 275.284],
+          "timestamps": [37.5, 117.5, 197.5],
+          "duration": 6.5,
+          "texture": "Data/Gw2Arrow1.png"
+        },
+        {
+          "position": [-587.906, -403.306, 275.16],
+          "timestamps": [44, 124, 204],
+          "duration": 6.5,
+          "texture": "Data/Gw2Arrow1.png",
+          "opacity": 0.65
+        },
+        {
+          "position": [-587.906, -403.306, 275.26],
+          "timestamps": [50.5, 130.5, 210.5],
+          "duration": 6,
+          "texture": "Data/Gw2Arrow1.png"
+        }
+      ]
+    },
+    {
+      "name": "Minister Li - Duo Phase",
+      "start": {
+        "position": [-553.285, -377.447, 264.633],
+        "radius": 5,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [-578.279, -395.871, 274.56],
+        "radius": 8,
+        "requireEntry": true
+      },
+      "alerts": [
+        {
+          "alert": "Duo Phase Begin",
+          "alertDuration": 4,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [0]
+        },
+        {
+          "warning": "Bosses Spawn",
+          "warningDuration": 8,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [8]
+        },
+        {
+          "warning": "Spread",
+          "warningDuration": 5,
+          "icon": "Data/Strike_B9/Default.png",
+          "fillColor": [146, 107, 41, 0],
+          "timestamps": [27, 44, 59, 120, 135, 187.5, 204, 219, 280, 295, 348, 364, 379, 440, 455]
+        },
+        {
+          "warning": "Shared Destruction",
+          "warningDuration": 6,
+          "icon": "Data/Strike_B9/Default.png",
+          "fillColor": [71, 165, 65, 1],
+          "timestamps": [28, 188.5, 349]
+        },
+        {
+          "warning": "Next: Pushback, Spread (4), Green",
+          "warningDuration": 14,
+          "icon": "Data/Strike_B9/Mech_Attack.png",
+          "timestamps": [22]
+        },
+        {
+          "warning": "Next: Pushback, Spread (4), Green",
+          "warningDuration": 9.5,
+          "icon": "Data/Strike_B9/Mech_Attack.png",
+          "timestamps": [182.5]
+        },
+        {
+          "warning": "Next: Pushback, Spread (4), Green",
+          "warningDuration": 10,
+          "icon": "Data/Strike_B9Mech_Attack.png",
+          "timestamps": [343]
+        },
+        {
+          "warning": "Next: Ricochet Shots, Spread (All)",
+          "warningDuration": 10,
+          "icon": "Data/Strike_B9/Sniper_Ricochet-Shot.png",
+          "timestamps": [359]
+        },
+        {
+          "warning": "Next: Ricochet Shots, Spread (All)",
+          "warningDuration": 10.5,
+          "icon": "Data/Strike_B9/Sniper_Ricochet-Shot.png",
+          "timestamps": [199]
+        },
+        {
+          "warning": "Next: Ricochet Shots, Spread (All)",
+          "warningDuration": 11,
+          "icon": "Data/Strike_B9/Sniper_Ricochet-Shot.png",
+          "timestamps": [39]
+        },
+        {
+          "warning": "Next: Ricochet Shots, Spread (All)",
+          "warningDuration": 17,
+          "icon": "Data/Strike_B9/Sniper_Ricochet-Shot.png",
+          "timestamps": [115, 275, 435]
+        },
+        {
+          "warning": "Next: Jade Buster Cannon, Spread",
+          "warningDuration": 10,
+          "icon": "Data/Strike_B9/Mech_JBC.png",
+          "timestamps": [54, 130, 214, 290, 374, 450]
+        },
+        {
+          "warning": "Next: Jade Laser Shot",
+          "warningDuration": 9.5,
+          "icon": "Data/Strike_B9/Sniper_Laser-Shot.png",
+          "timestamps": [70.5, 230.5, 390.5]
+        },
+        {
+          "warning": "Next: Jade Laser Shot",
+          "warningDuration": 17.5,
+          "icon": "Data/Strike_B9/Sniper_Laser-Shot.png",
+          "timestamps": [154.5, 314.5, 474.5]
+        },
+        {
+          "warning": "Next: Explosive Uppercuts",
+          "warningDuration": 9,
+          "icon": "Data/Strike_B9/Explosive_Uppercut.png",
+          "timestamps": [98, 258, 418]
+        },
+        {
+          "warning": "Sniper Port",
+          "warningDuration": 9,
+          "icon": "Data/Strike_B9/Sniper_Port.png",
+          "fillColor": [77, 83, 121, 0],
+          "timestamps": [358]
+        },
+        {
+          "warning": "Sniper Port",
+          "warningDuration": 9.5,
+          "icon": "Data/Strike_B9/Sniper_Port.png",
+          "fillColor": [77, 83, 121, 0],
+          "timestamps": [70.5, 198, 230.5, 390.5]
+        },
+        {
+          "warning": "Sniper Port",
+          "warningDuration": 10,
+          "icon": "Data/Strike_B9/Sniper_Port.png",
+          "fillColor": [77, 83, 121, 0],
+          "timestamps": [38]
+        },
+        {
+          "warning": "Sniper Port",
+          "warningDuration": 16,
+          "icon": "Data/Strike_B9/Sniper_Port.png",
+          "fillColor": [77, 83, 121, 0],
+          "timestamps": [114, 274, 434]
+        },
+        {
+          "warning": "Sniper Port",
+          "warningDuration": 17.5,
+          "icon": "Data/Strike_B9/Sniper_Port.png",
+          "fillColor": [77, 83, 121, 0],
+          "timestamps": [154.5, 314.5, 474.5]
+        },
+        {
+          "warning": "Sniper Returns",
+          "warningDuration": 3.5,
+          "icon": "Data/Strike_B9/Sniper_Return.png",
+          "fillColor": [77, 83, 121, 0],
+          "timestamps": [61, 137, 221, 297, 381, 457]
+        },
+        {
+          "warning": "Sniper Returns",
+          "warningDuration": 2.5,
+          "icon": "Data/Strike_B9/Sniper_Return.png",
+          "fillColor": [77, 83, 121, 0],
+          "timestamps": [89, 173, 249, 333, 409, 493]
+        },
+        {
+          "warning": "Jade Ricochet",
+          "warningDuration": 9,
+          "icon": "Data/Strike_B9/Sniper_Ricochet-Shot.png",
+          "fillColor": [77, 83, 121, 0],
+          "timestamps": [48, 124, 208, 284, 368, 444]
+        },
+        {
+          "warning": "Jade Ricochet",
+          "warningDuration": 14,
+          "icon": "Data/Strike_B9/Sniper_Ricochet-Shot.png",
+          "fillColor": [77, 83, 121, 0],
+          "timestamps": [53, 129, 213, 289, 373, 449]
+        },
+        {
+          "warning": "Jade Ricochet",
+          "warningDuration": 18.5,
+          "icon": "Data/Strike_B9/Sniper_Ricochet-Shot.png",
+          "fillColor": [77, 83, 121, 0],
+          "timestamps": [57.5, 133.5, 217.5, 293.5, 377.5, 453.5]
+        },
+        {
+          "warning": "Jade Laser Shot",
+          "warningDuration": 16,
+          "icon": "Data/Strike_B9/Sniper_Laser-Shot.png",
+          "fillColor": [77, 83, 121, 0],
+          "timestamps": [86.5, 170.5, 246.5, 330.5, 406.5, 490.5]
+        },
+        {
+          "warning": "Pushback + Mines",
+          "warningDuration": 4.5,
+          "icon": "Data/Strike_B9/Mech_Attack.png",
+          "fillColor": [146, 107, 41, 0],
+          "timestamps": [26.5, 187, 347.5]
+        },
+        {
+          "warning": "Move",
+          "warningDuration": 3,
+          "icon": "Data/Strike_B9/Mech_JBC.png",
+          "fillColor": [146, 107, 41, 0],
+          "timestamps": [57, 133, 217, 293, 377, 453]
+        },
+        {
+          "warning": "Jade Buster Cannon",
+          "warningDuration": 5,
+          "icon": "Data/Strike_B9/Mech_JBC.png",
+          "fillColor": [146, 107, 41, 0],
+          "timestamps": [62, 138, 222, 298, 382, 458]
+        },
+        {
+          "warning": "Explosive Uppercut",
+          "warningDuration": 13,
+          "icon": "Data/Strike_B9/1.png",
+          "fillColor": [146, 107, 41, 0],
+          "timestamps": [111, 271, 431]
+        },
+        {
+          "warning": "Explosive Uppercut",
+          "warningDuration": 14.5,
+          "icon": "Data/Strike_B9/2.png",
+          "fillColor": [146, 107, 41, 0],
+          "timestamps": [112.5, 272.5, 432.5]
+        },
+        {
+          "warning": "Explosive Uppercut",
+          "warningDuration": 16,
+          "icon": "Data/Strike_B9/3.png",
+          "fillColor": [146, 107, 41, 0],
+          "timestamps": [114, 274, 434]
+        },
+        {
+          "warning": "Explosive Uppercut",
+          "warningDuration": 17.5,
+          "icon": "Data/Strike_B9/4.png",
+          "fillColor": [146, 107, 41, 0],
+          "timestamps": [115.5, 275.5, 435.5]
+        },
+        {
+          "warning": "Explosive Uppercut",
+          "warningDuration": 19,
+          "icon": "Data/Strike_B9/5.png",
+          "fillColor": [146, 107, 41, 0],
+          "timestamps": [117, 277, 437]
+        }
+      ]
+    },
+    {
+      "name": "Minister Li - Phase 3",
+      "start": {
+        "position": [-578.279, -395.871, 274.56],
+        "radius": 3,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [-587.786, -403.269, 274.56],
+        "radius": 35,
+        "requireEntry": true,
+        "requireOutOfCombat": true
+      },
+      "alerts": [
+        {
+          "alert": "Phase 3 Begin",
+          "alertDuration": 4,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [0]
+        },
+        {
+          "alert": "Next: Wave, Spread, Green",
+          "alertDuration": 8.5,
+          "icon": "Data/Strike_B9/Default.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [23.5, 60, 114]
+        },
+        {
+          "alert": "Next: Burst, Spread",
+          "alertDuration": 8.5,
+          "icon": "Data/Strike_B9/Default.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [0, 90]
+        },
+        {
+          "alert": "Next: Burst, Green",
+          "alertDuration": 8.5,
+          "icon": "Data/Strike_B9/Default.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [36.5, 127]
+        },
+        {
+          "alert": "Next: Burst, Spread, Green",
+          "alertDuration": 8.5,
+          "icon": "Data/Strike_B9/Default.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [73]
+        },
+        {
+          "warning": "Spread",
+          "warningDuration": 5,
+          "icon": "Data/Strike_B9/Default.png",
+          "timestamps": [13.5, 37.5, 74, 87, 104, 128]
+        },
+        {
+          "warning": "Shared Destruction",
+          "warningDuration": 6,
+          "icon": "Data/Strike_B9/Default.png",
+          "fillColor": [71, 165, 65, 1],
+          "timestamps": [38.5, 51.5, 75, 88, 129, 142]
+        },
+        {
+          "warning": "Dragon Slash - Rush",
+          "warningDuration": 6,
+          "icon": "Data/Strike_B9/DS-Boost.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [5.5, 29.5, 42.5, 66, 79, 120, 133, 156.5]
+        },
+        {
+          "warning": "Dragon Slash - Wave",
+          "warningDuration": 6,
+          "icon": "Data/Strike_B9/DS-Wave.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [36, 72.5, 126.5]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 8,
+          "icon": "Data/Strike_B9/1.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [16.5, 53, 90, 107, 143.5]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 9.5,
+          "icon": "Data/Strike_B9/2.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [18, 54.5, 91.5, 108.5, 145]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 10.5,
+          "icon": "Data/Strike_B9/3.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [19, 55.5, 92.5, 109.5, 146]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 12,
+          "icon": "Data/Strike_B9/4.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [20.5, 57, 94, 111, 147.5]
+        },
+        {
+          "warning": "Dragon Slash - Burst",
+          "warningDuration": 13,
+          "icon": "Data/Strike_B9/5.png",
+          "fillColor": [181, 144, 6, 0],
+          "timestamps": [21.5, 58, 95, 112, 148.5]
+        }
+      ],
+      "markers": [
+        {
+          "position": [-589.507, -414.095, 275.174],
+          "timestamps": [0],
+          "duration": 5.5,
+          "texture": "Data/GW2Arrow1.png"
+        },
+        {
+          "position": [-576.971, -404.882, 275.284],
+          "timestamps": [5.5],
+          "duration": 16,
+          "texture": "Data/GW2Arrow1.png",
+          "opacity": 0.65
+        },
+        {
+          "position": [-576.971, -404.882, 275.284],
+          "timestamps": [99, 189.5, 280],
+          "duration": 13,
+          "texture": "Data/GW2Arrow1.png",
+          "opacity": 0.65
+        },
+        {
+          "position": [-576.971, -404.882, 275.284],
+          "timestamps": [21.5, 112, 202.5, 293],
+          "duration": 8,
+          "texture": "Data/GW2Arrow1.png"
+        },
+        {
+          "position": [-586.141, -392.267, 275.174],
+          "timestamps": [29.5, 120, 210.5, 301],
+          "duration": 6.5,
+          "texture": "Data/GW2Arrow1.png",
+          "opacity": 0.65
+        },
+        {
+          "position": [-586.141, -392.267, 275.174],
+          "timestamps": [36, 126.5, 217, 307.5],
+          "duration": 6.5,
+          "texture": "Data/GW2Arrow1.png"
+        },
+        {
+          "position": [-598.629, -401.577, 275.186],
+          "timestamps": [42.5, 133, 223.5, 314],
+          "duration": 15.5,
+          "texture": "Data/GW2Arrow1.png",
+          "opacity": 0.65
+        },
+        {
+          "position": [-598.629, -401.577, 275.186],
+          "timestamps": [58, 148.5, 239, 329.5],
+          "duration": 8,
+          "texture": "Data/GW2Arrow1.png"
+        },
+        {
+          "position": [-587.906, -403.306, 275.26],
+          "timestamps": [66, 156.5, 247, 337.5],
+          "duration": 6.5,
+          "texture": "Data/GW2Arrow1.png",
+          "opacity": 0.65
+        },
+        {
+          "position": [-587.906, -403.306, 275.26],
+          "timestamps": [72.5, 163, 253.5, 344],
+          "duration": 26.5,
+          "texture": "Data/GW2Arrow1.png"
+        }
+      ]
+    }
+  ]
+}

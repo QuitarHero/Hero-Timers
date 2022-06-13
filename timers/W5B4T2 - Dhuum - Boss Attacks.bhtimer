@@ -1,15 +1,14 @@
 {
-  "id": "raid.dhuum.bossAttacks",
+  "id": "htp.raid.w5.b4.attacks",
   "name": "Dhuum\nBoss Attacks",
   "category": "Hall of Chains",
-  "description": "Displays the following:\n• Dip timings.\n• Soul Split timings.\n• When it's safe to hold affliction.",
-  "author": "QuitarHero.1645",
-  "icon": "data/dhuum.png",
+  "description": "Displays:\n• Death Mark timings\n• Greater Death Mark timings\n• When it's safe to hold affliction",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Dhuum.png",
   "map": 1264,
   "reset": {
     "position": [460, 70, 150],
     "antipode": [345, -32, 225],
-    "requireOutOfCombat": false,
     "requireDeparture": true
     },
     "phases": [
@@ -23,10 +22,10 @@
         },
         "alerts": [
           {
-            "alert": "Boss Attacks",
+            "alert": "Timer: Boss Attacks",
             "alertDuration": 4,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/Dhuum.png",
+            "icon": "Data/Dhuum.png",
             "timestamps": [0]
           },
           {
@@ -35,7 +34,7 @@
             "alert": "Move",
             "alertDuration": 3,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/Dhuum.png",
+            "icon": "Data/Dhuum.png",
             "timestamps": [175, 255, 335, 415, 495, 575]
           },
           {
@@ -44,7 +43,7 @@
             "alert": "Look at Dhuum",
             "alertDuration": 3,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/Dhuum.png",
+            "icon": "Data/Dhuum.png",
             "timestamps": [212, 292, 372, 452, 532]
           },
           {
@@ -58,7 +57,7 @@
             "alert": "Newly afflicted can stay",
             "alertDuration": 9.5,
             "fillColor": [12, 95, 21, 1],
-            "icon": "data/Affliction.png",
+            "icon": "Data/Affliction.png",
             "timestamps": [205.5, 285.5, 365.5, 445.5, 525.5]
           }
         ]

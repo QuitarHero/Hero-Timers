@@ -1,16 +1,16 @@
 {
-  "id": "raid.w6.largos.nikare",
+  "id": "htp.raid.w6.b2.nikare",
   "name": "Twin Largos\nNikare's Breakbar Timings",
   "category": "Mythwright Gambit",
-  "description": "Displays when Nikare is ready to be broken.",
-  "author": "QuitarHero.1645",
-  "icon": "data/Nikare.png",
+  "description": "Displays:\n• When Nikare's breakbar can be broken",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Nikare.png",
   "map": 1303,
   "reset": {
     "position": [368.705, 43.362, 0.144],
     "radius": 200,
-    "requireOutOfCombat": true,
-    "requireDeparture": false
+    "requireEntry": true,
+	  "requireOutOfCombat": true
   },
   "phases": [
     {
@@ -24,7 +24,6 @@
       "finish": {
         "position": [249.741, 90.227, -20.264],
         "antipode": [333.075, -26.016, 60.053],
-        "requireOutOfCombat": false,
         "requireDeparture": true
       },
       "alerts": [
@@ -33,7 +32,7 @@
           "warningDuration": 20,
           "alert": "Break Nikare",
           "alertDuration": 3,
-          "icon": "data/Nikare.png",
+          "icon": "Data/Nikare.png",
           "fillColor": [244, 240, 4, 1],
           "timestamps": [20, 80]
         }
@@ -53,7 +52,7 @@
           "warningDuration": 20,
           "alert": "Break Nikare",
           "alertDuration": 3,
-          "icon": "data/Nikare.png",
+          "icon": "Data/Nikare.png",
           "fillColor": [244, 240, 4, 1],
           "timestamps": [20, 80]
         }

@@ -1,10 +1,10 @@
 {
-  "id": "raid.w1.b4.cannon.second.all",
+  "id": "htp.raid.w1.b4.second.all",
   "name": "Sabetha the Saboteur\nCannon 2/4",
   "category": "Spirit Vale",
-  "description": "Displays where to go for each cannon (with trails).",
-  "author": "QuitarHero.1645",
-  "icon": "data/sabetha.png",
+  "description": "Displays:\n• When each cannon spawns (with trails)",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Sabetha.png",
   "map": 1062,
   "reset": {
     "position": [-59.57044, 192.4689, 72.23109],
@@ -28,9 +28,9 @@
       },
       "alerts": [
         {
-          "alert": "Cannon 2/4 (all)",
+          "alert": "Timer: Cannon 2/4 (all)",
           "alertDuration": 4,
-          "icon": "data/Sabetha.png",
+          "icon": "Data/Sabetha.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [0]
         },
@@ -39,7 +39,7 @@
           "warningDuration": 25,
           "alert": "Go West",
           "alertDuration": 5,
-          "icon": "data/circle.png",
+          "icon": "Data/cmdrCircle.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [62, 302, 542]
         },
@@ -48,7 +48,7 @@
           "warningDuration": 25,
           "alert": "Go North",
           "alertDuration": 5,
-          "icon": "data/heart.png",
+          "icon": "Data/cmdrHeart.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [182, 422]
         },
@@ -57,14 +57,14 @@
           "warningDuration": 25,
           "alert": "Go East",
           "alertDuration": 5,
-          "icon": "data/square.png",
+          "icon": "Data/cmdrSquare.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [122, 242, 362, 482]
         },
         {
           "alert": "Enrage",
           "alertDuration": 5,
-          "icon": "data/Sabetha.png",
+          "icon": "Data/Sabetha.png",
           "fillColor": [113, 73, 65, 0],
           "timestamps": [540]
         }
@@ -75,7 +75,7 @@
           "destination": [-155.7, 86.8, 62.2],
           "timestamps": [62, 302, 542],
           "duration": 7,
-          "texture": "data/ArrowTest2.png",
+          "texture": "Data/ArrowTrail.png",
           "animSpeed": 0
         },
         {
@@ -83,7 +83,7 @@
           "destination": [-127.1, 109.6, 62.8],
           "timestamps": [182, 422],
           "duration": 7,
-          "texture": "data/ArrowTest2.png",
+          "texture": "Data/ArrowTrail.png",
           "animSpeed": 0
         },
         {
@@ -91,7 +91,7 @@
           "destination": [-104.0, 81.4, 62.9],
           "timestamps": [122, 242, 362, 482],
           "duration": 7,
-          "texture": "data/ArrowTest2.png",
+          "texture": "Data/ArrowTrail.png",
           "animSpeed": 0
         }
       ]

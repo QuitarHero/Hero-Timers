@@ -1,16 +1,16 @@
 {
-  "id": "raid.w4.b4.unnatural-signet",
+  "id": "htp.raid.w4.b4.signet",
   "name": "Deimos\nUnnatural Signet",
   "category": "Bastion of the Penitent",
-  "description": "Displays when Saul uses his Unnatural Signet.\nThis timer assumes 0% Alacrity uptime on Saul.\nNOTE: This is a hotkey timer which is not supported well.\nYou can activate this timer using 'Left Alt' when Saul uses his Signet the first time.",
-  "author": "QuitarHero.1645",
-  "icon": "data/Deimos.png",
-  "map": 1155,
+  "description": "Uses Hotkey 1\nActivate when Saul uses his Signet\nthe first time.\nAssumes 0% Alacrity\nDisplays\n• When Saul uses his Unnatural Signet",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Deimos.png",
+  "map": 1188,
   "reset": {
-    "position": [-214.518, 78.521, 101.924],
-    "radius": 400,
-    "requireOutOfCombat": true,
-    "requireDeparture": false,
+    "position": [-123.2258, 126.8591, 129.5106],
+    "radius": 15,
+    "requireEntry": true,
+	  "requireOutOfCombat": true
   },
   "phases": [
     {
@@ -19,10 +19,16 @@
         "position": [-214.518, 78.521, 101.924],
         "radius": 40,
         "type": "key",
-        "key": "LeftAlt",
-        "keyModifier": "None",
+        "keyBind": "1",
         "requireEntry": true,
-        "requireCombat": false
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [-214.518, 78.521, 101.924],
+        "radius": 999,
+        "type": "key",
+        "keyBind": "1",
+        "requireEntry": true
       },
       "alerts": [
         {

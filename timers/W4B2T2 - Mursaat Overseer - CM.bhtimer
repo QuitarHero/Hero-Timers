@@ -1,20 +1,19 @@
 {
-  "id": "raid.w4.b2.cm",
+  "id": "htp.raid.w4.b2.challenge",
   "name": "Mursaat Overseer\nChallenge Mode",
   "category": "Bastion of the Penitent",
-  "description": "Displays the following:\n• When blue squares appear.\n• How long you have to move.",
-  "author": "QuitarHero.1645",
-  "icon": "data/MO.png",
+  "description": "Displays:\n• When blue squares appear\n• How long you have to move",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/MO.png",
   "map": 1188,
   "reset": {
     "position": [98.835, 132.927, 100.187],
     "antipode": [35.145, 69.167, 115.19],
-    "requireOutOfCombat": true,
-    "requireDeparture": false
+    "requireDeparture": true
   },
   "phases": [
     {
-      "name": "CM",
+      "name": "Challenge Mode",
       "start": {
         "position": [98.835, 132.927, 100.187],
         "antipode": [35.145, 69.167, 115.19],
@@ -23,30 +22,30 @@
       },
       "alerts": [
         {
-          "alert": "Challenge Mode Timer",
-          "alertDuration": 3,
-          "icon": "data/MO.png",
+          "alert": "Timer: Challenge Mode",
+          "alertDuration": 4,
+          "icon": "Data/MO.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [0]
         },
         {
           "warning": "Blues soon",
           "warningDuration": 25,
-          "icon": "data/Blues.png",
+          "icon": "Data/Blues.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [25, 55, 85, 115, 145, 175, 205, 235, 265, 295, 325, 355]
         },
         {
           "warning": "Move",
           "warningDuration": 5,
-          "icon": "data/Blues.png",
+          "icon": "Data/Blues.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360]
         },
         {
           "alert": "Enrage",
           "alertDuration": 5,
-          "icon": "data/MO.png",
+          "icon": "Data/MO.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [360],
           "uid": "raid.w4.b2.enrage"

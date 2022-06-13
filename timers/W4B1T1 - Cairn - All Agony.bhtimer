@@ -1,15 +1,14 @@
 {
-  "id": "raid.cairn",
+  "id": "htp.raid.w4.b1.all",
   "name": "Cairn the Indomitable\nAll Agony Timings",
   "category": "Bastion of the Penitent",
-  "description": "Displays when Agony is applied to players.",
-  "author": "QuitarHero.1645",
-  "icon": "data/cairn.png",
+  "description": "Displays:\n• When Agony is applied",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Cairn.png",
   "map": 1188,
   "reset": {
     "position": [ 365, 51, 34 ],
     "radius": 50,
-    "requireOutOfCombat": false,
     "requireDeparture": true
   },
   "phases": [
@@ -23,9 +22,9 @@
       },
       "alerts": [
         {
-          "alert": "All Agony Timings",
+          "alert": "Timer: All Agony Timings",
           "alertDuration": 4,
-          "icon": "data/Cairn.png",
+          "icon": "Data/Cairn.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [0]
         },
@@ -34,7 +33,7 @@
           "warningDuration": 20,
           "alert": "Agony #1 Off Group!",
           "alertDuration": 3,
-          "icon": "data/Agony2.png",
+          "icon": "Data/Agony.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [22]
         },
@@ -43,7 +42,7 @@
           "warningDuration": 20,
           "alert": "Agony #1 Off Group!",
           "alertDuration": 3,
-          "icon": "data/Agony2.png",
+          "icon": "Data/Agony.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [102, 182, 262, 342, 422]
         },
@@ -52,7 +51,7 @@
           "warningDuration": 20,
           "alert": "Agony #2 Off Group!",
           "alertDuration": 3,
-          "icon": "data/Agony2.png",
+          "icon": "Data/Agony.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [42, 122, 202, 282, 362, 442]
         },
@@ -61,7 +60,7 @@
           "warningDuration": 20,
           "alert": "Agony #3 Off Group!",
           "alertDuration": 3,
-          "icon": "data/Agony2.png",
+          "icon": "Data/Agony.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [62, 142, 222, 302, 382, 462]
         },
@@ -70,14 +69,14 @@
           "warningDuration": 20,
           "alert": "Agony #4 Off Group!",
           "alertDuration": 3,
-          "icon": "data/Agony2.png",
+          "icon": "Data/Agony.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [82, 162, 242, 322, 402, 482]
         },
         {
           "alert": "Enrage",
           "alertDuration": 5,
-          "icon": "data/Cairn.png",
+          "icon": "Data/Cairn.png",
           "fillColor": [202, 175, 92, 0],
           "timestamps": [480]
         }

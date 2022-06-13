@@ -1,16 +1,16 @@
 {
-  "id": "raid.w2.b1",
+  "id": "htp.raid.w2.b1",
   "name": "Slothasor\nMushrooms & Slub Spawns",
   "category": "Salvation Pass",
-  "description": "Displays the following:\n• When mushrooms spawn.\n• When slublings spawn.",
-  "author": "QuitarHero.1645",
-  "icon": "data/Slothasor.png",
+  "description": "Displays:\n• When mushrooms spawn\n• When slublings spawn",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Slothasor.png",
   "map": 1149,
   "reset": {
-    "position": [199.9, -11.3, 0.6],
-    "radius": 60,
-    "requireOutOfCombat": true,
-    "requireDeparture": false
+    "position": [243.5481, 235.6277, 0.3457618],
+    "radius": 15,
+    "requireEntry": true,
+	  "requireOutOfCombat": true
   },
   "phases": [
     {
@@ -21,11 +21,16 @@
         "requireEntry": true,
         "requireCombat": true
       },
+      "finish": {
+        "position": [147.7524, -62.49942, 45.81431],
+        "radius": 30,
+        "requireEntry": true
+      },
       "alerts": [
         {
-          "alert": "Mushrooms & Slubs",
+          "alert": "Timer: Mushrooms & Slubs",
           "alertDuration": 4,
-          "icon": "data/Slothasor.png",
+          "icon": "Data/Slothasor.png",
           "fillColor": [194, 45, 45, 1],
           "timestamps": [0]
         },
@@ -34,7 +39,7 @@
           "warningDuration": 20,
           "alert": "Mush #2 spawned",
           "alertDuration": 5,
-          "icon": "data/Mushroom.png",
+          "icon": "Data/Mushroom.png",
           "fillColor": [194, 45, 45, 1],
           "timestamps": [50]
         },
@@ -43,7 +48,7 @@
           "warningDuration": 20,
           "alert": "Mush #3 spawned",
           "alertDuration": 5,
-          "icon": "data/Mushroom.png",
+          "icon": "Data/Mushroom.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [100]
         },
@@ -52,7 +57,7 @@
           "warningDuration": 20,
           "alert": "Mush #4 spawned",
           "alertDuration": 5,
-          "icon": "data/Mushroom.png",
+          "icon": "Data/Mushroom.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [150]
         },
@@ -61,14 +66,14 @@
           "warningDuration": 20,
           "alert": "Mush #1 soon",
           "alertDuration": 5,
-          "icon": "data/Mushroom.png",
+          "icon": "Data/Mushroom.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [200]
         },
         {
           "warning": "Slubs spawn soon",
           "warningDuration": 15,
-          "icon": "data/Slubling.png",
+          "icon": "Data/Slubling.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [30, 60, 90, 120, 150, 180, 200, 220, 240, 260, 280, 300, 315, 330, 345, 360, 375, 390, 405, 420]
         },
@@ -77,14 +82,14 @@
           "warningDuration": 10,
           "alert": "Poison off group!",
           "alertDuration": 5,
-          "icon": "data/Poison.png",
+          "icon": "Data/Poison.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [25, 50, 75, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400]
         },
         {
           "alert": "Enrage",
           "alertDuration": 5,
-          "icon": "data/Slothasor.png",
+          "icon": "Data/Slothasor.png",
           "fillColor": [194, 45, 45, 0],
           "timestamps": [420]
         }
