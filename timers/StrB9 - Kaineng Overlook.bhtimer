@@ -127,14 +127,14 @@
         {
           "warning": "Storm of Swords soon",
           "warningDuration": 10,
-          "icon": "Data/Strike_B9/Mindblade_Swords.png",
+          "icon": "Data/Strike_B9/Mindblade_RoB.png",
           "fillColor": [154, 99, 167, 0],
           "timestamps": [37, 87, 137, 188, 239, 290, 341, 392, 443, 494, 545, 596, 647, 698, 749, 800, 851, 902, 953, 1004]
         },
         {
           "warning": "Storm of Swords",
           "warningDuration": 3,
-          "icon": "Data/Strike_B9/Mindblade_Swords.png",
+          "icon": "Data/Strike_B9/Mindblade_RoB.png",
           "fillColor": [154, 99, 167, 0],
           "timestamps": [40, 90, 140, 191, 242, 293, 344, 395, 446, 497, 548, 599, 650, 701, 752, 803, 854, 905, 956, 1007]
         },
