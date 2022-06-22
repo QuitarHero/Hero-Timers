@@ -1,8 +1,8 @@
 {
   "id": "htp.raid.w2.b1",
-  "name": "Slothasor\nMushrooms & Slub Spawns",
+  "name": "Slothasor\nGlobal Mechanics",
   "category": "Salvation Pass",
-  "description": "Displays:\n• When mushrooms spawn\n• When slublings spawn",
+  "description": "Displays:\n• Mushroom spawns\n• Slubling spawns\n• When Slubling spawn-rate changes\n• Volatile Poison applications\n• How long VP's SAK lasts",
   "author": "\nQuitarHero.1645",
   "icon": "Data/Slothasor.png",
   "map": 1149,
@@ -28,63 +28,119 @@
       },
       "alerts": [
         {
-          "alert": "Timer: Mushrooms & Slubs",
+          "alert": "Timer: Global Mechanics",
           "alertDuration": 4,
           "icon": "Data/Slothasor.png",
           "fillColor": [194, 45, 45, 1],
           "timestamps": [0]
         },
         {
-          "warning": "Mushroom #2 soon",
-          "warningDuration": 20,
-          "alert": "Mush #2 spawned",
+          "warning": "Next: Mushroom #2",
+          "warningDuration": 46,
+          "alert": "Spawned: Mushroom #2",
           "alertDuration": 5,
           "icon": "Data/Mushroom.png",
-          "fillColor": [194, 45, 45, 1],
+          "fillColor": [24, 173, 74, 1],
           "timestamps": [50]
         },
         {
-          "warning": "Mushroom #3 soon",
-          "warningDuration": 20,
-          "alert": "Mush #3 spawned",
+          "warning": "Next: Mushroom #2",
+          "warningDuration": 45,
+          "alert": "Spawned: Mushroom #2",
           "alertDuration": 5,
           "icon": "Data/Mushroom.png",
-          "fillColor": [194, 45, 45, 0],
-          "timestamps": [100]
+          "fillColor": [24, 173, 74, 1],
+          "timestamps": [250]
         },
         {
-          "warning": "Mushroom #4 soon",
-          "warningDuration": 20,
-          "alert": "Mush #4 spawned",
+          "warning": "Next: Mushroom #3",
+          "warningDuration": 45,
+          "alert": "Spawned: Mushroom #3",
           "alertDuration": 5,
           "icon": "Data/Mushroom.png",
-          "fillColor": [194, 45, 45, 0],
-          "timestamps": [150]
+          "fillColor": [24, 173, 74, 0],
+          "timestamps": [100, 300]
         },
         {
-          "warning": "Mushroom #1 soon",
-          "warningDuration": 20,
-          "alert": "Mush #1 soon",
+          "warning": "Next: Mushroom #4",
+          "warningDuration": 45,
+          "alert": "Spawned: Mushroom #4",
           "alertDuration": 5,
           "icon": "Data/Mushroom.png",
-          "fillColor": [194, 45, 45, 0],
-          "timestamps": [200]
+          "fillColor": [24, 173, 74, 0],
+          "timestamps": [150, 350]
         },
         {
-          "warning": "Slubs spawn soon",
+          "warning": "Next: Mushroom #1",
+          "warningDuration": 45,
+          "alert": "Spawned: Mushroom #1",
+          "alertDuration": 5,
+          "icon": "Data/Mushroom.png",
+          "fillColor": [24, 173, 74, 0],
+          "timestamps": [200, 400]
+        },
+        {
+          "warning": "Spawn-rate Change (-10s)",
+          "warningDuration": 30,
+          "icon": "Data/Slubling.png",
+          "fillColor": [130, 161, 80, 0],
+          "timestamps": [180]
+        },
+        {
+          "warning": "Spawn-rate Change (-5s)",
+          "warningDuration": 20,
+          "icon": "Data/Slubling.png",
+          "fillColor": [130, 161, 80, 0],
+          "timestamps": [300]
+        },
+        {
+          "warning": "Next: Slublings Spawn",
+          "warningDuration": 26,
+          "icon": "Data/Slubling.png",
+          "fillColor": [130, 161, 80, 0],
+          "timestamps": [30]
+        },
+        {
+          "warning": "Next: Slublings Spawn",
+          "warningDuration": 30,
+          "icon": "Data/Slubling.png",
+          "fillColor": [130, 161, 80, 0],
+          "timestamps": [60, 90, 120, 150, 180]
+        },
+        {
+          "warning": "Next: Slublings Spawn",
+          "warningDuration": 20,
+          "icon": "Data/Slubling.png",
+          "fillColor": [130, 161, 80, 0],
+          "timestamps": [200, 220, 240, 260, 280, 300]
+        },
+        {
+          "warning": "Next: Slublings Spawn",
           "warningDuration": 15,
           "icon": "Data/Slubling.png",
-          "fillColor": [194, 45, 45, 0],
-          "timestamps": [30, 60, 90, 120, 150, 180, 200, 220, 240, 260, 280, 300, 315, 330, 345, 360, 375, 390, 405, 420]
+          "fillColor": [130, 161, 80, 0],
+          "timestamps": [315, 330, 345, 360, 375, 390, 405, 420]
         },
         {
-          "warning": "Volatile Poison soon",
-          "warningDuration": 10,
-          "alert": "Poison off group!",
-          "alertDuration": 5,
+          "warning": "Next: Volatile Poison",
+          "warningDuration": 21,
           "icon": "Data/Poison.png",
-          "fillColor": [194, 45, 45, 0],
-          "timestamps": [25, 50, 75, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400]
+          "fillColor": [141, 156, 14, 0],
+          "timestamps": [25]
+        },
+        {
+          "warning": "Next: Volatile Poison",
+          "warningDuration": 17,
+          "icon": "Data/Poison.png",
+          "fillColor": [141, 156, 14, 0],
+          "timestamps": [50, 75, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425]
+        },
+        {
+          "warning": "Poison off group!",
+          "warningDuration": 8,
+          "icon": "Data/Purge.png",
+          "fillColor": [141, 156, 14, 0],
+          "timestamps": [33, 58, 83, 108, 133, 158, 183, 208, 233, 258, 283, 308, 333, 358, 383, 408, 433]
         },
         {
           "alert": "Enrage",
