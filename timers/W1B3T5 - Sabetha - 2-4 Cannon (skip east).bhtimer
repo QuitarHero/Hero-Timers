@@ -6,76 +6,44 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Sabetha.png",
   "map": 1062,
-  "reset": {
-    "position": [-59.57044, 192.4689, 72.23109],
-    "radius": 5,
-    "requireEntry": true,
-    "requireOutOfCombat": true
+  "reset": { "position": [-59.57044, 192.4689, 72.23109], "radius": 5,
+    "requireEntry": true, "requireOutOfCombat": true
   },
   "phases": [
     {
       "name": "Cannon 2/4",
-      "start": {
-        "position": [-130, 85, 62],
-        "radius": 50,
-        "requireEntry": true,
-        "requireCombat": true
+      "start": { "position": [-130, 85, 62], "radius": 50,
+        "requireEntry": true, "requireCombat": true
       },
-      "finish": {
-        "position": [-169.8675, 50.4107, 69.32044],
-        "radius": 10,
+      "finish": { "position": [-169.8675, 50.4107, 69.32044], "radius": 10,
         "requireEntry": true
       },
       "alerts": [
-        {
-          "alert": "Timer: Cannon 2/4 (no east)",
-          "alertDuration": 4,
-          "icon": "Data/Sabetha.png",
-          "fillColor": [113, 73, 65, 0],
-          "timestamps": [0]
+        { "alert": "Timer: Cannon 2/4 (no east)", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Sabetha.png"
         },
-        {
-          "warning": "West Cannon soon",
-          "warningDuration": 25,
-          "alert": "Go West",
-          "alertDuration": 5,
-          "icon": "Data/cmdrCircle.png",
-          "fillColor": [113, 73, 65, 0],
-          "timestamps": [62, 302, 542]
+        { "warning": "West Cannon soon", "alert": "Go West", "fillColor": [113, 73, 65, 0],
+          "warningDuration": 25, "alertDuration": 5, "timestamps": [62, 302, 542],
+          "icon": "Data/cmdrCircle.png"
         },
-        {
-          "warning": "North Cannon soon",
-          "warningDuration": 25,
-          "alert": "Go North",
-          "alertDuration": 5,
-          "icon": "Data/cmdrHeart.png",
-          "fillColor": [113, 73, 65, 0],
-          "timestamps": [182, 422]
+        { "warning": "North Cannon soon", "alert": "Go North", "fillColor": [113, 73, 65, 0],
+          "warningDuration": 25, "alertDuration": 5, "timestamps": [182, 422],
+          "icon": "Data/cmdrHeart.png"
         },
-        {
-          "alert": "Enrage",
-          "alertDuration": 5,
-          "icon": "Data/Sabetha.png",
-          "fillColor": [113, 73, 65, 0],
-          "timestamps": [540]
+        { "alert": "Enrage", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 5, "timestamps": [540],
+          "icon": "Data/Sabetha.png"
         }
       ],
       "directions": [
-        {
-          "name": "West Cannon",
-          "destination": [-155.7, 86.8, 62.2],
-          "timestamps": [62, 302, 542],
-          "duration": 7,
-          "texture": "Data/ArrowTrail.png",
-          "animSpeed": 0
+        { "name": "West Cannon", "destination": [-155.7, 86.8, 62.2],
+          "texture": "Data/ArrowTrail.png", "animSpeed": 0,
+          "duration": 7, "timestamps": [62, 302, 542]
         },
-        {
-          "name": "North Cannon",
-          "destination": [-127.1, 109.6, 62.8],
-          "timestamps": [182, 422],
-          "duration": 7,
-          "texture": "Data/ArrowTrail.png",
-          "animSpeed": 0
+        { "name": "North Cannon", "destination": [-127.1, 109.6, 62.8],
+          "texture": "Data/ArrowTrail.png", "animSpeed": 0,
+          "duration": 7, "timestamps": [182, 422]
         }
       ]
     }

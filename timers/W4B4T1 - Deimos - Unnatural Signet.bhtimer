@@ -6,38 +6,23 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Deimos.png",
   "map": 1188,
-  "reset": {
-    "position": [-123.2258, 126.8591, 129.5106],
-    "radius": 15,
-    "requireEntry": true,
-	  "requireOutOfCombat": true
+  "reset": { "position": [-123.2258, 126.8591, 129.5106], "radius": 15,
+    "requireEntry": true, "requireOutOfCombat": true
   },
   "phases": [
     {
       "name": "Unnatural Signet",
-      "start": {
-        "position": [-214.518, 78.521, 101.924],
-        "radius": 40,
-        "type": "key",
-        "keyBind": "1",
-        "requireEntry": true,
-        "requireCombat": true
+      "start": { "position": [-214.518, 78.521, 101.924], "radius": 40,
+        "type": "key", "keyBind": "1",
+        "requireEntry": true, "requireCombat": true
       },
-      "finish": {
-        "position": [-214.518, 78.521, 101.924],
-        "radius": 999,
-        "type": "key",
-        "keyBind": "1",
+      "finish": { "position": [-214.518, 78.521, 101.924], "radius": 999,
+        "type": "key", "keyBind": "1",
         "requireEntry": true
       },
       "alerts": [
-        {
-          "warning": "Signet soon",
-          "warningDuration": "50",
-          "alert": "Burst!",
-          "alertDuration": "10",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [0, 60, 120, 180, 240, 300, 360, 420, 480]
+        { "warning": "Signet soon", "alert": "Burst!", "fillColor": [202, 175, 92, 0],
+          "warningDuration": "50", "alertDuration": "10", "timestamps": [0, 60, 120, 180, 240, 300, 360, 420, 480]
         }
       ]
     }

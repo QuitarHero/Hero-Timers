@@ -6,51 +6,33 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Cairn.png",
   "map": 1188,
-  "reset": {
-    "position": [365, 51, 34],
-    "radius": 50,
+  "reset": { "position": [365, 51, 34], "radius": 50,
     "requireDeparture": true
   },
   "phases": [
     {
       "name": "No-Kite Agony #1",
-      "start": {
-        "position": [365, 51, 34],
-        "radius": 35,
-        "requireEntry": true,
-		    "requireCombat": true
+      "start": { "position": [365, 51, 34], "radius": 35,
+        "requireEntry": true, "requireCombat": true
       },
       "alerts": [
-        {
-          "alert": "Timer: Agony #1 (no-kite)",
-          "alertDuration": 4,
-          "icon": "Data/Cairn.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [0]
+        { "alert": "Timer: Agony #1 (no-kite)", "fillColor": [202, 175, 92, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Cairn.png"
         },
-        {
-          "warning": "Agony #1",
-          "warningDuration": 20,
-          "alert": "Move",
-          "alertDuration": 4,
-          "icon": "Data/Agony.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [22, 102, 182, 262, 342, 422]
+        { "warning": "Agony #1", "alert": "Move", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 20, "alertDuration": 4, "timestamps": [22, 102, 182, 262, 342, 422],
+          "icon": "Data/Agony.png"
         },
-        {
-          "warning": "Agony End",
-          "warningDuration": 56,
-          "icon": "Data/Agony.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [82, 162, 242, 322, 402]
+        { "warning": "Agony End", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 56, "timestamps": [82, 162, 242, 322, 402],
+          "icon": "Data/Agony.png"
         }
       ],
       "markers": [
-        {
-          "position": [369.976, 53.264, 34.9],
-          "timestamps": [17, 97, 177, 257, 337, 417],
-          "duration": 65,
-          "texture": "Data/Arrow.png"
+        { "position": [369.976, 53.264, 34.9],
+          "texture": "Data/Arrow.png",
+          "duration": 65, "timestamps": [17, 97, 177, 257, 337, 417]
         }
       ]
     }

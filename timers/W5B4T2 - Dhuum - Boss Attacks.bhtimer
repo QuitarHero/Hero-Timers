@@ -6,61 +6,37 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Dhuum.png",
   "map": 1264,
-  "reset": {
-    "position": [460, 70, 150],
-    "antipode": [345, -32, 225],
+  "reset": { "position": [460, 70, 150], "antipode": [345, -32, 225],
     "requireDeparture": true
-    },
-    "phases": [
-      {
-        "name": "Boss Attacks",
-        "start": {
-          "position": [460, 70, 150],
-          "antipode": [345, -32, 225],
-          "requireEntry": true,
-          "requireCombat": true
+  },
+  "phases": [
+    {
+      "name": "Boss Attacks",
+      "start": { "position": [460, 70, 150], "antipode": [345, -32, 225],
+        "requireEntry": true, "requireCombat": true
+      },
+      "alerts": [
+        { "alert": "Timer: Boss Attacks", "fillColor": [12, 95, 21, 1],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Dhuum.png"
         },
-        "alerts": [
-          {
-            "alert": "Timer: Boss Attacks",
-            "alertDuration": 4,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/Dhuum.png",
-            "timestamps": [0]
-          },
-          {
-            "warning": "Death Mark",
-            "warningDuration": 25,
-            "alert": "Move",
-            "alertDuration": 3,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/Dhuum.png",
-            "timestamps": [175, 255, 335, 415, 495, 575]
-          },
-          {
-            "warning": "Greater Death Mark",
-            "warningDuration": 34,
-            "alert": "Look at Dhuum",
-            "alertDuration": 3,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/Dhuum.png",
-            "timestamps": [212, 292, 372, 452, 532]
-          },
-          {
-            "warning": "Greater Death Mark",
-            "warningDuration": 15,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/Dhuum.png",
-            "timestamps": [230, 310, 390, 470, 550]
-          },
-          {
-            "alert": "Newly afflicted can stay",
-            "alertDuration": 9.5,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/Affliction.png",
-            "timestamps": [205.5, 285.5, 365.5, 445.5, 525.5]
-          }
-        ]
-      }
-    ]
+        { "warning": "Death Mark", "alert": "Move", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 25, "alertDuration": 3, "timestamps": [175, 255, 335, 415, 495, 575],
+          "icon": "Data/Dhuum.png"
+        },
+        { "warning": "Greater Death Mark", "alert": "Look at Dhuum", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 34, "alertDuration": 3, "timestamps": [212, 292, 372, 452, 532],
+          "icon": "Data/Dhuum.png"
+        },
+        { "warning": "Greater Death Mark", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 15, "timestamps": [230, 310, 390, 470, 550],
+          "icon": "Data/Dhuum.png"
+        },
+        { "alert": "Newly afflicted can stay", "fillColor": [12, 95, 21, 1],
+          "alertDuration": 9.5, "timestamps": [205.5, 285.5, 365.5, 445.5, 525.5],
+          "icon": "Data/Affliction.png"
+        }
+      ]
+    }
+  ]
 }

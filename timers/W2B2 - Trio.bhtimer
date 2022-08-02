@@ -6,68 +6,42 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Narella.png",
   "map": 1149,
-  "reset": {
-    "position": [128.7512, -89.64924, 61.711],
-    "radius": 30,
-    "requireEntry": true,
-	  "requireOutOfCombat": true
+  "reset": { "position": [128.7512, -89.64924, 61.711], "radius": 30,
+    "requireEntry": true, "requireOutOfCombat": true
   },
   "phases": [
     {
       "name": "Global Mechanics",
-      "start": {
-        "position": [-17.93, -252.31, 2.506],
-        "radius": 125,
-        "requireEntry": true,
-        "requireCombat": true
+      "start": { "position": [-17.93, -252.31, 2.506], "radius": 125,
+        "requireEntry": true, "requireCombat": true
       },
-      "finish": {
-        "position": [-30.29555, -112.0113, 82.2104],
-        "radius": 50,
+      "finish": { "position": [-30.29555, -112.0113, 82.2104], "radius": 50,
         "requireEntry": true
       },
       "alerts": [
-        {
-          "alert": "Timer: Global Mechanics",
-          "alertDuration": 4,
-          "icon": "Data/Narella.png",
-          "fillColor": [194, 45, 45, 0],
-          "timestamps": [0]
+        { "alert": "Timer: Global Mechanics", "fillColor": [194, 45, 45, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Narella.png"
         },
-        {
-          "warning": "Berg soon",
-          "warningDuration": 25,
-          "icon": "Data/Berg.png",
-          "fillColor": [194, 45, 45, 0],
-          "timestamps": [130]
+        { "warning": "Berg soon", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 25, "timestamps": [130],
+          "icon": "Data/Berg.png"
         },
-        {
-          "warning": "Zane soon",
-          "warningDuration": 25,
-          "icon": "Data/Zane.png",
-          "fillColor": [194, 45, 45, 0],
-          "timestamps": [250]
+        { "warning": "Zane soon", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 25, "timestamps": [250],
+          "icon": "Data/Zane.png"
         },
-        {
-          "warning": "Narella soon",
-          "warningDuration": 25,
-          "icon": "Data/Narella.png",
-          "fillColor": [194, 45, 45, 0],
-          "timestamps": [370]
+        { "warning": "Narella soon", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 25, "timestamps": [370],
+          "icon": "Data/Narella.png"
         },
-        {
-          "warning": "Saboteur incoming",
-          "warningDuration": 20,
-          "icon": "Data/Saboteur.png",
-          "fillColor": [194, 45, 45, 0],
-          "timestamps": [155, 308, 339, 370, 400, 430]
+        { "warning": "Saboteur incoming", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 20, "timestamps": [155, 308, 339, 370, 400, 430],
+          "icon": "Data/Saboteur.png"
         },
-        {
-          "warning": "Mortars soon",
-          "warningDuration": 20,
-          "icon": "Data/Mortar.png",
-          "fillColor": [194, 45, 45, 0],
-          "timestamps": [215, 275, 335]
+        { "warning": "Mortars soon", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 20, "timestamps": [215, 275, 335],
+          "icon": "Data/Mortar.png"
         }
       ]
     }

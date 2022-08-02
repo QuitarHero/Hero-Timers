@@ -6,55 +6,34 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Kenut.png",
   "map": 1303,
-  "reset": {
-    "position": [368.705, 43.362, 0.144],
-    "radius": 200,
-    "requireEntry": true,
-	  "requireOutOfCombat": true
+  "reset": { "position": [368.705, 43.362, 0.144], "radius": 200,
+    "requireEntry": true, "requireOutOfCombat": true
   },
   "phases": [
     {
       "name": "Kenut CC #1",
-      "start": {
-        "position": [439.785, 40.224, 33.557],
-        "radius": 30,
-        "requireEntry": true,
-        "requireCombat": true
+      "start": { "position": [439.785, 40.224, 33.557], "radius": 30,
+        "requireEntry": true, "requireCombat": true
       },
-      "finish": {
-        "position": [488.931, 100.793, -20.069],
-        "antipode": [400.232, -21.234, 60.649],
+      "finish": { "position": [488.931, 100.793, -20.069], "antipode": [400.232, -21.234, 60.649],
         "requireDeparture": true
       },
       "alerts": [
-        {
-          "warning": "Breakbar Soon",
-          "warningDuration": 20,
-          "alert": "Break Kenut",
-          "alertDuration": 3,
-          "icon": "Data/Kenut.png",
-          "fillColor": [244, 240, 4, 1],
-          "timestamps": [20, 80]
+        { "warning": "Breakbar Soon", "alert": "Break Kenut", "fillColor": [244, 240, 4, 1],
+          "warningDuration": 20, "alertDuration": 3, "timestamps": [20, 80],
+          "icon": "Data/Kenut.png"
         }
       ]
     },
     {
       "name": "Kenut CC #2",
-      "start": {
-        "position": [440.053, 124.951, 33.557],
-        "radius": 30,
-        "requireEntry": true,
-        "requireCombat": true
+      "start": { "position": [440.053, 124.951, 33.557], "radius": 30,
+        "requireEntry": true, "requireCombat": true
       },
       "alerts": [
-        {
-          "warning": "Breakbar Soon",
-          "warningDuration": 20,
-          "alert": "Break Kenut",
-          "alertDuration": 3,
-          "icon": "Data/Kenut.png",
-          "fillColor": [244, 240, 4, 1],
-          "timestamps": [20, 80]
+        { "warning": "Breakbar Soon", "alert": "Break Kenut", "fillColor": [244, 240, 4, 1],
+          "warningDuration": 20, "alertDuration": 3, "timestamps": [20, 80],
+          "icon": "Data/Kenut.png"
         }
       ]
     }

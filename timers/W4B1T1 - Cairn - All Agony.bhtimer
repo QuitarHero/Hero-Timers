@@ -6,79 +6,43 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Cairn.png",
   "map": 1188,
-  "reset": {
-    "position": [ 365, 51, 34 ],
-    "radius": 50,
+  "reset": { "position": [365, 51, 34], "radius": 50,
     "requireDeparture": true
   },
   "phases": [
     {
       "name": "All Agony Timings",
-      "start": {
-        "position": [ 365, 51, 34 ],
-        "radius": 35,
-        "requireEntry": true,
-        "requireCombat": true
+      "start": { "position": [365, 51, 34], "radius": 35,
+        "requireEntry": true, "requireCombat": true
       },
       "alerts": [
-        {
-          "alert": "Timer: All Agony Timings",
-          "alertDuration": 4,
-          "icon": "Data/Cairn.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [0]
+        { "alert": "Timer: All Agony Timings", "fillColor": [202, 175, 92, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Cairn.png"
         },
-        {
-          "warning": "Agony #1",
-          "warningDuration": 20,
-          "alert": "Agony #1 Off Group!",
-          "alertDuration": 3,
-          "icon": "Data/Agony.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [22]
+        { "warning": "Agony #1", "alert": "Agony #1 Off Group!", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 20, "alertDuration": 3, "timestamps": [22],
+          "icon": "Data/Agony.png"
         },
-        {
-          "warning": "Agony #1",
-          "warningDuration": 20,
-          "alert": "Agony #1 Off Group!",
-          "alertDuration": 3,
-          "icon": "Data/Agony.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [102, 182, 262, 342, 422]
+        { "warning": "Agony #1", "alert": "Agony #1 Off Group!", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 20, "alertDuration": 3, "timestamps": [102, 182, 262, 342, 422],
+          "icon": "Data/Agony.png"
         },
-        {
-          "warning": "Agony #2",
-          "warningDuration": 20,
-          "alert": "Agony #2 Off Group!",
-          "alertDuration": 3,
-          "icon": "Data/Agony.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [42, 122, 202, 282, 362, 442]
+        { "warning": "Agony #2", "alert": "Agony #2 Off Group!", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 20, "alertDuration": 3, "timestamps": [42, 122, 202, 282, 362, 442],
+          "icon": "Data/Agony.png"
         },
-        {
-          "warning": "Agony #3",
-          "warningDuration": 20,
-          "alert": "Agony #3 Off Group!",
-          "alertDuration": 3,
-          "icon": "Data/Agony.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [62, 142, 222, 302, 382, 462]
+        { "warning": "Agony #3", "alert": "Agony #3 Off Group!", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 20, "alertDuration": 3, "timestamps": [62, 142, 222, 302, 382, 462],
+          "icon": "Data/Agony.png"
         },
-        {
-          "warning": "Agony #4",
-          "warningDuration": 20,
-          "alert": "Agony #4 Off Group!",
-          "alertDuration": 3,
-          "icon": "Data/Agony.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [82, 162, 242, 322, 402, 482]
+        { "warning": "Agony #4", "alert": "Agony #4 Off Group!", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 20, "alertDuration": 3, "timestamps": [82, 162, 242, 322, 402, 482],
+          "icon": "Data/Agony.png"
         },
-        {
-          "alert": "Enrage",
-          "alertDuration": 5,
-          "icon": "Data/Cairn.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [480]
+        { "alert": "Enrage", "fillColor": [202, 175, 92, 0],
+          "alertDuration": 5, "timestamps": [480],
+          "icon": "Data/Cairn.png"
         }
       ]
     }

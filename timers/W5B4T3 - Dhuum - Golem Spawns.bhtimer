@@ -6,38 +6,25 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/dhuum.png",
   "map": 1264,
-  "reset": {
-    "position": [460, 70, 150],
-    "antipode": [345, -32, 225],
+  "reset": { "position": [460, 70, 150], "antipode": [345, -32, 225],
     "requireDeparture": true
-    },
-    "phases": [
-      {
-        "name": "Golem Timings",
-        "start": {
-          "position": [460, 70, 150],
-          "antipode": [345, -32, 225],
-          "requireEntry": true,
-          "requireCombat": true
+  },
+  "phases": [
+    {
+      "name": "Golem Timings",
+      "start": { "position": [460, 70, 150], "antipode": [345, -32, 225],
+        "requireEntry": true, "requireCombat": true
+      },
+      "alerts": [
+        { "alert": "Timer: Golem Spawns", "fillColor": [12, 95, 21, 1],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Dhuum.png"
         },
-        "alerts": [
-          {
-            "alert": "Timer: Golem Spawns",
-            "alertDuration": 4,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/Dhuum.png",
-            "timestamps": [0]
-          },
-          {
-            "warning": "Golem soon",
-            "warningDuration": 20,
-            "alert": "Golem Spawned",
-            "alertDuration": 5,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/Golem.png",
-            "timestamps": [215, 265, 325, 385, 455, 505, 565]
-          }
-        ]
-      }
-    ]
+        { "warning": "Golem soon", "alert": "Golem Spawned", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 20, "alertDuration": 5, "timestamps": [215, 265, 325, 385, 455, 505, 565],
+          "icon": "Data/Golem.png"
+        }
+      ]
+    }
+  ]
 }

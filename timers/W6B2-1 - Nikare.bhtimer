@@ -6,55 +6,35 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Nikare.png",
   "map": 1303,
-  "reset": {
-    "position": [368.705, 43.362, 0.144],
-    "radius": 200,
-    "requireEntry": true,
-	  "requireOutOfCombat": true
+  "reset": { "position": [368.705, 43.362, 0.144], "radius": 200,
+    "requireEntry": true, "requireOutOfCombat": true
   },
   "phases": [
     {
       "name": "Nikare CC #1",
-      "start": {
-        "position": [295.244, 39.809, 33.557],
-        "radius": 30,
-        "requireEntry": true,
-        "requireCombat": true
+      "start": { "position": [295.244, 39.809, 33.557], "radius": 30,
+        "requireEntry": true, "requireCombat": true
       },
-      "finish": {
-        "position": [249.741, 90.227, -20.264],
-        "antipode": [333.075, -26.016, 60.053],
+      "finish": { "position": [249.741, 90.227, -20.264], "antipode": [333.075, -26.016, 60.053],
         "requireDeparture": true
       },
       "alerts": [
-        {
-          "warning": "Breakbar Soon",
-          "warningDuration": 20,
-          "alert": "Break Nikare",
-          "alertDuration": 3,
-          "icon": "Data/Nikare.png",
-          "fillColor": [244, 240, 4, 1],
-          "timestamps": [20, 80]
+        { "warning": "Breakbar Soon", "alert": "Break Nikare", "fillColor": [244, 240, 4, 1],
+          "warningDuration": 20, "alertDuration": 3, "timestamps": [20, 80],
+          "icon": "Data/Nikare.png"
         }
       ]
     },
     {
       "name": "Nikare CC #2",
       "start": {
-        "position": [294.919, 124.83, 33.557],
-        "radius": 30,
-        "requireEntry": true,
-        "requireCombat": true
+        "position": [294.919, 124.83, 33.557], "radius": 30,
+        "requireEntry": true, "requireCombat": true
       },
       "alerts": [
-        {
-          "warning": "Breakbar Soon",
-          "warningDuration": 20,
-          "alert": "Break Nikare",
-          "alertDuration": 3,
-          "icon": "Data/Nikare.png",
-          "fillColor": [244, 240, 4, 1],
-          "timestamps": [20, 80]
+        { "warning": "Breakbar Soon", "alert": "Break Nikare", "fillColor": [244, 240, 4, 1],
+          "warningDuration": 20, "alertDuration": 3, "timestamps": [20, 80],
+          "icon": "Data/Nikare.png"
         }
       ]
     }

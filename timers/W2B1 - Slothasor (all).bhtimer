@@ -6,148 +6,82 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Slothasor.png",
   "map": 1149,
-  "reset": {
-    "position": [243.5481, 235.6277, 0.3457618],
-    "radius": 15,
-    "requireEntry": true,
-	  "requireOutOfCombat": true
+  "reset": { "position": [243.5481, 235.6277, 0.3457618], "radius": 15,
+    "requireEntry": true, "requireOutOfCombat": true
   },
   "phases": [
     {
       "name": "Slothasor",
-      "start": {
-        "position": [199.9, -11.3, 0.6],
-        "radius": 60,
-        "requireEntry": true,
-        "requireCombat": true
+      "start": { "position": [199.9, -11.3, 0.6], "radius": 60,
+        "requireEntry": true, "requireCombat": true
       },
-      "finish": {
-        "position": [147.7524, -62.49942, 45.81431],
-        "radius": 30,
+      "finish": { "position": [147.7524, -62.49942, 45.81431], "radius": 30,
         "requireEntry": true
       },
       "alerts": [
-        {
-          "alert": "Timer: Global Mechanics",
-          "alertDuration": 4,
-          "icon": "Data/Slothasor.png",
-          "fillColor": [194, 45, 45, 1],
-          "timestamps": [0]
+        { "alert": "Timer: Global Mechanics", "fillColor": [194, 45, 45, 1],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Slothasor.png"
         },
-        {
-          "warning": "Next: Mushroom #2",
-          "warningDuration": 46,
-          "alert": "Spawned: Mushroom #2",
-          "alertDuration": 5,
+        { "warning": "Next: Mushroom #2", "alert": "Spawned: Mushroom #2", "fillColor": [24, 173, 74, 1],
+          "warningDuration": 46, "alertDuration": 5, "timestamps": [50],
           "icon": "Data/Mushroom.png",
-          "fillColor": [24, 173, 74, 1],
-          "timestamps": [50]
         },
-        {
-          "warning": "Next: Mushroom #2",
-          "warningDuration": 45,
-          "alert": "Spawned: Mushroom #2",
-          "alertDuration": 5,
-          "icon": "Data/Mushroom.png",
-          "fillColor": [24, 173, 74, 1],
-          "timestamps": [250]
+        { "warning": "Next: Mushroom #2", "alert": "Spawned: Mushroom #2", "fillColor": [24, 173, 74, 1],
+          "warningDuration": 45, "alertDuration": 5, "timestamps": [250],
+          "icon": "Data/Mushroom.png"
         },
-        {
-          "warning": "Next: Mushroom #3",
-          "warningDuration": 45,
-          "alert": "Spawned: Mushroom #3",
-          "alertDuration": 5,
-          "icon": "Data/Mushroom.png",
-          "fillColor": [24, 173, 74, 0],
-          "timestamps": [100, 300]
+        { "warning": "Next: Mushroom #3", "alert": "Spawned: Mushroom #3", "fillColor": [24, 173, 74, 0],
+          "warningDuration": 45, "alertDuration": 5, "timestamps": [100, 300],
+          "icon": "Data/Mushroom.png"
         },
-        {
-          "warning": "Next: Mushroom #4",
-          "warningDuration": 45,
-          "alert": "Spawned: Mushroom #4",
-          "alertDuration": 5,
-          "icon": "Data/Mushroom.png",
-          "fillColor": [24, 173, 74, 0],
-          "timestamps": [150, 350]
+        { "warning": "Next: Mushroom #4", "alert": "Spawned: Mushroom #4", "fillColor": [24, 173, 74, 0],
+          "warningDuration": 45, "alertDuration": 5, "timestamps": [150, 350],
+          "icon": "Data/Mushroom.png"
         },
-        {
-          "warning": "Next: Mushroom #1",
-          "warningDuration": 45,
-          "alert": "Spawned: Mushroom #1",
-          "alertDuration": 5,
-          "icon": "Data/Mushroom.png",
-          "fillColor": [24, 173, 74, 0],
-          "timestamps": [200, 400]
+        { "warning": "Next: Mushroom #1", "alert": "Spawned: Mushroom #1", "fillColor": [24, 173, 74, 0],
+          "warningDuration": 45, "alertDuration": 5, "timestamps": [200, 400],
+          "icon": "Data/Mushroom.png"
         },
-        {
-          "warning": "Spawn-rate Change (-10s)",
-          "warningDuration": 30,
-          "icon": "Data/Slubling.png",
-          "fillColor": [130, 161, 80, 0],
-          "timestamps": [180]
+        { "warning": "Spawn-rate Change (-10s)", "fillColor": [130, 161, 80, 0],
+          "warningDuration": 30, "timestamps": [180],
+          "icon": "Data/Slubling.png"
         },
-        {
-          "warning": "Spawn-rate Change (-5s)",
-          "warningDuration": 20,
-          "icon": "Data/Slubling.png",
-          "fillColor": [130, 161, 80, 0],
-          "timestamps": [300]
+        { "warning": "Spawn-rate Change (-5s)", "fillColor": [130, 161, 80, 0],
+          "warningDuration": 20, "timestamps": [300],
+          "icon": "Data/Slubling.png"
         },
-        {
-          "warning": "Next: Slublings Spawn",
-          "warningDuration": 26,
-          "icon": "Data/Slubling.png",
-          "fillColor": [130, 161, 80, 0],
-          "timestamps": [30]
+        { "warning": "Next: Slublings Spawn", "fillColor": [130, 161, 80, 0],
+          "warningDuration": 26, "timestamps": [30],
+          "icon": "Data/Slubling.png"
         },
-        {
-          "warning": "Next: Slublings Spawn",
-          "warningDuration": 30,
-          "icon": "Data/Slubling.png",
-          "fillColor": [130, 161, 80, 0],
-          "timestamps": [60, 90, 120, 150, 180]
+        { "warning": "Next: Slublings Spawn", "fillColor": [130, 161, 80, 0],
+          "warningDuration": 30, "timestamps": [60, 90, 120, 150, 180],
+          "icon": "Data/Slubling.png"
         },
-        {
-          "warning": "Next: Slublings Spawn",
-          "warningDuration": 20,
-          "icon": "Data/Slubling.png",
-          "fillColor": [130, 161, 80, 0],
-          "timestamps": [200, 220, 240, 260, 280, 300]
+        { "warning": "Next: Slublings Spawn", "fillColor": [130, 161, 80, 0],
+          "warningDuration": 20, "timestamps": [200, 220, 240, 260, 280, 300],
+          "icon": "Data/Slubling.png"
         },
-        {
-          "warning": "Next: Slublings Spawn",
-          "warningDuration": 15,
-          "icon": "Data/Slubling.png",
-          "fillColor": [130, 161, 80, 0],
-          "timestamps": [315, 330, 345, 360, 375, 390, 405, 420]
+        { "warning": "Next: Slublings Spawn", "fillColor": [130, 161, 80, 0],
+          "warningDuration": 15, "timestamps": [315, 330, 345, 360, 375, 390, 405, 420],
+          "icon": "Data/Slubling.png"
         },
-        {
-          "warning": "Next: Volatile Poison",
-          "warningDuration": 21,
-          "icon": "Data/Poison.png",
-          "fillColor": [141, 156, 14, 0],
-          "timestamps": [25]
+        { "warning": "Next: Volatile Poison", "fillColor": [141, 156, 14, 0],
+          "warningDuration": 21, "timestamps": [25],
+          "icon": "Data/Poison.png"
         },
-        {
-          "warning": "Next: Volatile Poison",
-          "warningDuration": 17,
-          "icon": "Data/Poison.png",
-          "fillColor": [141, 156, 14, 0],
-          "timestamps": [50, 75, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425]
+        { "warning": "Next: Volatile Poison", "fillColor": [141, 156, 14, 0],
+          "warningDuration": 17, "timestamps": [50, 75, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425],
+          "icon": "Data/Poison.png"
         },
-        {
-          "warning": "Poison off group!",
-          "warningDuration": 8,
-          "icon": "Data/Purge.png",
-          "fillColor": [141, 156, 14, 0],
-          "timestamps": [33, 58, 83, 108, 133, 158, 183, 208, 233, 258, 283, 308, 333, 358, 383, 408, 433]
+        { "warning": "Poison off group!", "fillColor": [141, 156, 14, 0],
+          "warningDuration": 8, "timestamps": [33, 58, 83, 108, 133, 158, 183, 208, 233, 258, 283, 308, 333, 358, 383, 408, 433],
+          "icon": "Data/Purge.png"
         },
-        {
-          "alert": "Enrage",
-          "alertDuration": 5,
-          "icon": "Data/Slothasor.png",
-          "fillColor": [194, 45, 45, 0],
-          "timestamps": [420]
+        { "alert": "Enrage", "fillColor": [194, 45, 45, 0],
+          "alertDuration": 5, "timestamps": [420],
+          "icon": "Data/Slothasor.png"
         }
       ]
     }

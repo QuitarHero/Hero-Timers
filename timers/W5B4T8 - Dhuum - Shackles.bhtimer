@@ -6,38 +6,24 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Dhuum.png",
   "map": 1264,
-  "reset": {
-    "position": [460, 70, 150],
-    "antipode": [345, -32, 225],
+  "reset": { "position": [460, 70, 150], "antipode": [345, -32, 225],
     "requireDeparture": true
   },
   "phases": [
     {
       "name": "Dhuum Shackles",
-      "start": {
-        "position": [460, 70, 150],
-        "antipode": [345, -32, 225],
-        "type": "key",
-        "keyBind": "0",
-        "requireEntry": true,
-        "requireCombat": true
+      "start": { "position": [460, 70, 150], "antipode": [345, -32, 225],
+        "type": "key", "keyBind": "0",
+        "requireEntry": true, "requireCombat": true
       },
-      "finish": {
-        "position": [460, 70, 150],
-        "antipode": [345, -32, 225],
-        "type": "key",
-        "keyBind": "0",
+      "finish": { "position": [460, 70, 150], "antipode": [345, -32, 225],
+        "type": "key", "keyBind": "0",
         "requireEntry": true
       },
       "alerts": [
-        {
-          "warning": "Shackles soon",
-          "warningDuration": 25,
-          "alert": "Shackles move!",
-          "alertDuration": 5,
-          "fillColor": [12, 95, 21, 1],
-          "icon": "Data/Shackles.png",
-          "timestamps": [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420, 450, 480]
+        { "warning": "Shackles soon", "alert": "Shackles move!", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 25, "alertDuration": 5, "timestamps": [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420, 450, 480],
+          "icon": "Data/Shackles.png"
         }
       ]
     }

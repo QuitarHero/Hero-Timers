@@ -6,38 +6,24 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Deimos.png",
   "map": 1188,
-  "reset": {
-    "position": [-123.2258, 126.8591, 129.5106],
-    "radius": 15,
-    "requireEntry": true,
-	  "requireOutOfCombat": true
+  "reset": { "position": [-123.2258, 126.8591, 129.5106], "radius": 15,
+    "requireEntry": true, "requireOutOfCombat": true
   },
   "phases": [
     {
       "name": "Oils",
-      "start": {
-        "position": [-214.518, 78.521, 101.924],
-        "radius": 40,
-	      "type": "key",
-	      "keyBind": "0",
-        "requireEntry": true,
-        "requireCombat": true
+      "start": { "position": [-214.518, 78.521, 101.924], "radius": 40,
+	      "type": "key", "keyBind": "0",
+        "requireEntry": true, "requireCombat": true
       },
-      "finish": {
-        "position": [-214.518, 78.521, 101.924],
-        "radius": 999,
-	      "type": "key",
-	      "keyBind": "0",
+      "finish": { "position": [-214.518, 78.521, 101.924], "radius": 999,
+	      "type": "key", "keyBind": "0",
         "requireEntry": true
       },
 	  "alerts": [
-	      {
-		      "warning": "Oil Soon",
-		      "warningDuration": 12,
-		      "alert": "Move!",
-		      "alertDuration": 3,
-		      "fillColor": [202, 175, 92, 0],
-		      "timestamps": [0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425, 450, 475, 500, 525, 550, 575, 600]
+	      { "warning": "Oil Soon", "alert": "Move!", "fillColor": [202, 175, 92, 0],
+		      "warningDuration": 12, "alertDuration": 3, "timestamps": [0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425, 450, 475, 500, 525, 550, 575, 600],
+          "icon": "Data/Oil.png"
 		    }
 	    ]
     }

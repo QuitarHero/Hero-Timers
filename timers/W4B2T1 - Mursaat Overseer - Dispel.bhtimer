@@ -6,44 +6,27 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/MO.png",
   "map": 1188,
-  "reset": {
-    "position": [98.835, 132.927, 100.187],
-    "antipode": [35.145, 69.167, 115.19],
+  "reset": { "position": [98.835, 132.927, 100.187], "antipode": [35.145, 69.167, 115.19],
     "requireDeparture": true
   },
   "phases": [
     {
       "name": "Dispel",
-      "start": {
-        "position": [98.835, 132.927, 100.187],
-        "antipode": [35.145, 69.167, 115.19],
-        "requireEntry": true,
-        "requireCombat": true
+      "start": { "position": [98.835, 132.927, 100.187], "antipode": [35.145, 69.167, 115.19],
+        "requireEntry": true, "requireCombat": true
       },
       "alerts": [
-        {
-          "alert": "Timer: Dispel",
-          "alertDuration": 4,
-          "icon": "Data/MO.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [0]
+        { "alert": "Timer: Dispel", "fillColor": [202, 175, 92, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/MO.png"
         },
-        {
-          "warning": "Shield soon",
-          "warningDuration": 21,
-          "alert": "Dispel now",
-          "alertDuration": 4,
-          "icon": "Data/Dispel.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [10, 35, 60, 85, 110, 135, 160, 185, 210, 235, 260, 285, 310, 335, 360]
+        { "warning": "Shield soon", "alert": "Dispel now", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 21, "alertDuration": 4, "timestamps": [10, 35, 60, 85, 110, 135, 160, 185, 210, 235, 260, 285, 310, 335, 360],
+          "icon": "Data/Dispel.png"
         },
-        {
-          "alert": "Enrage",
-          "alertDuration": 5,
-          "icon": "Data/MO.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [360],
-          "uid": "raid.w4.b2.enrage"
+        { "alert": "Enrage", "fillColor": [202, 175, 92, 0],
+          "alertDuration": 5, "timestamps": [360],
+          "icon": "Data/MO.png"
         }
       ]
     }

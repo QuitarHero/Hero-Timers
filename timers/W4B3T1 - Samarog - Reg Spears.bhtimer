@@ -6,44 +6,27 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Samarog.png",
   "map": 1188,
-  "reset": {
-    "position": [-64.451, 25.229, 125.889],
-    "antipode": [-148.819, 136.537, 150.477],
+  "reset": { "position": [-64.451, 25.229, 125.889], "antipode": [-148.819, 136.537, 150.477],
     "requireDeparture": true
   },
   "phases": [
     {
       "name": "Spear Spawns",
-      "start": {
-        "position": [-64.451, 25.229, 125.889],
-        "antipode": [-148.819, 136.537, 150.477],
-        "requireEntry": true,
-        "requireCombat": true
+      "start": { "position": [-64.451, 25.229, 125.889], "antipode": [-148.819, 136.537, 150.477],
+        "requireEntry": true, "requireCombat": true
       },
       "alerts": [
-        {
-          "alert": "Timer: Spear Spawns",
-          "alertDuration": 4,
-          "icon": "Data/Samarog.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [0]
+        { "alert": "Timer: Spear Spawns", "fillColor": [202, 175, 92, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Samarog.png"
         },
-        {
-          "warning": "Spears soon",
-          "warningDuration": 17,
-          "alert": "Spears spawned",
-          "alertDuration": 3,
-          "icon": "Data/Samarog.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [22, 42, 62, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 282, 302, 322, 342, 362, 382, 402, 422, 442, 462, 482, 502, 522, 542, 562, 582, 602, 622, 642, 662]
+        { "warning": "Spears soon", "alert": "Spears spawned", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 17, "alertDuration": 3, "timestamps": [22, 42, 62, 82, 102, 122, 142, 162, 182, 202, 222, 242, 262, 282, 302, 322, 342, 362, 382, 402, 422, 442, 462, 482, 502, 522, 542, 562, 582, 602, 622, 642, 662],
+          "icon": "Data/Samarog.png"
         },
-        {
-          "alert": "Enrage",
-          "alertDuration": 5,
-          "icon": "Data/Samarog.png",
-          "fillColor": [202, 175, 92, 0],
-          "timestamps": [660],
-          "uid": "raid.w4.b3.enrage"
+        { "alert": "Enrage", "fillColor": [202, 175, 92, 0],
+          "alertDuration": 5, "timestamps": [660],
+          "icon": "Data/Samarog.png"
         }
       ]
     }

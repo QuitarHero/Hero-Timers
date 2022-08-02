@@ -6,99 +6,61 @@
   "author": "\nQuitarHero.1645",
   "icon": "Data/Dhuum.png",
   "map": 1264,
-  "reset": {
-    "position": [460, 70, 150],
-    "antipode": [345, -32, 225],
+  "reset": { "position": [460, 70, 150], "antipode": [345, -32, 225],
     "requireDeparture": true
-    },
-    "phases": [
-      {
-        "name": "All Green Timings",
-        "start": {
-          "position": [460, 70, 150],
-          "antipode": [345, -32, 225],
-          "requireEntry": true,
-          "requireCombat": true
+  },
+  "phases": [
+    {
+      "name": "All Green Timings",
+      "start": { "position": [460, 70, 150], "antipode": [345, -32, 225],
+        "requireEntry": true, "requireCombat": true
+      },
+      "alerts": [
+        { "alert": "Timer: All Green Timings", "fillColor": [12, 95, 21, 1],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Dhuum.png"
         },
-        "alerts": [
-          {
-            "alert": "Timer: All Green Timings",
-            "alertDuration": 4,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/Dhuum.png",
-            "timestamps": [0]
-          },
-          {
-            "warning": "Green #1",
-            "warningDuration": 30,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/Dhuum.png",
-            "timestamps": [35, 125, 215, 305, 395, 485, 575]
-          },
-          {
-            "warning": "Green #2",
-            "warningDuration": 30,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/Dhuum.png",
-            "timestamps": [65, 155, 245, 335, 425, 515]
-          },
-          {
-            "warning": "Green #3",
-            "warningDuration": 30,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/Dhuum.png",
-            "timestamps": [95, 185, 275, 365, 455, 545]
-          },
-          {
-            "warning": "Arrow next",
-            "warningDuration": 15,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/cmdrArrow.png",
-            "timestamps": [35, 245, 455]
-          },
-          {
-            "warning": "Circle next",
-            "warningDuration": 15,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/cmdrCircle.png",
-            "timestamps": [65, 275, 485]
-          },
-          {
-            "warning": "Heart next",
-            "warningDuration": 15,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/cmdrHeart.png",
-            "timestamps": [95, 305, 515]
-          },
-          {
-            "warning": "Square next",
-            "warningDuration": 15,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/cmdrSquare.png",
-            "timestamps": [125, 335, 545]
-          },
-          {
-            "warning": "Star next",
-            "warningDuration": 15,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/cmdrStar.png",
-            "timestamps": [155, 365, 575]
-          },
-          {
-            "warning": "Swirl next",
-            "warningDuration": 15,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/cmdrSwirl.png",
-            "timestamps": [185, 395]
-          },
-          {
-            "warning": "Triangle next",
-            "warningDuration": 15,
-            "fillColor": [12, 95, 21, 1],
-            "icon": "Data/cmdrTriangle.png",
-            "timestamps": [215, 425]
-          }
-        ]
-      }
-    ]
+        { "warning": "Green #1", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [35, 125, 215, 305, 395, 485, 575],
+          "icon": "Data/Dhuum.png"
+        },
+        { "warning": "Green #2", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [65, 155, 245, 335, 425, 515],
+          "icon": "Data/Dhuum.png"
+        },
+        { "warning": "Green #3", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [95, 185, 275, 365, 455, 545],
+          "icon": "Data/Dhuum.png"
+        },
+        { "warning": "Arrow next", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 15, "timestamps": [35, 245, 455],
+          "icon": "Data/cmdrArrow.png"
+        },
+        { "warning": "Circle next", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 15, "timestamps": [65, 275, 485],
+          "icon": "Data/cmdrCircle.png"
+        },
+        { "warning": "Heart next", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 15, "timestamps": [95, 305, 515],
+          "icon": "Data/cmdrHeart.png"
+        },
+        { "warning": "Square next", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 15, "timestamps": [125, 335, 545],
+          "icon": "Data/cmdrSquare.png"
+        },
+        { "warning": "Star next", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 15, "timestamps": [155, 365, 575],
+          "icon": "Data/cmdrStar.png"
+        },
+        { "warning": "Swirl next", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 15, "timestamps": [185, 395],
+          "icon": "Data/cmdrSwirl.png"
+        },
+        { "warning": "Triangle next", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 15, "timestamps": [215, 425],
+          "icon": "Data/cmdrTriangle.png"
+        }
+      ]
+    }
+  ]
 }
