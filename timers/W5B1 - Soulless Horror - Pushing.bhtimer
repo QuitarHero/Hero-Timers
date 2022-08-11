@@ -21,12 +21,12 @@
         "requireEntry": true
       },
       "alerts": [
-        { "warning": "Golem Soon", "alert": "Golem Spawned", "fillColor": [12, 95, 21, 1],
-          "warningDuration": 20, "alertDuration": 5, "timestamps": [20],
+        { "warning": "Next: Golem", "alert": "Golem Spawned", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 19.5, "alertDuration": 5, "timestamps": [19.5],
           "icon": "Data/Golem.png"
         },
-        { "warning": "Golem Soon", "alert": "Golem Spawned", "fillColor": [12, 95, 21, 1],
-          "warningDuration": 15, "alertDuration": 5, "timestamps": [40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480],
+        { "warning": "Next: Golem", "alert": "Golem Spawned", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 15, "alertDuration": 5, "timestamps": [39.5, 59.5, 79.5, 99.5, 119.5, 139.5, 159.5, 179.5, 199.5, 219.5, 239.5, 259.5, 279.5, 299.5, 319.5, 339.5, 359.5, 379.5, 399.5, 419.5, 439.5, 459.5, 479.5],
           "icon": "Data/Golem.png"
         }
       ]
