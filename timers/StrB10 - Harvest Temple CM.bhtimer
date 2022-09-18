@@ -2,7 +2,7 @@
   "id": "htp.strike.b10.challenge",
   "name": "Harvest Temple Challenge Mode\nCombat Timer",
   "category": "Strikes",
-  "description": "Uses Hotkey 0\nAutomatically begins on Combat Start.\nA 0.5s grace period is enforced\nfor swapping phases via hotkey.\nActivate when a Heart or Dragon dies.",
+  "description": "Uses Hotkey 0\nAutomatically begins on Combat Start.\nActivate when a Heart or Dragon dies.\nDisplays:\n• Greens/Spread/Void Pools\n• Mechanical Markers\n• Heart Damage Pulses\n• Dragon Attacks\n• and much more",
   "author": "\nQuitarHero.1645",
   "icon": "Data/Strikes/B10/B10-Default.png",
   "map": 1437,
