@@ -1,0 +1,34 @@
+{
+  "id": "htp.strike.b7.normal",
+  "name": "Aetherblade Hideout\nFight Start: Boon Rip",
+  "category": "Strikes",
+  "description": "Displays when the varying types of boon rip happens.",
+  "author": "QuitarHero.1645",
+  "icon": "Data/Strikes/B7/B7-Default.png",
+  "map": 1432,
+  "reset": { "position": [40.51086, 34.43169], "radius": 3,
+    "requireEntry": true, "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "Aetherblade Hideout - Initial Boon Rip",
+      "start": { "position": [70.318, 41.149], "radius": 50,
+        "requireEntry": true, "requireCombat": true
+      },
+      "alerts": [
+        { "warning": "Boon Rip", "fillColor": [227, 195, 14, 0],
+          "warningDuration": 5, "timestamps": [5],
+          "icon": "Data/Strikes/B7/B7-Default.png"
+        },
+        { "warning": "First pull: Boon Rip (early)", "fillColor": [227, 195, 14, 0],
+          "warningDuration": 7, "timestamps": [7],
+          "icon": "Data/Strikes/B7/B7-Default.png"
+        },
+        { "warning": "First pull: Boon Rip", "fillColor": [227, 195, 14, 0],
+          "warningDuration": 12, "timestamps": [12],
+          "icon": "Data/Strikes/B7/B7-Default.png"
+        }
+      ]
+    }
+  ]
+}
