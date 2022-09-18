@@ -4,7 +4,7 @@
   "category": "Spirit Vale",
   "description": "Displays:\n• Where each cannon spawns (with trails)",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Sabetha.png",
+  "icon": "Data/Raids/Sabetha.png",
   "map": 1062,
   "reset": { "position": [-59.57044, 192.4689, 72.23109], "radius": 5,
     "requireEntry": true, "requireOutOfCombat": true
@@ -21,37 +21,37 @@
       "alerts": [
         { "alert": "Timer: Cannon 1/3 (all)", "fillColor": [113, 73, 65, 0],
           "alertDuration": 4, "timestamps": [0],
-          "icon": "Data/Sabetha.png"
+          "icon": "Data/Raids/Sabetha.png"
         },
         { "warning": "South Cannon soon", "alert": "Go South", "fillColor": [113, 73, 65, 0],
           "warningDuration": 25, "alertDuration": 5, "timestamps": [32, 152, 272, 392, 512],
-          "icon": "Data/cmdrArrow.png"
+          "icon": "Data/General/cmdrArrow.png"
         },
         { "warning": "West Cannon soon", "alert": "Go West", "fillColor": [113, 73, 65, 0],
           "warningDuration": 25, "alertDuration": 5, "timestamps": [212, 452],
-          "icon": "Data/cmdrCircle.png"
+          "icon": "Data/General/cmdrCircle.png"
         },
         { "warning": "North Cannon soon", "alert": "Go North", "fillColor": [113, 73, 65, 0],
           "warningDuration": 25, "alertDuration": 5, "timestamps": [92, 332],
-          "icon": "Data/cmdrHeart.png"
+          "icon": "Data/General/cmdrHeart.png"
         },
         { "alert": "Enrage", "fillColor": [113, 73, 65, 0],
           "alertDuration": 5, "timestamps": [540],
-          "icon": "Data/Sabetha.png"
+          "icon": "Data/Raids/Sabetha.png"
         }
       ],
       "directions": [
         { "name": "South Cannon", "destination": [-132.4, 58.5, 62.8],
-          "texture": "Data/ArrowTrail.png", "animSpeed": 0,
+          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
           "duration": 5, "timestamps": [32, 152, 272, 392, 512]
         },
         { "name": "West Cannon", "destination": [-155.7, 86.8, 62.2],
-          "texture": "Data/ArrowTrail.png", "animSpeed": 0,
+          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
           "duration": 5, "timestamps": [212, 452]
         },
         { "name": "North Cannon", "destination": [-127.1, 109.6, 62.8],
           "duration": 5, "timestamps": [92, 332],
-          "texture": "Data/ArrowTrail.png", "animSpeed": 0
+          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0
         }
       ]
     }

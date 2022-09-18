@@ -4,7 +4,7 @@
   "category": "Bastion of the Penitent",
   "description": "Displays:\n• When blue squares appear\n• How long you have to move",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/MO.png",
+  "icon": "Data/Raids/MO.png",
   "map": 1188,
   "reset": { "position": [98.835, 132.927, 100.187], "antipode": [35.145, 69.167, 115.19],
     "requireDeparture": true
@@ -18,19 +18,19 @@
       "alerts": [
         { "alert": "Timer: Challenge Mode", "fillColor": [202, 175, 92, 0],
           "alertDuration": 4, "timestamps": [0],
-          "icon": "Data/MO.png"
+          "icon": "Data/Raids/MO.png"
         },
         { "warning": "Blues soon", "fillColor": [202, 175, 92, 0],
           "warningDuration": 25, "timestamps": [25, 55, 85, 115, 145, 175, 205, 235, 265, 295, 325, 355],
-          "icon": "Data/Blues.png"
+          "icon": "Data/Raids/Blues.png"
         },
         { "warning": "Move", "fillColor": [202, 175, 92, 0],
           "warningDuration": 5, "timestamps": [30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360],
-          "icon": "Data/Blues.png"
+          "icon": "Data/Raids/Blues.png"
         },
         { "alert": "Enrage", "fillColor": [202, 175, 92, 0],
           "alertDuration": 5, "timestamps": [360],
-          "icon": "Data/MO.png"
+          "icon": "Data/Raids/MO.png"
         }
       ]
     }

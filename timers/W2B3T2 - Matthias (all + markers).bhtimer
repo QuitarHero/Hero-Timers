@@ -4,7 +4,7 @@
   "category": "Salvation Pass",
   "description": "Displays:\n• All Corruptions and where to go (with markers)\n• The first four Sacrifices",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Matthias.png",
+  "icon": "Data/Raids/Matthias.png",
   "map": 1149,
   "reset": { "position": [-150.5, 149.9, 131.5], "radius": 35,
     "requireDeparture": true
@@ -18,48 +18,48 @@
       "alerts": [
         { "alert": "Timer: Global Mechanics (Markers)", "fillColor": [194, 45, 45, 0],
           "alertDuration": 4, "timestamps": [0],
-          "icon": "Data/Matthias.png"
+          "icon": "Data/Raids/Matthias.png"
         },
         { "warning": "Corruption soon", "alert": "Go to ARROW", "fillColor": [194, 45, 45, 0],
           "warningDuration": 10, "alertDuration": 5, "timestamps": [5, 125, 245, 365, 485],
-          "icon": "Data/cmdrArrow.png"
+          "icon": "Data/General/cmdrArrow.png"
         },
         { "warning": "Corruption soon", "alert": "Go to CIRCLE", "fillColor": [194, 45, 45, 0],
           "warningDuration": 10, "alertDuration": 5, "timestamps": [35, 155, 275, 395, 515],
-          "icon": "Data/cmdrArrow.png"
+          "icon": "Data/General/cmdrArrow.png"
         },
         { "warning": "Corruption soon", "alert": "Go to HEART", "fillColor": [194, 45, 45, 0],
           "warningDuration": 10, "alertDuration": 5, "timestamps": [65, 185, 305, 425, 545],
-          "icon": "Data/cmdrArrow.png"
+          "icon": "Data/General/cmdrArrow.png"
         },
         { "warning": "Corruption soon", "alert": "Go to SQUARE", "fillColor": [194, 45, 45, 0],
           "warningDuration": 10, "alertDuration": 5, "timestamps": [95, 215, 335, 455, 575],
-          "icon": "Data/cmdrArrow.png"
+          "icon": "Data/General/cmdrArrow.png"
         },
         { "warning": "Sacrifice soon", "alert": "Sacrifice!", "fillColor": [194, 45, 45, 0],
           "warningDuration": 15, "alertDuration": 5, "timestamps": [20, 65, 110, 155],
-          "icon": "Data/cmdrArrow.png"
+          "icon": "Data/Raids/Matthias.png"
         },
         { "alert": "Enrage", "fillColor": [194, 45, 45, 0],
           "alertDuration": 5, "timestamps": [600],
-          "icon": "Data/Matthias.png"
+          "icon": "Data/Raids/Matthias.png"
         }
       ],
       "markers": [
         { "position": [-171.9, 128.5, 133.1],
-          "texture": "Data/Arrow.png",
+          "texture": "Data/General/Arrow.png",
           "duration": 5, "timestamps": [5, 125, 245, 365, 485]
         },
         { "position": [-172.3, 171.0, 133.1],
-          "texture": "Data/Arrow.png",
+          "texture": "Data/General/Arrow.png",
           "duration": 5, "timestamps": [35, 155, 275, 395, 515]
         },
         { "position": [-129.7, 171.2, 133.1],
-          "texture": "Data/Arrow.png",
+          "texture": "Data/General/Arrow.png",
           "duration": 5, "timestamps": [65, 185, 305, 425, 545]
         },
         { "position": [-129.3, 128.7, 133.1],
-          "texture": "Data/Arrow.png",
+          "texture": "Data/General/Arrow.png",
           "duration": 5, "timestamps": [95, 215, 335, 455, 575]
         }
       ]

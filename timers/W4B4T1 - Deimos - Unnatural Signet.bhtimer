@@ -4,7 +4,7 @@
   "category": "Bastion of the Penitent",
   "description": "Uses Hotkey 1\nActivate when Saul uses his Signet\nthe first time.\nAssumes 0% Alacrity\nDisplays\n• When Saul uses his Unnatural Signet",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Deimos.png",
+  "icon": "Data/Raids/Deimos.png",
   "map": 1188,
   "reset": { "position": [-123.2258, 126.8591, 129.5106], "radius": 15,
     "requireEntry": true, "requireOutOfCombat": true
@@ -22,13 +22,16 @@
       },
       "alerts": [
         { "warning": "Next: Signet", "fillColor": [202, 175, 92, 0],
-          "warningDuration": 50, "timestamps": [59.5, 119.5, 179.5, 239.5, 299.5, 359.5, 419.5, 479.5]
+          "warningDuration": 50, "timestamps": [59.5, 119.5, 179.5, 239.5, 299.5, 359.5, 419.5, 479.5],
+          "icon": "Data/Raids/Deimos.png"
         },
         { "warning": "Burst!", "fillColor": [202, 175, 92, 0],
-          "warningDuration": 9.5, "timestamps": [0]
-        }
+          "warningDuration": 9.5, "timestamps": [9.5],
+          "icon": "Data/Raids/Deimos.png"
+        },
         { "warning": "Burst!", "fillColor": [202, 175, 92, 0],
-          "warningDuration": 10, "timestamps": [69.5, 129.5, 189.5, 249.5, 309.5, 369.5, 329.5 , 489.5]
+          "warningDuration": 10, "timestamps": [69.5, 129.5, 189.5, 249.5, 309.5, 369.5, 329.5 , 489.5],
+          "icon": "Data/Raids/Deimos.png"
         }
       ]
     }

@@ -4,7 +4,7 @@
   "category": "Mythwright Gambit",
   "description": "Displays:\n• When Kenut's breakbar can be broken",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Kenut.png",
+  "icon": "Data/Raids/Kenut.png",
   "map": 1303,
   "reset": { "position": [368.705, 43.362, 0.144], "radius": 200,
     "requireEntry": true, "requireOutOfCombat": true
@@ -21,7 +21,7 @@
       "alerts": [
         { "warning": "Breakbar Soon", "alert": "Break Kenut", "fillColor": [244, 240, 4, 1],
           "warningDuration": 20, "alertDuration": 3, "timestamps": [20, 80],
-          "icon": "Data/Kenut.png"
+          "icon": "Data/Raids/Kenut.png"
         }
       ]
     },
@@ -33,7 +33,7 @@
       "alerts": [
         { "warning": "Breakbar Soon", "alert": "Break Kenut", "fillColor": [244, 240, 4, 1],
           "warningDuration": 20, "alertDuration": 3, "timestamps": [20, 80],
-          "icon": "Data/Kenut.png"
+          "icon": "Data/Raids/Kenut.png"
         }
       ]
     }

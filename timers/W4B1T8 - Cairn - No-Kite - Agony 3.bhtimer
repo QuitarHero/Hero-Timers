@@ -4,7 +4,7 @@
   "category": "Bastion of the Penitent",
   "description": "Displays:\n• When Agony #3 is applied\n• Where to go when agonized\n• How long the agony lasts",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Cairn.png",
+  "icon": "Data/Raids/Cairn.png",
   "map": 1188,
   "reset": { "position": [365, 51, 34], "radius": 50,
     "requireDeparture": true
@@ -18,20 +18,20 @@
       "alerts": [
         { "alert": "Timer: Agony #3 (no-kite)", "fillColor": [202, 175, 92, 0],
           "alertDuration": 4, "timestamps": [0],
-          "icon": "Data/Cairn.png"
+          "icon": "Data/Raids/Cairn.png"
         },
         { "warning": "Agony #3", "alert": "Move", "fillColor": [202, 175, 92, 0],
           "warningDuration": 20, "alertDuration": 4, "timestamps": [62, 142, 222, 302, 382, 462],
-          "icon": "Data/Agony.png"
+          "icon": "Data/Raids/Agony.png"
         },
         { "warning": "Agony End", "fillColor": [202, 175, 92, 0],
           "warningDuration": 56, "timestamps": [122, 202, 282, 362, 442, 522],
-          "icon": "Data/Agony.png"
+          "icon": "Data/Raids/Agony.png"
         }
       ],
       "markers": [
         { "position": [362.802, 46.023, 34.9],
-          "texture": "Data/Arrow.png",
+          "texture": "Data/General/Arrow.png",
           "duration": 65, "timestamps": [57, 137, 217, 297, 377, 457]
         }
       ]
