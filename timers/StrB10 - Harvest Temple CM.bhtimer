@@ -19,7 +19,9 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
+      //Alerts
       "alerts": [
+        //Start & Spawns
         { "alert": "Timer: Challenge Mode",
           "alertDuration": 4, "timestamps": [0],
           "icon": "Data/Strikes/B10/B10-Default.png"
@@ -28,7 +30,7 @@
           "warningDuration": 12, "timestamps": [12],
           "icon": "Data/Strikes/B10/Void Melter.png"
         },
-        
+        //Void Discharge
         { "warning": "Void Discharge (25%)", "fillColor": [93, 11, 120, 0],
           "warningDuration": 10.5, "timestamps": [22.5],
           "icon": "Data/Strikes/B10/Void Discharge.png"
@@ -58,7 +60,9 @@
           "icon": "Data/Strikes/B10/Void Discharge.png"
         }
       ],
+      //Enemy Spawns & Pre-Greens
       "markers": [
+        //Enemy Spawns
         { "position": [44.981, -526.439, 392.512], "size": 1.5, "fadeCenter": false,
           "texture": "Data/Strikes/B10/Void Melter Location.png", "duration": 12, "timestamps": [0]
         },
@@ -77,7 +81,7 @@
         { "position": [-7.925, -494.714, 392.512], "size": 1.5, "fadeCenter": false,
           "texture": "Data/Strikes/B10/Void Melter Location.png", "duration": 12, "timestamps": [0]
         },
-        
+        //Pre-Greens
         { "position": [33.147, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.15,
           "texture": "Data/Shapes/Orb1-green.png", "duration": 83, "timestamps": [0]
         },
@@ -101,34 +105,36 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
+      //Alerts
       "alerts": [
+        //Spawns
         { "warning": "Spawn: Jormag",
           "warningDuration": 3.5, "timestamps": [3.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Boons
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
           "warningDuration": 3.5, "timestamps": [3.5],
           "icon": "Data/Strikes/B10/Boons.png"
         },
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
-          "warningDuration": 6, "timestamps": [23.5, 63.5, 103.5],
+          "warningDuration": 6.5, "timestamps": [23.5, 63.5, 103.5],
           "icon": "Data/Strikes/B10/Boons.png"
         },
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
           "warningDuration": 7, "timestamps": [43.5, 83.5],
           "icon": "Data/Strikes/B10/Boons.png"
         },
-        
+        //Greens
         { "warning": "Next: Share the Void", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 9, "timestamps": [17.5, 57.5, 97.5],
+          "warningDuration": 8.5, "timestamps": [17, 57, 97],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
         { "warning": "Share the Void", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 6, "timestamps": [23.5, 63.5, 103.5],
+          "warningDuration": 6.5, "timestamps": [23.5, 63.5, 103.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Spread
         { "warning": "Next: Spread", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8, "timestamps": [31.5, 71.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
@@ -137,7 +143,7 @@
           "warningDuration": 5, "timestamps": [36.5, 76.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Void Pools
         { "warning": "Next: Void Pools", "fillColor": [245, 7, 7, 0],
           "warningDuration": 9, "timestamps": [48.5, 88.5],
           "icon": "Data/Strikes/B10/D1-Void Pool.png"
@@ -150,33 +156,33 @@
           "warningDuration": 7.5, "timestamps": [16, 56, 96],
           "icon": "Data/Strikes/B10/D1-Void Pool.png"
         },
-        
+        //Breath of Jormag
         { "warning": "Next: Breath of Jormag", "fillColor": [23, 184, 209, 0],
           "warningDuration": 11, "timestamps": [50.5, 90.5],
           "icon": "Data/Strikes/B10/D1-Breath of Jormag.png"
         },
         { "warning": "Next: Breath of Jormag", "fillColor": [23, 184, 209, 0],
-          "warningDuration": 11, "timestamps": [10.5],
+          "warningDuration": 10.5, "timestamps": [10.5],
           "icon": "Data/Strikes/B10/D1-Breath of Jormag.png"
         },
         { "warning": "Next: Breath of Jormag", "fillColor": [23, 184, 209, 0],
-          "warningDuration": 8, "timestamps": [31.5, 71.5],
+          "warningDuration": 8, "timestamps": [31.5, 71.5, 111.5],
           "icon": "Data/Strikes/B10/D1-Breath of Jormag.png"
         },
         { "warning": "Breath of Jormag", "fillColor": [23, 184, 209, 0],
-          "warningDuration": 8, "timestamps": [18.5, 39.5, 58.5, 79.5, 98.5],
+          "warningDuration": 8, "timestamps": [18.5, 39.5, 58.5, 79.5, 98.5, 119.5],
           "icon": "Data/Strikes/B10/D1-Breath of Jormag.png"
         },
-        
+        //Lightning of Jormag
         { "warning": "Next: Lightning of Jormag", "fillColor": [23, 184, 209, 0],
-          "warningDuration": 4, "timestamps": [22.5, 62.5],
+          "warningDuration": 4, "timestamps": [22.5, 62.5, 102.5],
           "icon": "Data/Strikes/B10/D1-Lightning of Jormag.png"
         },
         { "warning": "Lightning of Jormag", "fillColor": [23, 184, 209, 0],
-          "warningDuration": 7, "timestamps": [29.5, 69.5],
+          "warningDuration": 7, "timestamps": [29.5, 69.5, 109.5],
           "icon": "Data/Strikes/B10/D1-Lightning of Jormag.png"
         },
-        
+        //Icy Spikes of Jormag
         { "warning": "Next: Icy Spikes of Jormag", "fillColor": [23, 184, 209, 0],
           "warningDuration": 9, "timestamps": [48.5, 88.5],
           "icon": "Data/Strikes/B10/D1-Icy Spikes of Jormag.png"
@@ -186,63 +192,13 @@
           "icon": "Data/Strikes/B10/D1-Icy Spikes of Jormag.png"
         }
       ],
+      //Center Orb's Max Expansion before Mechanics
       "markers": [
-        { "position": [20.447, -535.888, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 9, "timestamps": [8.5]
-        },
-        { "position": [20.447, -535.888, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 9, "timestamps": [8.5]
-        },
-        { "position": [33.147, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 9, "timestamps": [8.5]
-        },
-        { "position": [33.147, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 9, "timestamps": [8.5]
-        },
-        { "position": [-2.412, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 9, "timestamps": [8.5]
-        },
-        { "position": [-2.412, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 9, "timestamps": [8.5]
-        },
-        
-        { "position": [35.560, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [17.5]
-        },
-        { "position": [35.560, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [17.5]
-        },
-        { "position": [-4.825, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [17.5]
-        },
-        { "position": [-4.825, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [17.5]
-        },
-        
-        { "position": [20.915, -537.524, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 9, "timestamps": [48.5]
-        },
-        { "position": [20.915, -537.524, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 9, "timestamps": [48.5]
-        },
-        { "position": [35.560, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 9, "timestamps": [48.5]
-        },
-        { "position": [35.560, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 9, "timestamps": [48.5]
-        },
-        { "position": [-4.825, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 9, "timestamps": [48.5]
-        },
-        { "position": [-4.825, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 9, "timestamps": [48.5]
-        },
-        
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 15.669, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 6, "timestamps": [17.5]
+          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 6.5, "timestamps": [17]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 29.762, "fadeCenter": true, "opacity": 0.4,
-          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 8, "timestamps": [17.5]
+          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 8.5, "timestamps": [17]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 22.715, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 5, "timestamps": [31.5]
@@ -251,7 +207,7 @@
           "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 6, "timestamps": [42.5]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 38.569, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 6, "timestamps": [57.5]
+          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 6.5, "timestamps": [57]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 45.615, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 5, "timestamps": [71.5]
@@ -260,8 +216,62 @@
           "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 6, "timestamps": [82.5]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 61.469, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 6, "timestamps": [97.5]
+          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 6.5, "timestamps": [97]
         }
+      ],
+      //Pre-spawn Greens and next Green Sets
+      "markers": [
+        //Green 1 pre-spawn
+        { "position": [20.447, -535.888, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [8.5]
+        },
+        { "position": [20.447, -535.888, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [8.5]
+        },
+        { "position": [33.147, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [8.5]
+        },
+        { "position": [33.147, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [8.5]
+        },
+        { "position": [-2.412, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [8.5]
+        },
+        { "position": [-2.412, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [8.5]
+        },
+        //Green 2 next set
+        { "position": [35.560, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [17]
+        },
+        { "position": [35.560, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [17]
+        },
+        { "position": [-4.825, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [17]
+        },
+        { "position": [-4.825, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [17]
+        },
+        //Green 2 pre-spawn
+        { "position": [20.915, -537.524, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [48.5]
+        },
+        { "position": [20.915, -537.524, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [48.5]
+        },
+        { "position": [35.560, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [48.5]
+        },
+        { "position": [35.560, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [48.5]
+        },
+        { "position": [-4.825, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [48.5]
+        },
+        { "position": [-4.825, -518.108, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [48.5]
+        },
       ]
     },
     {
@@ -273,12 +283,14 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
+      //Alerts
       "alerts": [
+        //Spawn
         { "warning": "Spawn: Primordus",
           "warningDuration": 6.5, "timestamps": [6.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Boons
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
           "warningDuration": 8.5, "timestamps": [66.5],
           "icon": "Data/Strikes/B10/Boons.png"
@@ -299,16 +311,16 @@
           "warningDuration": 11, "timestamps": [46.5],
           "icon": "Data/Strikes/B10/Boons.png"
         },
-        
+        //Greens
         { "warning": "Next: Share the Void", "fillColor": [33, 184, 17, 0],
           "warningDuration": 9.5, "timestamps": [29, 83],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
         { "warning": "Share the Void", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 6, "timestamps": [35, 89],
+          "warningDuration": 6.5, "timestamps": [35.5, 89.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Spread
         { "warning": "Next: Spread", "fillColor": [158, 119, 13, 0],
           "warningDuration": 13, "timestamps": [19.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
@@ -321,7 +333,7 @@
           "warningDuration": 5, "timestamps": [24.5, 78.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Void Pools
         { "warning": "Next: Void Pools", "fillColor": [245, 7, 7, 0],
           "warningDuration": 16.5, "timestamps": [23],
           "icon": "Data/Strikes/B10/D2-Void Pool.png"
@@ -334,7 +346,7 @@
           "warningDuration": 7.5, "timestamps": [30.5, 84.5],
           "icon": "Data/Strikes/B10/D2-Void Pool.png"
         },
-        
+        //Jaws of Destruction
         { "warning": "Next: Jaws of Destruction", "fillColor": [222, 74, 11, 0],
           "warningDuration": 13, "timestamps": [19.5],
           "icon": "Data/Strikes/B10/D2-Jaws of Destruction.png"
@@ -351,7 +363,7 @@
           "warningDuration": 5, "timestamps": [31.5, 85.5],
           "icon": "Data/Strikes/B10/D2-Jaws of Destruction.png"
         },
-        
+        //Lava Slam
         { "warning": "Next: Lava Slam", "fillColor": [222, 74, 11, 0],
           "warningDuration": 10, "timestamps": [45.5, 99.5],
           "icon": "Data/Strikes/B10/D2-Lava Slam.png"
@@ -369,7 +381,27 @@
           "icon": "Data/Strikes/B10/D2-Lava Slam.png"
         }
       ],
+      //Center Orb's Max Expansion before Mechanics
       "markers": [
+        { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 15.669, "fadeCenter": false, "opacity": 0.75,
+          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 3.5, "timestamps": [19.5]
+        },
+        { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 22.715, "fadeCenter": false, "opacity": 0.75,
+          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 6.5, "timestamps": [29]
+        },
+        { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 52.662, "fadeCenter": true, "opacity": 0.4,
+          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 8.5, "timestamps": [29]
+        },
+        { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 45.615, "fadeCenter": false, "opacity": 0.75,
+          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 3.5, "timestamps": [73.5]
+        },
+        { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 52.662, "fadeCenter": false, "opacity": 0.75,
+          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 6.5, "timestamps": [83]
+        },
+      ],
+      //Pre-spawn Greens and Next Green sets
+      "markers": [
+        //Pre-spawn Greens
         { "position": [-2.412, -510.488, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
           "texture": "Data/Shapes/Orb1-green.png", "duration": 9.5, "timestamps": [19.5]
         },
@@ -388,26 +420,26 @@
         { "position": [33.147, -510.488, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-green.png", "duration": 9.5, "timestamps": [19.5]
         },
-        
+        //Next Green set
         { "position": [-9.729, -507.352, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [29]
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [29]
         },
         { "position": [-9.729, -507.352, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [29]
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [29]
         },
         { "position": [21.990, -491.618, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [29]
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [29]
         },
         { "position": [21.990, -491.618, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [29]
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [29]
         },
         { "position": [40.465, -507.352, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [29]
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [29]
         },
         { "position": [40.465, -507.352, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [29]
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [29]
         },
-        
+        //Pre-spawn Greens
         { "position": [-9.729, -507.352, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.3,
           "texture": "Data/Shapes/Orb1-green.png", "duration": 9.5, "timestamps": [73.5]
         },
@@ -426,23 +458,9 @@
         { "position": [40.465, -507.352, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-green.png", "duration": 9.5, "timestamps": [73.5]
         },
-        
-        { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 15.669, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 3.5, "timestamps": [19.5]
-        },
-        { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 22.715, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 6, "timestamps": [29]
-        },
-        { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 52.662, "fadeCenter": true, "opacity": 0.4,
-          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 8, "timestamps": [29]
-        },
-        { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 45.615, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 3.5, "timestamps": [73.5]
-        },
-        { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 52.662, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 6, "timestamps": [83]
-        },
-        
+      ],
+      //Pre-Lava Slam Animation
+      "markers": [
         { "position": [14.375, -543.570, 391.603], "rotation": [180, 0, 0], "size": 30.5, "fadeCenter": false, "opacity": 0.02,
           "texture": "Data/Shapes/Orb5-orange.png", "duration": 0.25, "timestamps": [22.5, 35.5, 48, 76.5, 89.5, 102]
         },
@@ -694,12 +712,14 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
+      //Alerts
       "alerts": [
+        //Spawn
         { "warning": "Spawn: Kralkatorrik",
           "warningDuration": 9.5, "timestamps": [9.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Boons
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
           "warningDuration": 10, "timestamps": [69.5, 89.5],
           "icon": "Data/Strikes/B10/Boons.png"
@@ -716,20 +736,20 @@
           "warningDuration": 7.5, "timestamps": [49.5, 109.5],
           "icon": "Data/Strikes/B10/Boons.png"
         },
-        
+        //Void Pools
         { "warning": "Next: Void Pools", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 5.5, "timestamps": [27],
+          "warningDuration": 5.25, "timestamps": [26.75],
           "icon": "Data/Strikes/B10/D3-Void Pool.png"
         },
         { "warning": "Next: Void Pools", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 5, "timestamps": [52, 77, 102],
+          "warningDuration": 4.75, "timestamps": [51.75, 76.75, 101.75],
           "icon": "Data/Strikes/B10/D3-Void Pool.png"
         },
         { "warning": "Void Pool", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 7.5, "timestamps": [34.5, 59.5, 84.5, 109.5],
+          "warningDuration": 7.5, "timestamps": [34.25, 59.25, 84.25, 109.25],
           "icon": "Data/Strikes/B10/D3-Void Pool.png"
         },
-        
+        //Branding Beams
         { "warning": "Next: Branding Beam (Sides)", "fillColor": [111, 4, 224, 0],
           "warningDuration": 7, "timestamps": [16.5],
           "icon": "Data/Strikes/B10/D3-Branding Beam.png"
@@ -747,10 +767,10 @@
           "icon": "Data/Strikes/B10/D3-Branding Beam.png"
         },
         { "warning": "Branding Beam", "fillColor": [111, 4, 224, 0],
-          "warningDuration": 5, "timestamps": [21.5, 34.5, 47, 59.5, 72, 84.5, 97, 109.5, 122],
+          "warningDuration": 5, "timestamps": [21.5, 34.5, 47, 59.5, 72, 84.5, 97, 109.5, 121.5],
           "icon": "Data/Strikes/B10/D3-Branding Beam.png"
         },
-        
+        //Crystal Barrage
         { "warning": "Next: Crystal Barrage", "fillColor": [111, 4, 224, 0],
           "warningDuration": 5, "timestamps": [21.5, 34.5, 47, 59.5, 72, 84.5, 97, 109.5],
           "icon": "Data/Strikes/B10/D3-Crystal Barrage.png"
@@ -760,18 +780,19 @@
           "icon": "Data/Strikes/B10/D3-Crystal Barrage.png"
         }
       ],
+      //Center Orb's Max Expansion before Mechanics
       "markers": [
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 17.431, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 5.5, "timestamps": [21.5]
+          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 5.25, "timestamps": [21.5]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 31.523, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 5, "timestamps": [47]
+          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 4.75, "timestamps": [47]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 45.615, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 5, "timestamps": [72]
+          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 4.75, "timestamps": [72]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 61.469, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 5, "timestamps": [97]
+          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 4.75, "timestamps": [97]
         }
       ]
     },
@@ -784,21 +805,23 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
+      //Alerts
       "alerts": [
+        //Spawns
         { "warning": "Spawn: Timecaster", "fillColor": [93, 11, 120, 0],
           "warningDuration": 5.5, "timestamps": [5.5],
           "icon": "Data/Strikes/B10/Timecaster.png"
         },
         { "warning": "Spawn: Heart & Void Melter's", "fillColor": [93, 11, 120, 0],
-          "warningDuration": 13, "timestamps": [12.5],
+          "warningDuration": 12.5, "timestamps": [12.5],
           "icon": "Data/Strikes/B10/Void Melter.png"
         },
-        
+        //Heart Attacks
         { "warning": "Swarm of Mordremoth", "fillColor": [199, 26, 14, 0],
           "warningDuration": 3, "timestamps": [14.5, 17.5, 20.5, 23.5, 26.5, 29.5, 32.5, 35.5, 38.5, 41.5, 44.5, 47.5, 50.5, 53.5, 56.5, 59.5, 62.5, 65.5, 68.5, 71.5, 74.5, 77.5, 80.5, 83.5],
           "icon": "Data/Strikes/B10/Swarm of Mordremoth.png"
         },
-        
+        //Void Discharge
         { "warning": "Void Discharge (25%)", "fillColor": [93, 11, 120, 0],
           "warningDuration": 10.5, "timestamps": [23],
           "icon": "Data/Strikes/B10/Void Discharge.png"
@@ -807,11 +830,11 @@
           "warningDuration": 10, "timestamps": [33],
           "icon": "Data/Strikes/B10/Void Discharge.png"
         },
-        { "warning": "Void Discharge (50%)", "fillColor": [93, 11, 120, 0],
+        { "warning": "Void Discharge (50%) (VW Fail)", "fillColor": [93, 11, 120, 0],
           "warningDuration": 10, "timestamps": [43],
           "icon": "Data/Strikes/B10/Void Discharge.png"
         },
-        { "warning": "Void Discharge (63.5%) (VW Fail)", "fillColor": [93, 11, 120, 0],
+        { "warning": "Void Discharge (63.5%)", "fillColor": [93, 11, 120, 0],
           "warningDuration": 10, "timestamps": [53],
           "icon": "Data/Strikes/B10/Void Discharge.png"
         },
@@ -828,6 +851,7 @@
           "icon": "Data/Strikes/B10/Void Discharge.png"
         }
       ],
+      //Enemy Spawns
       "markers": [
         { "position": [-2.374, -510.256, 392.812], "size": 2, "fadeCenter": false,
           "texture": "Data/Strikes/B10/Timecaster Location.png", "duration": 5.5, "timestamps": [0]
@@ -861,12 +885,14 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
+      //Alerts
       "alerts": [
+        //Spawns
         { "warning": "Spawn: Mordremoth",
           "warningDuration": 11.5, "timestamps": [11.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Boons
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
           "warningDuration": 5, "timestamps": [51.5],
           "icon": "Data/Strikes/B10/Boons.png"
@@ -884,14 +910,10 @@
           "icon": "Data/Strikes/B10/Boons.png"
         },
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
-          "warningDuration": 11.5, "timestamps": [71.5],
+          "warningDuration": 11.5, "timestamps": [11.5, 71.5],
           "icon": "Data/Strikes/B10/Boons.png"
         },
-        { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
-          "warningDuration": 12, "timestamps": [11.5],
-          "icon": "Data/Strikes/B10/Boons.png"
-        },
-        
+        //Spread
         { "warning": "Next: Spread", "fillColor": [158, 119, 13, 0],
           "warningDuration": 5.5, "timestamps": [29.5, 52, 74.5, 97],
           "icon": "Data/Strikes/B10/B10-Default.png"
@@ -900,7 +922,7 @@
           "warningDuration": 5, "timestamps": [34.5, 57, 79.5, 102],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Void Pools
         { "warning": "Next: Void Pools", "fillColor": [245, 7, 7, 0],
           "warningDuration": 4.5, "timestamps": [42, 64.5, 87, 109.5],
           "icon": "Data/Strikes/B10/D4-Void Pool.png"
@@ -913,7 +935,7 @@
           "warningDuration": 7.5, "timestamps": [27, 49.5, 72, 94.5, 117],
           "icon": "Data/Strikes/B10/D4-Void Pool.png"
         },
-        
+        //Poison Roar
         { "warning": "Next: Poison Roar", "fillColor": [168, 214, 15, 0],
           "warningDuration": 9, "timestamps": [46.5, 69, 91.5, 114],
           "icon": "Data/Strikes/B10/D4-Poison Roar.png"
@@ -926,7 +948,7 @@
           "warningDuration": 5, "timestamps": [29, 51.5, 74, 96.5, 119],
           "icon": "Data/Strikes/B10/D4-Poison Roar.png"
         },
-        
+        //Shock Waves
         { "warning": "Next: Shock Waves", "fillColor": [168, 214, 15, 0],
           "warningDuration": 5, "timestamps": [29, 51.5, 74, 96.5],
           "icon": "Data/Strikes/B10/D4-Shock Wave.png"
@@ -944,6 +966,7 @@
           "icon": "Data/Strikes/B10/D4-Shock Wave.png"
         }
       ],
+      //Center Orb's Max Expansion before Mechanics
       "markers": [
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 20.954, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 5, "timestamps": [29.5]
@@ -969,7 +992,9 @@
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 64.992, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 4.5, "timestamps": [105]
         },
-        
+      ],
+      //Pre-Spawn Poison Roar AoE's
+      "markers": [
         { "position": [15.368, -518.108, 391.713], "rotation": [180, 0, 0], "size": 9.75, "opacity": 0.1,
           "texture":"Data/Shapes/Fill-orange.png" ,"duration": 4.5, "timestamps": [20.001, 42.501, 65.001, 87.501, 110.001]
         },
@@ -1185,12 +1210,14 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
+      //Alerts
       "alerts": [
+        //Spawns
         { "warning": "Spawn: Zhaitan",
           "warningDuration": 14.5, "timestamps": [14.5],
           "icon": "Data/Strikes/B10/B10-Default.png",
         },
-        
+        //Boons
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
           "warningDuration": 14.5, "timestamps": [14.5],
           "icon": "Data/Strikes/B10/Boons.png"
@@ -1215,20 +1242,20 @@
           "warningDuration": 6.5, "timestamps": [94.5],
           "icon": "Data/Strikes/B10/Boons.png"
         },
-        
+        //Greens
         { "warning": "Next: Share the Void", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 8, "timestamps": [41, 73.5, 106],
+          "warningDuration": 7.5, "timestamps": [40.5, 73, 105.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
         { "warning": "Next: Share the Void", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 8.5, "timestamps": [8.5],
+          "warningDuration": 8, "timestamps": [8],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
         { "warning": "Share the Void", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 6, "timestamps": [14.5, 47, 79.5, 112],
+          "warningDuration": 6.5, "timestamps": [14.5, 47, 79.5, 112],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Spread
         { "warning": "Next: Spread", "fillColor": [158, 119, 13, 0],
           "warningDuration": 10, "timestamps": [33, 65.5, 98],
           "icon": "Data/Strikes/B10/B10-Default.png"
@@ -1237,7 +1264,7 @@
           "warningDuration": 5, "timestamps": [38, 70.5, 103],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Void Pools
         { "warning": "Next: Void Pools", "fillColor": [245, 7, 7, 0],
           "warningDuration": 8.5, "timestamps": [23, 55.5, 88],
           "icon": "Data/Strikes/B10/D5-Void Pool.png"
@@ -1246,16 +1273,16 @@
           "warningDuration": 7.5, "timestamps": [30.5, 63, 95.5],
           "icon": "Data/Strikes/B10/D5-Void Pool.png"
         },
-        
+        //Wurm Spawns
         { "warning": "Spawn: Zhaitan's Reach", "fillColor": [137, 156, 23, 0],
           "warningDuration": 14, "timestamps": [47, 79.5, 112],
           "icon": "Data/Strikes/B10/D5-Zhaitan's Reach.png"
         },
         { "warning": "Spawn: Zhaitan's Reach", "fillColor": [137, 156, 23, 0],
-          "warningDuration": 15, "timestamps": [14.5],
+          "warningDuration": 14.5, "timestamps": [14.5],
           "icon": "Data/Strikes/B10/D5-Zhaitan's Reach.png"
         },
-        
+        //Putrid Deluge
         { "warning": "Next: Putrid Deluge", "fillColor": [137, 156, 23, 0],
           "warningDuration": 6, "timestamps": [44, 76.5, 109],
           "icon": "Data/Strikes/B10/D5-Putrid Deluge.png"
@@ -1272,7 +1299,7 @@
           "warningDuration": 10, "timestamps": [24.5, 57, 89.5, 122],
           "icon": "Data/Strikes/B10/D5-Putrid Deluge.png"
         },
-        
+        //Claw Slam
         { "warning": "Next: Claw Slam", "fillColor": [137, 156, 23, 0],
           "warningDuration": 10, "timestamps": [24.5, 57, 89.5],
           "icon": "Data/Strikes/B10/D5-Claw Slam.png"
@@ -1281,7 +1308,7 @@
           "warningDuration": 3, "timestamps": [27.5, 60, 92.5],
           "icon": "Data/Strikes/B10/D5-Claw Slam.png"
         },
-        
+        //Scream of Zhaitan
         { "warning": "Next: Scream of Zhaitan", "fillColor": [137, 156, 23, 0],
           "warningDuration": 6.5, "timestamps": [29.5, 62, 94.5],
           "icon": "Data/Strikes/B10/D5-Scream of Zhaitan.png"
@@ -1291,92 +1318,10 @@
           "icon": "Data/Strikes/B10/D5-Scream of Zhaitan.png"
         }
       ],
+      //Center Orb's Max Expansion before Mechanics
       "markers": [
-        { "position": [5.207, -510.488, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [0]
-        },
-        { "position": [5.207, -510.488, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [0]
-        },
-        { "position": [25.527, -510.488, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [0]
-        },
-        { "position": [25.527, -510.488, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [0]
-        },
-        { "position": [15.367, -533.348, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [0]
-        },
-        { "position": [15.367, -533.348, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [0]
-        },
-        
-        { "position": [3.581, -509.167, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [8.5]
-        },
-        { "position": [3.581, -509.167, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [8.5]
-        },
-        { "position": [27.254, -509.193, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [8.5]
-        },
-        { "position": [27.254, -509.193, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [8.5]
-        },
-        
-        { "position": [3.581, -509.167, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [33]
-        },
-        { "position": [3.581, -509.167, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [33]
-        },
-        { "position": [27.254, -509.193, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [33]
-        },
-        { "position": [27.254, -509.193, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [33]
-        },
-        { "position": [15.367, -533.348, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [33]
-        },
-        { "position": [15.367, -533.348, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [33]
-        },
-        
-        { "position": [-4.342, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [41]
-        },
-        { "position": [-4.342, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [41]
-        },
-        { "position": [35.078, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [41]
-        },
-        { "position": [35.078, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [41]
-        },
-        
-        { "position": [-4.342, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [65.5]
-        },
-        { "position": [-4.342, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [65.5]
-        },
-        { "position": [35.078, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [65.5]
-        },
-        { "position": [35.078, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [65.5]
-        },
-        { "position": [15.367, -542.746, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [65.5]
-        },
-        { "position": [15.367, -542.746, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [65.5]
-        },
-        
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 29.762, "fadeCenter": true, "opacity": 0.4,
-          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 8, "timestamps": [8.5]
+          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 8.5, "timestamps": [8]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 15.669, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 6, "timestamps": [17]
@@ -1385,10 +1330,10 @@
           "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 5, "timestamps": [33]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 29.762, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 6, "timestamps": [41]
+          "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 6.5, "timestamps": [40.5]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 47.377, "fadeCenter": true, "opacity": 0.4,
-          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 8, "timestamps": [41]
+          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 8.5, "timestamps": [40.5]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 33.285, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 6, "timestamps": [49.5]
@@ -1397,7 +1342,7 @@
           "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 5, "timestamps": [65.5]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 47.377, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 6, "timestamps": [73.5]
+          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 6.5, "timestamps": [73]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 52.662, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 6, "timestamps": [82]
@@ -1406,267 +1351,356 @@
           "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 5, "timestamps": [98]
         },
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 66.754, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 6, "timestamps": [106]
+          "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 5.5, "timestamps": [105.5]
         },
-        
+      ],
+      //Pre-spawn Greens and Next Green sets
+      "markers": [
+        //Pre-spawn Green 1
+        { "position": [5.207, -510.488, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [0]
+        },
+        { "position": [5.207, -510.488, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [0]
+        },
+        { "position": [25.527, -510.488, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [0]
+        },
+        { "position": [25.527, -510.488, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [0]
+        },
+        { "position": [15.367, -533.348, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8, "timestamps": [0]
+        },
+        { "position": [15.367, -533.348, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8, "timestamps": [0]
+        },
+        //Next Green set
+        { "position": [3.581, -509.167, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [8]
+        },
+        { "position": [3.581, -509.167, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [8]
+        },
+        { "position": [27.254, -509.193, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [8]
+        },
+        { "position": [27.254, -509.193, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [8]
+        },
+        //Pre-spawn Greens
+        { "position": [3.581, -509.167, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 7.5, "timestamps": [33]
+        },
+        { "position": [3.581, -509.167, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 7.5, "timestamps": [33]
+        },
+        { "position": [27.254, -509.193, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 7.5, "timestamps": [33]
+        },
+        { "position": [27.254, -509.193, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 7.5, "timestamps": [33]
+        },
+        { "position": [15.367, -533.348, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 7.5, "timestamps": [33]
+        },
+        { "position": [15.367, -533.348, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 7.5, "timestamps": [33]
+        },
+        //Next Green set
+        { "position": [-4.342, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [40.5]
+        },
+        { "position": [-4.342, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [40.5]
+        },
+        { "position": [35.078, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [40.5]
+        },
+        { "position": [35.078, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [40.5]
+        },
+        //Pre-spawn Greens
+        { "position": [-4.342, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 7.5, "timestamps": [65.5]
+        },
+        { "position": [-4.342, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 7.5, "timestamps": [65.5]
+        },
+        { "position": [35.078, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 7.5, "timestamps": [65.5]
+        },
+        { "position": [35.078, -503.325, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 7.5, "timestamps": [65.5]
+        },
+        { "position": [15.367, -542.746, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 7.5, "timestamps": [65.5]
+        },
+        { "position": [15.367, -542.746, 391.603], "rotation": [180, 0, 0], "size": 8.85, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 7.5, "timestamps": [65.5]
+        },
+      ],
+      //Pre-spawn Putrid Deluge AoE's
+      "markers": [
+        //Set 1
         { "position": [-3.826, -541.729, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [-3.826, -541.729, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [-1.228, -529.251, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [-1.228, -529.251, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [1.370, -516.773, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [1.370, -516.773, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [3.968, -504.294, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [3.968, -504.294, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [6.566, -491.816, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [6.566, -491.816, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [8.782, -542.814, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [8.782, -542.814, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [11.380, -530.336, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [11.380, -530.336, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [13.978, -517.858, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [13.978, -517.858, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [16.576, -505.380, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [16.576, -505.380, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [19.175, -492.901, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [19.175, -492.901, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [21.390, -543.900, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [21.390, -543.900, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [23.989, -531.421, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [23.989, -531.421, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [26.587, -518.943, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [26.587, -518.943, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [29.185, -506.465, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [29.185, -506.465, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [31.783, -493.986, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [31.783, -493.986, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [33.999, -544.985, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [33.999, -544.985, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [36.597, -532.506, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [36.597, -532.506, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [39.195, -520.028, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [39.195, -520.028, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [41.793, -507.550, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [41.793, -507.550, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [51.804, -521.113, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [8]
         },
         { "position": [51.804, -521.113, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [8.5]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [8]
         },
-        
+        //Sets 2/3/4
         { "position": [-11.516, -527.595, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [-11.516, -527.595, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [-8.919, -515.116, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [-8.919, -515.116, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [-6.321, -502.638, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [-6.321, -502.638, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [-3.724, -490.159, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [-3.724, -490.159, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [-1.504, -541.157, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [-1.504, -541.157, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [1.093, -528.679, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [1.093, -528.679, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [3.690, -516.200, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [3.690, -516.200, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [6.287, -503.722, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [6.287, -503.722, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [8.884, -491.243, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [8.884, -491.243, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [11.103, -542.240, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [11.103, -542.240, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [13.701, -529.763, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [13.701, -529.763, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [16.299, -517.284, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [16.299, -517.284, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [18.896, -504.806, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [18.896, -504.806, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [21.493, -492.327, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [21.493, -492.327, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [23.713, -543.326, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [23.713, -543.326, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [26.310, -530.847, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [26.310, -530.847, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [28.907, -518.368, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [28.907, -518.368, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [31.504, -505.890, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [31.504, -505.890, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [34.102, -493.412, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [34.102, -493.412, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [36.321, -544.410, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [36.321, -544.410, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [38.919, -531.931, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [38.919, -531.931, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [41.516, -519.453, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [41.516, -519.453, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [44.113, -506.974, 391.713], "rotation": [180, 0, 0], "size": 9.9, "opacity": 0.075,
-          "texture":"Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Fill-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         },
         { "position": [44.113, -506.974, 391.713], "rotation": [180, 0, 0], "size": 10, "opacity": 0.375,
-          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [41, 73.5, 106]
+          "texture":"Data/Shapes/Orb1-orange.png", "duration": 3.5, "timestamps": [40.5, 73, 105.5]
         }
       ]
     },
@@ -1679,20 +1713,22 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
+      //Alerts
       "alerts": [
+        //Spawns
         { "warning": "Spawn: Dragon Orbs", "fillColor": [93, 11, 120, 0],
           "warningDuration": 3.5, "timestamps": [3.5],
           "icon": "Data/Strikes/B10/Dragon Orb Spawns.png"
         },
         { "warning": "Spawn: Heart & Void Melter's", "fillColor": [93, 11, 120, 0],
-          "warningDuration": 13, "timestamps": [12.5],
+          "warningDuration": 12.5, "timestamps": [12.5],
           "icon": "Data/Strikes/B10/Void Melter.png"
         },
-        
         { "warning": "Spawn: Saltspray Dragon", "fillColor": [93, 11, 120, 0],
           "warningDuration": 5.5, "timestamps": [5.5],
           "icon": "Data/Strikes/B10/Saltspray Attack.png"
         },
+        //Saltspray Attacks
         { "warning": "Next: Saltspray Breath", "fillColor": [163, 43, 255, 0],
           "warningDuration": 4, "timestamps": [9.5, 13.5],
           "icon": "Data/Strikes/B10/Saltspray Attack.png"
@@ -1701,12 +1737,12 @@
           "warningDuration": 4, "timestamps": [17.5],
           "icon": "Data/Strikes/B10/Saltspray Attack.png"
         },
-        
+        //Heart Attacks
         { "warning": "Next: Heart Projectiles", "fillColor": [199, 26, 14, 0],
           "warningDuration": 3, "timestamps": [11.5, 14.5, 17.5, 20.5, 23.5, 26.5, 29.5, 32.5, 35.5, 38.5, 41.5, 44.5, 47.5, 50.5, 53.5, 56.5, 59.5, 62.5, 65.5, 68.5, 71.5, 74.5, 77.5, 80.5, 83.5],
           "icon": "Data/Strikes/B10/Projectile of Mordremoth.png"
         },
-        
+        //Void Discharge
         { "warning": "Void Discharge (25%)", "fillColor": [93, 11, 120, 0],
           "warningDuration": 10.5, "timestamps": [23],
           "icon": "Data/Strikes/B10/Void Discharge.png"
@@ -1736,7 +1772,9 @@
           "icon": "Data/Strikes/B10/Void Discharge.png"
         }
       ],
+      //Enemy Spawns and Pre-Greens
       "markers": [
+        //Enemy Spawns
         { "position": [26.262, -529.25, 392.812], "size": 2, "fadeCenter": false,
           "texture": "Data/Strikes/B10/Saltspray Dragon Location.png", "duration": 5.5, "timestamps": [0]
         },
@@ -1758,7 +1796,7 @@
         { "position": [-16.051, -517.198, 392.512], "size": 1.5, "fadeCenter": false,
           "texture": "Data/Strikes/B10/Void Melter Location.png", "duration": 12.5, "timestamps": [0]
         },
-        
+        //Pre-Greens
         { "position": [28.067, -513.028, 391.603], "rotation": [180, 0, 0], "size": 8.35, "fadeCenter": false, "opacity": 0.15,
           "texture": "Data/Shapes/Orb1-green.png", "duration": 78, "timestamps": [5.5]
         },
@@ -1782,14 +1820,16 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
+      //Alerts
       "alerts": [
+        //Spawn
         { "warning": "Spawn: Soo-Won",
-          "warningDuration": 12, "timestamps": [11.5],
+          "warningDuration": 11.5, "timestamps": [11.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Boons
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
-          "warningDuration": 12, "timestamps": [11.5],
+          "warningDuration": 11.5, "timestamps": [11.5],
           "icon": "Data/Strikes/B10/Boons.png"
         },
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
@@ -1805,67 +1845,59 @@
           "icon": "Data/Strikes/B10/Boons.png"
         },
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
-          "warningDuration": 7, "timestamps": [31.5],
+          "warningDuration": 7, "timestamps": [31.5, 111.5],
           "icon": "Data/Strikes/B10/Boons.png"
         },
-        
+        //Greens
         { "warning": "Next: Share the Void", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 15, "timestamps": [14.5],
+          "warningDuration": 14.5, "timestamps": [14.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
         { "warning": "Next: Share the Void", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 6.5, "timestamps": [60.5],
+          "warningDuration": 6.5, "timestamps": [60.5, 106.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
         { "warning": "Share the Void", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 6.5, "timestamps": [21, 67],
+          "warningDuration": 6.5, "timestamps": [21, 67, 113],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Spread
         { "warning": "Next: Spread", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 10, "timestamps": [24.5, 70.5],
+          "warningDuration": 10, "timestamps": [24.5, 70.5, 116.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
         { "warning": "Spread", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 5, "timestamps": [29.5, 75.5],
+          "warningDuration": 5, "timestamps": [29.5, 75.5, 121.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Void Pools
         { "warning": "Next: Void Pools", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 15, "timestamps": [14.5],
+          "warningDuration": 14.5, "timestamps": [14.5],
           "icon": "Data/Strikes/B10/D1-Void Pool.png"
         },
         { "warning": "Next: Void Pools", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 6.5, "timestamps": [60.5],
+          "warningDuration": 6.5, "timestamps": [60.5, 106.5],
           "icon": "Data/Strikes/B10/D1-Void Pool.png"
         },
         { "warning": "Next: Void Pools", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 6, "timestamps": [83],
-          "icon": "Data/Strikes/B10/D1-Void Pool.png"
-        },
-        { "warning": "Next: Void Pools", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 5.5, "timestamps": [37],
+          "warningDuration": 7.5, "timestamps": [37, 83],
           "icon": "Data/Strikes/B10/D1-Void Pool.png"
         },
         { "warning": "Void Pools", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 7.5, "timestamps": [22, 44.5, 68, 90.5],
+          "warningDuration": 7.5, "timestamps": [22, 44.5, 68, 90.5, 114],
           "icon": "Data/Strikes/B10/D1-Void Pool.png"
         },
-        
+        //Magic Hail
         { "warning": "Next: Magic Hail", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 12.5, "timestamps": [89.5],
+          "warningDuration": 11.5, "timestamps": [43.5, 89.5],
           "icon": "Data/Strikes/B10/Dragon Orb Spawns.png"
         },
         { "warning": "Next: Magic Hail", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 12, "timestamps": [43.5],
+          "warningDuration": 10, "timestamps": [64, 110],
           "icon": "Data/Strikes/B10/Dragon Orb Spawns.png"
         },
         { "warning": "Next: Magic Hail", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 10, "timestamps": [64],
-          "icon": "Data/Strikes/B10/Dragon Orb Spawns.png"
-        },
-        { "warning": "Next: Magic Hail", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 7, "timestamps": [29, 75],
+          "warningDuration": 7, "timestamps": [29, 75, 121],
           "icon": "Data/Strikes/B10/Dragon Orb Spawns.png"
         },
         { "warning": "Next: Magic Hail", "fillColor": [29, 64, 204, 0],
@@ -1873,12 +1905,16 @@
           "icon": "Data/Strikes/B10/Dragon Orb Spawns.png"
         },
         { "warning": "Magic Hail", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 2, "timestamps": [20, 31, 45.5, 66, 77, 91.5],
+          "warningDuration": 3, "timestamps": [32, 78, 124],
           "icon": "Data/Strikes/B10/Dragon Orb Spawns.png"
         },
-        
+        { "warning": "Magic Hail", "fillColor": [29, 64, 204, 0],
+          "warningDuration": 2, "timestamps": [20, 45.5, 66, 91.5, 112],
+          "icon": "Data/Strikes/B10/Dragon Orb Spawns.png"
+        },
+        //Tsunami Wave
         { "warning": "Next: Tsunami Wave", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 10, "timestamps": [64],
+          "warningDuration": 10, "timestamps": [64, 110],
           "icon": "Data/Strikes/B10/D6-Wave.png"
         },
         { "warning": "Next: Tsunami Wave", "fillColor": [29, 64, 204, 0],
@@ -1886,32 +1922,28 @@
           "icon": "Data/Strikes/B10/D6-Wave.png"
         },
         { "warning": "Tsunami Wave", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 3, "timestamps": [21, 67],
+          "warningDuration": 3, "timestamps": [21, 67, 113],
           "icon": "Data/Strikes/B10/D6-Wave.png"
         },
-        
+        //Claw Slap
         { "warning": "Next: Claw Slap", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 4, "timestamps": [26, 72],
+          "warningDuration": 4, "timestamps": [26, 72, 118],
           "icon": "Data/Strikes/B10/D6-Claw Slap.png"
         },
         { "warning": "Claw Slap", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 3, "timestamps": [29, 75],
+          "warningDuration": 3, "timestamps": [29, 75, 121],
           "icon": "Data/Strikes/B10/D6-Claw Slap.png"
         },
-        
+        //Tail Slam
         { "warning": "Next: Tail Slam", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 12.5, "timestamps": [89.5],
-          "icon": "Data/Strikes/B10/D6-Wave.png"
-        },
-        { "warning": "Next: Tail Slam", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 12, "timestamps": [43.5],
+          "warningDuration": 11.5, "timestamps": [43.5, 89.5],
           "icon": "Data/Strikes/B10/D6-Wave.png"
         },
         { "warning": "Tail Slam", "fillColor": [29, 64, 204, 0],
           "warningDuration": 3, "timestamps": [46.5, 92.5],
           "icon": "Data/Strikes/B10/D6-Wave.png"
         },
-        
+        //Void Beam
         { "warning": "Next: Void Beam", "fillColor": [29, 64, 204, 0],
           "warningDuration": 7.5, "timestamps": [54, 100],
           "icon": "Data/Strikes/B10/D6-Void Beam.png"
@@ -1921,57 +1953,8 @@
           "icon": "Data/Strikes/B10/D6-Void Beam.png"
         }
       ],
+      //Center Orb's Max Expansion before Mechanics
       "markers": [
-        { "position": [28.067, -513.028, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 14.5, "timestamps": [0]
-        },
-        { "position": [28.067, -513.028, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 14.5, "timestamps": [0]
-        },
-        { "position": [22.987, -523.188, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 14.5, "timestamps": [0]
-        },
-        { "position": [22.987, -523.188, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 14.5, "timestamps": [0]
-        },
-        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 14.5, "timestamps": [0]
-        },
-        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 14.5, "timestamps": [0]
-        },
-        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.075,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [14.5]
-        },
-        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.225,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [14.5]
-        },
-        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.075,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [14.5]
-        },
-        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.225,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [14.5]
-        },
-        
-        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [54]
-        },
-        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [54]
-        },
-        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [54]
-        },
-        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [54]
-        },
-        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [54]
-        },
-        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [54]
-        },
-        
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 10.385, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 8, "timestamps": [6.5]
         },
@@ -1999,13 +1982,71 @@
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 49.138, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 6, "timestamps": [77]
         },
-        
+      ],
+      //Pre-spawn Greens and Next Green sets
+      "markers": [
+        //Pre-spawn Greens
+        { "position": [28.067, -513.028, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 14.5, "timestamps": [0]
+        },
+        { "position": [28.067, -513.028, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 14.5, "timestamps": [0]
+        },
+        { "position": [22.987, -523.188, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 14.5, "timestamps": [0]
+        },
+        { "position": [22.987, -523.188, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 14.5, "timestamps": [0]
+        },
+        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 14.5, "timestamps": [0]
+        },
+        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 14.5, "timestamps": [0]
+        },
+        //Next Green set
+        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.075,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [14.5]
+        },
+        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.225,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [14.5]
+        },
+        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.075,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [14.5]
+        },
+        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.225,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [14.5]
+        },
+        //Pre-spawn Greens
+        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [54]
+        },
+        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [54]
+        },
+        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [54]
+        },
+        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [54]
+        },
+        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [54]
+        },
+        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [54]
+        },
+      ],
+      //Tsunami Wave and it's Magic Hail
+      "markers": [
+        //[First] Slam Indicator
         { "position": [24.794, -537.284, 391.613], "rotation": [180, 0, 0], "size": 12.1, "fadeCenter": false, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-orange.png", "duration": 7, "timestamps": [9.5]
         },
         { "position": [24.794, -537.284, 391.613], "rotation": [180, 0, 0], "size": 12.1, "fadeCenter": false, "opacity": 0.3,
           "texture": "Data/Shapes/Orb1-orange.png", "duration": 7, "timestamps": [9.5]
         },
+        //[First] Magic Hail
         { "position": [48.513, -528.198, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": true, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-orange.png", "duration": 6.5, "timestamps": [11.5]
         },
@@ -2036,13 +2077,14 @@
         { "position": [5.065, -521.286, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": true, "opacity": 0.3,
           "texture": "Data/Shapes/Orb1-orange.png", "duration": 6.5, "timestamps": [11.5]
         },
-        
+        //[Second] Slam Indicator
         { "position": [24.794, -537.284, 391.613], "rotation": [180, 0, 0], "size": 12.1, "fadeCenter": false, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [57.5]
         },
         { "position": [24.794, -537.284, 391.613], "rotation": [180, 0, 0], "size": 12.1, "fadeCenter": false, "opacity": 0.3,
           "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [57.5]
         },
+        //[Second] Magic Hail
         { "position": [48.513, -528.198, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": true, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-orange.png", "duration": 4.5, "timestamps": [59.5]
         },
@@ -2073,7 +2115,10 @@
         { "position": [5.065, -521.286, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": true, "opacity": 0.3,
           "texture": "Data/Shapes/Orb1-orange.png", "duration": 4.5, "timestamps": [59.5]
         },
-        
+      ],
+      //Claw Slap and it's Magic Hail
+      "markers": [
+        //Slap Indicator
         { "position": [26.546, -554.902, 391.613], "rotation": [180, 0, 171.1], "size": 48.5, "fadeCenter": false, "opacity": 0.1,
           "texture": "Data/Shapes/145-Fill.png", "duration": 4, "timestamps": [22, 68]
         },
@@ -2086,133 +2131,141 @@
         { "position": [26.546, -554.902, 391.613], "rotation": [180, 0, 171.1], "size": 54.35, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/145-Orb10.png", "duration": 7, "timestamps": [22, 68]
         },
+        //Magic Hail 1
         { "position": [-4.604, -533.859, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [-4.604, -533.859, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [19.398, -517.995, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [19.398, -517.995, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [38.809, -519.366, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [38.809, -519.366, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [29.194, -517.403, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [29.194, -517.403, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [-8.989, -542.638, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [-8.989, -542.638, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [47.588, -523.751, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [47.588, -523.751, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [10.090, -521.103, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [10.090, -521.103, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [1.903, -526.514, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
         { "position": [1.903, -526.514, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24, 70]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [23.9, 69.9, 115.9]
         },
+        //Magic Hail 2
         { "position": [4.587, -509.800, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24.5, 70.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24.4, 70.4]
         },
         { "position": [4.587, -509.800, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24.5, 70.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24.4, 70.4]
         },
         { "position": [42.910, -507.482, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24.5, 70.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24.4, 70.4]
         },
         { "position": [42.910, -507.482, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24.5, 70.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24.4, 70.4]
         },
         { "position": [-6.338, -517.020, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24.5, 70.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24.4, 70.4]
         },
         { "position": [-6.338, -517.020, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24.5, 70.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24.4, 70.4]
         },
         { "position": [30.080, -504.863, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24.5, 70.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24.4, 70.4]
         },
         { "position": [30.080, -504.863, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24.5, 70.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24.4, 70.4]
         },
         { "position": [-15.022, -526.822, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24.5, 70.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24.4, 70.4]
         },
         { "position": [-15.022, -526.822, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24.5, 70.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24.4, 70.4]
         },
         { "position": [17.009, -505.653, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24.5, 70.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [24.4, 70.4]
         },
         { "position": [17.009, -505.653, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24.5, 70.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [24.4, 70.4]
         },
+        //Magic Hail 3
         { "position": [-14.052, -508.134, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [25, 71]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [25.2, 71.2]
         },
         { "position": [-14.052, -508.134, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [25, 71]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [25.2, 71.2]
         },
         { "position": [30.909, -493.125, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [25, 71]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [25.2, 71.2]
         },
         { "position": [30.909, -493.125, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [25, 71]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [25.2, 71.2]
         },
         { "position": [-0.564, -499.220, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [25, 71]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [25.2, 71.2]
         },
         { "position": [-0.564, -499.220, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [25, 71]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [25.2, 71.2]
         },
         { "position": [14.771, -494.101, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [25, 71]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [25.2, 71.2]
         },
         { "position": [14.771, -494.101, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [25, 71]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [25.2, 71.2]
         },
+        //Magic Hail 4
         { "position": [-5.715, -488.641, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [25.5, 71.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [26, 72]
         },
         { "position": [-5.715, -488.641, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [25.5, 71.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [26, 72]
         },
         { "position": [12.534, -482.549, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [25.5, 71.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [26, 72]
         },
         { "position": [12.534, -482.549, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [25.5, 71.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [26, 72]
         },
-        
+      ],
+      //Tail Slam and it's Magic Hail
+      "markers": [
+        //Slam Indicator
         { "position": [15.266, -517.452, 391.613], "rotation": [180, 0, 0], "size": 75.5, "fadeCenter": true, "opacity": 0.05,
           "texture": "Data/Shapes/fillRect.png", "duration": 5, "timestamps": [37, 83]
         },
         { "position": [15.266, -517.452, 391.613], "rotation": [180, 0, 0], "size": 75.5, "fadeCenter": true, "opacity": 0.35,
           "texture": "Data/Shapes/rectBorder.png", "duration": 5, "timestamps": [37, 83]
         },
+        //Magic Hail
         { "position": [11.726, -542.536, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": true, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [40.5, 86.5]
         },
@@ -2243,7 +2296,9 @@
         { "position": [-9.374, -521.408, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": true, "opacity": 0.3,
           "texture": "Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [40.5, 86.5]
         },
-        
+      ],
+      //Void Beam
+      "markers": [
         { "position": [-2.371, -509.677, 391.613], "rotation": [180, 0, 0], "size": 10.15, "fadeCenter": true, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-orange.png", "duration": 4, "timestamps": [50.103, 96.103]
         },
@@ -2555,20 +2610,24 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
+      //Alerts
       "alerts": [
+        //Spawn
         { "warning": "Spawn: Projectiles", "fillColor": [93, 11, 120, 0],
           "warningDuration": 3.5, "timestamps": [3.5],
           "icon": "Data/Strikes/B10/DragonOrb.png"
         }
       ],
+      //Enemy Spawns and Pre-greens
       "markers": [
+        //Enemy Spawns
         { "position": [28.637, -537.810, 392.812], "size": 2, "fadeCenter": true, "opacity": 0.6,
           "texture": "Data/Strikes/B10/Goliath Location.png", "duration": 600, "timestamps": [0]
         },
         { "position": [2.794, -538.395, 392.812], "size": 2, "fadeCenter": true, "opacity": 0.6,
           "texture": "Data/Strikes/B10/Obliterator Location.png", "duration": 600, "timestamps": [0]
         },
-        
+        //Pre-greens
         { "position": [28.067, -513.028, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.05,
           "texture": "Data/Shapes/Fill-green.png", "duration": 600, "timestamps": [0]
         },
@@ -2598,7 +2657,9 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
+      //Alerts
       "alerts": [
+        //Boons
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
           "warningDuration": 12, "timestamps": [99.5],
           "icon": "Data/Strikes/B10/Boons.png"
@@ -2612,14 +2673,18 @@
           "icon": "Data/Strikes/B10/Boons.png"
         },
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
+          "warningDuration": 9, "timestamps": [79.5],
+          "icon": "Data/Strikes/B10/Boons.png"
+        },
+        { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
           "warningDuration": 8, "timestamps": [119.5],
           "icon": "Data/Strikes/B10/Boons.png"
         },
         { "warning": "Gain: Boons", "fillColor": [227, 195, 14, 0],
-          "warningDuration": 7.5, "timestamps": [39.5, 79.5],
+          "warningDuration": 7.5, "timestamps": [39.5],
           "icon": "Data/Strikes/B10/Boons.png"
         },
-        
+        //Greens
         { "warning": "Next: Share the Void", "fillColor": [33, 184, 17, 0],
           "warningDuration": 9.5, "timestamps": [9.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
@@ -2632,7 +2697,7 @@
           "warningDuration": 6.5, "timestamps": [16, 62, 108],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Spread
         { "warning": "Next: Spread", "fillColor": [158, 119, 13, 0],
           "warningDuration": 10, "timestamps": [19.5, 65.5, 111.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
@@ -2641,7 +2706,7 @@
           "warningDuration": 5, "timestamps": [24.5, 70.5, 116.5],
           "icon": "Data/Strikes/B10/B10-Default.png"
         },
-        
+        //Void Pools
         { "warning": "Next: Void Pools", "fillColor": [245, 7, 7, 0],
           "warningDuration": 9.5, "timestamps": [9.5],
           "icon": "Data/Strikes/B10/D1-Void Pool.png"
@@ -2651,16 +2716,16 @@
           "icon": "Data/Strikes/B10/D1-Void Pool.png"
         },
         { "warning": "Next: Void Pools", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 6, "timestamps": [32, 78],
+          "warningDuration": 7.5, "timestamps": [32, 78],
           "icon": "Data/Strikes/B10/D1-Void Pool.png"
         },
         { "warning": "Void Pools", "fillColor": [245, 7, 7, 0],
           "warningDuration": 7.5, "timestamps": [17, 39.5, 63, 85.5, 109],
           "icon": "Data/Strikes/B10/D1-Void Pool.png"
         },
-        
+        //Magic Hail
         { "warning": "Next: Magic Hail", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 12.5, "timestamps": [38.5, 84.5],
+          "warningDuration": 11.5, "timestamps": [38.5, 84.5],
           "icon": "Data/Strikes/B10/Dragon Orb Spawns.png"
         },
         { "warning": "Next: Magic Hail", "fillColor": [29, 64, 204, 0],
@@ -2676,10 +2741,14 @@
           "icon": "Data/Strikes/B10/Dragon Orb Spawns.png"
         },
         { "warning": "Magic Hail", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 2, "timestamps": [15, 26, 40.5, 61, 72, 86.5, 107, 118],
+          "warningDuration": 3, "timestamps": [27, 73, 119],
           "icon": "Data/Strikes/B10/Dragon Orb Spawns.png"
         },
-        
+        { "warning": "Magic Hail", "fillColor": [29, 64, 204, 0],
+          "warningDuration": 2, "timestamps": [15, 40.5, 61, 86.5, 107],
+          "icon": "Data/Strikes/B10/Dragon Orb Spawns.png"
+        },
+        //Tsunami Wave
         { "warning": "Next: Tsunami Wave", "fillColor": [29, 64, 204, 0],
           "warningDuration": 10, "timestamps": [59, 105],
           "icon": "Data/Strikes/B10/D6-Wave.png"
@@ -2692,7 +2761,7 @@
           "warningDuration": 3, "timestamps": [16, 62, 108],
           "icon": "Data/Strikes/B10/D6-Wave.png"
         },
-        
+        //Claw Slap
         { "warning": "Next: Claw Slap", "fillColor": [29, 64, 204, 0],
           "warningDuration": 4, "timestamps": [21, 67, 113],
           "icon": "Data/Strikes/B10/D6-Claw Slap.png"
@@ -2701,16 +2770,16 @@
           "warningDuration": 3, "timestamps": [24, 70, 116],
           "icon": "Data/Strikes/B10/D6-Claw Slap.png"
         },
-        
+        //Tail Slam
         { "warning": "Next: Tail Slam", "fillColor": [29, 64, 204, 0],
-          "warningDuration": 12.5, "timestamps": [38.5, 84.5],
+          "warningDuration": 11.5, "timestamps": [38.5, 84.5],
           "icon": "Data/Strikes/B10/D6-Wave.png"
         },
         { "warning": "Tail Slam", "fillColor": [29, 64, 204, 0],
           "warningDuration": 3, "timestamps": [41.5, 87.5],
           "icon": "Data/Strikes/B10/D6-Wave.png"
         },
-        
+        //Void Beam
         { "warning": "Next: Void Beam", "fillColor": [29, 64, 204, 0],
           "warningDuration": 7.5, "timestamps": [49, 95],
           "icon": "Data/Strikes/B10/D6-Void Beam.png"
@@ -2720,88 +2789,8 @@
           "icon": "Data/Strikes/B10/D6-Void Beam.png"
         }
       ],
+      //Center Orb's Max Expansion before Mechanics
       "markers": [
-        { "position": [28.067, -513.028, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 9.5, "timestamps": [0]
-        },
-        { "position": [28.067, -513.028, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 9.5, "timestamps": [0]
-        },
-        { "position": [22.987, -523.188, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 9.5, "timestamps": [0]
-        },
-        { "position": [22.987, -523.188, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 9.5, "timestamps": [0]
-        },
-        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 9.5, "timestamps": [0]
-        },
-        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 9.5, "timestamps": [0]
-        },
-        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.075,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [9.5]
-        },
-        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.225,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [9.5]
-        },
-        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.075,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [9.5]
-        },
-        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.225,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [9.5]
-        },
-        
-        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [49]
-        },
-        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [49]
-        },
-        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [49]
-        },
-        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [49]
-        },
-        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [49]
-        },
-        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [49]
-        },
-        { "position": [43.668, -506.789, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.075,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [55.5]
-        },
-        { "position": [43.668, -506.789, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.225,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [55.5]
-        },
-        { "position": [40.729, -535.016, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.075,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [55.5]
-        },
-        { "position": [40.729, -535.016, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.225,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [55.5]
-        },
-        
-        { "position": [18.734, -548.402, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [95]
-        },
-        { "position": [18.734, -548.402, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [95]
-        },
-        { "position": [43.668, -506.789, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [95]
-        },
-        { "position": [43.668, -506.789, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [95]
-        },
-        { "position": [40.729, -535.016, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [95]
-        },
-        { "position": [40.729, -535.016, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [95]
-        },
-        
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 6.862, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/Polygons/25-Poly3-R.png", "duration": 8, "timestamps": [1.5]
         },
@@ -2841,13 +2830,103 @@
         { "position": [15.3591026162052, -518.036474472949, 391.683], "rotation": [180, 0, 7.5], "size": 68.515, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/Polygons/25-Poly7-R.png", "duration": 5, "timestamps": [111.5]
         },
-        
+      ],
+      //Pre-spawn Greens and Next Green sets
+      "markers": [
+        //Pre-Greens 1
+        { "position": [28.067, -513.028, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 9.5, "timestamps": [0]
+        },
+        { "position": [28.067, -513.028, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 9.5, "timestamps": [0]
+        },
+        { "position": [22.987, -523.188, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 9.5, "timestamps": [0]
+        },
+        { "position": [22.987, -523.188, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 9.5, "timestamps": [0]
+        },
+        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 9.5, "timestamps": [0]
+        },
+        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 9.5, "timestamps": [0]
+        },
+        //Next Green set
+        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.075,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [9.5]
+        },
+        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.225,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [9.5]
+        },
+        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.075,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [9.5]
+        },
+        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.225,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [9.5]
+        },
+        //Pre-Greens 2
+        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [49]
+        },
+        { "position": [17.907, -540.968, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [49]
+        },
+        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [49]
+        },
+        { "position": [32.909, -529.802, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [49]
+        },
+        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [49]
+        },
+        { "position": [34.941, -510.278, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [49]
+        },
+        //Next Green set
+        { "position": [43.668, -506.789, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.075,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [55.5]
+        },
+        { "position": [43.668, -506.789, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.225,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [55.5]
+        },
+        { "position": [40.729, -535.016, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.075,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 8.5, "timestamps": [55.5]
+        },
+        { "position": [40.729, -535.016, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.225,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 8.5, "timestamps": [55.5]
+        },
+        //Pre-Greens 3
+        { "position": [18.734, -548.402, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [95]
+        },
+        { "position": [18.734, -548.402, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [95]
+        },
+        { "position": [43.668, -506.789, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [95]
+        },
+        { "position": [43.668, -506.789, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [95]
+        },
+        { "position": [40.729, -535.016, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Data/Shapes/Fill-green.png", "duration": 6.5, "timestamps": [95]
+        },
+        { "position": [40.729, -535.016, 391.613], "rotation": [180, 0, 0], "size": 8.8, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Data/Shapes/Orb1-green.png", "duration": 6.5, "timestamps": [95]
+        },
+      ],
+      //Tsunami Wave and it's Magic Hail
+      "markers": [
+        //[First] Slam Indicator
         { "position": [24.794, -537.284, 391.613], "rotation": [180, 0, 0], "size": 12.1, "fadeCenter": false, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-orange.png", "duration": 7, "timestamps": [4.5]
         },
         { "position": [24.794, -537.284, 391.613], "rotation": [180, 0, 0], "size": 12.1, "fadeCenter": false, "opacity": 0.3,
           "texture": "Data/Shapes/Orb1-orange.png", "duration": 7, "timestamps": [4.5]
         },
+        //[First] Magic Hail
         { "position": [48.513, -528.198, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": true, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-orange.png", "duration": 6.5, "timestamps": [6.5]
         },
@@ -2878,13 +2957,14 @@
         { "position": [5.065, -521.286, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": true, "opacity": 0.3,
           "texture": "Data/Shapes/Orb1-orange.png", "duration": 6.5, "timestamps": [6.5]
         },
-        
+        //[Second / Third] Slam Indicator
         { "position": [24.794, -537.284, 391.613], "rotation": [180, 0, 0], "size": 12.1, "fadeCenter": false, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [52.5, 98.5]
         },
         { "position": [24.794, -537.284, 391.613], "rotation": [180, 0, 0], "size": 12.1, "fadeCenter": false, "opacity": 0.3,
           "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [52.5, 98.5]
         },
+        //[Second / Third] Slam Indicator
         { "position": [48.513, -528.198, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": true, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-orange.png", "duration": 4.5, "timestamps": [54.5, 100.5]
         },
@@ -2915,7 +2995,10 @@
         { "position": [5.065, -521.286, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": true, "opacity": 0.3,
           "texture": "Data/Shapes/Orb1-orange.png", "duration": 4.5, "timestamps": [54.5, 100.5]
         },
-        
+      ],
+      //Claw Slap and it's Magic Hail
+      "markers": [
+        //Slap Attack Indicator
         { "position": [26.546, -554.902, 391.613], "rotation": [180, 0, 171.1], "size": 48.5, "fadeCenter": false, "opacity": 0.1,
           "texture": "Data/Shapes/145-Fill.png", "duration": 4, "timestamps": [17, 63, 109]
         },
@@ -2928,133 +3011,141 @@
         { "position": [26.546, -554.902, 391.613], "rotation": [180, 0, 171.1], "size": 54.35, "fadeCenter": false, "opacity": 0.75,
           "texture": "Data/Shapes/145-Orb10.png", "duration": 7, "timestamps": [17, 63, 109]
         },
+        //Magic Hail 1
         { "position": [-4.604, -533.859, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [-4.604, -533.859, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [19.398, -517.995, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [19.398, -517.995, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [38.809, -519.366, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [38.809, -519.366, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [29.194, -517.403, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [29.194, -517.403, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [-8.989, -542.638, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [-8.989, -542.638, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [47.588, -523.751, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [47.588, -523.751, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [10.090, -521.103, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [10.090, -521.103, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [1.903, -526.514, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
         { "position": [1.903, -526.514, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19, 65, 111]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [18.9, 64.9, 110.9]
         },
+        //Magic Hail 2
         { "position": [4.587, -509.800, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19.5, 65.5, 111.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19.4, 65.4, 111.4]
         },
         { "position": [4.587, -509.800, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19.5, 65.5, 111.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19.4, 65.4, 111.4]
         },
         { "position": [42.910, -507.482, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19.5, 65.5, 111.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19.4, 65.4, 111.4]
         },
         { "position": [42.910, -507.482, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19.5, 65.5, 111.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19.4, 65.4, 111.4]
         },
         { "position": [-6.338, -517.020, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19.5, 65.5, 111.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19.4, 65.4, 111.4]
         },
         { "position": [-6.338, -517.020, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19.5, 65.5, 111.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19.4, 65.4, 111.4]
         },
         { "position": [30.080, -504.863, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19.5, 65.5, 111.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19.4, 65.4, 111.4]
         },
         { "position": [30.080, -504.863, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19.5, 65.5, 111.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19.4, 65.4, 111.4]
         },
         { "position": [-15.022, -526.822, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19.5, 65.5, 111.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19.4, 65.4, 111.4]
         },
         { "position": [-15.022, -526.822, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19.5, 65.5, 111.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19.4, 65.4, 111.4]
         },
         { "position": [17.009, -505.653, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19.5, 65.5, 111.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [19.4, 65.4, 111.4]
         },
         { "position": [17.009, -505.653, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19.5, 65.5, 111.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [19.4, 65.4, 111.4]
         },
+        //Magic Hail 3
         { "position": [-14.052, -508.134, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [20, 66, 112]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [20.2, 66.2, 112.2]
         },
         { "position": [-14.052, -508.134, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [20, 66, 112]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [20.2, 66.2, 112.2]
         },
         { "position": [30.909, -493.125, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [20, 66, 112]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [20.2, 66.2, 112.2]
         },
         { "position": [30.909, -493.125, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [20, 66, 112]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [20.2, 66.2, 112.2]
         },
         { "position": [-0.564, -499.220, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [20, 66, 112]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [20.2, 66.2, 112.2]
         },
         { "position": [-0.564, -499.220, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [20, 66, 112]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [20.2, 66.2, 112.2]
         },
         { "position": [14.771, -494.101, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [20, 66, 112]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [20.2, 66.2, 112.2]
         },
         { "position": [14.771, -494.101, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [20, 66, 112]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [20.2, 66.2, 112.2]
         },
+        //Magic Hail 4
         { "position": [-5.715, -488.641, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [20.5, 66.5, 112.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [21, 67, 113]
         },
         { "position": [-5.715, -488.641, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [20.5, 66.5, 112.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [21, 67, 113]
         },
         { "position": [12.534, -482.549, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.1,
-          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [20.5, 66.5, 112.5]
+          "texture": "Data/Shapes/Fill-orange.png", "duration": 5, "timestamps": [21, 67, 113]
         },
         { "position": [12.534, -482.549, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": false, "opacity": 0.3,
-          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [20.5, 66.5, 112.5]
+          "texture": "Data/Shapes/Orb1-orange.png", "duration": 5, "timestamps": [21, 67, 113]
         },
-        
+      ],
+      //Tail Slam and it's Magic Hail
+      "markers": [
+        //Slam Indicator
         { "position": [15.266, -517.452, 391.613], "rotation": [180, 0, 0], "size": 75.5, "fadeCenter": true, "opacity": 0.05,
           "texture": "Data/Shapes/fillRect.png", "duration": 5, "timestamps": [32, 78]
         },
         { "position": [15.266, -517.452, 391.613], "rotation": [180, 0, 0], "size": 75.5, "fadeCenter": true, "opacity": 0.35,
           "texture": "Data/Shapes/rectBorder.png", "duration": 5, "timestamps": [32, 78]
         },
+        //Magic Hail
         { "position": [11.726, -542.536, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": true, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-orange.png", "duration": 3, "timestamps": [35.5, 81.5]
         },
@@ -3085,7 +3176,9 @@
         { "position": [-9.374, -521.408, 391.613], "rotation": [180, 0, 0], "size": 10.1, "fadeCenter": true, "opacity": 0.3,
           "texture": "Data/Shapes/Orb1-orange.png", "duration": 3, "timestamps": [35.5, 81.5]
         },
-        
+      ],
+      //Void Beam
+      "markers": [
         { "position": [-2.371, -509.677, 391.613], "rotation": [180, 0, 0], "size": 10.15, "fadeCenter": true, "opacity": 0.1,
           "texture": "Data/Shapes/Fill-orange.png", "duration": 4, "timestamps": [45.103, 91.103]
         },
