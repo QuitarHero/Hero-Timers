@@ -1,0 +1,69 @@
+{
+  "id": "htp.raid.w2.b2",
+  "name": "Bandit Trio\nGlobal Mechanics",
+  "category": "W2: Salvation Pass",
+  "description": "• Type: Automatic\n---Displays---\n• When each boss spawns.\n• When saboteurs spawn.\n• When mortars spawn.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Raids/Narella.png",
+  "map": 1149,
+  "reset": { "position": [128.7512, -89.64924, 61.711], "radius": 30,
+    "requireEntry": true, "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "Global Mechanics",
+      "start": { "position": [47.606, -285.6064, 100], "antipode": [-51.67011, -186.4302, -10],
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [-17.93, -252.31, 2.506], "radius": 175,
+        "requireEntry": true, "requireOutOfCombat": true
+      },
+      //Alerts
+      "alerts": [
+        { "alert": "Timer: Global Mechanics", "fillColor": [194, 45, 45, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Raids/Narella.png"
+        },
+        //Boss Spawns
+        { "warning": "Spawn: Berg", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 126, "timestamps": [130],
+          "icon": "Data/Raids/Berg.png"
+        },
+        { "warning": "Spawn: Zane", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 95, "timestamps": [250],
+          "icon": "Data/Raids/Zane.png"
+        },
+        { "warning": "Spawn: Narella", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 95, "timestamps": [370],
+          "icon": "Data/Raids/Narella.png"
+        },
+        //Saboteurs
+        { "warning": "Next: Saboteur", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 33, "timestamps": [308],
+          "icon": "Data/Raids/Saboteur.png"
+        },
+        { "warning": "Next: Saboteur", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 31, "timestamps": [339, 370, 401, 432],
+          "icon": "Data/Raids/Saboteur.png"
+        },
+        { "warning": "Next: Saboteur", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 25, "timestamps": [155],
+          "icon": "Data/Raids/Saboteur.png"
+        },
+        //Mortars
+        { "warning": "Next: Mortars", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 60, "timestamps": [215],
+          "icon": "Data/Raids/Mortar.png"
+        },
+        { "warning": "Next: Mortars", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 27, "timestamps": [335],
+          "icon": "Data/Raids/Mortar.png"
+        },
+        { "warning": "Next: Mortars", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 25, "timestamps": [275],
+          "icon": "Data/Raids/Mortar.png"
+        }
+      ]
+    }
+  ]
+}

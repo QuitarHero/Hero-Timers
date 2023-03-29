@@ -1,0 +1,36 @@
+{
+  "id": "htp.raid.w4.b2.challenge",
+  "name": "Mursaat Overseer CM\nBlues",
+  "category": "W4: Bastion of the Penitent",
+  "description": "• Type: Automatic\n---Displays---\n• When blue sections appear.\n• How long to move into them.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Raids/MO-CM.png",
+  "map": 1188,
+  "reset": { "position": [98.835, 132.927, 100.187], "antipode": [35.145, 69.167, 115.19],
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "Challenge Mode",
+      "start": { "position": [98.835, 132.927, 100.187], "antipode": [35.145, 69.167, 115.19],
+        "requireEntry": true, "requireCombat": true
+      },
+      "alerts": [
+        //Timer Start
+        { "alert": "Timer: Challenge Mode", "fillColor": [202, 175, 92, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Raids/MO.png"
+        },
+        //Blue Mechanic
+        { "warning": "Next: Blue Tiles", "fillColor": [54, 102, 191, 0],
+          "warningDuration": 26, "timestamps": [26, 56, 86, 116, 146, 176, 206, 236, 266, 296, 326, 356],
+          "icon": "Data/Raids/Blues.png"
+        },
+        { "warning": "Move", "fillColor": [54, 102, 191, 0],
+          "warningDuration": 4, "timestamps": [30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360],
+          "icon": "Data/Raids/Blues.png"
+        }
+      ]
+    }
+  ]
+}

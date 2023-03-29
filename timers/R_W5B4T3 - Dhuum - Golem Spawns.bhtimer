@@ -1,0 +1,358 @@
+{
+  "id": "htp.raid.w5.b4.golems",
+  "name": "Dhuum\nMessenger Spawns",
+  "category": "W5: Hall of Chains",
+  "description": "• Type: Automatic\n• Note #1: Messenger spawn timings are\nvariable, and as such are averaged.\n• Note #2: Medium Orb collections\naffect Messenger spawn positions.\nUse the number in \"[#/#]\" to keep track.\n---Displays---\n• When each Messenger spawns.\n• Markers for Messenger spawn positions.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Raids/DhuumMS.png",
+  "map": 1264,
+  "reset": { "position": [460, 70, 150], "antipode": [345, -32, 225],
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "Golem Timings",
+      "start": { "position": [460, 70, 150], "antipode": [345, -32, 225],
+        "requireEntry": true, "requireCombat": true
+      },
+      "alerts": [
+        //Timer Start
+        { "alert": "Timer: Golem Spawns", "fillColor": [12, 95, 21, 1],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Raids/Dhuum.png"
+        },
+        //3rd (Pre-Boss Spawns)
+        { "warning": "[0] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 17.1, "timestamps": [21.1],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //4th and 6th
+        { "warning": "[0] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 10.1, "timestamps": [31.2, 46.3],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //5th
+        { "warning": "[0] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 5, "timestamps": [36.2],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //7th
+        { "warning": "[0/1] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 14.9, "timestamps": [61.2],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //8th
+        { "warning": "[0/1]: Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 10, "timestamps": [71.2],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //9th
+        { "warning": "[0] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 5.1, "timestamps": [76.3],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //9th (1) and 10th (2)
+        { "warning": "[1/2] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 9.8, "timestamps": [81],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //10th
+        { "warning": "[0/1] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 5.6, "timestamps": [86.6],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //11th
+        { "warning": "[0] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 14.2, "timestamps": [100.8],
+          "icon": "Data/Raids/Golem.png"
+        },
+        { "warning": "[1/2] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 9.9, "timestamps": [96.5],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //12th
+        { "warning": "[0/1] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 10.4, "timestamps": [111.2],
+          "icon": "Data/Raids/Golem.png"
+        },
+        { "warning": "[2] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 5.5, "timestamps": [106.3],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //13th
+        { "warning": "[0] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 5.1, "timestamps": [116.3],
+          "icon": "Data/Raids/Golem.png"
+        },
+        { "warning": "[1/2] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 10.4, "timestamps": [121.6],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //14th
+        { "warning": "[0/1] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 5, "timestamps": [126.6],
+          "icon": "Data/Raids/Golem.png"
+        },
+        { "warning": "[2/3] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 9.6, "timestamps": [131.2],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //15th
+        { "warning": "[1/2] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 5.7, "timestamps": [136.9],
+          "icon": "Data/Raids/Golem.png"
+        },
+        { "warning": "[0] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 9.9, "timestamps": [141.1],
+          "icon": "Data/Raids/Golem.png"
+        },
+        { "warning": "[3] Messenger Spawn", "alert": "Next Spawn at GDM", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 11.3, "alertDuration": 5, "timestamps": [142.5],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //16th (Begin Main Fight Spawns)
+        { "warning": "[0/1] Messenger Spawn", "alert": "Next Spawn at Green #3", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 37, "alertDuration": 5, "timestamps": [215],
+          "icon": "Data/Raids/Golem.png"
+        },
+        { "warning": "[2/3] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 32.6, "timestamps": [210.6],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //17th
+        { "warning": "[0/3] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 13.7, "timestamps": [271.7],
+          "icon": "Data/Raids/Golem.png"
+        },
+        { "warning": "[1/2] Messenger Spawn", "alert": "Next Spawn at Green #2", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 17.6, "alertDuration": 5, "timestamps": [275.6],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //18th
+        { "warning": "[0/1] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 21.7, "timestamps": [331.7],
+          "icon": "Data/Raids/Golem.png"
+        },
+        { "warning": "[2/3] Messenger Spawn", "alert": "Next Spawn after GDM", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 27.3, "alertDuration": 5, "timestamps": [337.3],
+          "icon": "Data/Raids/Golem.png"
+        },
+        //19th
+        { "warning": "[0] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 23.5, "timestamps": [398.5],
+          "icon": "Data/Raids/Golem.png"
+        },
+        { "warning": "[1/2/3] Messenger Spawn", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 19.6, "timestamps": [394.6],
+          "icon": "Data/Raids/Golem.png"
+        },
+      ],
+      "markers": [
+        //Repeated Golems (Fade-Outs), 0 Orbs
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem0.png", "duration": 3, "timestamps": [18.1, 58.2, 97.8, 138.1, 395.5]
+        },
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem0.png", "duration": 3, "timestamps": [28.2, 68.2, 108.2, 212]
+        },
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem0.png", "duration": 3, "timestamps": [33.2, 73.3, 113.3, 268.7]
+        },
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem0.png", "duration": 3, "timestamps": [43.3, 83.6, 123.6, 328.7]
+        },
+        //Repeated Golems (Fade-Outs), 1 Orbs
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem1.png", "duration": 3, "timestamps": [68.2, 108.2, 212]
+        },
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem1.png", "duration": 3, "timestamps": [78, 118.6, 272.6]
+        },
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem1.png", "duration": 3, "timestamps": [83.6, 123.6, 328.7]
+        },
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem1.png", "duration": 3, "timestamps": [58.2, 93.5, 133.9, 391.6]
+        },
+        //Repeated Golems (Fade-Outs), 2 Orbs
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem2.png", "duration": 3, "timestamps": [118.6, 272.6]
+        },
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem2.png", "duration": 3, "timestamps": [128.2, 334.3]
+        },
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem2.png", "duration": 3, "timestamps": [93.5, 133.9, 391.6]
+        },
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem2.png", "duration": 3, "timestamps": [103.3, 207.6]
+        },
+        //Repeated Golems (Fade-Outs), 3 Orbs
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem3.png", "duration": 3, "timestamps": [128.2, 334.3]
+        },
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem3.png", "duration": 3, "timestamps": [139.5, 391.6]
+        },
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem3.png", "duration": 3, "timestamps": [207.6]
+        },
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.25,
+          "texture": "Data/Raids/Golem3.png", "duration": 3, "timestamps": [268.7]
+        },
+        //3rd Spawn
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 14.1, "timestamps": [4]
+        },
+        //4th Spawn
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 7.1, "timestamps": [21.1]
+        },
+        //5th Spawn
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 2, "timestamps": [31.2]
+        },
+        //6th Spawn
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 7.1, "timestamps": [36.2]
+        },
+        //7th Spawn
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 11.9, "timestamps": [46.3]
+        },
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 11.9, "timestamps": [46.3]
+        },
+        //8th Spawn
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 7, "timestamps": [61.2]
+        },
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 7, "timestamps": [61.2]
+        },
+        //9th Spawn
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 2.1, "timestamps": [71.2]
+        },
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 6.8, "timestamps": [71.2]
+        },
+        //10th Spawn
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 2.6, "timestamps": [81]
+        },
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 2.6, "timestamps": [81]
+        },
+        //11th Spawn
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 11.2, "timestamps": [86.6]
+        },
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 6.9, "timestamps": [86.6]
+        },
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem2.png", "duration": 6.9, "timestamps": [86.6]
+        },
+        //12th Spawn
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 7.4, "timestamps": [100.8]
+        },
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 7.4, "timestamps": [100.8]
+        },
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem2.png", "duration": 2.5, "timestamps": [100.8]
+        },
+        //13th Spawn
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 2.2, "timestamps": [111.1]
+        },
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 7.5, "timestamps": [111.1]
+        },
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem2.png", "duration": 7.5, "timestamps": [111.1]
+        },
+        //14th Spawn
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 2, "timestamps": [121.6]
+        },
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 2, "timestamps": [121.6]
+        },
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem2.png", "duration": 6.6, "timestamps": [121.6]
+        },
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem3.png", "duration": 6.6, "timestamps": [121.6]
+        },
+        //15th Spawn
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 7.9, "timestamps": [131.2]
+        },
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 2.7, "timestamps": [131.2]
+        },
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem2.png", "duration": 2.7, "timestamps": [131.2]
+        },
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem3.png", "duration": 8.3, "timestamps": [131.2]
+        },
+        //16th Spawn
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 37, "timestamps": [178]
+        },
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 37, "timestamps": [178]
+        },
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem2.png", "duration": 32.6, "timestamps": [178]
+        },
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem3.png", "duration": 32.6, "timestamps": [178]
+        },
+        //17th Spawn
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 10.7, "timestamps": [258]
+        },
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 14.6, "timestamps": [258]
+        },
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem2.png", "duration": 14.6, "timestamps": [258]
+        },
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem3.png", "duration": 10.7, "timestamps": [258]
+        },
+        //18th Spawn
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 18.7, "timestamps": [310]
+        },
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 18.7, "timestamps": [310]
+        },
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem2.png", "duration": 24.3, "timestamps": [310]
+        },
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem3.png", "duration": 24.3, "timestamps": [310]
+        },
+        //19th Spawn
+        { "position": [396.471882143764, 35.4627838455677, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem0.png", "duration": 20.5, "timestamps": [375]
+        },
+        { "position": [387.92476504953, 24.3901676403353, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem1.png", "duration": 16.6, "timestamps": [375]
+        },
+        { "position": [387.119583439167, 13.0992100584201, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem2.png", "duration": 16.6, "timestamps": [375]
+        },
+        { "position": [394.152857505715, 0.516276250952502, 159.363], "fadeCenter": false, "size": 3, "opacity": 0.5,
+          "texture": "Data/Raids/Golem3.png", "duration": 16.6, "timestamps": [375]
+        },
+      ]
+    }
+  ]
+}

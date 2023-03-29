@@ -1,0 +1,190 @@
+{
+  "id": "htp.strike.b11.challenge",
+  "name": "Old Lion's Court CM\nSpawns and Breakbars",
+  "category": "Strikes",
+  "description": "• Type: Hotkey ( Trigger Key 0 )\n• Automatically begins on fight start.\n• Activate Hotkey on Indigo death.\n• Note: It's normal if a CC spawn doesn't happen\non time. It doesn't affect future spawns.\n--- Displays ---\n• Puzzle and initial Watchknight spawns.\n• When Watchknights come down mid-fight.\n• How long to break a Watchknight.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Strikes/B11/B11-DefaultCM.png",
+  "map": 1485,
+  "reset": { "position": [-60.53492, 153.8545], "radius": 3,
+    "requireEntry": true, "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "Old Lion's Court - Phase 2",
+      "start": { "position": [1.90576286512573, 114.491211582423], "radius": 60,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [1.90576286512573, 114.491211582423], "radius": 60,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        //Phase 1 Notification
+        { "alert": "Phase 1", 
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Strikes/B11/B11-Default.png"
+        },
+        //Puzzle Knight Spawns
+        { "warning": "Spawn: Vermillion", "fillColor": [227, 66, 52, 0],
+          "warningDuration": 5.5, "timestamps": [5.5],
+          "icon": "Data/Strikes/B11/Vermillion.png"
+        },
+        { "warning": "Spawn: Arsenite", "fillColor": [71, 136, 0, 0],
+          "warningDuration": 7.5, "timestamps": [7.5],
+          "icon": "Data/Strikes/B11/Arsenite.png"
+        },
+        { "warning": "Spawn: Indigo", "fillColor": [75, 0, 130, 0],
+          "warningDuration": 9.5, "timestamps": [9.5],
+          "icon": "Data/Strikes/B11/Indigo.png"
+        },
+        //Breakbar
+        { "warning": "Breakbar", "fillColor": [30, 153, 156, 0],
+          "warningDuration": 15, "timestamps": [24.5],
+          "icon": "Data/General/Defiance.png"
+        },
+        { "warning": "Breakbar", "fillColor": [30, 153, 156, 0],
+          "warningDuration": 14.5, "timestamps": [64.5, 94.5, 124.5, 154.5, 184.5, 214.5, 244.5, 274.5, 304.5, 334.5, 364.5, 394.5, 424.5, 454.5, 484.5, 514.5, 544.5, 574.5, 604.5],
+          "icon": "Data/General/Defiance.png"
+        },
+        //Initial Spawn
+        { "warning": "Spawn: Vermillion", "fillColor": [227, 66, 52, 0],
+          "warningDuration": 7.5, "timestamps": [32],
+          "icon": "Data/Strikes/B11/Vermillion.png"
+        },
+        //CC-Knight Spawns
+        { "warning": "Spawn: Watchknight", "fillColor": [125, 65, 19, 0],
+          "warningDuration": 18, "timestamps": [50],
+          "icon": "Data/Strikes/B11/Watchknight.png"
+        },
+        { "warning": "Spawn: Watchknight", "fillColor": [125, 65, 19, 0],
+          "warningDuration": 15.5, "timestamps": [80, 110, 140, 170, 200, 230, 260, 290, 320, 350, 380, 410, 440, 470, 500, 530, 560, 590],
+          "icon": "Data/Strikes/B11/Watchknight.png"
+        },
+      ]
+    },
+    {
+      "name": "Old Lion's Court - Phase 3",
+      "start": { "position": [1.90576286512573, 114.491211582423], "radius": 60,
+        "requireEntry": true
+      },
+      "finish": { "position": [1.90576286512573, 114.491211582423], "radius": 60,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        //Phase 2 Notification
+        { "alert": "Phase 2", 
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Strikes/B11/B11-Default.png"
+        },
+        //Puzzle Knight Spawns
+        { "warning": "Spawn: Vermillion", "fillColor": [227, 66, 52, 0],
+          "warningDuration": 5.5, "timestamps": [5.5],
+          "icon": "Data/Strikes/B11/Vermillion.png"
+        },
+        { "warning": "Spawn: Arsenite", "fillColor": [71, 136, 0, 0],
+          "warningDuration": 7.5, "timestamps": [7.5],
+          "icon": "Data/Strikes/B11/Arsenite.png"
+        },
+        { "warning": "Spawn: Indigo", "fillColor": [75, 0, 130, 0],
+          "warningDuration": 9.5, "timestamps": [9.5],
+          "icon": "Data/Strikes/B11/Indigo.png"
+        },
+        //Breakbar
+        { "warning": "Breakbar", "fillColor": [30, 153, 156, 0],
+          "warningDuration": 14.5, "timestamps": [24, 57, 87, 117, 147, 177, 207, 237, 267, 297, 327, 357, 387, 417, 447, 477, 507, 537, 567, 597],
+          "icon": "Data/General/Defiance.png"
+        },
+        //Initial Spawn
+        { "warning": "Spawn: Vermillion", "fillColor": [227, 66, 52, 0],
+          "warningDuration": 7.5, "timestamps": [31.5],
+          "icon": "Data/Strikes/B11/Vermillion.png"
+        },
+        { "warning": "Spawn: Arsenite", "fillColor": [71, 136, 0, 0],
+          "warningDuration": 8.5, "timestamps": [32.5],
+          "icon": "Data/Strikes/B11/Arsenite.png"
+        },
+        //CC-Knight Spawns
+        { "warning": "Spawn: Watchknight", "fillColor": [125, 65, 19, 0],
+          "warningDuration": 10, "timestamps": [42.5],
+          "icon": "Data/Strikes/B11/Watchknight.png"
+        },
+        { "warning": "Spawn: Watchknight", "fillColor": [125, 65, 19, 0],
+          "warningDuration": 15.5, "timestamps": [72.5, 102.5, 132.5, 162.5, 192.5, 222.5, 252.5, 282.5, 312.5, 342.5, 372.5, 402.5, 432.5, 462.5, 492.5, 522.5, 552.5, 582.5],
+          "icon": "Data/Strikes/B11/Watchknight.png"
+        },
+      ],
+      "markers": [
+        { "position": [17.1457912115824, 114.491211582423, 22.79716], "size": 2.25, "fadeCenter": false, "opacity": 0.6,
+          "texture": "Data/Strikes/B11/Vermillion-Loc.png", "duration": 7.5, "timestamps": [24]
+        },
+        { "position": [-13.3342646685293, 114.491211582423, 22.79716], "size": 2.25, "fadeCenter": false, "opacity": 0.6,
+          "texture": "Data/Strikes/B11/Arsenite-Loc.png", "duration": 8.5, "timestamps": [24]
+        },
+      ]
+    },
+    {
+      "name": "Old Lion's Court - Phase 4",
+      "start": { "position": [1.90576286512573, 114.491211582423], "radius": 60,
+        "requireEntry": true
+      },
+      "finish": { "position": [1.90576286512573, 114.491211582423], "radius": 60,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        //Phase 3 Notification
+        { "alert": "Phase 3", 
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Strikes/B11/B11-Default.png"
+        },
+        //Puzzle Knight Spawns
+        { "warning": "Spawn: Vermillion", "fillColor": [227, 66, 52, 0],
+          "warningDuration": 5.5, "timestamps": [5.5],
+          "icon": "Data/Strikes/B11/Vermillion.png"
+        },
+        { "warning": "Spawn: Arsenite", "fillColor": [71, 136, 0, 0],
+          "warningDuration": 7.5, "timestamps": [7.5],
+          "icon": "Data/Strikes/B11/Arsenite.png"
+        },
+        { "warning": "Spawn: Indigo", "fillColor": [75, 0, 130, 0],
+          "warningDuration": 9.5, "timestamps": [9.5],
+          "icon": "Data/Strikes/B11/Indigo.png"
+        },
+        //Breakbar
+        { "warning": "Breakbar", "fillColor": [30, 153, 156, 0],
+          "warningDuration": 14.5, "timestamps": [24],
+          "icon": "Data/General/Defiance.png"
+        },
+        //Initial Spawn
+        { "warning": "Spawn: Vermillion", "fillColor": [227, 66, 52, 0],
+          "warningDuration": 8, "timestamps": [32],
+          "icon": "Data/Strikes/B11/Vermillion.png"
+        },
+        { "warning": "Spawn: Arsenite", "fillColor": [71, 136, 0, 0],
+          "warningDuration": 9, "timestamps": [33],
+          "icon": "Data/Strikes/B11/Arsenite.png"
+        },
+        { "warning": "Spawn: Indigo", "fillColor": [75, 0, 130, 0],
+          "warningDuration": 10, "timestamps": [34],
+          "icon": "Data/Strikes/B11/Indigo.png"
+        }
+      ],
+      "markers": [
+        { "position": [1.90576225552451, 129.731242062484, 22.79716], "size": 2.25, "fadeCenter": false, "opacity": 0.6,
+          "texture": "Data/Strikes/B11/Vermillion-Loc.png", "duration": 8, "timestamps": [24]
+        },
+        { "position": [-11.2924884429769, 106.871196342393, 22.79716], "size": 2.25, "fadeCenter": false, "opacity": 0.6,
+          "texture": "Data/Strikes/B11/Arsenite-Loc.png", "duration": 9, "timestamps": [24]
+        },
+        { "position": [15.1040121920244, 106.871196342393, 22.79716], "size": 2.25, "fadeCenter": false, "opacity": 0.6,
+          "texture": "Data/Strikes/B11/Indigo-Loc.png", "duration": 10, "timestamps": [24]
+        },
+      ]
+    }
+  ]
+}

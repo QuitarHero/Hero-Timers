@@ -1,0 +1,168 @@
+{
+  "id": "htp.raid.w5.b4..green3",
+  "name": "Dhuum\nGreen #3",
+  "category": "W5: Hall of Chains",
+  "description": "• Type: Automatic\n---Displays---\n• When all greens happen.\n• Unique timings for Green #3 (with trails).\n• How long to collect orbs.\n• Where the next green is.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Raids/DhuumG3.png",
+  "map": 1264,
+  "reset": { "position": [460, 70, 150], "antipode": [345, -32, 225],
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "Green #3",
+      "start": { "position": [460, 70, 150], "antipode": [345, -32, 225],
+        "requireEntry": true, "requireCombat": true
+      },
+      "alerts": [
+        //Timer Start
+        { "alert": "Timer: Green #3", "fillColor": [12, 95, 21, 1],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Raids/Dhuum.png"
+        },
+        //Green 1
+        { "warning": "Next: Green #1", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 31, "timestamps": [35],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_1"
+        },
+        { "warning": "Next: Green #1", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [125],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_2"
+        },
+        { "warning": "Next: Green #1", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [215],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_3"
+        },
+        { "warning": "Next: Green #1", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [305],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_4"
+        },
+        { "warning": "Next: Green #1", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [395],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_5"
+        },
+        { "warning": "Next: Green #1", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [485],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_6"
+        },
+        { "warning": "Next: Green #1", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [575],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_7"
+        },
+        //Green 2
+        { "warning": "Next: Green #2", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [65],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_1"
+        },
+        { "warning": "Next: Green #2", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [155],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_2"
+        },
+        { "warning": "Next: Green #2", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [245],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_3"
+        },
+        { "warning": "Next: Green #2", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [335],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_4"
+        },
+        { "warning": "Next: Green #2", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [425],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_5"
+        },
+        { "warning": "Next: Green #2", "fillColor": [12, 95, 21, 1],
+          "warningDuration": 30, "timestamps": [515],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_6"
+        },
+        //Prepare Green #3
+        { "warning": "Prepare: Green (1/6)", "fillColor": [44, 232, 12, 1],
+          "warningDuration": 25, "timestamps": [90],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_1"
+        },
+        { "warning": "Prepare: Green (2/6)", "fillColor": [44, 232, 12, 1],
+          "warningDuration": 25, "timestamps": [180],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_2"
+        },
+        { "warning": "Prepare: Green (3/6)", "fillColor": [44, 232, 12, 1],
+          "warningDuration": 25, "timestamps": [270],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_3"
+        },
+        { "warning": "Prepare: Green (4/6)", "fillColor": [44, 232, 12, 1],
+          "warningDuration": 25, "timestamps": [360],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_4"
+        },
+        { "warning": "Prepare: Green (5/6)", "fillColor": [44, 232, 12, 1],
+          "warningDuration": 25, "timestamps": [450],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_5"
+        },
+        { "warning": "Prepare: Green (6/6)", "fillColor": [44, 232, 12, 1],
+          "warningDuration": 25, "timestamps": [540],
+          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_6"
+        },
+        //Move Greens
+        { "warning": "Move", "fillColor": [44, 232, 12, 1],
+          "warningDuration": 5, "timestamps": [95, 185, 275, 365, 455, 545],
+          "icon": "Data/Raids/Greens.png"
+        },
+        //Time Left
+        { "warning": "Time left", "fillColor": [224, 139, 210, 1],
+          "warningDuration": 15, "timestamps": [110, 200, 290, 380, 470, 560],
+          "icon": "Data/Raids/Greens2.png"
+        }
+      ],
+      "directions": [
+        { "name": "Heart", "destination": [404.9, -14.8, 157.9], "animSpeed": 0,
+          "texture": "Data/General/ArrowTrail.png",
+          "duration": 8, "timestamps": [87]
+        },
+        { "name": "Swirl", "destination": [379.1, 44.9, 157.9], "animSpeed": 0,
+          "texture": "Data/General/ArrowTrail.png",
+          "duration": 8, "timestamps": [177]
+        },
+        { "name": "Circle", "destination": [427.9, 2.0, 157.9], "animSpeed": 0,
+          "texture": "Data/General/ArrowTrail.png",
+          "duration": 8, "timestamps": [267]
+        },
+        { "name": "Star", "destination": [366.0, 19.4, 157.9], "animSpeed": 0,
+          "texture": "Data/General/ArrowTrail.png",
+          "duration": 8, "timestamps": [357]
+        },
+        { "name": "Arrow", "destination": [429.2, 30.9, 157.9], "animSpeed": 0,
+          "texture": "Data/General/ArrowTrail.png",
+          "duration": 8, "timestamps": [447]
+        },
+        { "name": "Square", "destination": [377.7, -6.6, 157.9], "animSpeed": 0,
+          "texture": "Data/General/ArrowTrail.png",
+          "duration": 8, "timestamps": [537]
+        }
+      ],
+      "markers": [
+        { "position": [404.9, -14.8, 159.4],
+          "texture": "Data/General/3.png",
+          "duration": 75, "timestamps": [20]
+        },
+        { "position": [379.1, 44.9, 159.4],
+          "texture": "Data/General/3.png",
+          "duration": 75, "timestamps": [110]
+        },
+        { "position": [427.9, 2.0, 159.4],
+          "texture": "Data/General/3.png",
+          "duration": 75, "timestamps": [200]
+        },
+        { "position": [366.0, 19.4, 159.4],
+          "texture": "Data/General/3.png",
+          "duration": 75, "timestamps": [290]
+        },
+        { "position": [429.2, 30.9, 159.4],
+          "texture": "Data/General/3.png",
+          "duration": 75, "timestamps": [380]
+        },
+        { "position": [377.7, -6.6, 159.4],
+          "texture": "Data/General/3.png",
+          "duration": 75, "timestamps": [470]
+        }
+      ]
+    }
+  ]
+}

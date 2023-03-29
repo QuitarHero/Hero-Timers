@@ -1,0 +1,91 @@
+{
+  "id": "htp.simulation.strike.b10.challenge.enemySpawns.two",
+  "name": "[Addon] Harvest Temple CM\nVoid Skullpiercer Spawns",
+  "category": "Simulation",
+  "description": "• Type: Hotkey ( Trigger Keys 0 & 1 )\n• Enforces 'Reset Button' for timer reset.\n• Use 'Hotkey 1' to stop Skullpiercer spawn alerts.\n=== Displays ===\n• Purification 2 and Mordremoth's Skullpiercer spawn timings.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Strikes/B10/Plush Mordy-Sim.png",
+  "map": 1437,
+  "reset": { "position": [1114.88956, -4884.7346], "radius": 1,
+    "requireEntry": true, "requireCombat": true
+  },
+  "phases": [
+    {
+      "name": "Use the hotkey",
+      "start": { "position": [15.39498, -518.2877], "radius": 75,
+        "requireEntry": true
+      },
+      "finish": { "position": [15.39498, -518.2877], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      }
+    },
+    {
+      "name": "Harvest Temple - Purification 1",
+      "start": { "position": [15.39498, -518.2877], "radius": 75,
+        "requireEntry": true,
+      },
+      "finish": { "position": [15.39498, -518.2877], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      }
+    },
+    {
+      "name": "Harvest Temple - Jormag",
+      "start": { "position": [15.39498, -518.2877], "radius": 75,
+        "requireEntry": true
+      },
+      "finish": { "position": [15.39498, -518.2877], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      }
+    },
+    {
+      "name": "Harvest Temple - Primordus",
+      "start": { "position": [15.39498, -518.2877], "radius": 75,
+        "requireEntry": true,
+      },
+      "finish": { "position": [15.39498, -518.2877], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      }
+    },
+    {
+      "name": "Harvest Temple - Kralkatorrik",
+      "start": { "position": [15.39498, -518.2877], "radius": 75,
+        "requireEntry": true,
+      },
+      "finish": { "position": [15.39498, -518.2877], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      }
+    },
+    {
+      "name": "Harvest Temple - Purification 2",
+      "start": { "position": [15.39498, -518.2877], "radius": 75,
+        "requireEntry": true,
+      },
+      "finish": { "position": [15.39498, -518.2877], "radius": 75,
+        "type": "key", "keyBind": "1",
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        //Spawns
+        { "warning": "Spawn: Void Skullpiercer", "fillColor": [93, 11, 120, 0],
+          "warningDuration": 15, "timestamps": [28, 43, 58, 73, 88, 103, 118, 133, 148, 163, 178],
+          "icon": "Data/Strikes/B10/Void.png"
+        }
+      ]
+    },
+    {
+      "name": "Harvest Temple - Zhaitan",
+      "start": { "position": [15.39498, -518.2877], "radius": 75,
+        "requireEntry": true,
+      },
+      "finish": { "position": [15.39498, -518.2877], "radius": 75,
+        "requireDeparture": true
+      }
+    },
+  ]
+}

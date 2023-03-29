@@ -1,0 +1,39 @@
+{
+  "id": "htp.raid.w4.b4.signet",
+  "name": "Deimos\nUnnatural Signet",
+  "category": "W4: Bastion of the Penitent",
+  "description": "• Type: Hotkey ( Trigger Key 1 )\n• Activate when Unnatural Signet is applied\nthe first time.\n• This timer assumes 0% alacrity.\n---Displays---\n• How long Unnatural Signet lasts.\n• How long until the next Unnatural Signet.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Raids/Deimos.png",
+  "map": 1188,
+  "reset": { "position": [-123.2258, 126.8591, 129.5106], "radius": 15,
+    "requireEntry": true, "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "Unnatural Signet",
+      "start": { "position": [-214.518, 78.521, 101.924], "radius": 40,
+        "type": "key", "keyBind": "1",
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [-214.518, 78.521, 101.924], "radius": 999,
+        "type": "key", "keyBind": "1",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Next: Signet", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 50, "timestamps": [59.5, 119.5, 179.5, 239.5, 299.5, 359.5, 419.5, 479.5],
+          "icon": "Data/Raids/Deimos.png"
+        },
+        { "warning": "Burst!", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 9.5, "timestamps": [9.5],
+          "icon": "Data/Raids/Deimos.png"
+        },
+        { "warning": "Burst!", "fillColor": [202, 175, 92, 0],
+          "warningDuration": 10, "timestamps": [69.5, 129.5, 189.5, 249.5, 309.5, 369.5, 329.5 , 489.5],
+          "icon": "Data/Raids/Deimos.png"
+        }
+      ]
+    }
+  ]
+}

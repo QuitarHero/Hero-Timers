@@ -1,0 +1,96 @@
+{
+  "id": "htp.raid.w1.b4.all",
+  "name": "Sabetha the Saboteur\nAll Cannons",
+  "category": "W1: Spirit Vale",
+  "description": "• Type: Automatic\n---Displays---\n• When each cannon spawns.\n• Where to throw.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Data/Raids/Sabetha.png",
+  "map": 1062,
+  "reset": { "position": [-59.57044, 192.4689, 72.23109], "radius": 5,
+    "requireEntry": true, "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "All Cannon",
+      "start": { "position": [-130, 85, 62], "radius": 50,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [-169.8675, 50.4107, 69.32044], "radius": 10,
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        //Initial Notification
+        { "alert": "Timer: All Cannons", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Raids/Sabetha.png"
+        },
+        //South Cannon
+        { "warning": "Next: South Cannon", "fillColor": [113, 73, 65, 0],
+          "warningDuration": 30, "timestamps": [34],
+          "icon": "Data/Raids/Cannon.png", "uid": "htp.raid.w1.b4.southCannon.Wcannon11"
+        },
+        { "alert": "South", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 3, "timestamps": [34],
+          "icon": "Data/Raids/SapperBomb.png", "uid": "htp.raid.w1.b4.southCannon.Acannon11"
+        },
+        { "warning": "Next: South Cannon", "fillColor": [113, 73, 65, 0],
+          "warningDuration": 27, "timestamps": [154, 274, 394, 514],
+          "icon": "Data/Raids/Cannon.png", "uid": "htp.raid.w1.b4.southCannon.Wcannon12"
+        },
+        { "alert": "South", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 3, "timestamps": [154, 274, 394, 514],
+          "icon": "Data/Raids/SapperBomb.png", "uid": "htp.raid.w1.b4.southCannon.Acannon12"
+        },
+        //West Cannon
+        { "warning": "Next: West Cannon", "fillColor": [113, 73, 65, 0],
+          "warningDuration": 27, "timestamps": [214, 454],
+          "icon": "Data/Raids/Cannon.png", "uid": "htp.raid.w1.b4.westCannon.Wcannon1"
+        },
+        { "alert": "West", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 3, "timestamps": [214, 454],
+          "icon": "Data/Raids/SapperBomb.png", "uid": "htp.raid.w1.b4.westCannon.Acannon1"
+        },
+        { "warning": "Next: West Cannon", "fillColor": [113, 73, 65, 0],
+          "warningDuration": 27, "timestamps": [64, 304],
+          "icon": "Data/Raids/Cannon.png", "uid": "htp.raid.w1.b4.westCannon.Wcannon2"
+        },
+        { "alert": "West", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 3, "timestamps": [64, 304],
+          "icon": "Data/Raids/SapperBomb.png", "uid": "htp.raid.w1.b4.westCannon.Acannon2"
+        },
+        //North Cannon
+        { "warning": "Next: North Cannon", "fillColor": [113, 73, 65, 0],
+          "warningDuration": 27, "timestamps": [94, 334],
+          "icon": "Data/Raids/Cannon.png", "uid": "htp.raid.w1.b4.northCannon.Wcannon1"
+        },
+        { "alert": "North", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 3, "timestamps": [94, 334],
+          "icon": "Data/Raids/SapperBomb.png", "uid": "htp.raid.w1.b4.northCannon.Acannon1"
+        },
+        { "warning": "Next: North Cannon", "fillColor": [113, 73, 65, 0],
+          "warningDuration": 27, "timestamps": [184, 424],
+          "icon": "Data/Raids/Cannon.png", "uid": "htp.raid.w1.b4.northCannon.Wcannon2"
+        },
+        { "alert": "North", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 3, "timestamps": [184, 424],
+          "icon": "Data/Raids/SapperBomb.png", "uid": "htp.raid.w1.b4.northCannon.Acannon2"
+        },
+        //East Cannon
+        { "warning": "Next: East Cannon", "fillColor": [113, 73, 65, 0],
+          "warningDuration": 27, "timestamps": [124, 244, 364, 484],
+          "icon": "Data/Raids/Cannon.png", "uid": "htp.raid.w1.b4.eastCannon.Wcannon2"
+        },
+        { "alert": "East", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 3, "timestamps": [124, 244, 364, 484],
+          "icon": "Data/Raids/SapperBomb.png", "uid": "htp.raid.w1.b4.eastCannon.Acannon2"
+        },
+        //Enrage
+        { "alert": "Enrage", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 5, "timestamps": [540],
+          "icon": "Data/Raids/Sabetha.png", "uid": "htp.raid.w1.b4.enrage"
+        }
+      ]
+    }
+  ]
+}
