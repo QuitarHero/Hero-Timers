@@ -512,7 +512,7 @@
         },
         { "warning": "Next: Pushback, Spread (4), Green",
           "warningDuration": 10, "timestamps": [343],
-          "icon": "Data/Strike/B9/Mech_Attack.png"
+          "icon": "Data/Strikes/B9/Mech_Attack.png"
         },
         { "warning": "Next: Ricochet Shots, Spread (All)",
           "warningDuration": 10, "timestamps": [359],
