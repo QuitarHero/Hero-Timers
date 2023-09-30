@@ -4,7 +4,7 @@
   "category": "W2: Salvation Pass",
   "description": "• Type: Automatic\n---Displays---\n• Mushroom and Slubling spawns.\n• When Slubling spawn-rate changes.\n• Volatile Poison applications.\n• How long VP's SAK lasts.",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Raids/Slothasor.png",
+  "icon": "Assets/Raids/Slothasor.png",
   "map": 1149,
   "reset": { "position": [243.5481, 235.6277, 0.3457618], "radius": 15,
     "requireEntry": true, "requireOutOfCombat": true
@@ -21,67 +21,67 @@
       "alerts": [
         { "alert": "Timer: Global Mechanics", "fillColor": [194, 45, 45, 1],
           "alertDuration": 4, "timestamps": [0],
-          "icon": "Data/Raids/Slothasor.png"
+          "icon": "Assets/Raids/Slothasor.png"
         },
         { "warning": "Next: Mushroom #2", "alert": "Spawned: Mushroom #2", "fillColor": [24, 173, 74, 1],
           "warningDuration": 46, "alertDuration": 5, "timestamps": [50],
-          "icon": "Data/Raids/Mushroom.png",
+          "icon": "Assets/Raids/Mushroom.png",
         },
         { "warning": "Next: Mushroom #2", "alert": "Spawned: Mushroom #2", "fillColor": [24, 173, 74, 1],
           "warningDuration": 45, "alertDuration": 5, "timestamps": [250],
-          "icon": "Data/Raids/Mushroom.png"
+          "icon": "Assets/Raids/Mushroom.png"
         },
         { "warning": "Next: Mushroom #3", "alert": "Spawned: Mushroom #3", "fillColor": [24, 173, 74, 0],
           "warningDuration": 45, "alertDuration": 5, "timestamps": [100, 300],
-          "icon": "Data/Raids/Mushroom.png"
+          "icon": "Assets/Raids/Mushroom.png"
         },
         { "warning": "Next: Mushroom #4", "alert": "Spawned: Mushroom #4", "fillColor": [24, 173, 74, 0],
           "warningDuration": 45, "alertDuration": 5, "timestamps": [150, 350],
-          "icon": "Data/Raids/Mushroom.png"
+          "icon": "Assets/Raids/Mushroom.png"
         },
         { "warning": "Next: Mushroom #1", "alert": "Spawned: Mushroom #1", "fillColor": [24, 173, 74, 0],
           "warningDuration": 45, "alertDuration": 5, "timestamps": [200, 400],
-          "icon": "Data/Raids/Mushroom.png"
+          "icon": "Assets/Raids/Mushroom.png"
         },
         { "warning": "Spawn-rate Change (-10s)", "fillColor": [130, 161, 80, 0],
           "warningDuration": 30, "timestamps": [180],
-          "icon": "Data/Raids/Slubling.png"
+          "icon": "Assets/Raids/Slubling.png"
         },
         { "warning": "Spawn-rate Change (-5s)", "fillColor": [130, 161, 80, 0],
           "warningDuration": 20, "timestamps": [300],
-          "icon": "Data/Raids/Slubling.png"
+          "icon": "Assets/Raids/Slubling.png"
         },
         { "warning": "Next: Slublings Spawn", "fillColor": [130, 161, 80, 0],
           "warningDuration": 26, "timestamps": [30],
-          "icon": "Data/Raids/Slubling.png"
+          "icon": "Assets/Raids/Slubling.png"
         },
         { "warning": "Next: Slublings Spawn", "fillColor": [130, 161, 80, 0],
           "warningDuration": 30, "timestamps": [60, 90, 120, 150, 180],
-          "icon": "Data/Raids/Slubling.png"
+          "icon": "Assets/Raids/Slubling.png"
         },
         { "warning": "Next: Slublings Spawn", "fillColor": [130, 161, 80, 0],
           "warningDuration": 20, "timestamps": [200, 220, 240, 260, 280, 300],
-          "icon": "Data/Raids/Slubling.png"
+          "icon": "Assets/Raids/Slubling.png"
         },
         { "warning": "Next: Slublings Spawn", "fillColor": [130, 161, 80, 0],
           "warningDuration": 15, "timestamps": [315, 330, 345, 360, 375, 390, 405, 420],
-          "icon": "Data/Raids/Slubling.png"
+          "icon": "Assets/Raids/Slubling.png"
         },
         { "warning": "Next: Volatile Poison", "fillColor": [141, 156, 14, 0],
           "warningDuration": 21, "timestamps": [25],
-          "icon": "Data/Raids/Poison.png"
+          "icon": "Assets/Raids/Poison.png"
         },
         { "warning": "Next: Volatile Poison", "fillColor": [141, 156, 14, 0],
           "warningDuration": 17, "timestamps": [50, 75, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425],
-          "icon": "Data/Raids/Poison.png"
+          "icon": "Assets/Raids/Poison.png"
         },
         { "warning": "Poison off group!", "fillColor": [141, 156, 14, 0],
           "warningDuration": 8, "timestamps": [33, 58, 83, 108, 133, 158, 183, 208, 233, 258, 283, 308, 333, 358, 383, 408, 433],
-          "icon": "Data/Raids/Purge.png"
+          "icon": "Assets/Raids/Purge.png"
         },
         { "alert": "Enrage", "fillColor": [194, 45, 45, 0],
           "alertDuration": 5, "timestamps": [420],
-          "icon": "Data/Raids/Slothasor.png"
+          "icon": "Assets/Raids/Slothasor.png"
         }
       ]
     }

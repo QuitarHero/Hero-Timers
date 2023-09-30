@@ -4,7 +4,7 @@
   "category": "W4: Bastion of the Penitent",
   "description": "• Type: Automatic\n• This timer is only useful if your\ngroup intentionally grabs Agony.\n---Displays---\n• When each Agony is applied.\n• How long each Agony lasts.",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Raids/Cairn.png",
+  "icon": "Assets/Raids/Cairn.png",
   "map": 1188,
   "reset": { "position": [365, 51, 34], "radius": 50,
     "requireDeparture": true
@@ -19,45 +19,45 @@
         //Timer Start Notification
         { "alert": "Timer: Cairn (All Agony)", "fillColor": [202, 175, 92, 0],
           "alertDuration": 4, "timestamps": [0],
-          "icon": "Data/Raids/Cairn.png"
+          "icon": "Assets/Raids/Cairn.png"
         },
         //When Agony Ends
         { "warning": "End: Agony #1", "fillColor": [186, 80, 80, 0],
           "warningDuration": 60, "timestamps": [82, 162, 242, 322, 402, 482, 562],
-          "icon": "Data/Raids/Agony.png"
+          "icon": "Assets/Raids/Agony.png"
         },
         { "warning": "End: Agony #2", "fillColor": [186, 80, 80, 0],
           "warningDuration": 60, "timestamps": [102, 182, 262, 342, 422, 502, 582],
-          "icon": "Data/Raids/Agony.png"
+          "icon": "Assets/Raids/Agony.png"
         },
         { "warning": "End: Agony #3", "fillColor": [186, 80, 80, 0],
           "warningDuration": 60, "timestamps": [122, 202, 282, 362, 442, 522, 602],
-          "icon": "Data/Raids/Agony.png"
+          "icon": "Assets/Raids/Agony.png"
         },
         { "warning": "End: Agony #4", "fillColor": [186, 80, 80, 0],
           "warningDuration": 60, "timestamps": [142, 222, 302, 382, 462, 542],
-          "icon": "Data/Raids/Agony.png"
+          "icon": "Assets/Raids/Agony.png"
         },
         //When Agony is Applied
         { "warning": "Agony #1", "fillColor": [199, 22, 22, 0],
           "warningDuration": 18, "timestamps": [22],
-          "icon": "Data/Raids/Agony.png"
+          "icon": "Assets/Raids/Agony.png"
         },
         { "warning": "Agony #1", "fillColor": [199, 22, 22, 0],
           "warningDuration": 20, "timestamps": [102, 182, 262, 342, 422, 502],
-          "icon": "Data/Raids/Agony.png"
+          "icon": "Assets/Raids/Agony.png"
         },
         { "warning": "Agony #2", "fillColor": [199, 22, 22, 0],
           "warningDuration": 20, "timestamps": [42, 122, 202, 282, 362, 442, 522],
-          "icon": "Data/Raids/Agony.png"
+          "icon": "Assets/Raids/Agony.png"
         },
         { "warning": "Agony #3", "fillColor": [199, 22, 22, 0],
           "warningDuration": 20, "timestamps": [62, 142, 222, 302, 382, 462, 542],
-          "icon": "Data/Raids/Agony.png"
+          "icon": "Assets/Raids/Agony.png"
         },
         { "warning": "Agony #4", "fillColor": [199, 22, 22, 0],
           "warningDuration": 20, "timestamps": [82, 162, 242, 322, 402, 482],
-          "icon": "Data/Raids/Agony.png"
+          "icon": "Assets/Raids/Agony.png"
         }
       ]
     }

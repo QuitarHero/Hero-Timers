@@ -1,0 +1,239 @@
+{
+  "id": "htp.strike.b13.normal",
+  "name": "Temple of Febe\nBoss Attacks",
+  "category": "Strikes",
+  "description": "• Type: Hotkey ( Trigger Key 0 )\n• Automatically begins on fight start.\n• Activate Hotkey after split phases complete.\n• Note: Timer becomes inaccurate if Cerus gets\nQuickness/Alacrity, or if CC fails.\n--- Displays ---\n• Cerus's Attack Rotation",
+  "author": "\nQuitarHero.1645",
+  "icon": "Assets/Strikes/B13/Cerus.png",
+  "map": 1520,
+  "reset": { "position": [-0.3466523, -216.3764], "radius": 3,
+    "requireEntry": true, "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "Temple of Febe - Phase 1",
+      "start": { "position": [-0.252093035069761, -100.925562800196], "radius": 175,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [-0.252093035069761, -100.925562800196], "radius": 175,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts (67s rotation)
+      "alerts": [
+        { "alert": "Phase 1",
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Assets/Strikes/B13/Cerus.png"
+        },
+        //Greens (Crushing Regret)
+        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 11, "timestamps": [78.3, 145.3, 213.3, 279.3, 346.3, 413.3, 480.5],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 11.3, "timestamps": [11.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        { "warning": "Crushing Regret", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 5, "timestamps": [16.3, 83.3, 150.3, 217.3, 284.3, 351.3, 418.3, 485.5],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        //Spreads (Wail of Despair)
+        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 10, "timestamps": [21.3, 88.3, 155.3, 222.3, 289.3, 356.3, 423.3, 490.5],
+          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+        },
+        { "warning": "Wail of Despair", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 5, "timestamps": [26.3, 93.3, 160.3, 227.3, 294.3, 361.3, 428.3, 495.5],
+          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+        },
+        //Line (Envious Gaze)
+        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
+          "warningDuration": 10, "timestamps": [31.3, 98.3, 165.3, 232.3, 299.3, 366.3, 433.3, 500.5],
+          "icon": "Assets/Strikes/B13/1228837.png"
+        },
+        { "warning": "Envious Gaze", "fillColor": [137, 156, 53, 0],
+          "warningDuration": 11, "timestamps": [42.3, 109.3, 176.3, 243.3, 310.3, 377.3, 444.3, 511.5],
+          "icon": "Assets/Strikes/B13/1228837.png"
+        },
+        //Add Spawns (Malice, Malicious Intent)
+        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
+          "warningDuration": 15, "timestamps": [46.3, 113.3, 180.3, 247.3, 314.3, 381.3, 448.3, 515.5],
+          "icon": "Assets/Strikes/B13/103813.png"
+        },
+        { "warning": "Malicious Intent", "fillColor": [67, 91, 156, 0],
+          "warningDuration": 5, "timestamps": [51.3, 118.3, 185.3, 252.3, 319.3, 386.3, 453.3, 520.5],
+          "icon": "Assets/Strikes/B13/103813.png"
+        },
+        //Orbs (Gluttony, Insatiable Hunger)
+        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
+          "warningDuration": 9, "timestamps": [51.3, 118.3, 185.3, 252.3, 319.3, 386.3, 453.3, 520.5],
+          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        },
+        { "warning": "Insatiable Hunger", "fillColor": [204, 131, 20, 0],
+          "warningDuration": 13, "timestamps": [64.3, 131.3, 198.3, 265.3, 332.3, 399.3, 466.3, 533.5],
+          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        },
+        //Large AoE (Rage, Cry of Rage)
+        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
+          "warningDuration": 16, "timestamps": [67.3, 134.3, 201.3, 268.3, 335.3, 402.3, 469.3, 536.5],
+          "icon": "Assets/Strikes/B13/103302.png"
+        },
+        { "warning": "Cry of Rage", "fillColor": [186, 37, 37, 0],
+          "warningDuration": 5, "timestamps": [72.3, 139.3, 206.3, 273.3, 340.3, 407.3, 474.3, 541.5],
+          "icon": "Assets/Strikes/B13/103302.png"
+        }
+      ]
+    },
+    {
+      "name": "Temple of Febe - Phase 2",
+      "start": { "position": [-0.252093035069761, -100.925562800196], "radius": 175,
+        "requireEntry": true
+      },
+      "finish": { "position": [-0.252093035069761, -100.925562800196], "radius": 175,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts (67s rotation) (-7s from P1)
+      "alerts": [
+        { "alert": "Phase 2",
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Assets/Strikes/B13/Cerus.png"
+        },
+        //Greens (Crushing Regret)
+        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [70.8, 137.8, 204.8, 271.8, 338.8, 405.8, 472.8],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 3.8, "timestamps": [3.8],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        { "warning": "Crushing Regret", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 5, "timestamps": [8.8, 75.8, 142.8, 209.8, 276.8, 343.8, 410.8, 477.8],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        //Spreads (Wail of Despair)
+        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 10, "timestamps": [13.8, 80.8, 147.8, 214.8, 281.8, 348.8, 415.8, 482.8],
+          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+        },
+        { "warning": "Wail of Despair", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 5, "timestamps": [18.8, 85.8, 152.8, 219.8, 286.8, 353.8, 420.8, 487.8],
+          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+        },
+        //Line (Envious Gaze)
+        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
+          "warningDuration": 10, "timestamps": [23.8, 90.8, 157.8, 224.8, 291.8, 358.8, 425.8, 492.8],
+          "icon": "Assets/Strikes/B13/1228837.png"
+        },
+        { "warning": "Envious Gaze", "fillColor": [137, 156, 53, 0],
+          "warningDuration": 11, "timestamps": [34.8, 101.8, 168.8, 235.8, 302.8, 369.8, 436.8, 503.8],
+          "icon": "Assets/Strikes/B13/1228837.png"
+        },
+        //Add Spawns (Malice, Malicious Intent)
+        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
+          "warningDuration": 15, "timestamps": [38.8, 105.8, 172.8, 239.8, 306.8, 373.8, 440.8, 507.8],
+          "icon": "Assets/Strikes/B13/103813.png"
+        },
+        { "warning": "Malicious Intent", "fillColor": [67, 91, 156, 0],
+          "warningDuration": 5, "timestamps": [43.8, 110.8, 177.8, 244.8, 311.8, 378.8, 445.8, 512.8],
+          "icon": "Assets/Strikes/B13/103813.png"
+        },
+        //Orbs (Gluttony, Insatiable Hunger)
+        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
+          "warningDuration": 9, "timestamps": [43.8, 110.8, 177.8, 244.8, 311.8, 378.8, 445.8, 512.8],
+          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        },
+        { "warning": "Insatiable Hunger", "fillColor": [204, 131, 20, 0],
+          "warningDuration": 13, "timestamps": [56.8, 123.8, 190.8, 257.8, 324.8, 391.8, 458.8, 525.8],
+          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        },
+        //Large AoE (Rage, Cry of Rage)
+        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
+          "warningDuration": 17, "timestamps": [60.8, 127.8, 194.8, 261.8, 328.8, 395.8, 462.8, 529.8],
+          "icon": "Assets/Strikes/B13/103302.png"
+        },
+        { "warning": "Cry of Rage", "fillColor": [186, 37, 37, 0],
+          "warningDuration": 5, "timestamps": [65.8, 132.8, 199.8, 266.8, 333.8, 400.8, 467.8, 534.8],
+          "icon": "Assets/Strikes/B13/103302.png"
+        }
+      ]
+    },
+    {
+      "name": "Temple of Febe - Phase 3",
+      "start": { "position": [-0.252093035069761, -100.925562800196], "radius": 175,
+        "requireEntry": true
+      },
+      "finish": { "position": [-0.252093035069761, -100.925562800196], "radius": 175,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts (67s rotation) (-7s from P1)
+      "alerts": [
+        { "alert": "Phase 3",
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Assets/Strikes/B13/Cerus.png"
+        },
+        //Greens (Crushing Regret)
+        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 11, "timestamps": [70.9, 137.9, 204.9, 271.9, 338.9, 405.9, 472.9],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 3.9, "timestamps": [3.9],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        { "warning": "Crushing Regret", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 5, "timestamps": [8.9, 75.9, 142.9, 209.9, 276.9, 343.9, 410.9, 477.9],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        //Line (Envious Gaze)
+        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
+          "warningDuration": 11, "timestamps": [14.9, 81.9, 148.9, 215.9, 282.9, 349.9, 416.9, 483.9],
+          "icon": "Assets/Strikes/B13/1228837.png"
+        },
+        { "warning": "Envious Gaze", "fillColor": [137, 156, 53, 0],
+          "warningDuration": 11, "timestamps": [25.9, 92.9, 159.9, 226.9, 293.9, 360.9, 427.9, 494.9],
+          "icon": "Assets/Strikes/B13/1228837.png"
+        },
+        //Orbs (Gluttony, Insatiable Hunger)
+        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
+          "warningDuration": 14, "timestamps": [28.9, 95.9, 162.9, 229.9, 296.9, 363.9, 430.9, 497.9],
+          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        },
+        { "warning": "Insatiable Hunger", "fillColor": [204, 131, 20, 0],
+          "warningDuration": 13, "timestamps": [41.9, 108.9, 175.9, 242.9, 309.9, 376.9, 443.9, 510.9],
+          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        },
+        //Large AoE (Rage, Cry of Rage)
+        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
+          "warningDuration": 17, "timestamps": [45.9, 112.9, 179.9, 246.9, 313.9, 380.9, 447.9, 514.9],
+          "icon": "Assets/Strikes/B13/103302.png"
+        },
+        { "warning": "Cry of Rage", "fillColor": [186, 37, 37, 0],
+          "warningDuration": 5, "timestamps": [50.9, 117.9, 184.9, 251.9, 318.9, 385.9, 452.9, 519.9],
+          "icon": "Assets/Strikes/B13/103302.png"
+        },
+        //Add Spawns (Malice, Malicious Intent)
+        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
+          "warningDuration": 11, "timestamps": [56.9, 123.9, 190.9, 257.9, 324.9, 391.9, 458.9, 525.9],
+          "icon": "Assets/Strikes/B13/103813.png"
+        },
+        { "warning": "Malicious Intent", "fillColor": [67, 91, 156, 0],
+          "warningDuration": 5, "timestamps": [61.9, 128.9, 195.9, 262.9, 329.9, 396.9, 463.9, 530.9],
+          "icon": "Assets/Strikes/B13/103813.png"
+        },
+        //Spreads (Wail of Despair)
+        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 16, "timestamps": [61.9, 128.9, 195.9, 262.9, 329.9, 396.9, 463.9, 530.9],
+          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+        },
+        { "warning": "Wail of Despair", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 5, "timestamps": [66.9, 133.9, 200.9, 267.9, 334.9, 401.9, 468.9, 535.9],
+          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+        }
+      ]
+    }
+  ]
+}

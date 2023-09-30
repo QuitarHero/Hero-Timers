@@ -4,7 +4,7 @@
   "category": "W5: Hall of Chains",
   "description": "• Type: Automatic\n---Displays---\n• When Death Mark happens.\n• When Greater Death Mark happens.\n• When Enforcers and Dhuum spawn.\n• When Afflictions begin and can be held.",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Raids/Dhuum.png",
+  "icon": "Assets/Raids/Dhuum.png",
   "map": 1264,
   "reset": { "position": [460, 70, 150], "antipode": [345, -32, 225],
     "requireDeparture": true
@@ -19,108 +19,108 @@
         //Timer Start
         { "alert": "Timer: Greens and Boss Attacks",
           "alertDuration": 4, "timestamps": [0],
-          "icon": "Data/Raids/Dhuum.png"
+          "icon": "Assets/Raids/Dhuum.png"
         },
         // ========== ENEMY SPAWNS ==========
         //Enforcer Spawns
         { "warning": "Spawn: Enforcers", "fillColor": [67, 120, 89, 1],
           "warningDuration": 5.5, "timestamps": [5.5],
-          "icon": "Data/Raids/Enforcer.png"
+          "icon": "Assets/Raids/Enforcer.png"
         },
         { "warning": "Spawn: Enforcer", "fillColor": [67, 120, 89, 1],
           "warningDuration": 22.3, "timestamps": [27.8],
-          "icon": "Data/Raids/Enforcer.png"
+          "icon": "Assets/Raids/Enforcer.png"
         },
         { "warning": "Spawn: Enforcer", "fillColor": [67, 120, 89, 1],
           "warningDuration": 14, "timestamps": [41.8],
-          "icon": "Data/Raids/Enforcer.png"
+          "icon": "Assets/Raids/Enforcer.png"
         },
         { "warning": "Spawn: Enforcer", "fillColor": [67, 120, 89, 1],
           "warningDuration": 31.3, "timestamps": [73.1],
-          "icon": "Data/Raids/Enforcer.png"
+          "icon": "Assets/Raids/Enforcer.png"
         },
         { "warning": "Spawn: Enforcer", "fillColor": [67, 120, 89, 1],
           "warningDuration": 28.2, "timestamps": [101.3],
-          "icon": "Data/Raids/Enforcer.png"
+          "icon": "Assets/Raids/Enforcer.png"
         },
         { "warning": "Spawn: Enforcer", "fillColor": [67, 120, 89, 1],
           "warningDuration": 31.5, "timestamps": [132.8],
-          "icon": "Data/Raids/Enforcer.png"
+          "icon": "Assets/Raids/Enforcer.png"
         },
         //Dhuum Spawn
         { "warning": "Spawn: Dhuum", "fillColor": [67, 120, 89, 1],
           "warningDuration": 28.7, "timestamps": [130],
-          "icon": "Data/Raids/Dhuum.png"
+          "icon": "Assets/Raids/Dhuum.png"
         },
         // ========== BOSS ATTACKS ==========
         //Death Mark
         { "warning": "Next: Death Mark", "fillColor": [67, 120, 89, 1],
           "warningDuration": 25, "timestamps": [175, 255, 335, 415, 495, 575],
-          "icon": "Data/Raids/Death Mark.png"
+          "icon": "Assets/Raids/Death Mark.png"
         },
         { "warning": "Move", "fillColor": [67, 120, 89, 1],
           "warningDuration": 3, "timestamps": [178, 258, 338, 418, 498, 578],
-          "icon": "Data/Raids/Death Mark.png"
+          "icon": "Assets/Raids/Death Mark.png"
         },
         //Greater Death Mark
         { "warning": "Next: Greater Death Mark", "fillColor": [67, 120, 89, 1],
           "warningDuration": 37, "timestamps": [215, 295, 375, 455, 535],
-          "icon": "Data/Raids/Greater Death Mark.png"
+          "icon": "Assets/Raids/Greater Death Mark.png"
         },
         { "warning": "Greater Death Mark", "fillColor": [67, 120, 89, 1],
           "warningDuration": 15, "timestamps": [230, 310, 390, 470, 550],
-          "icon": "Data/Raids/Greater Death Mark.png"
+          "icon": "Assets/Raids/Greater Death Mark.png"
         },
         // ========== AFFLICTIONS ==========
         //Next Afflictions
         { "warning": "Begin: Affliction", "fillColor": [179, 105, 45, 1],
           "warningDuration": 40, "timestamps": [510],
-          "icon": "Data/Raids/Affliction.png"
+          "icon": "Assets/Raids/Affliction.png"
         },
         { "warning": "Begin: Affliction", "fillColor": [179, 105, 45, 1],
           "warningDuration": 30, "timestamps": [420],
-          "icon": "Data/Raids/Affliction.png"
+          "icon": "Assets/Raids/Affliction.png"
         },
         { "warning": "Begin: Affliction", "fillColor": [179, 105, 45, 1],
           "warningDuration": 20, "timestamps": [150, 330],
-          "icon": "Data/Raids/Affliction.png"
+          "icon": "Assets/Raids/Affliction.png"
         },
         { "warning": "Begin: Affliction", "fillColor": [179, 105, 45, 1],
           "warningDuration": 10, "timestamps": [240],
-          "icon": "Data/Raids/Affliction.png"
+          "icon": "Assets/Raids/Affliction.png"
         },
         /*{ "warning": "Next: Affliction", "fillColor": [179, 105, 45, 1],
           "warningDuration": 3, "timestamps": [166, 182, 198, 346, 362, 430, 526],
-          "icon": "Data/Raids/Affliction.png"
+          "icon": "Assets/Raids/Affliction.png"
         },*/
         //When and How to Explode
         /*{ "warning": "Let it Naturally Explode", "fillColor": [179, 105, 45, 1],
           "warningDuration": 13, "timestamps": [163, 179, 195, 343, 359, 523],
-          "icon": "Data/Raids/Affliction.png"
+          "icon": "Assets/Raids/Affliction.png"
         },
         { "warning": "Manually Explode after", "fillColor": [179, 105, 45, 1],
           "warningDuration": 4.5, "timestamps": [202.5],
-          "icon": "Data/Raids/Affliction.png"
+          "icon": "Assets/Raids/Affliction.png"
         },
         { "warning": "Can Explode at any time", "fillColor": [179, 105, 45, 1],
           "warningDuration": 7, "timestamps": [427, 437],
-          "icon": "Data/Raids/Affliction.png"
+          "icon": "Assets/Raids/Affliction.png"
         },
         { "warning": "Can Explode at any time", "alert": "No more Afflictions until GDM", "fillColor": [179, 105, 45, 1],
           "warningDuration": 5, "alertDuration": 4, "timestamps": [245],
-          "icon": "Data/Raids/Affliction.png"
+          "icon": "Assets/Raids/Affliction.png"
         },
         { "warning": "Can Explode at any time", "alert": "Newly Afflicted can stay", "fillColor": [179, 105, 45, 1],
           "warningDuration": 5, "alertDuration": 8, "timestamps": [367],
-          "icon": "Data/Raids/Affliction.png"
+          "icon": "Assets/Raids/Affliction.png"
         },
         { "alert": "No more Afflictions until GDM", "fillColor": [179, 105, 45, 1],
           "alertDuration": 4, "timestamps": [437],
-          "icon": "Data/Raids/Affliction.png"
+          "icon": "Assets/Raids/Affliction.png"
         },*/
         { "warning": "Newly Afflicted can stay", "fillColor": [179, 105, 45, 1],
           "warningDuration": 12.5, "timestamps": [215, 295, 375, 455, 535],
-          "icon": "Data/Raids/Affliction.png"
+          "icon": "Assets/Raids/Affliction.png"
         }
       ]
     }

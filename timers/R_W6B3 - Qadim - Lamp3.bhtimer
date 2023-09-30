@@ -4,7 +4,7 @@
   "category": "W6: Mythwright Gambit",
   "description": "• Type: Automatic\n• Note: If using my Marker Pack, the\nfull red arrow markers are from the timer.\n---Displays---\n• The path to take for Lamp #3.",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Raids/Lamp.png",
+  "icon": "Assets/Raids/Lamp.png",
   "map": 1303,
   "reset": { "position": [-39.08, 306.656, 121.39], "radius": 15,
     "requireEntry": true, "requireOutOfCombat": true
@@ -20,22 +20,22 @@
       },
       "markers": [
         { "position": [-226.08, 357.74, 2.065], "rotation": [0, 0, 90], "size": 2,
-          "texture": "Data/General/Arrow.png", "duration": 120, "timestamps": [0]
+          "texture": "Assets/General/Arrow.png", "duration": 120, "timestamps": [0]
         },
         { "position": [-206.081, 345.031, 2.061], "rotation": [0, 0, 360], "size": 2,
-          "texture": "Data/General/Arrow.png", "duration": 120, "timestamps": [0]
+          "texture": "Assets/General/Arrow.png", "duration": 120, "timestamps": [0]
         },
         { "position": [-206.072, 310.548, 2.062], "rotation": [0, 0, 360], "size": 2,
-          "texture": "Data/General/Arrow.png", "duration": 120, "timestamps": [0]
+          "texture": "Assets/General/Arrow.png", "duration": 120, "timestamps": [0]
         },
         { "position": [-205.592, 274.549, 2.061], "rotation": [0, 0, 360], "size": 2,
-          "texture": "Data/General/Arrow.png", "duration": 120, "timestamps": [0]
+          "texture": "Assets/General/Arrow.png", "duration": 120, "timestamps": [0]
         },
         { "position": [-190.48, 255.346, 2.061], "rotation": [0, 0, 90], "size": 2,
-          "texture": "Data/General/Arrow.png", "duration": 120, "timestamps": [0]
+          "texture": "Assets/General/Arrow.png", "duration": 120, "timestamps": [0]
         },
         { "position": [-156.061, 255.222, 2.063], "rotation": [0, 0, 90], "size": 2,
-          "texture": "Data/General/Arrow.png", "duration": 120, "timestamps": [0]
+          "texture": "Assets/General/Arrow.png", "duration": 120, "timestamps": [0]
         }
       ]
     }

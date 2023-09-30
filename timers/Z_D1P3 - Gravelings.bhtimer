@@ -4,7 +4,7 @@
   "category": "Dungeons",
   "description": "• Type: Hotkey ( Trigger Key 0 )\n• Activate when the event starts.\n---Displays---\n• When and where gravelings spawn.",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Dungeons/D1-Default.png",
+  "icon": "Assets/Dungeons/D1-Default.png",
   "map": 36,
   "reset": { "position": [348.165, -42.847, 35.974], "radius": 100,
     "requireDeparture": true
@@ -23,62 +23,62 @@
       "alerts": [
         { "alert": "Timer: Graveling Spawns", "fillColor": [74, 218, 240, 0],
           "alertDuration": 3.5, "timestamps": [0],
-          "icon": "Data/Dungeons/D1-Default.png"
+          "icon": "Assets/Dungeons/D1-Default.png"
         },
         { "warning": "Next: Tunnel", "fillColor": [74, 218, 240, 0],
           "warningDuration": 10, "timestamps": [11.5, 23.5, 41.5, 53.5, 71.5, 87.5, 105.5, 123.5, 142.5, 160.5, 178.5, 196.5, 214.5, 232.5],
-          "icon": "Data/Dungeons/D1-Default.png"
+          "icon": "Assets/Dungeons/D1-Default.png"
         },
         { "warning": "Next: Tunnel (last)", "fillColor": [74, 218, 240, 0],
           "warningDuration": 10, "timestamps": [250.5],
-          "icon": "Data/Dungeons/D1-Default.png"
+          "icon": "Assets/Dungeons/D1-Default.png"
         }
       ],
       "markers": [
         { "position": [345.578, -34.2554, 21.9142],
-          "texture": "Data/General/Arrow.png", "duration": 11.5, "timestamps": [0]
+          "texture": "Assets/General/Arrow.png", "duration": 11.5, "timestamps": [0]
         },
         { "position": [340.116, -59.5617, 21.8581],
-          "texture": "Data/General/Arrow.png", "duration": 12, "timestamps": [11.5]
+          "texture": "Assets/General/Arrow.png", "duration": 12, "timestamps": [11.5]
         },
         { "position": [298.769, -47.8832, 25.9841],
-          "texture": "Data/General/Arrow.png", "duration": 18, "timestamps": [23.5]
+          "texture": "Assets/General/Arrow.png", "duration": 18, "timestamps": [23.5]
         },
         { "position": [338.106, -80.5819, 26.1261],
-          "texture": "Data/General/Arrow.png", "duration": 12, "timestamps": [41.5]
+          "texture": "Assets/General/Arrow.png", "duration": 12, "timestamps": [41.5]
         },
         { "position": [301.846, -70.106, 21.6945],
-          "texture": "Data/General/Arrow.png", "duration": 18, "timestamps": [53.5]
+          "texture": "Assets/General/Arrow.png", "duration": 18, "timestamps": [53.5]
         },
         { "position": [368.948, -47.8882, 25.2695],
-          "texture": "Data/General/Arrow.png", "duration": 18, "timestamps": [71.5]
+          "texture": "Assets/General/Arrow.png", "duration": 18, "timestamps": [71.5]
         },
         { "position": [336.976, -17.086, 25.6494],
-          "texture": "Data/General/Arrow.png", "duration": 18, "timestamps": [87.5]
+          "texture": "Assets/General/Arrow.png", "duration": 18, "timestamps": [87.5]
         },
         { "position": [361.218, -40.5936, 21.9397],
-          "texture": "Data/General/Arrow.png", "duration": 18, "timestamps": [105.5]
+          "texture": "Assets/General/Arrow.png", "duration": 18, "timestamps": [105.5]
         },
         { "position": [334.398, -41.6013, 21.671],
-          "texture": "Data/General/Arrow.png", "duration": 17, "timestamps": [123.5]
+          "texture": "Assets/General/Arrow.png", "duration": 17, "timestamps": [123.5]
         },
         { "position": [318.581, -76.7373, 20.8829],
-          "texture": "Data/General/Arrow.png", "duration": 18, "timestamps": [142.5]
+          "texture": "Assets/General/Arrow.png", "duration": 18, "timestamps": [142.5]
         },
         { "position": [355.241, -79.7259, 26.2364],
-          "texture": "Data/General/Arrow.png", "duration": 18, "timestamps": [160.5]
+          "texture": "Assets/General/Arrow.png", "duration": 18, "timestamps": [160.5]
         },
         { "position": [314.146, -33.9202, 25.8649],
-          "texture": "Data/General/Arrow.png", "duration": 18, "timestamps": [178.5]
+          "texture": "Assets/General/Arrow.png", "duration": 18, "timestamps": [178.5]
         },
         { "position": [362.081, -33.2436, 21.1712],
-          "texture": "Data/General/Arrow.png", "duration": 18, "timestamps": [196.5]
+          "texture": "Assets/General/Arrow.png", "duration": 18, "timestamps": [196.5]
         },
         { "position": [324.966, -61.2681, 21.5279],
-          "texture": "Data/General/Arrow.png", "duration": 18, "timestamps": [214.5]
+          "texture": "Assets/General/Arrow.png", "duration": 18, "timestamps": [214.5]
         },
         { "position": [368.315, -21.9292, 20.8069],
-          "texture": "Data/General/Arrow.png", "duration": 18, "timestamps": [232.5]
+          "texture": "Assets/General/Arrow.png", "duration": 18, "timestamps": [232.5]
         }
       ]
     }

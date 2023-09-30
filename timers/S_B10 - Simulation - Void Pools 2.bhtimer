@@ -4,7 +4,7 @@
   "category": "Simulation",
   "description": "• Type: Hotkey ( Trigger Key 0 )\n• Enforces 'Reset Button' for timer reset.\n• Only supports Soo-Won P2 (see other timer).\n• Note: All Void Pools last 4 minutes.\n---Displays---\n• Markers in advance for Void Pools.\n• Directions when Void Pools are \"applied\".\n• Void Pool AoE's.",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Strikes/B10/D1-Void Pool-Sim.png",
+  "icon": "Assets/Strikes/B10/D1-Void Pool-Sim.png",
   "map": 1437,
   "reset": { "position": [1114.88956, -4884.7346], "radius": 1,
     "requireEntry": true, "requireCombat": true
@@ -132,75 +132,75 @@
       "markers": [    
         //Void Pool 1
         { "position": [24.73075, -511.4659, 392.7156], "size": 1.5, "fadeCenter": false, "opacity": 0.9,
-          "texture": "Data/General/Arrow.png", "duration": 10, "timestamps": [0]
+          "texture": "Assets/General/Arrow.png", "duration": 10, "timestamps": [0]
         },
         { "position": [24.73075, -511.4659, 391.7156], "rotation": [180, 0, 0], "size": 23, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Orb1-red.png", "duration": 240, "timestamps": [17.5]
+          "texture": "Assets/Shapes/Orb1-red.png", "duration": 240, "timestamps": [17.5]
         },
         { "position": [24.73075, -511.4659, 391.7156], "rotation": [180, 0, 0], "size": 22.95, "fadeCenter": false, "opacity": 0.35,
-          "texture": "Data/Shapes/Fill-red.png", "duration": 240, "timestamps": [17.5]
+          "texture": "Assets/Shapes/Fill-red.png", "duration": 240, "timestamps": [17.5]
         },
         //Void Pool 2
         { "position": [3.656079, -528.4609, 392.7156], "size": 1.5, "fadeCenter": false, "opacity": 0.9,
-          "texture": "Data/General/Arrow.png", "duration": 15, "timestamps": [17.5]
+          "texture": "Assets/General/Arrow.png", "duration": 15, "timestamps": [17.5]
         },
         { "position": [3.656079, -528.4609, 391.7156], "rotation": [180, 0, 0], "size": 23, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Orb1-red.png", "duration": 240, "timestamps": [40]
+          "texture": "Assets/Shapes/Orb1-red.png", "duration": 240, "timestamps": [40]
         },
         { "position": [3.656079, -528.4609, 391.7156], "rotation": [180, 0, 0], "size": 22.95, "fadeCenter": false, "opacity": 0.35,
-          "texture": "Data/Shapes/Fill-red.png", "duration": 240, "timestamps": [40]
+          "texture": "Assets/Shapes/Fill-red.png", "duration": 240, "timestamps": [40]
         },
         //Void Pool 3
         { "position": [37.3518, -513.4424, 392.7137], "size": 1.5, "fadeCenter": false, "opacity": 0.9,
-          "texture": "Data/General/Arrow.png", "duration": 16, "timestamps": [40]
+          "texture": "Assets/General/Arrow.png", "duration": 16, "timestamps": [40]
         },
         { "position": [37.3518, -513.4424, 391.7156], "rotation": [180, 0, 0], "size": 23, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Orb1-red.png", "duration": 240, "timestamps": [63.5]
+          "texture": "Assets/Shapes/Orb1-red.png", "duration": 240, "timestamps": [63.5]
         },
         { "position": [37.3518, -513.4424, 391.7156], "rotation": [180, 0, 0], "size": 22.95, "fadeCenter": false, "opacity": 0.35,
-          "texture": "Data/Shapes/Fill-red.png", "duration": 240, "timestamps": [63.5]
+          "texture": "Assets/Shapes/Fill-red.png", "duration": 240, "timestamps": [63.5]
         },
         //Void Pool 4
         { "position": [-17.9372, -529.314, 392.7137], "size": 1.5, "fadeCenter": false, "opacity": 0.9,
-          "texture": "Data/General/Arrow.png", "duration": 15, "timestamps": [63.5]
+          "texture": "Assets/General/Arrow.png", "duration": 15, "timestamps": [63.5]
         },
         { "position": [-17.9372, -529.314, 391.7156], "rotation": [180, 0, 0], "size": 23, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Orb1-red.png", "duration": 240, "timestamps": [86]
+          "texture": "Assets/Shapes/Orb1-red.png", "duration": 240, "timestamps": [86]
         },
         { "position": [-17.9372, -529.314, 391.7156], "rotation": [180, 0, 0], "size": 22.95, "fadeCenter": false, "opacity": 0.35,
-          "texture": "Data/Shapes/Fill-red.png", "duration": 240, "timestamps": [86]
+          "texture": "Assets/Shapes/Fill-red.png", "duration": 240, "timestamps": [86]
         },
         //Void Pool 5
         { "position": [45.57443, -503.8932, 392.7137], "size": 1.5, "fadeCenter": false, "opacity": 0.9,
-          "texture": "Data/General/Arrow.png", "duration": 16, "timestamps": [86]
+          "texture": "Assets/General/Arrow.png", "duration": 16, "timestamps": [86]
         },
         { "position": [45.57443, -503.8932, 391.7156], "rotation": [180, 0, 0], "size": 23, "fadeCenter": false, "opacity": 0.75,
-          "texture": "Data/Shapes/Orb1-red.png", "duration": 240, "timestamps": [109.5]
+          "texture": "Assets/Shapes/Orb1-red.png", "duration": 240, "timestamps": [109.5]
         },
         { "position": [45.57443, -503.8932, 391.7156], "rotation": [180, 0, 0], "size": 22.95, "fadeCenter": false, "opacity": 0.35,
-          "texture": "Data/Shapes/Fill-red.png", "duration": 240, "timestamps": [109.5]
+          "texture": "Assets/Shapes/Fill-red.png", "duration": 240, "timestamps": [109.5]
         },
       ],
       //Trails
       "directions": [
         { "name": "Soo-Won P2's Void Pool 1", "destination": [24.73075, -511.4659, 391.7156],
-          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0,
           "duration": 7.5, "timestamps": [10]
         },
         { "name": "Soo-Won P2's Void Pool 2", "destination": [3.656079, -528.4609, 391.7156],
-          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0,
           "duration": 7.5, "timestamps": [32.5]
         },
         { "name": "Soo-Won P2's Void Pool 3", "destination": [37.3518, -513.4424, 391.7137],
-          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0,
           "duration": 7.5, "timestamps": [56]
         },
         { "name": "Soo-Won P2's Void Pool 4", "destination": [-17.9372, -529.314, 391.7137],
-          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0,
           "duration": 7.5, "timestamps": [78.5]
         },
         { "name": "Soo-Won P2's Void Pool 5", "destination": [45.57443, -503.8932, 391.7137],
-          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0,
           "duration": 7.5, "timestamps": [102]
         },
       ]

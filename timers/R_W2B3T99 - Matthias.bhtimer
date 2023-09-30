@@ -4,7 +4,7 @@
   "category": "W2: Salvation Pass",
   "description": "• Type: Automatic\n---Displays---\n• Corruption applications.\n• The first 4 Sacrifices.",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Raids/Matthias.png",
+  "icon": "Assets/Raids/Matthias.png",
   "map": 1149,
   "reset": { "position": [-150.5, 149.9, 131.5], "radius": 35,
     "requireDeparture": true
@@ -20,38 +20,38 @@
         //Initial Start
         { "alert": "Timer: Global Mechanics", "fillColor": [194, 45, 45, 0],
           "alertDuration": 4, "timestamps": [0],
-          "icon": "Data/Raids/Matthias.png"
+          "icon": "Assets/Raids/Matthias.png"
         },
         //Corruptions
         { "warning": "Next: Corruption", "alert": "Move", "fillColor": [173, 52, 52, 0],
           "warningDuration": 5, "alertDuration": 3, "timestamps": [5],
-          "icon": "Data/Raids/Corruption.png"
+          "icon": "Assets/Raids/Corruption.png"
         },
         { "warning": "Next: Corruption", "alert": "Move", "fillColor": [173, 52, 52, 0],
           "warningDuration": 27, "alertDuration": 3, "timestamps": [35, 65, 95, 125, 155, 185, 215, 245, 275, 305, 335, 365, 395, 425, 455, 485, 515, 545, 575, 605],
-          "icon": "Data/Raids/Corruption.png"
+          "icon": "Assets/Raids/Corruption.png"
         },
         //Sacrifices
         { "warning": "Next: Sacrifice", "fillColor": [189, 13, 13, 0],
           "warningDuration": 15, "timestamps": [15],
-          "icon": "Data/Raids/Matthias.png"
+          "icon": "Assets/Raids/Matthias.png"
         },
         { "warning": "Next: Sacrifice", "fillColor": [189, 13, 13, 0],
           "warningDuration": 30, "timestamps": [60, 105, 150],
-          "icon": "Data/Raids/Matthias.png"
+          "icon": "Assets/Raids/Matthias.png"
         },
         { "warning": "Prepare: Sacrifice", "fillColor": [189, 13, 13, 0],
           "warningDuration": 5, "timestamps": [20, 65, 110, 155],
-          "icon": "Data/Raids/Matthias.png"
+          "icon": "Assets/Raids/Matthias.png"
         },
         { "warning": "Sacrifice!", "fillColor": [30, 153, 156, 0],
           "warningDuration": 10, "timestamps": [30, 75, 120, 165],
-          "icon": "Data/General/Defiance.png"
+          "icon": "Assets/General/Defiance.png"
         },
         //Enrage
         { "alert": "Enrage", "fillColor": [194, 45, 45, 0],
           "alertDuration": 5, "timestamps": [600],
-          "icon": "Data/Raids/Matthias.png"
+          "icon": "Assets/Raids/Matthias.png"
         }
       ]
     }

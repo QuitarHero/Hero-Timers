@@ -4,7 +4,7 @@
   "category": "W5: Hall of Chains",
   "description": "• Type: Automatic\n---Displays---\n• When all Greens happen.",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Raids/DhuumGA.png",
+  "icon": "Assets/Raids/DhuumGA.png",
   "map": 1264,
   "reset": { "position": [460, 70, 150], "antipode": [345, -32, 225],
     "requireDeparture": true
@@ -20,81 +20,81 @@
         //Green 1
         { "warning": "Next: Green #1", "fillColor": [36, 173, 12, 1],
           "warningDuration": 31, "timestamps": [35],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_1"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_1"
         },
         { "warning": "Next: Green #1", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [125],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_2"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_2"
         },
         { "warning": "Next: Green #1", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [215],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_3"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_3"
         },
         { "warning": "Next: Green #1", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [305],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_4"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_4"
         },
         { "warning": "Next: Green #1", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [395],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_5"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_5"
         },
         { "warning": "Next: Green #1", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [485],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_6"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_6"
         },
         { "warning": "Next: Green #1", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [575],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_7"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_7"
         },
         //Green 2
         { "warning": "Next: Green #2", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [65],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_1"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_1"
         },
         { "warning": "Next: Green #2", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [155],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_2"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_2"
         },
         { "warning": "Next: Green #2", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [245],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_3"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_3"
         },
         { "warning": "Next: Green #2", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [335],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_4"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_4"
         },
         { "warning": "Next: Green #2", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [425],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_5"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_5"
         },
         { "warning": "Next: Green #2", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [515],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_6"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_6"
         },
         //Green 3
         { "warning": "Next: Green #3", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [95],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_1"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_1"
         },
         { "warning": "Next: Green #3", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [185],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_2"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_2"
         },
         { "warning": "Next: Green #3", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [275],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_3"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_3"
         },
         { "warning": "Next: Green #3", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [365],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_4"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_4"
         },
         { "warning": "Next: Green #3", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [455],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_5"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_5"
         },
         { "warning": "Next: Green #3", "fillColor": [36, 173, 12, 1],
           "warningDuration": 30, "timestamps": [545],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_6"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_6"
         },
       ]
     }

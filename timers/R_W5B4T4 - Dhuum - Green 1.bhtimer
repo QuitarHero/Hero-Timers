@@ -4,7 +4,7 @@
   "category": "W5: Hall of Chains",
   "description": "• Type: Automatic\n---Displays---\n• When all greens happen.\n• Unique timings for Green #1 (with trails).\n• How long to collect orbs.\n• Where the next green is.",
   "author": "\nQuitarHero.1645",
-  "icon": "Data/Raids/DhuumG1.png",
+  "icon": "Assets/Raids/DhuumG1.png",
   "map": 1264,
   "reset": {
     "position": [460, 70, 150], "antipode": [345, -32, 225],
@@ -20,155 +20,155 @@
         //Timer Start
         { "alert": "Timer: Green #1", "fillColor": [12, 95, 21, 1],
           "alertDuration": 4, "timestamps": [0],
-          "icon": "Data/Raids/Dhuum.png"
+          "icon": "Assets/Raids/Dhuum.png"
         },
         //Prepare Green #1
         { "warning": "Prepare: Green (1/7)", "fillColor": [79, 219, 55, 1],
           "warningDuration": 26, "timestamps": [30],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_1"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_1"
         },
         { "warning": "Prepare: Green (2/7)", "fillColor": [79, 219, 55, 1],
           "warningDuration": 25, "timestamps": [120],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_2"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_2"
         },
         { "warning": "Prepare: Green (3/7)", "fillColor": [44, 232, 12, 1],
           "warningDuration": 25, "timestamps": [210],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_3"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_3"
         },
         { "warning": "Prepare: Green (4/7)", "fillColor": [44, 232, 12, 1],
           "warningDuration": 25, "timestamps": [300],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_4"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_4"
         },
         { "warning": "Prepare: Green (5/7)", "fillColor": [44, 232, 12, 1],
           "warningDuration": 25, "timestamps": [390],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_5"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_5"
         },
         { "warning": "Prepare: Green (6/7)", "fillColor": [44, 232, 12, 1],
           "warningDuration": 25, "timestamps": [480],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_6"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_6"
         },
         { "warning": "Prepare: Green (7/7)", "fillColor": [44, 232, 12, 1],
           "warningDuration": 25, "timestamps": [570],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g1_7"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g1_7"
         },
         //Green 2
         { "warning": "Next: Green #2", "fillColor": [12, 95, 21, 1],
           "warningDuration": 30, "timestamps": [65],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_1"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_1"
         },
         { "warning": "Next: Green #2", "fillColor": [12, 95, 21, 1],
           "warningDuration": 30, "timestamps": [155],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_2"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_2"
         },
         { "warning": "Next: Green #2", "fillColor": [12, 95, 21, 1],
           "warningDuration": 30, "timestamps": [245],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_3"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_3"
         },
         { "warning": "Next: Green #2", "fillColor": [12, 95, 21, 1],
           "warningDuration": 30, "timestamps": [335],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_4"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_4"
         },
         { "warning": "Next: Green #2", "fillColor": [12, 95, 21, 1],
           "warningDuration": 30, "timestamps": [425],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_5"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_5"
         },
         { "warning": "Next: Green #2", "fillColor": [12, 95, 21, 1],
           "warningDuration": 30, "timestamps": [515],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g2_6"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g2_6"
         },
         //Green 3
         { "warning": "Next: Green #3", "fillColor": [12, 95, 21, 1],
           "warningDuration": 30, "timestamps": [95],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_1"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_1"
         },
         { "warning": "Next: Green #3", "fillColor": [12, 95, 21, 1],
           "warningDuration": 30, "timestamps": [185],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_2"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_2"
         },
         { "warning": "Next: Green #3", "fillColor": [12, 95, 21, 1],
           "warningDuration": 30, "timestamps": [275],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_3"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_3"
         },
         { "warning": "Next: Green #3", "fillColor": [12, 95, 21, 1],
           "warningDuration": 30, "timestamps": [365],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_4"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_4"
         },
         { "warning": "Next: Green #3", "fillColor": [12, 95, 21, 1],
           "warningDuration": 30, "timestamps": [455],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_5"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_5"
         },
         { "warning": "Next: Green #3", "fillColor": [12, 95, 21, 1],
           "warningDuration": 30, "timestamps": [545],
-          "icon": "Data/Raids/Greens.png", "uid": "htp.w5.b4.g3_6"
+          "icon": "Assets/Raids/Greens.png", "uid": "htp.w5.b4.g3_6"
         },
         //Move Greens
         { "warning": "Move", "fillColor": [44, 232, 12, 1],
           "warningDuration": 5, "timestamps": [35, 125, 215, 305, 395, 485, 575],
-          "icon": "Data/Raids/Greens.png"
+          "icon": "Assets/Raids/Greens.png"
         },
         //Time Left
         { "warning": "Time left", "fillColor": [224, 139, 210, 1],
           "warningDuration": 15, "timestamps": [50, 140, 230, 320, 410, 500, 590],
-          "icon": "Data/Raids/Greens2.png"
+          "icon": "Assets/Raids/Greens2.png"
         }
       ],
       "directions": [
         { "name": "Arrow", "destination": [429.2, 30.9, 157.9], "animSpeed": 0,
-          "texture": "Data/General/ArrowTrail.png",
+          "texture": "Assets/General/ArrowTrail.png",
           "duration": 8, "timestamps": [27]
         },
         { "name": "Square", "destination": [377.7, -6.6, 157.9], "animSpeed": 0,
-          "texture": "Data/General/ArrowTrail.png",
+          "texture": "Assets/General/ArrowTrail.png",
           "duration": 8, "timestamps": [117]
         },
         { "name": "Triangle", "destination": [407.8, 50.0, 157.9], "animSpeed": 0,
-          "texture": "Data/General/ArrowTrail.png",
+          "texture": "Assets/General/ArrowTrail.png",
           "duration": 8, "timestamps": [207]
         },
         { "name": "Heart", "destination": [404.9, -14.8, 157.9], "animSpeed": 0,
-          "texture": "Data/General/ArrowTrail.png",
+          "texture": "Assets/General/ArrowTrail.png",
           "duration": 8, "timestamps": [297]
         },
         { "name": "Swirl", "destination": [379.1, 44.9, 157.9], "animSpeed": 0,
-          "texture": "Data/General/ArrowTrail.png",
+          "texture": "Assets/General/ArrowTrail.png",
           "duration": 8, "timestamps": [387]
         },
         { "name": "Circle", "destination": [427.9, 2.0, 157.9], "animSpeed": 0,
-          "texture": "Data/General/ArrowTrail.png",
+          "texture": "Assets/General/ArrowTrail.png",
           "duration": 8, "timestamps": [477]
         },
         { "name": "Star", "destination": [366.0, 19.4, 157.9], "animSpeed": 0,
-          "texture": "Data/General/ArrowTrail.png",
+          "texture": "Assets/General/ArrowTrail.png",
           "duration": 8, "timestamps": [567]
         }
       ],
       "markers": [
         { "position": [429.2, 30.9, 159.4],
-          "texture": "Data/General/1.png",
+          "texture": "Assets/General/1.png",
           "duration": 35, "timestamps": [0]
         },
         { "position": [377.7, -6.6, 159.4],
-          "texture": "Data/General/1.png",
+          "texture": "Assets/General/1.png",
           "duration": 75, "timestamps": [50]
         },
         { "position": [407.8, 50.0, 159.4],
-          "texture": "Data/General/1.png",
+          "texture": "Assets/General/1.png",
           "duration": 75, "timestamps": [140]
         },
         { "position": [404.9, -14.8, 159.4],
-          "texture": "Data/General/1.png",
+          "texture": "Assets/General/1.png",
           "duration": 75, "timestamps": [230]
         },
         { "position": [379.1, 44.9, 159.4],
-          "texture": "Data/General/1.png",
+          "texture": "Assets/General/1.png",
           "duration": 75, "timestamps": [320]
         },
         { "position": [427.9, 2.0, 159.4],
-          "texture": "Data/General/1.png",
+          "texture": "Assets/General/1.png",
           "duration": 75, "timestamps": [410]
         },
         { "position": [366.0, 19.4, 159.4],
-          "texture": "Data/General/1.png",
+          "texture": "Assets/General/1.png",
           "duration": 75, "timestamps": [500]
         }
       ]
