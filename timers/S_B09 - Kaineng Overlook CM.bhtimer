@@ -245,6 +245,7 @@
         }
       ],
       "markers": [
+        //Rushing Justice #1
         { "position": [-545.892, -362.225, 266.136], "rotation": [180, 0, 2], "size": 19,
           "texture": "Assets/Strikes/B9/BigLine.png",
           "duration": 15, "timestamps": [10, 133, 235, 337, 439]
@@ -293,7 +294,7 @@
           "texture": "Assets/General/Arrow.png",
           "duration": 2, "timestamps": [33, 156, 258, 360, 462]
         },
-        
+        //Rushing Justice #2
         { "position": [-552.009, -376.417, 266.183], "rotation": [180, 0, 126.5], "size": 19,
           "texture": "Assets/Strikes/B9/BigLine.png",
           "duration": 15, "timestamps": [82, 184, 286, 388, 490]
@@ -341,6 +342,182 @@
         { "position": [-545.612, -371.709, 267.090], "size": 1.25,
           "texture": "Assets/General/Arrow.png",
           "duration": 2, "timestamps": [105, 207, 309, 411, 513]
+        },
+        //===== Booming Command AoE's =====
+        //Set #1
+        { "position": [-531.566348891672, -376.376475858266, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [33, 105, 156, 207, 258, 309, 360, 411, 462]
+        },
+        { "position": [-530.943503524883, -373.885193609808, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [34, 106, 157, 208, 259, 310, 361, 412, 463]
+        },
+        { "position": [-530.762727060002, -371.323614914935, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [35, 107, 158, 209, 260, 311, 362, 413, 464]
+        },
+        { "position": [-531.029526134681, -368.769552036317, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [36, 108, 159, 210, 261, 312, 363, 414, 465]
+        },
+        { "position": [-531.735764815812, -366.300618799228, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [37, 109, 160, 211, 262, 313, 364, 415, 466]
+        },
+        { "position": [-532.860011864969, -363.991824538165, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [38, 110, 161, 212, 263, 314, 365, 416, 467]
+        },
+        //Set #2
+        { "position": [-533.052893010813, -363.679285644436, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [33, 105, 156, 207, 258, 309, 360, 411, 462]
+        },
+        { "position": [-534.612313262476, -361.639026785238, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [34, 106, 157, 208, 259, 310, 361, 412, 463]
+        },
+        { "position": [-536.502330210617, -359.900566395882, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [35, 107, 158, 209, 260, 311, 362, 413, 464]
+        },
+        { "position": [-538.665545839355, -358.516738432211, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [36, 108, 159, 210, 261, 312, 363, 414, 465]
+        },
+        { "position": [-541.036178152964, -357.529537207487, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [37, 109, 160, 211, 262, 313, 364, 415, 466]
+        },
+        { "position": [-543.54219437784, -356.969001182052, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [38, 110, 161, 212, 263, 314, 365, 416, 467]
+        },
+        //Set #3
+        { "position": [-543.906823087191, -356.924948080841, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [33, 105, 156, 207, 258, 309, 360, 411, 462]
+        },
+        { "position": [-546.474255685152, -356.872064515648, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [34, 106, 157, 208, 259, 310, 361, 412, 463]
+        },
+        { "position": [-549.01182345549, -357.265838717072, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [35, 107, 158, 209, 260, 311, 362, 413, 464]
+        },
+        { "position": [-551.442483080434, -358.094265222847, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [36, 108, 159, 210, 261, 312, 363, 414, 465]
+        },
+        { "position": [-553.692366240497, -359.332192093429, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [37, 109, 160, 211, 262, 313, 364, 415, 466]
+        },
+        { "position": [-555.693111253845, -360.942015442874, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [38, 110, 161, 212, 263, 314, 365, 416, 467]
+        },
+        //Set #4
+        { "position": [-555.954899784354, -361.19961198346, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [33, 105, 156, 207, 258, 309, 360, 411, 462]
+        },
+        { "position": [-557.596969210137, -363.173940018885, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [34, 106, 157, 208, 259, 310, 361, 412, 463]
+        },
+        { "position": [-558.871284537631, -365.403408932159, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [35, 107, 158, 209, 260, 311, 362, 413, 464]
+        },
+        { "position": [-559.739100865886, -367.820301962974, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [36, 108, 159, 210, 261, 312, 363, 414, 465]
+        },
+        { "position": [-560.174026021651, -370.35114766663, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [37, 109, 160, 211, 262, 313, 364, 415, 466]
+        },
+        { "position": [-560.162863918304, -372.919101162748, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [38, 110, 161, 212, 263, 314, 365, 416, 467]
+        },
+        //Set #5
+        { "position": [-560.124664720181, -373.284399598299, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [33, 105, 156, 207, 258, 309, 360, 411, 462]
+        },
+        { "position": [-559.604907578975, -375.799196677809, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [34, 106, 157, 208, 259, 310, 361, 412, 463]
+        },
+        { "position": [-558.656376841181, -378.1855551548, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [35, 107, 158, 209, 260, 311, 362, 413, 464]
+        },
+        { "position": [-557.307796319415, -380.370921357515, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [36, 108, 159, 210, 261, 312, 363, 414, 465]
+        },
+        { "position": [-555.600292163342, -382.288917978047, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [37, 109, 160, 211, 262, 313, 364, 415, 466]
+        },
+        { "position": [-553.585606923147, -383.881278836922, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [38, 110, 161, 212, 263, 314, 365, 416, 467]
+        },
+        //Set #6
+        { "position": [-553.276193418356, -384.07919533161, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [33, 105, 156, 207, 258, 309, 360, 411, 462]
+        },
+        { "position": [-550.985977858197, -385.240773415295, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [34, 106, 157, 208, 259, 310, 361, 412, 463]
+        },
+        { "position": [-548.528876450657, -385.987022035758, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [35, 107, 158, 209, 260, 311, 362, 413, 464]
+        },
+        { "position": [-545.979452046096, -386.295244916193, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [36, 108, 159, 210, 261, 312, 363, 414, 465]
+        },
+        { "position": [-543.415293665117, -386.156115499135, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [37, 109, 160, 211, 262, 313, 364, 415, 466]
+        },
+        { "position": [-540.914188765713, -385.573800969835, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [38, 110, 161, 212, 263, 314, 365, 416, 467]
+        },
+        //Set #7
+        { "position": [-540.566576062799, -385.455284236959, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [33, 105, 156, 207, 258, 309, 360, 411, 462]
+        },
+        { "position": [-538.230471855545, -384.388956101839, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [34, 106, 157, 208, 259, 310, 361, 412, 463]
+        },
+        { "position": [-536.115030029134, -382.933194583262, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [35, 107, 158, 209, 260, 311, 362, 413, 464]
+        },
+        { "position": [-534.284544298846, -381.132152001138, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [36, 108, 159, 210, 261, 312, 363, 414, 465]
+        },
+        { "position": [-532.794577134678, -379.040646685238, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [37, 109, 160, 211, 262, 313, 364, 415, 466]
+        },
+        { "position": [-531.690421871547, -376.722178601274, 266.186], "rotation": [180, 0, 0], "size": 6.18, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb1-red.png",
+          "duration": 2.5, "timestamps": [38, 110, 161, 212, 263, 314, 365, 416, 467]
         }
       ]
     },
