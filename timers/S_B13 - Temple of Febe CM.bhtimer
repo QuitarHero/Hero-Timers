@@ -25,145 +25,179 @@
           "alertDuration": 4, "timestamps": [0],
           "icon": "Assets/Strikes/B13/Cerus.png"
         },
-        // ========== CERUS MECHANICS (67s rotation) ==========
-        //Greens (Crushing Regret)
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 11, "timestamps": [78.3, 145.3, 213.3, 279.3, 346.3, 413.3, 480.5],
+        // FIGHT ROTATION (Cerus 67s, Embodiments every 30s / 180s)
+        // Greens (Crushing Regret)
+        { "warning": "Greens", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 5, "timestamps": [16.3, 83.3, 150.3],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
+        { "warning": "Greens", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 7, "timestamps": [118.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        // Spreads (Wail of Despair)
+        { "warning": "Spread", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 5, "timestamps": [26.3, 93.3, 160.3],
+          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+        },
+        { "warning": "Spread", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 5, "timestamps": [56.3],
+          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+        },
+        // Envy (Envious Gaze)
+        { "warning": "Envy", "fillColor": [137, 156, 53, 0],
+          "warningDuration": 11, "timestamps": [42.3, 109.3, 176.3],
+          "icon": "Assets/Strikes/B13/1228837.png"
+        },
+        { "warning": "Envy", "fillColor": [137, 156, 53, 0],
+          "warningDuration": 14, "timestamps": [92.3],
+          "icon": "Assets/Strikes/B13/1228837.png"
+        },
+        // Adds (Malicious Intent)
+        { "warning": "Spawn: Adds", "fillColor": [67, 91, 156, 0],
+          "warningDuration": 5, "timestamps": [51.3, 118.3, 185.3],
+          "icon": "Assets/Strikes/B13/103813.png"
+        },
+        { "warning": "Spawn: Adds", "fillColor": [67, 91, 156, 0],
+          "warningDuration": 5, "timestamps": [26.3, 206.3],
+          "icon": "Assets/Strikes/B13/103813.png"
+        },
+        // Gluttony (Insatiable Hunger)
+        { "warning": "Gluttony", "fillColor": [204, 131, 20, 0],
+          "warningDuration": 13, "timestamps": [64.3, 131.3, 198.3],
+          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        },
+        { "warning": "Gluttony", "fillColor": [204, 131, 20, 0],
+          "warningDuration": 13, "timestamps": [184.3],
+          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        },
+        // Rage (Cry of Rage)
+        { "warning": "Rage", "fillColor": [186, 37, 37, 0],
+          "warningDuration": 5, "timestamps": [72.3, 139.3, 206.3],
+          "icon": "Assets/Strikes/B13/103302.png"
+        },
+        { "warning": "Rage", "fillColor": [186, 37, 37, 0],
+          "warningDuration": 5, "timestamps": [146.3],
+          "icon": "Assets/Strikes/B13/103302.png"
+        },
+        // ========== Next Mechanical Notifications ==========
+        { "warning": "Next: Green",
           "warningDuration": 11.3, "timestamps": [11.3],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 5, "timestamps": [16.3, 83.3, 150.3, 217.3, 284.3, 351.3, 418.3, 485.5],
+        { "warning": "Next: Spread + Adds",
+          "warningDuration": 10, "timestamps": [21.3],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        //Spreads (Wail of Despair)
-        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 10, "timestamps": [21.3, 88.3, 155.3, 222.3, 289.3, 356.3, 423.3, 490.5],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+        { "warning": "Next: Envy",
+          "warningDuration": 10, "timestamps": [31.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 5, "timestamps": [26.3, 93.3, 160.3, 227.3, 294.3, 361.3, 428.3, 495.5],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+        { "warning": "Next: Adds",
+          "warningDuration": 15, "timestamps": [46.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        //Line (Envious Gaze)
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 10, "timestamps": [31.3, 98.3, 165.3, 232.3, 299.3, 366.3, 433.3, 500.5],
-          "icon": "Assets/Strikes/B13/1228837.png"
+        { "warning": "Next: Gluttony + Spread",
+          "warningDuration": 20, "timestamps": [51.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 11, "timestamps": [42.3, 109.3, 176.3, 243.3, 310.3, 377.3, 444.3, 511.5],
-          "icon": "Assets/Strikes/B13/1228837.png"
+        { "warning": "Next: Rage",
+          "warningDuration": 16, "timestamps": [67.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        //Add Spawns (Malice, Malicious Intent)
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 15, "timestamps": [46.3, 113.3, 180.3, 247.3, 314.3, 381.3, 448.3, 515.5],
-          "icon": "Assets/Strikes/B13/103813.png"
+        { "warning": "Next: Green + Envy",
+          "warningDuration": 11, "timestamps": [78.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 5, "timestamps": [51.3, 118.3, 185.3, 252.3, 319.3, 386.3, 453.3, 520.5],
-          "icon": "Assets/Strikes/B13/103813.png"
+        { "warning": "Next: Spread",
+          "warningDuration": 10, "timestamps": [88.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        //Orbs (Gluttony, Insatiable Hunger)
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 9, "timestamps": [51.3, 118.3, 185.3, 252.3, 319.3, 386.3, 453.3, 520.5],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        { "warning": "Next: Envy",
+          "warningDuration": 10, "timestamps": [98.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 13, "timestamps": [64.3, 131.3, 198.3, 265.3, 332.3, 399.3, 466.3, 533.5],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
-        },
-        //Large AoE (Rage, Cry of Rage)
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 16, "timestamps": [67.3, 134.3, 201.3, 268.3, 335.3, 402.3, 469.3, 536.5],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        { "warning": "Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 5, "timestamps": [72.3, 139.3, 206.3, 273.3, 340.3, 407.3, 474.3, 541.5],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        // ========== EMBODIMENT MECHANICS (every 30s, 180s rotation) ==========
-        //Add Spawns (Malice, Malicious Intent)
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 10, "timestamps": [21.3],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 16, "timestamps": [201.3],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 15, "timestamps": [381.3],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        { "warning": "Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 5, "timestamps": [26.3, 206.3, 386.3],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        //Spreads (Wail of Despair)
-        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 9, "timestamps": [51.3, 231.3, 411.3],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        { "warning": "Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 5, "timestamps": [56.3, 236.3, 416.3],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        //Line (Envious Gaze)
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 9, "timestamps": [81.3, 261.3],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 8, "timestamps": [441.3],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        { "warning": "Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 11, "timestamps": [92.3, 272.3, 452.3],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        //Greens (Crushing Regret)
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
+        { "warning": "Next: Adds + Greens",
           "warningDuration": 13, "timestamps": [111.3],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 12, "timestamps": [291.3],
+        { "warning": "Next: Gluttony",
+          "warningDuration": 7, "timestamps": [118.3],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 5, "timestamps": [471.3],
+        { "warning": "Next: Rage",
+          "warningDuration": 16, "timestamps": [134.3],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 5, "timestamps": [116.3, 296.3, 476.3],
+        { "warning": "Next: Green",
+          "warningDuration": 12, "timestamps": [145.3],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        //IDK from here ???????
-        //Orbs (Gluttony, Insatiable Hunger)
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 7, "timestamps": [141.3],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        { "warning": "Next: Rage",
+          "warningDuration": 8, "timestamps": [141.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 11, "timestamps": [321.3, 501.3],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        { "warning": "Next: Spread",
+          "warningDuration": 10, "timestamps": [155.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 13, "timestamps": [154.3, 334.3, 514.3],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        { "warning": "Next: Envy",
+          "warningDuration": 10, "timestamps": [165.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        //Large AoE (Rage, Cry of Rage)
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 11, "timestamps": [171.3, 351.3, 531.3],
-          "icon": "Assets/Strikes/B13/103302.png"
+        { "warning": "Next: Gluttony",
+          "warningDuration": 16, "timestamps": [171.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 5, "timestamps": [176.3, 356.3, 536.3],
-          "icon": "Assets/Strikes/B13/103302.png"
+        { "warning": "Next: Adds",
+          "warningDuration": 9, "timestamps": [180.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        { "warning": "Next: Gluttony",
+          "warningDuration": 14, "timestamps": [185.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        { "warning": "Next: Rage + Adds",
+          "warningDuration": 16, "timestamps": [201.3],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
         }
+      ],
+      "markers": [
+        { "position": [4.727, -111.7995, 178.678], "rotation": [180, 0, 25], "size": 22, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Attacks/Line.png",
+          "duration": 3, "timestamps": [76.3]
+        },
+        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 50.25, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/Shapes/Orb5-orange.png",
+          "duration": 5, "timestamps": [136.3]
+        }
+      ],
+      "sounds": [
+        { "text": "Green soon",               "timestamps": [8.3] },
+        { "text": "Spread and Adds soon",     "timestamps": [18.3] },
+        { "text": "Adds",                     "timestamps": [21.3] },
+        { "text": "Envy soon",                "timestamps": [27.3] },
+        { "text": "Adds soon",                "timestamps": [43.3] },
+        { "text": "Adds",                     "timestamps": [46.3] },
+        { "text": "Gluttony and Spread soon", "timestamps": [48.3] },
+        { "text": "Rage soon",                "timestamps": [64.3] },
+        { "text": "Green and Envy soon",      "timestamps": [75.3] },
+        { "text": "Spread soon",              "timestamps": [85.3] },
+        { "text": "Envy soon",                "timestamps": [94.3] },
+        { "text": "Adds and Green soon",      "timestamps": [108.3] },
+        { "text": "Adds",                     "timestamps": [111.3] },
+        { "text": "Gluttony soon",            "timestamps": [114.3] },
+        { "text": "Rage soon",                "timestamps": [131.3] },
+        { "text": "Rage soon",                "timestamps": [138.3] },
+        { "text": "Green soon",               "timestamps": [142.3] },
+        { "text": "Spread soon",              "timestamps": [152.3] },
+        { "text": "Envy soon",                "timestamps": [161.3] },
+        { "text": "Gluttony soon",            "timestamps": [168.3] },
+        { "text": "Adds soon",                "timestamps": [177.3] },
+        { "text": "Adds",                     "timestamps": [180.3] },
+        { "text": "Gluttony soon",            "timestamps": [182.3] },
+        { "text": "Rage and Adds soon",       "timestamps": [198.3] },
+        { "text": "Adds",                     "timestamps": [201.3] }
       ]
     },
     {
@@ -183,194 +217,62 @@
         },
         // ========== CERUS MECHANICS (67s rotation, -7s from P1) ==========
         //Greens (Crushing Regret)
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 10, "timestamps": [70.8, 137.8, 204.8, 271.8, 338.8, 405.8, 472.8],
+        { "warning": "Next: Green", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [70.8, 137.8, 204.8, 271.8, 338.8, 405.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
+        { "warning": "Next: Green", "fillColor": [33, 184, 17, 0],
           "warningDuration": 3.8, "timestamps": [3.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 5, "timestamps": [8.8, 75.8, 142.8, 209.8, 276.8, 343.8, 410.8, 477.8],
+        { "warning": "Green", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 5, "timestamps": [8.8, 75.8, 142.8, 209.8, 276.8, 343.8, 410.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         //Spreads (Wail of Despair)
-        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 10, "timestamps": [13.8, 80.8, 147.8, 214.8, 281.8, 348.8, 415.8, 482.8],
+        { "warning": "Next: Spread", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 10, "timestamps": [13.8, 80.8, 147.8, 214.8, 281.8, 348.8, 415.8],
           "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
         },
-        { "warning": "Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 5, "timestamps": [18.8, 85.8, 152.8, 219.8, 286.8, 353.8, 420.8, 487.8],
+        { "warning": "Spread", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 5, "timestamps": [18.8, 85.8, 152.8, 219.8, 286.8, 353.8, 420.8],
           "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
         },
         //Line (Envious Gaze)
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 10, "timestamps": [23.8, 90.8, 157.8, 224.8, 291.8, 358.8, 425.8, 492.8],
+        { "warning": "Next: Envy", "fillColor": [137, 156, 53, 0],
+          "warningDuration": 10, "timestamps": [23.8, 90.8, 157.8, 224.8, 291.8, 358.8, 425.8],
           "icon": "Assets/Strikes/B13/1228837.png"
         },
-        { "warning": "Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 11, "timestamps": [34.8, 101.8, 168.8, 235.8, 302.8, 369.8, 436.8, 503.8],
+        { "warning": "Envy", "fillColor": [137, 156, 53, 0],
+          "warningDuration": 11, "timestamps": [34.8, 101.8, 168.8, 235.8, 302.8, 369.8, 436.8],
           "icon": "Assets/Strikes/B13/1228837.png"
         },
         //Add Spawns (Malice, Malicious Intent)
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 15, "timestamps": [38.8, 105.8, 172.8, 239.8, 306.8, 373.8, 440.8, 507.8],
+        { "warning": "Next: Adds", "fillColor": [67, 91, 156, 0],
+          "warningDuration": 15, "timestamps": [38.8, 105.8, 172.8, 239.8, 306.8, 373.8, 440.8],
           "icon": "Assets/Strikes/B13/103813.png"
         },
-        { "warning": "Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 5, "timestamps": [43.8, 110.8, 177.8, 244.8, 311.8, 378.8, 445.8, 512.8],
+        { "warning": "Adds", "fillColor": [67, 91, 156, 0],
+          "warningDuration": 5, "timestamps": [43.8, 110.8, 177.8, 244.8, 311.8, 378.8, 445.8],
           "icon": "Assets/Strikes/B13/103813.png"
         },
         //Orbs (Gluttony, Insatiable Hunger) went -1s start/end times
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 9, "timestamps": [43.8, 110.8, 177.8, 244.8, 311.8, 378.8, 445.8, 512.8],
+        { "warning": "Next: Gluttony", "fillColor": [204, 131, 20, 0],
+          "warningDuration": 9, "timestamps": [43.8, 110.8, 177.8, 244.8, 311.8, 378.8, 445.8],
           "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
         },
-        { "warning": "Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 13, "timestamps": [56.8, 123.8, 190.8, 257.8, 324.8, 391.8, 458.8, 525.8],
+        { "warning": "Gluttony", "fillColor": [204, 131, 20, 0],
+          "warningDuration": 13, "timestamps": [56.8, 123.8, 190.8, 257.8, 324.8, 391.8, 458.8],
           "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
         },
         //Large AoE (Rage, Cry of Rage) (did a -0.5s)
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 16, "timestamps": [60.3, 127.3, 194.3, 261.3, 328.3, 395.3, 462.3, 529.3],
+        { "warning": "Next: Rage", "fillColor": [186, 37, 37, 0],
+          "warningDuration": 16, "timestamps": [60.3, 127.3, 194.3, 261.3, 328.3, 395.3, 462.3],
           "icon": "Assets/Strikes/B13/103302.png"
         },
-        { "warning": "Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 5, "timestamps": [65.3, 132.3, 199.3, 266.3, 333.3, 400.3, 467.3, 534.3],
+        { "warning": "Rage", "fillColor": [186, 37, 37, 0],
+          "warningDuration": 5, "timestamps": [65.3, 132.3, 199.3, 266.3, 333.3, 400.3, 467.3],
           "icon": "Assets/Strikes/B13/103302.png"
-        },
-        // ========== EMBODIMENT MECHANICS (every 20s, 120s rotation) ==========
-        //Large AoE (Rage, Cry of Rage)
-        // +0.5s start time, -0.5s end time for prettiness
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 14.3, "timestamps": [14.3],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 6.5, "timestamps": [134.3],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 9.5, "timestamps": [254.3],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 15.5, "timestamps": [374.3],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 11.5, "timestamps": [494.3],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        { "warning": "Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 4.5, "timestamps": [18.8, 138.8, 258.8, 378.8, 498.8],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        //Orbs (Gluttony, Insatiable Hunger)
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 10, "timestamps": [33.8],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
-        },
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 6, "timestamps": [153.8],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
-        },
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 12, "timestamps": [273.8],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
-        },
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 15, "timestamps": [393.8],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
-        },
-        { "warning": "Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 10, "timestamps": [43.8, 163.8, 283.8, 403.8],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
-        },
-        //Add Spawns (Malice, Malicious Intent) +0.5s start?
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 10, "timestamps": [53.8],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 16, "timestamps": [173.8],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 12, "timestamps": [293.8],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 8, "timestamps": [413.8],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        { "warning": "Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 5, "timestamps": [58.8, 178.8, 298.8, 418.8],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        //Spreads (Wail of Despair)
-        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 8, "timestamps": [73.8],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 16, "timestamps": [193.8],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 11, "timestamps": [313.8],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 8, "timestamps": [433.8],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        { "warning": "Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 5, "timestamps": [78.8, 198.8, 318.8, 438.8],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        //Line (Envious Gaze) +2s start/end time
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 15, "timestamps": [95.8],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 11, "timestamps": [215.8],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 7, "timestamps": [335.8],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 10, "timestamps": [455.8],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        { "warning": "Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 11, "timestamps": [106.8, 226.8, 346.8, 466.8],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        //Greens (Crushing Regret) +1s start/end time
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 13, "timestamps": [114.8],
-          "icon": "Assets/Strikes/B13/B13-Default.png"
-        },
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 10, "timestamps": [234.8],
-          "icon": "Assets/Strikes/B13/B13-Default.png"
-        },
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 6, "timestamps": [354.8],
-          "icon": "Assets/Strikes/B13/B13-Default.png"
-        },
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 12, "timestamps": [474.8],
-          "icon": "Assets/Strikes/B13/B13-Default.png"
-        },
-        { "warning": "Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 5, "timestamps": [119.8, 239.8, 359.8, 479.8],
-          "icon": "Assets/Strikes/B13/B13-Default.png"
         }
       ]
     },
@@ -390,194 +292,107 @@
           "icon": "Assets/Strikes/B13/Cerus.png"
         },
         //Greens (Crushing Regret)
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 11, "timestamps": [70.9, 137.9, 204.9, 271.9, 338.9, 405.9, 472.9],
+        { "warning": "Next: Green", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 11, "timestamps": [70.8, 137.8, 204.8, 271.8, 338.8, 405.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 3.9, "timestamps": [3.9],
+        { "warning": "Next: Green", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 3.8, "timestamps": [3.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
-        { "warning": "Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 5, "timestamps": [8.9, 75.9, 142.9, 209.9, 276.9, 343.9, 410.9, 477.9],
+        { "warning": "Green", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 5, "timestamps": [8.8, 75.8, 142.8, 209.8, 276.8, 343.8, 410.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         //Line (Envious Gaze)
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 11, "timestamps": [14.9, 81.9, 148.9, 215.9, 282.9, 349.9, 416.9, 483.9],
+        { "warning": "Next: Envy", "fillColor": [137, 156, 53, 0],
+          "warningDuration": 11, "timestamps": [14.8, 81.8, 148.8, 215.8, 282.8, 349.8, 416.8],
           "icon": "Assets/Strikes/B13/1228837.png"
         },
-        { "warning": "Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 11, "timestamps": [25.9, 92.9, 159.9, 226.9, 293.9, 360.9, 427.9, 494.9],
+        { "warning": "Envy", "fillColor": [137, 156, 53, 0],
+          "warningDuration": 11, "timestamps": [25.8, 92.8, 159.8, 226.8, 293.8, 360.8, 427.8],
           "icon": "Assets/Strikes/B13/1228837.png"
         },
         //Orbs (Gluttony, Insatiable Hunger)
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 14, "timestamps": [28.9, 95.9, 162.9, 229.9, 296.9, 363.9, 430.9, 497.9],
+        { "warning": "Next: Gluttony", "fillColor": [204, 131, 20, 0],
+          "warningDuration": 14, "timestamps": [28.8, 95.8, 162.8, 229.8, 296.8, 363.8, 430.8],
           "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
         },
-        { "warning": "Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 13, "timestamps": [41.9, 108.9, 175.9, 242.9, 309.9, 376.9, 443.9, 510.9],
+        { "warning": "Gluttony", "fillColor": [204, 131, 20, 0],
+          "warningDuration": 13, "timestamps": [41.8, 108.8, 175.8, 242.8, 309.8, 376.8, 443.8],
           "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
         },
         //Large AoE (Rage, Cry of Rage)
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 17, "timestamps": [45.9, 112.9, 179.9, 246.9, 313.9, 380.9, 447.9, 514.9],
+        { "warning": "Next: Rage", "fillColor": [186, 37, 37, 0],
+          "warningDuration": 17, "timestamps": [45.8, 112.8, 179.8, 246.8, 313.8, 380.8, 447.8],
           "icon": "Assets/Strikes/B13/103302.png"
         },
-        { "warning": "Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 5, "timestamps": [50.9, 117.9, 184.9, 251.9, 318.9, 385.9, 452.9, 519.9],
+        { "warning": "Rage", "fillColor": [186, 37, 37, 0],
+          "warningDuration": 5, "timestamps": [50.8, 117.8, 184.8, 251.8, 318.8, 385.8, 452.8],
           "icon": "Assets/Strikes/B13/103302.png"
         },
         //Add Spawns (Malice, Malicious Intent)
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 11, "timestamps": [56.9, 123.9, 190.9, 257.9, 324.9, 391.9, 458.9, 525.9],
+        { "warning": "Next: Adds", "fillColor": [67, 91, 156, 0],
+          "warningDuration": 11, "timestamps": [56.8, 123.8, 190.8, 257.8, 324.8, 391.8, 458.8],
           "icon": "Assets/Strikes/B13/103813.png"
         },
-        { "warning": "Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 5, "timestamps": [61.9, 128.9, 195.9, 262.9, 329.9, 396.9, 463.9, 530.9],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        //Spreads (Wail of Despair)
-        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 16, "timestamps": [61.9, 128.9, 195.9, 262.9, 329.9, 396.9, 463.9, 530.9],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        { "warning": "Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 5, "timestamps": [66.9, 133.9, 200.9, 267.9, 334.9, 401.9, 468.9, 535.9],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        // ========== EMBODIMENT MECHANICS (every 20s, 120s rotation) idk if this is right for P3 im not there yet ==========
-        //Large AoE (Rage, Cry of Rage)
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 13.9, "timestamps": [13.9],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 6, "timestamps": [133.9],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 9, "timestamps": [253.9],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 15, "timestamps": [373.9],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        { "warning": "Next: Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 11, "timestamps": [493.9],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        { "warning": "Cry of Rage", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 5, "timestamps": [18.9, 138.9, 258.9, 378.9, 498.9],
-          "icon": "Assets/Strikes/B13/103302.png"
-        },
-        //Orbs (Gluttony, Insatiable Hunger)
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 10, "timestamps": [33.9],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
-        },
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 6, "timestamps": [153.9],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
-        },
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 12, "timestamps": [273.9],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
-        },
-        { "warning": "Next: Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 15, "timestamps": [393.9],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
-        },
-        { "warning": "Insatiable Hunger", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 10, "timestamps": [43.9, 163.9, 283.9, 403.9],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
-        },
-        //Add Spawns (Malice, Malicious Intent)
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 10, "timestamps": [53.9],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 16, "timestamps": [173.9],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 12, "timestamps": [293.9],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        { "warning": "Next: Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 8, "timestamps": [413.9],
-          "icon": "Assets/Strikes/B13/103813.png"
-        },
-        { "warning": "Malicious Intent", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 5, "timestamps": [58.9, 178.9, 298.9, 418.9],
+        { "warning": "Adds", "fillColor": [67, 91, 156, 0],
+          "warningDuration": 5, "timestamps": [61.8, 128.8, 195.8, 262.8, 329.8, 396.8, 463.8],
           "icon": "Assets/Strikes/B13/103813.png"
         },
         //Spreads (Wail of Despair)
-        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 8, "timestamps": [73.9],
+        { "warning": "Next: Spread", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 16, "timestamps": [61.8, 128.8, 195.8, 262.8, 329.8, 396.8, 463.8],
           "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
         },
-        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 16, "timestamps": [193.9],
+        { "warning": "Spread", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 5, "timestamps": [66.8, 133.8, 200.8, 267.8, 334.8, 401.8, 468.8],
           "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 11, "timestamps": [313.9],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        { "warning": "Next: Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 8, "timestamps": [433.9],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        { "warning": "Wail of Despair", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 5, "timestamps": [78.9, 198.9, 318.9, 438.9],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
-        },
-        //Line (Envious Gaze)
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 13, "timestamps": [93.9],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 9, "timestamps": [213.9],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 5, "timestamps": [333.9],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        { "warning": "Next: Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 8, "timestamps": [453.9],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        { "warning": "Envious Gaze", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 11, "timestamps": [104.9, 224.9, 344.9, 464.9],
-          "icon": "Assets/Strikes/B13/1228837.png"
-        },
-        //Greens (Crushing Regret)
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 12, "timestamps": [113.9],
-          "icon": "Assets/Strikes/B13/B13-Default.png"
-        },
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 9, "timestamps": [233.9],
-          "icon": "Assets/Strikes/B13/B13-Default.png"
-        },
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 5, "timestamps": [353.9],
-          "icon": "Assets/Strikes/B13/B13-Default.png"
-        },
-        { "warning": "Next: Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 11, "timestamps": [473.9],
-          "icon": "Assets/Strikes/B13/B13-Default.png"
-        },
-        { "warning": "Crushing Regret", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 5, "timestamps": [118.9, 238.9, 358.9, 478.9],
-          "icon": "Assets/Strikes/B13/B13-Default.png"
         }
+      ]
+    },
+    {
+      "name": "Temple of Febe - Phase 4",
+      "start": { "position": [-0.252093035069761, -100.925562800196], "radius": 175,
+        "requireEntry": true
+      },
+      "finish": { "position": [-0.252093035069761, -100.925562800196], "radius": 175,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        //Enraged Smash
+        { "warning": "Next: Enraged Smash", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 4, "timestamps": [0.5, 4.5, 8.5, 12.5, 16.5, 20.5, 24.5, 28.5, 32.5, 36.5, 40.5, 44.5, 48.5, 52.5, 56.5, 60.5, 64.5, 68.5, 72.5, 76.5, 80.5, 84.5, 88.5, 92.5, 96.5, 100.5, 104.5, 108.5, 112.5, 116.5, 120.5],
+          "icon": "Assets/Strikes/B13/B13-Defalt.png"
+        },
+        // ========== EMBODIMENTS (7.5s Rotation) ==========
+        
+       // { "warning": "Next: Spread", "fillColor": [0, 0, 0, 0],
+       //   "warningDuration": "", "timestamps": [],
+       //   "icon": ""
+       // },
+       // { "warning": "Next: Envy", "fillColor": [0, 0, 0, 0],
+       //   "warningDuration": "", "timestamps": [],
+       //   "icon": ""
+       // },
+       // { "warning": "Next: Green", "fillColor": [0, 0, 0, 0],
+       //   "warningDuration": "", "timestamps": [],
+       //   "icon": ""
+       // },
+       // { "warning": "Next: ", "fillColor": [0, 0, 0, 0],
+       //   "warningDuration": "", "timestamps": [],
+       //   "icon": ""
+       // },
+       // { "warning": "Next: ", "fillColor": [0, 0, 0, 0],
+       //   "warningDuration": "", "timestamps": [],
+       //   "icon": ""
+       // },
+       // { "warning": "Next: ", "fillColor": [0, 0, 0, 0],
+       //   "warningDuration": "", "timestamps": [],
+       //   "icon": ""
+       // },
       ]
     }
   ]
