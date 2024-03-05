@@ -2,9 +2,9 @@
   "id": "htp.strike.b13.challenge",
   "name": "Temple of Febe CM\nBoss and Embodiment Attacks",
   "category": "Strikes",
-  "description": "• Type: Hotkey ( Trigger Key 0 )\n• Automatically begins on fight start.\n• Activate Hotkey after split phases complete.\n• Note: Timer becomes inaccurate if Cerus gets\nQuickness/Alacrity.\n--- Displays ---\n• Cerus's Attack Rotation\n• Embodiment Attacks",
+  "description": "• Type: Hotkey ( Trigger Key 0 )\n• Time Skip Hotkeys (1s):\n  • Cerus: ( Trigger Key 4 )\n  • Embodiments: ( Trigger Key 3 )\n• Automatically begins on fight start.\n• Activate main Hotkey after split phases\ncomplete and when 10%'s breakbar is broken.\n--- Displays ---\n• Cerus's Attack Rotation\n• Embodiment's Attack Rotation\n• TTS pre-mechanic callouts\n• Pre-Markers for Aspects of Rage and Envy\n• Shadow's Resistance Timer",
   "author": "\nQuitarHero.1645",
-  "icon": "Assets/Strikes/B13/Cerus.png",
+  "icon": "Assets/Strikes/B13/B13-DefaultCM.png",
   "map": 1520,
   "reset": { "position": [-0.3466523, -216.3764], "radius": 5,
     "requireEntry": true
@@ -218,7 +218,7 @@
         { "text": "Gluttony soon", "set": "Cerus",       "timestamps": [49.3] },
         { "text": "Rage soon",     "set": "Cerus",       "timestamps": [64.3] },
         //Rotation 2
-        { "text": "Greens oon",    "set": "Cerus",       "timestamps": [75.3] },
+        { "text": "Greens soon",   "set": "Cerus",       "timestamps": [75.3] },
         { "text": "Envy soon",     "set": "Embodiments", "timestamps": [79.8] },
         { "text": "Pools soon",    "set": "Cerus",       "timestamps": [85.3] },
         { "text": "Envy soon",     "set": "Cerus",       "timestamps": [94.3] },
@@ -498,10 +498,10 @@
           "duration": 3, "timestamps": [89.5, 209.8]
         },
         //Aspect of Rage
-        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 100.25, "fadeCenter": false, "opacity": 0.5,
+        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 66.25, "fadeCenter": false, "opacity": 0.5,
           "set": "Embodiments", "texture": "Assets/Shapes/Orb5-orange.png",
           "duration": 5, "timestamps": [129.8, 249.8]
-        } //fix
+        }
       ],
       "sounds": [
         //Rotation 1
@@ -911,19 +911,19 @@
           "duration": 3, "timestamps": [64.8, 154.8, 254.8, 334.8]
         },
         //Aspect of Rage
-        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 100.25, "fadeCenter": false, "opacity": 0.4,
+        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 66.25, "fadeCenter": false, "opacity": 0.4,
           "set": "Embodiments", "texture": "Assets/Shapes/Orb5-orange.png",
           "duration": 6, "timestamps": [3.8, 363.8]
         }, //fix
-        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 100.25, "fadeCenter": false, "opacity": 0.4,
+        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 66.25, "fadeCenter": false, "opacity": 0.4,
           "set": "Embodiments", "texture": "Assets/Shapes/Orb5-orange.png",
           "duration": 5, "timestamps": [184.8]
         }, //fix
-        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 100.25, "fadeCenter": false, "opacity": 0.4,
+        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 66.25, "fadeCenter": false, "opacity": 0.4,
           "set": "Embodiments", "texture": "Assets/Shapes/Orb5-orange.png",
           "duration": 4, "timestamps": [95.8]
         }, //fix
-        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 100.25, "fadeCenter": false, "opacity": 0.4,
+        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 66.25, "fadeCenter": false, "opacity": 0.4,
           "set": "Embodiments", "texture": "Assets/Shapes/Orb5-orange.png",
           "duration": 3, "timestamps": [276.8]
         } //fix
@@ -1125,7 +1125,7 @@
           "duration": 3, "timestamps": [5.5, 35.5, 65.5, 95.5]
         },
         //Aspect of Rage
-        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 100.25, "fadeCenter": false, "opacity": 0.4,
+        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 66.25, "fadeCenter": false, "opacity": 0.4,
           "set": "Embodiments", "texture": "Assets/Shapes/Orb5-orange.png",
           "duration": 5, "timestamps": [15.5, 45.5, 75.5, 105.5]
         } //fix
