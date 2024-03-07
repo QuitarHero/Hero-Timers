@@ -38,25 +38,25 @@
         // Pools (Wail of Despair)
         { "warning": "Pools", "set": "Cerus", "fillColor": [158, 119, 13, 0],
           "warningDuration": 5, "timestamps": [26.3, 93.53, 160.76],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+          "icon": "Assets/Strikes/B13/Wail of Despair.png"
         },
         { "warning": "Pools", "set": "Embodiments", "fillColor": [158, 119, 13, 0],
           "warningDuration": 5, "timestamps": [56.3],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+          "icon": "Assets/Strikes/B13/Wail of Despair.png"
         },
         // Envy (Envious Gaze)
         { "warning": "Envy", "set": "Cerus", "fillColor": [137, 156, 53, 0],
           "warningDuration": 12, "timestamps": [43.3, 110.53, 177.76],
-          "icon": "Assets/Strikes/B13/1228837.png"
+          "icon": "Assets/Strikes/B13/Envious Gaze.png"
         },
         { "warning": "Aspect of Envy", "set": "Embodiments", "fillColor": [137, 156, 53, 0],
           "warningDuration": 12, "timestamps": [93.3],
-          "icon": "Assets/Strikes/B13/1228837.png"
+          "icon": "Assets/Strikes/B13/Envious Gaze.png"
         },
         // Shadows (Malicious Intent)
         { "warning": "Spawn: Shadow", "set": "Cerus", "fillColor": [67, 91, 156, 0],
           "warningDuration": 5, "timestamps": [51.3, 118.53, 185.76],
-          "icon": "Assets/Strikes/B13/103813.png"
+          "icon": "Assets/Strikes/B13/Malicious Intent.png"
         },
         { "warning": "Shadow's Resistance", "set": "Cerus", "fillColor": [67, 91, 156, 0],
           "warningDuration": 30, "timestamps": [81.3, 148.53],
@@ -64,7 +64,7 @@
         },
         { "warning": "Spawn: Shadow", "set": "Embodiments", "fillColor": [67, 91, 156, 0],
           "warningDuration": 5, "timestamps": [26.3, 206.3],
-          "icon": "Assets/Strikes/B13/103813.png"
+          "icon": "Assets/Strikes/B13/Malicious Intent.png"
         },
         { "warning": "Shadow's Resistance", "set": "Embodiments", "fillColor": [67, 91, 156, 0],
           "warningDuration": 30, "timestamps": [56.3],
@@ -73,20 +73,20 @@
         // Gluttony (Insatiable Hunger)
         { "warning": "Gluttony", "set": "Cerus", "fillColor": [204, 131, 20, 0],
           "warningDuration": 13, "timestamps": [64.3, 131.53, 198.76],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+          "icon": "Assets/Strikes/B13/Insatiable Hunger.png"
         },
         { "warning": "Gluttony", "set": "Embodiments", "fillColor": [204, 131, 20, 0],
           "warningDuration": 13, "timestamps": [184.3],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+          "icon": "Assets/Strikes/B13/Insatiable Hunger.png"
         },
         // Rage (Cry of Rage)
         { "warning": "Rage", "set": "Cerus", "fillColor": [186, 37, 37, 0],
           "warningDuration": 5, "timestamps": [72.8, 140.03, 207.26],
-          "icon": "Assets/Strikes/B13/103302.png"
+          "icon": "Assets/Strikes/B13/Cry of Rage.png"
         },
         { "warning": "Aspect of Rage", "set": "Embodiments", "fillColor": [186, 37, 37, 0],
           "warningDuration": 5, "timestamps": [146.3],
-          "icon": "Assets/Strikes/B13/103302.png"
+          "icon": "Assets/Strikes/B13/Cry of Rage.png"
         },
         // ========== Next Mechanical Notifications ==========
         //Rotation 1
@@ -283,30 +283,30 @@
         // Pools (Wail of Despair)
         { "warning": "Pools", "set": "Cerus", "fillColor": [158, 119, 13, 0],
           "warningDuration": 5, "timestamps": [18.8, 86.03, 153.26, 220.49],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+          "icon": "Assets/Strikes/B13/Wail of Despair.png"
         },
         { "warning": "Pools", "set": "Embodiments", "fillColor": [158, 119, 13, 0],
           "warningDuration": 5, "timestamps": [79.8], // +1s from npc spawn
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+          "icon": "Assets/Strikes/B13/Wail of Despair.png"
         },
         { "warning": "Pools", "set": "Embodiments", "fillColor": [158, 119, 13, 0],
           "warningDuration": 5.04, "timestamps": [199.8], // +0.96s from npc spawn (timer edit)
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+          "icon": "Assets/Strikes/B13/Wail of Despair.png"
         },
         // Envy (Envious Gaze)
         // They're technically +1.85s from arrow show, but whole numbers are more pleasing to use
         { "warning": "Envy", "set": "Cerus", "fillColor": [137, 156, 53, 0],
           "warningDuration": 12, "timestamps": [35.8, 103.03, 170.26, 237.49],
-          "icon": "Assets/Strikes/B13/1228837.png"
+          "icon": "Assets/Strikes/B13/Envious Gaze.png"
         },
         { "warning": "Aspect of Envy", "set": "Embodiments", "fillColor": [137, 156, 53, 0],
           "warningDuration": 12, "timestamps": [107.8, 227.8],
-          "icon": "Assets/Strikes/B13/1228837.png"
+          "icon": "Assets/Strikes/B13/Envious Gaze.png"
         },
         // Shadows (Malicious Intent)
         { "warning": "Spawn: Shadow", "set": "Cerus", "fillColor": [67, 91, 156, 0],
           "warningDuration": 5, "timestamps": [43.8, 111.03, 178.26, 245.49],
-          "icon": "Assets/Strikes/B13/103813.png"
+          "icon": "Assets/Strikes/B13/Malicious Intent.png"
         },
         { "warning": "Shadow's Resistance", "set": "Cerus", "fillColor": [67, 91, 156, 0],
           "warningDuration": 30, "timestamps": [73.8, 141.03, 208.26, 275.49],
@@ -314,7 +314,7 @@
         },
         { "warning": "Spawn: Shadow", "set": "Embodiments", "fillColor": [67, 91, 156, 0],
           "warningDuration": 5, "timestamps": [59.8, 179.8], // +1s from skill cast start
-          "icon": "Assets/Strikes/B13/103813.png"
+          "icon": "Assets/Strikes/B13/Malicious Intent.png"
         },
         { "warning": "Shadow's Resistance", "set": "Embodiments", "fillColor": [67, 91, 156, 0],
           "warningDuration": 30, "timestamps": [89.8, 209.8],
@@ -323,24 +323,24 @@
         // Gluttony (Insatiable Hunger)
         { "warning": "Gluttony", "set": "Cerus", "fillColor": [204, 131, 20, 0],
           "warningDuration": 13, "timestamps": [56.8, 124.03, 191.26, 258.49],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+          "icon": "Assets/Strikes/B13/Insatiable Hunger.png"
         },
         { "warning": "Gluttony", "set": "Embodiments", "fillColor": [204, 131, 20, 0],
           "warningDuration": 13, "timestamps": [46.8, 166.8],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+          "icon": "Assets/Strikes/B13/Insatiable Hunger.png"
         },
         // Rage (Cry of Rage)
         { "warning": "Rage", "set": "Cerus", "fillColor": [186, 37, 37, 0],
           "warningDuration": 5, "timestamps": [65.3, 132.53, 199.76, 266.99],
-          "icon": "Assets/Strikes/B13/103302.png"
+          "icon": "Assets/Strikes/B13/Cry of Rage.png"
         },
         { "warning": "Aspect of Rage", "set": "Embodiments", "fillColor": [186, 37, 37, 0],
           "warningDuration": 5.5, "timestamps": [19.3],
-          "icon": "Assets/Strikes/B13/103302.png"
+          "icon": "Assets/Strikes/B13/Cry of Rage.png"
         },
         { "warning": "Aspect of Rage", "set": "Embodiments", "fillColor": [186, 37, 37, 0],
           "warningDuration": 5, "timestamps": [139.3, 259.3],
-          "icon": "Assets/Strikes/B13/103302.png"
+          "icon": "Assets/Strikes/B13/Cry of Rage.png"
         },
         // ========== Next Mechanical Notifications ==========
         //Rotation 1
@@ -599,34 +599,34 @@
         // Envy (Envious Gaze)
         { "warning": "Envy", "set": "Cerus", "fillColor": [137, 156, 53, 0],
           "warningDuration": 12, "timestamps": [26.8, 94.03, 161.26, 228.49, 295.72, 362.95],
-          "icon": "Assets/Strikes/B13/1228837.png"
+          "icon": "Assets/Strikes/B13/Envious Gaze.png"
         },
         { "warning": "Aspect of Envy", "set": "Embodiments", "fillColor": [137, 156, 53, 0],
           "warningDuration": 12, "timestamps": [82.8, 172.8, 262.8, 352.8],
-          "icon": "Assets/Strikes/B13/1228837.png"
+          "icon": "Assets/Strikes/B13/Envious Gaze.png"
         },
         // Gluttony (Insatiable Hunger)
         { "warning": "Gluttony", "set": "Cerus", "fillColor": [204, 131, 20, 0],
           "warningDuration": 13, "timestamps": [41.8, 109.03, 176.26, 243.49, 310.72, 377.95],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+          "icon": "Assets/Strikes/B13/Insatiable Hunger.png"
         },
         { "warning": "Gluttony", "set": "Embodiments", "fillColor": [204, 131, 20, 0],
           "warningDuration": 13, "timestamps": [36.8, 126.8, 216.8, 306.8, 396.8],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+          "icon": "Assets/Strikes/B13/Insatiable Hunger.png"
         },
         // Rage (Cry of Rage)
         { "warning": "Rage", "set": "Cerus", "fillColor": [186, 37, 37, 0],
           "warningDuration": 5, "timestamps": [50.3, 117.53, 184.76, 251.99, 319.22, 386.45],
-          "icon": "Assets/Strikes/B13/103302.png"
+          "icon": "Assets/Strikes/B13/Cry of Rage.png"
         },
         { "warning": "Aspect of Rage", "set": "Embodiments", "fillColor": [186, 37, 37, 0],
           "warningDuration": 5, "timestamps": [14.3, 104.3, 194.3, 284.3, 374.3],
-          "icon": "Assets/Strikes/B13/103302.png"
+          "icon": "Assets/Strikes/B13/Cry of Rage.png"
         },
         // Shadows (Malicious Intent)
         { "warning": "Spawn: Shadow", "set": "Cerus", "fillColor": [67, 91, 156, 0],
           "warningDuration": 5, "timestamps": [61.8, 129.03, 196.26, 263.49, 330.72, 397.95],
-          "icon": "Assets/Strikes/B13/103813.png"
+          "icon": "Assets/Strikes/B13/Malicious Intent.png"
         },
         { "warning": "Shadow's Resistance", "set": "Cerus", "fillColor": [67, 91, 156, 0],
           "warningDuration": 30, "timestamps": [91.8, 159.03, 226.26, 293.49, 360.72],
@@ -634,7 +634,7 @@
         },
         { "warning": "Spawn: Shadow", "set": "Embodiments", "fillColor": [67, 91, 156, 0],
           "warningDuration": 5, "timestamps": [44.8, 134.8, 224.8, 314.8, 404.8],
-          "icon": "Assets/Strikes/B13/103813.png"
+          "icon": "Assets/Strikes/B13/Malicious Intent.png"
         },
         { "warning": "Shadow's Resistance", "set": "Embodiments", "fillColor": [67, 91, 156, 0],
           "warningDuration": 30, "timestamps": [74.8, 164.8, 254.8, 344.8],
@@ -643,11 +643,11 @@
         // Pools (Wail of Despair)
         { "warning": "Pools", "set": "Cerus", "fillColor": [158, 119, 13, 0],
           "warningDuration": 5, "timestamps": [66.8, 134.03, 201.26, 268.49, 335.72, 402.95],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+          "icon": "Assets/Strikes/B13/Wail of Despair.png"
         },
         { "warning": "Pools", "set": "Embodiments", "fillColor": [158, 119, 13, 0],
           "warningDuration": 5, "timestamps": [59.8, 149.8, 239.8, 329.8],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+          "icon": "Assets/Strikes/B13/Wail of Despair.png"
         },
         // ========== Next Mechanical Notifications ==========
         //Rotation 1
@@ -1058,12 +1058,12 @@
         //// Pools (Wail of Despair)
         //{ "warning": "Pools", "set": "Embodiments", "fillColor": [158, 119, 13, 0],
         //  "warningDuration": 5, "timestamps": [11, 41, 71, 101],
-        //  "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+        //  "icon": "Assets/Strikes/B13/Wail of Despair.png"
         //},
         //// Envy (Envious Gaze)
         //{ "warning": "Aspect of Envy", "set": "Embodiments", "fillColor": [137, 156, 53, 0],
         //  "warningDuration": 12, "timestamps": [24.3, 54.3, 84.3, 114.3],
-        //  "icon": "Assets/Strikes/B13/1228837.png"
+        //  "icon": "Assets/Strikes/B13/Envious Gaze.png"
         //},
         //// Greens (Crushing Regret)
         //{ "warning": "Green", "set": "Embodiments", "fillColor": [33, 184, 17, 0],
@@ -1073,17 +1073,17 @@
         //// Rage (Cry of Rage)
         //{ "warning": "Aspect of Rage", "set": "Embodiments", "fillColor": [186, 37, 37, 0],
         //  "warningDuration": 5, "timestamps": [26, 56, 86, 116],
-        //  "icon": "Assets/Strikes/B13/103302.png"
+        //  "icon": "Assets/Strikes/B13/Cry of Rage.png"
         //},
         //// Gluttony (Insatiable Hunger)
         //{ "warning": "Gluttony", "set": "Embodiments", "fillColor": [204, 131, 20, 0],
         //  "warningDuration": 13, "timestamps": [38.5, 68.5, 98.5],
-        //  "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+        //  "icon": "Assets/Strikes/B13/Insatiable Hunger.png"
         //},
         //// Shadows (Malicious Intent)
         //{ "warning": "Spawn: Shadow", "set": "Embodiments", "fillColor": [67, 91, 156, 0],
         //  "warningDuration": 5, "timestamps": [36.5, 66.5, 96.5],
-        //  "icon": "Assets/Strikes/B13/103813.png"
+        //  "icon": "Assets/Strikes/B13/Malicious Intent.png"
         //},
         { "warning": "Shadow's Resistance", "set": "Embodiments", "fillColor": [67, 91, 156, 0],
           "warningDuration": 30, "timestamps": [66.5, 96.5, 126.5],
@@ -1092,11 +1092,11 @@
         // ========== Next Mechanical Notifications ==========
         { "warning": "Next: Pools", "set": "Embodiments", "fillColor": [158, 119, 13, 0],
           "warningDuration": 6, "timestamps": [6],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+          "icon": "Assets/Strikes/B13/Wail of Despair.png"
         },
         { "warning": "Next: Aspect of Envy", "set": "Embodiments", "fillColor": [137, 156, 53, 0],
           "warningDuration": 12.3, "timestamps": [12.3],
-          "icon": "Assets/Strikes/B13/1228837.png"
+          "icon": "Assets/Strikes/B13/Envious Gaze.png"
         },
         { "warning": "Next: Green", "set": "Embodiments", "fillColor": [33, 184, 17, 0],
           "warningDuration": 16.8, "timestamps": [16.8],
@@ -1104,23 +1104,23 @@
         },
         { "warning": "Next: Aspect of Rage", "set": "Embodiments", "fillColor": [186, 37, 37, 0],
           "warningDuration": 15, "timestamps": [21, 51, 81, 111],
-          "icon": "Assets/Strikes/B13/103302.png"
+          "icon": "Assets/Strikes/B13/Cry of Rage.png"
         },
         { "warning": "Next: Gluttony", "set": "Embodiments", "fillColor": [204, 131, 20, 0],
           "warningDuration": 13.2, "timestamps": [25.5, 55.5, 85.5, 115.5],
-          "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
+          "icon": "Assets/Strikes/B13/Insatiable Hunger.png"
         },
         { "warning": "Next: Shadow", "set": "Embodiments", "fillColor": [67, 91, 156, 0],
           "warningDuration": 14.7, "timestamps": [31.5],
-          "icon": "Assets/Strikes/B13/103813.png"
+          "icon": "Assets/Strikes/B13/Malicious Intent.png"
         },
         { "warning": "Next: Pools", "set": "Embodiments", "fillColor": [158, 119, 13, 0],
           "warningDuration": 15, "timestamps": [36, 66, 96],
-          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+          "icon": "Assets/Strikes/B13/Wail of Despair.png"
         },
         { "warning": "Next: Aspect of Envy", "set": "Embodiments", "fillColor": [137, 156, 53, 0],
           "warningDuration": 16.8, "timestamps": [42.3, 72.3, 102.3],
-          "icon": "Assets/Strikes/B13/1228837.png"
+          "icon": "Assets/Strikes/B13/Envious Gaze.png"
         },
         { "warning": "Next: Green", "set": "Embodiments", "fillColor": [33, 184, 17, 0],
           "warningDuration": 14, "timestamps": [45.5, 75.5, 105.5],
@@ -1128,7 +1128,7 @@
         },
         { "warning": "Next: Shadow", "set": "Embodiments", "fillColor": [67, 91, 156, 0],
           "warningDuration": 16, "timestamps": [61.5, 91.5],
-          "icon": "Assets/Strikes/B13/103813.png"
+          "icon": "Assets/Strikes/B13/Malicious Intent.png"
         }
       ],
       "markers": [
