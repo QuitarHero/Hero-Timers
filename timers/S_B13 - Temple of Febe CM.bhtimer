@@ -25,7 +25,7 @@
           "alertDuration": 3.8, "timestamps": [0],
           "icon": "Assets/Strikes/B13/Cerus.png"
         },
-        // FIGHT ROTATION (Cerus 67s, Embodiments every 30s / 180s)
+        // FIGHT ROTATION (Cerus 67.23s, Embodiments every 30s / 180s)
         // Greens (Crushing Regret)
         { "warning": "Green", "set": "Cerus", "fillColor": [33, 184, 17, 0],
           "warningDuration": 5, "timestamps": [16.3, 83.53, 150.76],
@@ -270,45 +270,50 @@
           "alertDuration": 3.8, "timestamps": [0],
           "icon": "Assets/Strikes/B13/Cerus.png"
         },
-        // FIGHT ROTATION (Cerus 67s, -7s from P1, Embodiments every 20s / 120s)
+        // FIGHT ROTATION (Cerus 67.23s, -7s from P1, Embodiments every 20s / 120s, starting at 14.3s-0.5s in)
         // Greens (Crushing Regret)
         { "warning": "Green", "set": "Cerus", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 5, "timestamps": [8.8, 75.8, 142.8, 209.8],
+          "warningDuration": 5, "timestamps": [8.8, 76.03, 143.26, 210.49],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Green", "set": "Embodiments", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 5, "timestamps": [119.8, 239.8],
+          "warningDuration": 5, "timestamps": [119.8, 239.8], // +1s from npc spawn
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         // Pools (Wail of Despair)
         { "warning": "Pools", "set": "Cerus", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 5, "timestamps": [18.8, 85.8, 152.8, 219.8],
+          "warningDuration": 5, "timestamps": [18.8, 86.03, 153.26, 220.49],
           "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
         },
         { "warning": "Pools", "set": "Embodiments", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 5, "timestamps": [79.8, 199.8],
+          "warningDuration": 5, "timestamps": [79.8], // +1s from npc spawn
+          "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
+        },
+        { "warning": "Pools", "set": "Embodiments", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 5.04, "timestamps": [199.8], // +0.96s from npc spawn (timer edit)
           "icon": "Assets/Strikes/B13/Wail_of_Doom.png"
         },
         // Envy (Envious Gaze)
+        // They're technically +1.85s from arrow show, but whole numbers are more pleasing to use
         { "warning": "Envy", "set": "Cerus", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 11, "timestamps": [34.8, 101.8, 168.8, 235.8],
+          "warningDuration": 12, "timestamps": [35.8, 103.03, 170.26, 237.49],
           "icon": "Assets/Strikes/B13/1228837.png"
         },
         { "warning": "Aspect of Envy", "set": "Embodiments", "fillColor": [137, 156, 53, 0],
-          "warningDuration": 11, "timestamps": [105.8, 225.8],
+          "warningDuration": 12, "timestamps": [107.8, 227.8],
           "icon": "Assets/Strikes/B13/1228837.png"
         },
         // Shadows (Malicious Intent)
         { "warning": "Spawn: Shadow", "set": "Cerus", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 5, "timestamps": [43.8, 110.8, 177.8, 244.8],
+          "warningDuration": 5, "timestamps": [43.8, 111.03, 178.26, 245.49],
           "icon": "Assets/Strikes/B13/103813.png"
         },
         { "warning": "Shadow's Resistance", "set": "Cerus", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 30, "timestamps": [73.8, 140.8, 207.8, 274.8],
+          "warningDuration": 30, "timestamps": [73.8, 141.03, 208.26, 275.49],
           "icon": "Assets/General/Resistance.png"
         },
         { "warning": "Spawn: Shadow", "set": "Embodiments", "fillColor": [67, 91, 156, 0],
-          "warningDuration": 5, "timestamps": [59.8, 179.8],
+          "warningDuration": 5, "timestamps": [59.8, 179.8], // +1s from skill cast start
           "icon": "Assets/Strikes/B13/103813.png"
         },
         { "warning": "Shadow's Resistance", "set": "Embodiments", "fillColor": [67, 91, 156, 0],
@@ -317,24 +322,24 @@
         },
         // Gluttony (Insatiable Hunger)
         { "warning": "Gluttony", "set": "Cerus", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 13, "timestamps": [56.8, 123.8, 190.8, 257.8],
+          "warningDuration": 13, "timestamps": [56.8, 124.03, 191.26, 258.49],
           "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
         },
         { "warning": "Gluttony", "set": "Embodiments", "fillColor": [204, 131, 20, 0],
-          "warningDuration": 13, "timestamps": [47.8, 167.8],
+          "warningDuration": 13, "timestamps": [46.8, 166.8],
           "icon": "Assets/Strikes/B13/Shiny_Orb - Copy.png"
         },
         // Rage (Cry of Rage)
         { "warning": "Rage", "set": "Cerus", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 5, "timestamps": [65.8, 132.8, 199.8, 266.8],
+          "warningDuration": 5, "timestamps": [65.3, 132.53, 199.76, 266.99],
           "icon": "Assets/Strikes/B13/103302.png"
         },
         { "warning": "Aspect of Rage", "set": "Embodiments", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 6, "timestamps": [19.8],
+          "warningDuration": 5.5, "timestamps": [19.3],
           "icon": "Assets/Strikes/B13/103302.png"
         },
         { "warning": "Aspect of Rage", "set": "Embodiments", "fillColor": [186, 37, 37, 0],
-          "warningDuration": 5, "timestamps": [139.8, 259.8],
+          "warningDuration": 5, "timestamps": [139.3, 259.3],
           "icon": "Assets/Strikes/B13/103302.png"
         },
         // ========== Next Mechanical Notifications ==========
@@ -348,7 +353,7 @@
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Aspect of Rage", "set": "Embodiments",
-          "warningDuration": 10, "timestamps": [13.8],
+          "warningDuration": 10.5, "timestamps": [14.3],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Envy", "set": "Cerus",
@@ -356,15 +361,15 @@
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Gluttony", "set": "Embodiments",
-          "warningDuration": 15, "timestamps": [34.8],
+          "warningDuration": 10, "timestamps": [33.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Shadow", "set": "Cerus",
-          "warningDuration": 11, "timestamps": [38.8],
+          "warningDuration": 15, "timestamps": [38.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Gluttony", "set": "Cerus",
-          "warningDuration": 9, "timestamps": [43.8],
+          "warningDuration": 10, "timestamps": [43.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Shadow", "set": "Embodiments",
@@ -372,135 +377,135 @@
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Rage", "set": "Cerus",
-          "warningDuration": 11, "timestamps": [60.8],
+          "warningDuration": 16.5, "timestamps": [60.3],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         //Rotation 2
         { "warning": "Next: Green", "set": "Cerus",
-          "warningDuration": 10, "timestamps": [70.8],
+          "warningDuration": 10.73, "timestamps": [71.03],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Pools", "set": "Embodiments",
-          "warningDuration": 14, "timestamps": [74.8],
+          "warningDuration": 14.5, "timestamps": [74.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Pools", "set": "Cerus",
-          "warningDuration": 10, "timestamps": [80.8],
+          "warningDuration": 10, "timestamps": [81.03],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Envy", "set": "Cerus",
-          "warningDuration": 10, "timestamps": [90.8],
+          "warningDuration": 10, "timestamps": [91.03],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Aspect of Envy", "set": "Embodiments",
-          "warningDuration": 14, "timestamps": [94.8],
+          "warningDuration": 14.77, "timestamps": [95.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Shadow", "set": "Cerus",
-          "warningDuration": 11, "timestamps": [105.8],
+          "warningDuration": 10.23, "timestamps": [106.03],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Gluttony", "set": "Cerus",
-          "warningDuration": 16, "timestamps": [110.8],
+          "warningDuration": 15.23, "timestamps": [111.03],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Green", "set": "Embodiments",
-          "warningDuration": 9, "timestamps": [114.8],
+          "warningDuration": 8.77, "timestamps": [114.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Rage", "set": "Cerus",
-          "warningDuration": 13, "timestamps": [127.8],
+          "warningDuration": 12.73, "timestamps": [127.53],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         //Rotation 3
         { "warning": "Next: Aspect of Rage", "set": "Embodiments",
-          "warningDuration": 7, "timestamps": [134.8],
+          "warningDuration": 14.5, "timestamps": [134.3],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Green", "set": "Cerus",
-          "warningDuration": 10, "timestamps": [137.8],
+          "warningDuration": 10.73, "timestamps": [138.26],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Pools", "set": "Cerus",
-          "warningDuration": 10, "timestamps": [147.8],
+          "warningDuration": 10, "timestamps": [148.26],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Gluttony", "set": "Embodiments",
-          "warningDuration": 7, "timestamps": [154.8],
+          "warningDuration": 15.54, "timestamps": [153.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Envy", "set": "Cerus",
-          "warningDuration": 10, "timestamps": [157.8],
+          "warningDuration": 10, "timestamps": [158.26],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Shadow", "set": "Cerus",
-          "warningDuration": 15, "timestamps": [172.8],
+          "warningDuration": 15, "timestamps": [173.26],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Shadow", "set": "Embodiments",
-          "warningDuration": 17, "timestamps": [174.8],
+          "warningDuration": 16.54, "timestamps": [174.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Gluttony", "set": "Cerus",
-          "warningDuration": 9, "timestamps": [177.8],
+          "warningDuration": 8, "timestamps": [178.26],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Rage", "set": "Cerus",
-          "warningDuration": 17, "timestamps": [194.8],
+          "warningDuration": 16.5, "timestamps": [194.76],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Pools", "set": "Embodiments",
-          "warningDuration": 17, "timestamps": [194.8],
+          "warningDuration": 16.5, "timestamps": [194.76], //technically +0.04s, but that'd feel awful on timer
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         //Rotation 4
         { "warning": "Next: Green", "set": "Cerus",
-          "warningDuration": 10, "timestamps": [204.8],
+          "warningDuration": 10.73, "timestamps": [205.49],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Aspect of Envy", "set": "Embodiments",
-          "warningDuration": 15, "timestamps": [214.8],
+          "warningDuration": 16, "timestamps": [215.8],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Pools", "set": "Cerus",
-          "warningDuration": 15, "timestamps": [214.8],
+          "warningDuration": 15.73, "timestamps": [215.49],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Envy", "set": "Cerus",
-          "warningDuration": 15, "timestamps": [224.8],
-          "icon": "Assets/Strikes/B13/B13-Default.png"
-        },
-        { "warning": "Next: Shadow", "set": "Cerus",
-          "warningDuration": 10, "timestamps": [234.8],
+          "warningDuration": 15, "timestamps": [225.49],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Green", "set": "Embodiments",
-          "warningDuration": 15, "timestamps": [239.8],
+          "warningDuration": 9.31, "timestamps": [234.8],
+          "icon": "Assets/Strikes/B13/B13-Default.png"
+        },
+        { "warning": "Next: Shadow", "set": "Cerus",
+          "warningDuration": 15, "timestamps": [240.49],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Gluttony", "set": "Cerus",
-          "warningDuration": 10, "timestamps": [244.8],
+          "warningDuration": 10.69, "timestamps": [245.49],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Aspect of Rage", "set": "Embodiments",
-          "warningDuration": 10, "timestamps": [254.8],
+          "warningDuration": 8.81, "timestamps": [254.3],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         },
         { "warning": "Next: Rage", "set": "Cerus",
-          "warningDuration": 10, "timestamps": [261.8],
+          "warningDuration": 16.5, "timestamps": [261.99],
           "icon": "Assets/Strikes/B13/B13-Default.png"
         }
       ],
       "markers": [
         //Aspect of Envy
-        { "position": [4.727, -111.7995, 178.678], "rotation": [180, 0, 25], "size": 22, "fadeCenter": false, "opacity": 0.5,
+        { "position": [4.727, -111.7995, 178.678], "rotation": [180, 0, 25], "size": 22, "fadeCenter": false, "opacity": 0.25,
           "set": "Embodiments", "texture": "Assets/Attacks/Line.png",
-          "duration": 3, "timestamps": [89.5, 209.8]
+          "duration": 3, "timestamps": [90.8, 210.8]
         },
         //Aspect of Rage
-        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 66.25, "fadeCenter": false, "opacity": 0.5,
+        { "position": [11.718, -85.983, 178.628], "rotation": [180, 0, 0], "size": 66.25, "fadeCenter": false, "opacity": 0.25,
           "set": "Embodiments", "texture": "Assets/Shapes/Orb5-orange.png",
-          "duration": 5, "timestamps": [129.8, 249.8]
+          "duration": 5, "timestamps": [9.3, 129.3, 249.3]
         }
       ],
       "sounds": [
@@ -509,47 +514,47 @@
         { "text": "Pools soon",    "set": "Cerus",       "timestamps": [10.3] },
         { "text": "Rage soon",     "set": "Embodiments", "timestamps": [11.8] },
         { "text": "Envy soon",     "set": "Cerus",       "timestamps": [19.8] },
-        { "text": "Gluttony soon", "set": "Embodiments", "timestamps": [31.8] },
+        { "text": "Gluttony soon", "set": "Embodiments", "timestamps": [30.8] },
         { "text": "Shadow soon",   "set": "Cerus",       "timestamps": [35.8] },
         { "text": "Shadow",        "set": "Cerus",       "timestamps": [38.8] },
         { "text": "Gluttony soon", "set": "Cerus",       "timestamps": [40.8] },
         { "text": "Shadow soon",   "set": "Embodiments", "timestamps": [51.8] },
         { "text": "Shadow",        "set": "Embodiments", "timestamps": [54.8] },
-        { "text": "Rage soon",     "set": "Cerus",       "timestamps": [57.8] },
+        { "text": "Rage soon",     "set": "Cerus",       "timestamps": [57.3] },
         //Rotation 2
-        { "text": "Green soon",    "set": "Cerus",       "timestamps": [66.8] },
+        { "text": "Green soon",    "set": "Cerus",       "timestamps": [68.03] },
         { "text": "Pools soon",    "set": "Embodiments", "timestamps": [71.8] },
-        { "text": "Pools soon",    "set": "Cerus",       "timestamps": [77.8] },
-        { "text": "Envy soon",     "set": "Cerus",       "timestamps": [86.8] },
-        { "text": "Envy soon",     "set": "Embodiments", "timestamps": [90.8] },
-        { "text": "Shadow soon",   "set": "Cerus",       "timestamps": [102.8] },
-        { "text": "Shadow",        "set": "Cerus",       "timestamps": [105.8] },
-        { "text": "Gluttony soon", "set": "Cerus",       "timestamps": [107.8] },
+        { "text": "Pools soon",    "set": "Cerus",       "timestamps": [78.03] },
+        { "text": "Envy soon",     "set": "Cerus",       "timestamps": [87.03] },
+        { "text": "Envy soon",     "set": "Embodiments", "timestamps": [91.8] },
+        { "text": "Shadow soon",   "set": "Cerus",       "timestamps": [103.03] },
+        { "text": "Shadow",        "set": "Cerus",       "timestamps": [106.03] },
+        { "text": "Gluttony soon", "set": "Cerus",       "timestamps": [108.03] },
         { "text": "Green soon",    "set": "Embodiments", "timestamps": [110.8] },
-        { "text": "Rage soon",     "set": "Cerus",       "timestamps": [124.8] },
+        { "text": "Rage soon",     "set": "Cerus",       "timestamps": [124.53] },
         //Rotation 3
-        { "text": "Rage soon",     "set": "Embodiments", "timestamps": [131.8] },
-        { "text": "Green soon",    "set": "Cerus",       "timestamps": [133.8] },
-        { "text": "Pools soon",    "set": "Cerus",       "timestamps": [144.8] },
-        { "text": "Gluttony soon", "set": "Embodiments", "timestamps": [151.8] },
-        { "text": "Envy soon",     "set": "Cerus",       "timestamps": [153.8] },
-        { "text": "Shadows soon",  "set": "Cerus",       "timestamps": [169.8] },
-        { "text": "Shadow",        "set": "Cerus",       "timestamps": [172.8] },
+        { "text": "Rage soon",     "set": "Embodiments", "timestamps": [131.3] },
+        { "text": "Green soon",    "set": "Cerus",       "timestamps": [134.26] },
+        { "text": "Pools soon",    "set": "Cerus",       "timestamps": [144.26] },
+        { "text": "Gluttony soon", "set": "Embodiments", "timestamps": [150.8] },
+        { "text": "Envy soon",     "set": "Cerus",       "timestamps": [154.26] },
+        { "text": "Shadows soon",  "set": "Cerus",       "timestamps": [170.26] },
+        { "text": "Shadow",        "set": "Cerus",       "timestamps": [173.26] },
         { "text": "Shadow",        "set": "Embodiments", "timestamps": [174.8] },
-        { "text": "Gluttony soon", "set": "Cerus",       "timestamps": [176.3] },
-        { "text": "Pools soon",    "set": "Embodiments", "timestamps": [189.8] },
-        { "text": "Rage soon",     "set": "Cerus",       "timestamps": [191.3] },
+        { "text": "Gluttony soon", "set": "Cerus",       "timestamps": [176.26] },
+        { "text": "Pools soon",    "set": "Embodiments", "timestamps": [190.26] },
+        { "text": "Rage soon",     "set": "Cerus",       "timestamps": [191.76] },
         //Rotation 4
-        { "text": "Green soon",    "set": "Cerus",       "timestamps": [200.8] },
-        { "text": "Envy soon",     "set": "Embodiments", "timestamps": [209.8] },
-        { "text": "Pools soon",    "set": "Cerus",       "timestamps": [211.3] },
-        { "text": "Envy soon",     "set": "Cerus",       "timestamps": [220.8] },
+        { "text": "Green soon",    "set": "Cerus",       "timestamps": [201.49] },
+        { "text": "Envy soon",     "set": "Embodiments", "timestamps": [211.8] },
+        { "text": "Pools soon",    "set": "Cerus",       "timestamps": [213.49] },
+        { "text": "Envy soon",     "set": "Cerus",       "timestamps": [221.49] },
         { "text": "Green soon",    "set": "Embodiments", "timestamps": [230.8] },
-        { "text": "Shadow soon",   "set": "Cerus",       "timestamps": [236.8] },
-        { "text": "Shadow",        "set": "Cerus",       "timestamps": [239.8] },
-        { "text": "Gluttony soon", "set": "Cerus",       "timestamps": [241.8] },
-        { "text": "Rage soon",     "set": "Embodiments", "timestamps": [251.8] },
-        { "text": "Rage soon",     "set": "Cerus",       "timestamps": [258.8] }
+        { "text": "Shadow soon",   "set": "Cerus",       "timestamps": [237.49] },
+        { "text": "Shadow",        "set": "Cerus",       "timestamps": [240.49] },
+        { "text": "Gluttony soon", "set": "Cerus",       "timestamps": [242.49] },
+        { "text": "Rage soon",     "set": "Embodiments", "timestamps": [251.3] },
+        { "text": "Rage soon",     "set": "Cerus",       "timestamps": [258.99] }
       ],
       "actions": [
         { "name": "Quicken Time", "type": "skipTime", "sets": ["Cerus"], "time": 1.0,
