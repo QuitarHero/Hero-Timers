@@ -1,0 +1,152 @@
+{
+  "id": "htp.raid.w8.b1.all",
+  "name": "Decima, the Stormsinger\nBoss Attacks",
+  "category": "W8: Mount Balrior",
+  "description": "• Type: Hotkey ( Trigger Key 0 )\n• Automatically begins on fight entry.\n• Activate when Decima's breakbar appears.\n---Disclaimer---\n• Decima does not always take time to re-tether conduits. Due\nto this, the timer can become inaccurate by a couple seconds.\n---Displays---\n• All of Decima's attacks.\n• When Peal of Harmony and Discord are consumed.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Assets/Raids/Mount Balrior.png",
+  "map": 1564,
+  "reset": { "position": [-274.9628, 150.7037, 136.2871], "radius": 10,
+    "requireEntry": true
+  },
+  "phases": [
+    {
+      "name": "Decima, the Stormsinger - Phase 1",
+      "start": { "position": [-260.136, 334.139, 138.516], "radius": 61.9,
+        "requireEntry": true
+      },
+      "finish": { "position": [-260.136, 334.139, 138.516], "radius": 61.9,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts (+2 second offset. ~33.7s / 35s rotation)
+      "alerts": [
+        { "alert": "Phase 1", 
+          "alertDuration": 3, "timestamps": [0],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Foreshock & Mainshock
+        { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 5, "timestamps": [5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 9, "timestamps": [14],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Peals of Harmony & Discord | Chorus of Thunder
+        { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 8.75, "alertDuration": 5, "timestamps": [13.75],
+          "icon": "Assets/Raids/Peal of Harmony.png"
+        },
+        { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 8, "alertDuration": 5, "timestamps": [30.5],
+          "icon": "Assets/Raids/Peal of Harmony.png"
+        },
+        //Fluxlance (Normal, 1 person, 5.5s)
+        { "warning": "Next: Fluxlance", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 9, "timestamps": [14],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Fluxlance", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 5.5, "timestamps": [19.5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Seismic Crash & Earthrend
+        { "warning": "Next: Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 8.5, "timestamps": [22.5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 8.25, "timestamps": [30.75],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Fluxdance (Red, 1 person, 5.5s)
+        { "warning": "Next: Fluxlance", "fillColor": [245, 7, 7, 0],
+          "warningDuration": 8.25, "timestamps": [30.75],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Fluxlance", "fillColor": [245, 7, 7, 0],
+          "warningDuration": 5.5, "timestamps": [36.25],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Dancing Sparks (Green Circles)
+        { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 8.25, "alertDuration": 5, "timestamps": [30.75],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        
+        //Foreshock & Mainshock
+        { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 8, "timestamps": [38.75],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 7.75, "timestamps": [73.75, 108.75, 143.75, 178.75, 213.75, 248.75, 283.75],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 9, "timestamps": [47.75, 82.75, 117.75, 152.75, 187.75, 222.75, 257.75],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Peals of Harmony & Discord | Chorus of Thunder
+        { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 8.75, "alertDuration": 5, "timestamps": [47.5, 82.5, 117.5, 152.5, 187.5, 222.5, 257.5],
+          "icon": "Assets/Raids/Peal of Harmony.png"
+        },
+        //Fluxlance (Normal, 1 person, 5.5s)
+        { "warning": "Next: Fluxlance", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 9.75, "timestamps": [48.5, 83.5, 118.5, 153.5, 188.5, 223.5, 258.5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Fluxlance", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 5.5, "timestamps": [54, 89, 124, 159, 194, 229, 264],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Seismic Crash & Earthrend
+        { "warning": "Next: Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 9, "timestamps": [57.5, 92.5, 127.5, 162.5, 197.5, 232.5, 267.5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 8.25, "timestamps": [65.75, 100.75, 135.75, 170.75, 205.75, 240.75, 275.75],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Fluxdance (Red, 1 person, 5.5s)
+        { "warning": "Next: Fluxlance", "fillColor": [245, 7, 7, 0],
+          "warningDuration": 8.5, "timestamps": [66, 101, 136, 171, 206, 241, 276],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Fluxlance", "fillColor": [245, 7, 7, 0],
+          "warningDuration": 5.5, "timestamps": [71.5, 106.5, 141.5, 176.5, 211.5, 246.5, 281.5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Dancing Sparks (Green Circles)
+        { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 8.5, "alertDuration": 5, "timestamps": [66, 101, 136, 171, 206, 241, 276],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        }
+      ]
+    },
+    {
+      "name": "Decima, the Stormsinger - Phase 2",
+      "start": { "position": [-260.136, 334.139, 138.516], "radius": 61.9,
+        "requireEntry": true
+      },
+      "finish": { "position": [-260.136, 334.139, 138.516], "radius": 61.9,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      }
+    },
+    {
+      "name": "Decima, the Stormsinger - Phase 3",
+      "start": { "position": [-260.136, 334.139, 138.516], "radius": 61.9,
+        "requireEntry": true
+      },
+      "finish": { "position": [-260.136, 334.139, 138.516], "radius": 61.9,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      }
+    }
+  ]
+}
