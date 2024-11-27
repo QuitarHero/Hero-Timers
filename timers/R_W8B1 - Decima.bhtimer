@@ -136,7 +136,152 @@
       "finish": { "position": [-260.136, 334.139, 138.516], "radius": 61.9,
         "type": "key", "keyBind": "0",
         "requireEntry": true
-      }
+      },
+      //Alerts (-0.5s offset, 43.7s / 44s rotation)
+      "alerts": [
+        { "alert": "Phase 2", 
+          "alertDuration": 3, "timestamps": [0],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Flux Nova & Fulminate (Conduit & Decima Explosions)
+        { "warning": "Prepare: Flux Nova", "alert": "Flux Nova", "fillColor": [30, 153, 156, 0],
+          "warningDuration": 20.5, "alertDuration": 3, "timestamps": [20.5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Prepare: Fulminate", "fillColor": [30, 153, 156, 0],
+          "warningDuration": 23.5, "timestamps": [23.5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Foreshock & Mainshock
+        { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 16, "timestamps": [39.5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 9, "timestamps": [48.5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Peals of Harmony & Discord | Chorus of Thunder
+        { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 8.75, "alertDuration": 5, "timestamps": [48.25],
+          "icon": "Assets/Raids/Peal of Harmony.png"
+        },
+        //Violent Winds
+        { "warning": "Prepare: Violent Winds", "alert": "Violent Winds", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 12, "alertDuration": 2, "timestamps": [51.5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Fluxlance Fusillade (Normal, 5 people, 5.5s / 4.8s)
+        { "warning": "Next: Fluxlance Fusillade", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 9.3, "timestamps": [48.8],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "First: Fluxlance Fusillade", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 5.5, "timestamps": [54.3],
+          "icon": "Assets/Strikes/B9/1.png"
+        },
+        { "warning": "Last: Fluxlance Fusillade", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 10.3, "timestamps": [59.1],
+          "icon": "Assets/Strikes/B9/5.png"
+        },
+        //Seismic Crash & Earthrend
+        { "warning": "Next: Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 13.5, "timestamps": [62.3],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 8.2, "timestamps": [70.5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Dancing Sparks (Green Circles)
+        { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 8.45, "alertDuration": 5, "timestamps": [70.75],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Peals of Harmony & Discord | Chorus of Thunder
+        { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 8.6, "alertDuration": 5, "timestamps": [70.9],
+          "icon": "Assets/Raids/Peal of Harmony.png"
+        },
+        //Fluxdance Fusillade (Red, 5(1) people, 5.5s)
+        { "warning": "Next: Fluxlance Fusillade", "fillColor": [245, 7, 7, 0],
+          "warningDuration": 8.6, "timestamps": [70.9],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "First: Fluxlance Fusillade", "fillColor": [245, 7, 7, 0],
+          "warningDuration": 5.5, "timestamps": [76.4],
+          "icon": "Assets/Strikes/B9/1.png"
+        },
+        { "warning": "Last: Fluxlance Fusillade", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 10.3, "timestamps": [81.2],
+          "icon": "Assets/Strikes/B9/5.png"
+        },
+        
+        //Foreshock & Mainshock
+        { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 12.3, "timestamps": [83.2, 127.2, 171.2, 215.2, 259.2, 303.2, 347.2],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 9, "timestamps": [92.2, 136.2, 180.2, 224.2, 268.2, 312.2, 356.2],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Peals of Harmony & Discord | Chorus of Thunder
+        { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 8.7, "alertDuration": 5, "timestamps": [91.9, 135.9, 179.9, 223.9, 267.9, 311.9, 355.9],
+          "icon": "Assets/Raids/Peal of Harmony.png"
+        },
+        //Violent Winds
+        { "warning": "Prepare: Violent Winds", "alert": "Violent Winds", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 12, "alertDuration": 2, "timestamps": [95.2, 139.2, 183.2, 227.2, 271.2, 315.2, 359.2],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Fluxlance Fusillade (Normal, 5 people, 5.5s / 4.8s)
+        { "warning": "Next: Fluxlance Fusillade", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 9.7, "timestamps": [92.9, 136.9, 180.9, 224.9, 268.9, 312.9, 356.9],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "First: Fluxlance Fusillade", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 5.5, "timestamps": [98.4, 142.4, 186.4, 230.4, 274.4, 318.4, 362.4],
+          "icon": "Assets/Strikes/B9/1.png"
+        },
+        { "warning": "Last: Fluxlance Fusillade", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 10.3, "timestamps": [103.2, 147.2, 191.2, 235.2, 279.2, 323.2, 367.2],
+          "icon": "Assets/Strikes/B9/5.png"
+        },
+        //Seismic Crash & Earthrend
+        { "warning": "Next: Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 13.5, "timestamps": [106.4, 150.4, 194.4, 238.4, 282.4, 326.4, 370.4],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 8.1, "timestamps": [114.5, 158.5, 202.5, 246.5, 290.5, 334.5, 378.5],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Dancing Sparks (Green Circles)
+        { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 8.35, "alertDuration": 5, "timestamps": [114.75, 158.75, 202.75, 246.75, 290.75, 334.75, 378.75],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        //Peals of Harmony & Discord | Chorus of Thunder
+        { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 8.5, "alertDuration": 5, "timestamps": [114.9, 158.9, 202.9, 246.9, 290.9, 334.9, 378.9],
+          "icon": "Assets/Raids/Peal of Harmony.png"
+        },
+        //Fluxdance Fusillade (Red, 5(1) people, 5.5s)
+        { "warning": "Next: Fluxlance Fusillade", "fillColor": [245, 7, 7, 0],
+          "warningDuration": 8.5, "timestamps": [114.9, 158.9, 202.9, 246.9, 290.9, 334.9, 378.9],
+          "icon": "Assets/Raids/Mount Balrior.png"
+        },
+        { "warning": "First: Fluxlance Fusillade", "fillColor": [245, 7, 7, 0],
+          "warningDuration": 5.5, "timestamps": [120.4, 164.4, 208.4, 252.4, 296.4, 340.4, 384.4],
+          "icon": "Assets/Strikes/B9/1.png"
+        },
+        { "warning": "Last: Fluxlance Fusillade", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 10.3, "timestamps": [125.2, 169.2, 213.2, 257.2, 301.2, 345.2, 389.2],
+          "icon": "Assets/Strikes/B9/5.png"
+        }
+      ]
     },
     {
       "name": "Decima, the Stormsinger - Phase 3",
