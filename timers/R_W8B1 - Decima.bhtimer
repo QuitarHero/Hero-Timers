@@ -2,9 +2,9 @@
   "id": "htp.raid.w8.b1.all",
   "name": "Decima, the Stormsinger\nBoss Attacks",
   "category": "W8: Mount Balrior",
-  "description": "• Type: Hotkey ( Trigger Key 0 )\n• Automatically begins on fight entry.\n• Activate when Decima's breakbar appears.\n---Disclaimer---\n• Decima does not always take time to re-tether conduits. Due\nto this, the timer can become inaccurate by a couple seconds.\n---Displays---\n• All of Decima's attacks.\n• When Peal of Harmony and Discord are consumed.",
+  "description": "• Type: Hotkey ( Trigger Key 0 )\n• Automatically begins on fight entry.\n• Activate when Decima's breakbar appears (75%/40%).\n---Disclaimer---\n• Decima takes variable time to re-tether conduits. Due to\nthis, the timer can become inaccurate by +/- 2 seconds.\n---Displays---\n• All of Decima's attacks.\n• When Peal of Harmony and Discord are consumed.\n• Approximately when Dancing Sparks spawn.",
   "author": "\nQuitarHero.1645",
-  "icon": "Assets/Raids/Mount Balrior.png",
+  "icon": "Assets/Raids/W8B1/W8B1.png",
   "map": 1564,
   "reset": { "position": [-274.9628, 150.7037, 136.2871], "radius": 10,
     "requireEntry": true
@@ -21,110 +21,111 @@
       },
       //Alerts (+2 second offset. ~33.7s / 35s rotation)
       "alerts": [
+        // ===== Initial Rotation =====
         { "alert": "Phase 1", 
           "alertDuration": 3, "timestamps": [0],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
         //Foreshock & Mainshock
         { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 5, "timestamps": [5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         { "warning": "Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [14],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
         { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.75, "alertDuration": 5, "timestamps": [13.75],
-          "icon": "Assets/Raids/Peal of Harmony.png"
-        },
-        { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
-          "warningDuration": 8, "alertDuration": 5, "timestamps": [30.5],
-          "icon": "Assets/Raids/Peal of Harmony.png"
+          "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Fluxlance (Normal, 1 person, 5.5s)
         { "warning": "Next: Fluxlance", "fillColor": [209, 109, 2, 0],
           "warningDuration": 9, "timestamps": [14],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         { "warning": "Fluxlance", "fillColor": [209, 109, 2, 0],
           "warningDuration": 5.5, "timestamps": [19.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         //Seismic Crash & Earthrend
         { "warning": "Next: Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.5, "timestamps": [22.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         { "warning": "Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.25, "timestamps": [30.75],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
-        //Fluxdance (Red, 1 person, 5.5s)
-        { "warning": "Next: Fluxlance", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 8.25, "timestamps": [30.75],
-          "icon": "Assets/Raids/Mount Balrior.png"
-        },
-        { "warning": "Fluxlance", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 5.5, "timestamps": [36.25],
-          "icon": "Assets/Raids/Mount Balrior.png"
+        { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
+          "warningDuration": 8, "alertDuration": 5, "timestamps": [30.5],
+          "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Dancing Sparks (Green Circles)
         { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 8.25, "alertDuration": 5, "timestamps": [30.75],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "warningDuration": 8.25, "alertDuration": 4.75, "timestamps": [30.75],
+          "icon": "Assets/Raids/W8B1/Dancing Spark.png"
         },
-        
+        //Fluxlance (Red, 1 person, 5.5s)
+        { "warning": "Next: Fluxlance", "fillColor": [245, 7, 7, 0],
+          "warningDuration": 8.25, "timestamps": [30.75],
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
+        },
+        { "warning": "Fluxlance", "fillColor": [245, 7, 7, 0],
+          "warningDuration": 5.5, "timestamps": [36.25],
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
+        },
+        // ===== Looping Rotation =====
         //Foreshock & Mainshock
         { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8, "timestamps": [38.75],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 7.75, "timestamps": [73.75, 108.75, 143.75, 178.75, 213.75, 248.75, 283.75],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         { "warning": "Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [47.75, 82.75, 117.75, 152.75, 187.75, 222.75, 257.75],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
         { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.75, "alertDuration": 5, "timestamps": [47.5, 82.5, 117.5, 152.5, 187.5, 222.5, 257.5],
-          "icon": "Assets/Raids/Peal of Harmony.png"
+          "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Fluxlance (Normal, 1 person, 5.5s)
         { "warning": "Next: Fluxlance", "fillColor": [209, 109, 2, 0],
           "warningDuration": 9.75, "timestamps": [48.5, 83.5, 118.5, 153.5, 188.5, 223.5, 258.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         { "warning": "Fluxlance", "fillColor": [209, 109, 2, 0],
           "warningDuration": 5.5, "timestamps": [54, 89, 124, 159, 194, 229, 264],
-          "icon": "Assets/Raids/Mount Balrior.png"
-        },
-        //Seismic Crash & Earthrend
-        { "warning": "Next: Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
-          "warningDuration": 9, "timestamps": [57.5, 92.5, 127.5, 162.5, 197.5, 232.5, 267.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
-        },
-        { "warning": "Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
-          "warningDuration": 8.25, "timestamps": [65.75, 100.75, 135.75, 170.75, 205.75, 240.75, 275.75],
-          "icon": "Assets/Raids/Mount Balrior.png"
-        },
-        //Fluxdance (Red, 1 person, 5.5s)
-        { "warning": "Next: Fluxlance", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 8.5, "timestamps": [66, 101, 136, 171, 206, 241, 276],
-          "icon": "Assets/Raids/Mount Balrior.png"
-        },
-        { "warning": "Fluxlance", "fillColor": [245, 7, 7, 0],
-          "warningDuration": 5.5, "timestamps": [71.5, 106.5, 141.5, 176.5, 211.5, 246.5, 281.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         //Dancing Sparks (Green Circles)
         { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
           "warningDuration": 8.5, "alertDuration": 5, "timestamps": [66, 101, 136, 171, 206, 241, 276],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Dancing Spark.png"
+        },
+        //Seismic Crash & Earthrend
+        { "warning": "Next: Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 9, "timestamps": [57.5, 92.5, 127.5, 162.5, 197.5, 232.5, 267.5],
+          "icon": "Assets/Raids/W8B1/Seismic Crash.png"
+        },
+        { "warning": "Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 8.25, "timestamps": [65.75, 100.75, 135.75, 170.75, 205.75, 240.75, 275.75],
+          "icon": "Assets/Raids/W8B1/Seismic Crash.png"
+        },
+        //Fluxdance (Red, 1 person, 5.5s)
+        { "warning": "Next: Fluxlance", "fillColor": [245, 7, 7, 0],
+          "warningDuration": 8.5, "timestamps": [66, 101, 136, 171, 206, 241, 276],
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
+        },
+        { "warning": "Fluxlance", "fillColor": [245, 7, 7, 0],
+          "warningDuration": 5.5, "timestamps": [71.5, 106.5, 141.5, 176.5, 211.5, 246.5, 281.5],
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         }
       ]
     },
@@ -139,42 +140,43 @@
       },
       //Alerts (-0.5s offset, 43.7s / 44s rotation)
       "alerts": [
+        // ===== Initial Rotation =====
         { "alert": "Phase 2", 
           "alertDuration": 3, "timestamps": [0],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
         //Flux Nova & Fulminate (Conduit & Decima Explosions)
         { "warning": "Prepare: Flux Nova", "alert": "Flux Nova", "fillColor": [30, 153, 156, 0],
           "warningDuration": 20.5, "alertDuration": 3, "timestamps": [20.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
         { "warning": "Prepare: Fulminate", "fillColor": [30, 153, 156, 0],
           "warningDuration": 23.5, "timestamps": [23.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
         //Foreshock & Mainshock
         { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 16, "timestamps": [39.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         { "warning": "Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [48.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
         { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.75, "alertDuration": 5, "timestamps": [48.25],
-          "icon": "Assets/Raids/Peal of Harmony.png"
+          "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Violent Winds
         { "warning": "Prepare: Violent Winds", "alert": "Violent Winds", "fillColor": [209, 109, 2, 0],
-          "warningDuration": 12, "alertDuration": 2, "timestamps": [51.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "warningDuration": 12, "alertDuration": 1.75, "timestamps": [51.5],
+          "icon": "Assets/Raids/W8B1/Violent Winds.png"
         },
         //Fluxlance Fusillade (Normal, 5 people, 5.5s / 4.8s)
         { "warning": "Next: Fluxlance Fusillade", "fillColor": [209, 109, 2, 0],
           "warningDuration": 9.3, "timestamps": [48.8],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         { "warning": "First: Fluxlance Fusillade", "fillColor": [209, 109, 2, 0],
           "warningDuration": 5.5, "timestamps": [54.3],
@@ -187,26 +189,26 @@
         //Seismic Crash & Earthrend
         { "warning": "Next: Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
           "warningDuration": 13.5, "timestamps": [62.3],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         { "warning": "Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.2, "timestamps": [70.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
-        },
-        //Dancing Sparks (Green Circles)
-        { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 8.45, "alertDuration": 5, "timestamps": [70.75],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
         { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.6, "alertDuration": 5, "timestamps": [70.9],
-          "icon": "Assets/Raids/Peal of Harmony.png"
+          "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
+        },
+        //Dancing Sparks (Green Circles)
+        { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 8.45, "alertDuration": 5.15, "timestamps": [70.75],
+          "icon": "Assets/Raids/W8B1/Dancing Spark.png"
         },
         //Fluxdance Fusillade (Red, 5(1) people, 5.5s)
         { "warning": "Next: Fluxlance Fusillade", "fillColor": [245, 7, 7, 0],
           "warningDuration": 8.6, "timestamps": [70.9],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         { "warning": "First: Fluxlance Fusillade", "fillColor": [245, 7, 7, 0],
           "warningDuration": 5.5, "timestamps": [76.4],
@@ -216,30 +218,30 @@
           "warningDuration": 10.3, "timestamps": [81.2],
           "icon": "Assets/Strikes/B9/5.png"
         },
-        
+        // ===== Looping Rotation =====
         //Foreshock & Mainshock
         { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 12.3, "timestamps": [83.2, 127.2, 171.2, 215.2, 259.2, 303.2, 347.2],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         { "warning": "Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [92.2, 136.2, 180.2, 224.2, 268.2, 312.2, 356.2],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
         { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.7, "alertDuration": 5, "timestamps": [91.9, 135.9, 179.9, 223.9, 267.9, 311.9, 355.9],
-          "icon": "Assets/Raids/Peal of Harmony.png"
+          "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
         },
         //Violent Winds
         { "warning": "Prepare: Violent Winds", "alert": "Violent Winds", "fillColor": [209, 109, 2, 0],
-          "warningDuration": 12, "alertDuration": 2, "timestamps": [95.2, 139.2, 183.2, 227.2, 271.2, 315.2, 359.2],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "warningDuration": 12, "alertDuration": 1.7, "timestamps": [95.2, 139.2, 183.2, 227.2, 271.2, 315.2, 359.2],
+          "icon": "Assets/Raids/W8B1/Violent Winds.png"
         },
         //Fluxlance Fusillade (Normal, 5 people, 5.5s / 4.8s)
         { "warning": "Next: Fluxlance Fusillade", "fillColor": [209, 109, 2, 0],
           "warningDuration": 9.7, "timestamps": [92.9, 136.9, 180.9, 224.9, 268.9, 312.9, 356.9],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         { "warning": "First: Fluxlance Fusillade", "fillColor": [209, 109, 2, 0],
           "warningDuration": 5.5, "timestamps": [98.4, 142.4, 186.4, 230.4, 274.4, 318.4, 362.4],
@@ -252,26 +254,26 @@
         //Seismic Crash & Earthrend
         { "warning": "Next: Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
           "warningDuration": 13.5, "timestamps": [106.4, 150.4, 194.4, 238.4, 282.4, 326.4, 370.4],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         { "warning": "Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.1, "timestamps": [114.5, 158.5, 202.5, 246.5, 290.5, 334.5, 378.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
-        },
-        //Dancing Sparks (Green Circles)
-        { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 8.35, "alertDuration": 5, "timestamps": [114.75, 158.75, 202.75, 246.75, 290.75, 334.75, 378.75],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
         { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.5, "alertDuration": 5, "timestamps": [114.9, 158.9, 202.9, 246.9, 290.9, 334.9, 378.9],
-          "icon": "Assets/Raids/Peal of Harmony.png"
+          "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
+        },
+        //Dancing Sparks (Green Circles)
+        { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 8.35, "alertDuration": 5.15, "timestamps": [114.75, 158.75, 202.75, 246.75, 290.75, 334.75, 378.75],
+          "icon": "Assets/Raids/W8B1/Dancing Spark.png"
         },
         //Fluxdance Fusillade (Red, 5(1) people, 5.5s)
         { "warning": "Next: Fluxlance Fusillade", "fillColor": [245, 7, 7, 0],
           "warningDuration": 8.5, "timestamps": [114.9, 158.9, 202.9, 246.9, 290.9, 334.9, 378.9],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         { "warning": "First: Fluxlance Fusillade", "fillColor": [245, 7, 7, 0],
           "warningDuration": 5.5, "timestamps": [120.4, 164.4, 208.4, 252.4, 296.4, 340.4, 384.4],
@@ -289,151 +291,140 @@
         "requireEntry": true
       },
       "finish": { "position": [-260.136, 334.139, 138.516], "radius": 61.9,
-        "type": "key", "keyBind": "0",
-        "requireEntry": true
+        "requireDeparture": true
       },
       //Alerts (-0.5s offset, 33.7 / 33s rotation)
       "alerts": [
+        // ===== Initial Rotation =====
         { "alert": "Phase 3", 
           "alertDuration": 3, "timestamps": [0],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
         //Flux Nova & Fulminate (Conduit & Decima Explosions)
         { "warning": "Prepare: Flux Nova", "alert": "Flux Nova", "fillColor": [30, 153, 156, 0],
           "warningDuration": 20.5, "alertDuration": 3, "timestamps": [20.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
         { "warning": "Prepare: Fulminate", "fillColor": [30, 153, 156, 0],
           "warningDuration": 23.5, "timestamps": [23.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mount Balrior.png"
         },
         //Foreshock & Mainshock
         { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 15.75, "timestamps": [39.25],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         { "warning": "Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [48.25],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
         { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.9, "alertDuration": 5, "timestamps": [48.15],
-          "icon": "Assets/Raids/Peal of Harmony.png"
+          "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
+        },
+        //Violent Winds
+        { "warning": "Prepare: Violent Winds", "alert": "Violent Winds", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 11.75, "alertDuration": 2.15, "timestamps": [51],
+          "icon": "Assets/Raids/W8B1/Violent Winds.png"
         },
         //Fluxlance Salvo (Green, 5/5 people, 5.5s)
         { "warning": "Next: Fluxlance Salvo", "fillColor": [33, 184, 17, 0],
           "warningDuration": 9.3, "timestamps": [48.6],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         { "warning": "Fluxlance Salvo", "fillColor": [33, 184, 17, 0],
           "warningDuration": 5.5, "timestamps": [54.1],
-          "icon": "Assets/Raids/Mount Balrior.png"
-        },
-        //Violent Winds
-        { "warning": "Prepare: Violent Winds", "alert": "Violent Winds", "fillColor": [209, 109, 2, 0],
-          "warningDuration": 11.75, "alertDuration": 2, "timestamps": [51],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         //Seismic Crash & Earthrend
         { "warning": "Next: Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.5, "timestamps": [57.1],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         { "warning": "Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.1, "timestamps": [65.2],
-          "icon": "Assets/Raids/Mount Balrior.png"
-        },
-        //Dancing Sparks (Green Circles)
-        { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 8.1, "alertDuration": 5, "timestamps": [65.2],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
         { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.4, "alertDuration": 5, "timestamps": [65.5],
-          "icon": "Assets/Raids/Peal of Harmony.png"
+          "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
+        },
+        //Dancing Sparks (Green Circles)
+        { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 8.1, "alertDuration": 5.3, "timestamps": [65.2],
+          "icon": "Assets/Raids/W8B1/Dancing Spark.png"
         },
         //Fluxdance Salvo (Red, 5(1) people, 5.5s)
         { "warning": "Next: Fluxlance Salvo", "fillColor": [245, 7, 7, 0],
           "warningDuration": 8.4, "timestamps": [65.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         { "warning": "Fluxlance Salvo", "fillColor": [245, 7, 7, 0],
           "warningDuration": 5.5, "timestamps": [71],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
-        
-        
-        /*asd;lfkjasd;lkfjas;dlkfja;sldkjfa;sldkjfa;slkdjfa;lskdfj
-        asd;lfkjasd;lkfjas;dlkfja;sldkjfa;sldkjfa;slkdjfa;lskdfj
-        asd;lfkjasd;lkfjas;dlkfja;sldkjfa;sldkjfa;slkdjfa;lskdfj
-        asd;lfkjasd;lkfjas;dlkfja;sldkjfa;sldkjfa;slkdjfa;lskdfj
-        asd;lfkjasd;lkfjas;dlkfja;sldkjfa;sldkjfa;slkdjfa;lskdfj
-        asd;lfkjasd;lkfjas;dlkfja;sldkjfa;sldkjfa;slkdjfa;lskdfj*/
-        
-        
+        // ===== Looping Rotation =====
         //Foreshock & Mainshock
         { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 7.1, "timestamps": [72.6],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
+        },
+        { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
+          "warningDuration": 7.2, "timestamps": [105.6, 138.6, 171.6, 204.6, 237.6, 270.6, 303.6],
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         { "warning": "Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
           "warningDuration": 9, "timestamps": [81.6, 114.6, 147.6, 180.6, 213.6, 246.6, 279.6],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Mainshock.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
         { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.8, "alertDuration": 5, "timestamps": [81.4, 114.4, 147.4, 180.4, 213.4, 246.4, 279.4],
-          "icon": "Assets/Raids/Peal of Harmony.png"
+          "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
+        },
+        //Violent Winds
+        { "warning": "Prepare: Violent Winds", "alert": "Violent Winds", "fillColor": [209, 109, 2, 0],
+          "warningDuration": 12.5, "alertDuration": 1.3, "timestamps": [85.1, 118.1, 151.1, 184.1, 217.1, 250.1, 283.1],
+          "icon": "Assets/Raids/W8B1/Violent Winds.png"
         },
         //Fluxlance Salvo (Green, 5/5 people, 6s)
         { "warning": "Next: Fluxlance Salvo", "fillColor": [33, 184, 17, 0],
           "warningDuration": 9.4, "timestamps": [82, 115, 148, 181, 214, 247, 280],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         { "warning": "Fluxlance Salvo", "fillColor": [33, 184, 17, 0],
           "warningDuration": 5.5, "timestamps": [87.5, 120.5, 153.5, 186.5, 219.5, 252.5, 285.5],
-          "icon": "Assets/Raids/Mount Balrior.png"
-        },
-        //Violent Winds
-        { "warning": "Prepare: Violent Winds", "alert": "Violent Winds", "fillColor": [209, 109, 2, 0],
-          "warningDuration": 12.5, "alertDuration": 2, "timestamps": [85.1, 118.1, 151.1, 184.1, 217.1, 250.1, 283.1],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         //Seismic Crash & Earthrend
         { "warning": "Next: Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.1, "timestamps": [90.1, 123.1, 156.1, 189.1, 222.1, 255.1, 288.1],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         { "warning": "Seismic Crash & Earthrend", "fillColor": [158, 78, 73, 0],
           "warningDuration": 8.1, "timestamps": [98.2, 131.2, 164.2, 197.2, 230.2, 263.2, 296.2],
-          "icon": "Assets/Raids/Mount Balrior.png"
-        },
-        //Dancing Sparks (Green Circles)
-        { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
-          "warningDuration": 8.1, "alertDuration": 5, "timestamps": [98.2, 131.2, 164.2, 197.2, 230.2, 263.2, 296.2],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Seismic Crash.png"
         },
         //Peals of Harmony & Discord | Chorus of Thunder
         { "warning": "Prepare: Harmony & Discord", "alert": "Chorus of Thunder", "fillColor": [158, 119, 13, 0],
           "warningDuration": 8.3, "alertDuration": 5, "timestamps": [98.4, 131.4, 164.4, 197.4, 230.4, 263.4, 296.4],
-          "icon": "Assets/Raids/Peal of Harmony.png"
+          "icon": "Assets/Raids/W8B1/Peal of Harmony.png"
+        },
+        //Dancing Sparks (Green Circles)
+        { "warning": "Prepare: Dancing Sparks", "alert": "Dancing Sparks", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 8.1, "alertDuration": 5.2, "timestamps": [98.2, 131.2, 164.2, 197.2, 230.2, 263.2, 296.2],
+          "icon": "Assets/Raids/W8B1/Dancing Spark.png"
         },
         //Fluxdance Salvo (Red, 5(1) people, 6s)
         { "warning": "Next: Fluxlance Salvo", "fillColor": [245, 7, 7, 0],
           "warningDuration": 8.3, "timestamps": [98.4, 131.4, 164.4, 197.4, 230.4, 263.4, 296.4],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         },
         { "warning": "Fluxlance Salvo", "fillColor": [245, 7, 7, 0],
           "warningDuration": 5.5, "timestamps": [103.9, 136.9, 169.9, 202.9, 235.9, 268.9, 301.9],
-          "icon": "Assets/Raids/Mount Balrior.png"
-        },
-        
-        //Foreshock & Mainshock
-        { "warning": "Next: Foreshock & Mainshock", "fillColor": [158, 78, 73, 0],
-          "warningDuration": 7.2, "timestamps": [105.6, 138.6, 171.6, 204.6, 237.6, 270.6, 303.6],
-          "icon": "Assets/Raids/Mount Balrior.png"
+          "icon": "Assets/Raids/W8B1/Fluxlance.png"
         }
       ]
     }
