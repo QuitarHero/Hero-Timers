@@ -1,0 +1,34 @@
+{
+  "id": "htp.raid.w8.b3.rp",
+  "name": "Ura, the Steamshrieker\nRising Pressure",
+  "category": "W8: Mount Balrior",
+  "description": "• Type: Automatic\n• Automatically begins on fight start.\n---Displays---\n• When Ura receives Rising Pressure.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Assets/Raids/Ura.png",
+  "map": 1564,
+  "reset": { "position": [194.095, 403.29, 265.844], "radius": 15,
+    "requireEntry": true
+  },
+  "phases": [
+    {
+      "name": "Ura, the Steamshrieker - Rising Pressure",
+      "start": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "requireEntry": true, "requireOutOfCombat": true
+      },
+      //Alerts
+      "alerts": [
+        { "alert": "Timer: Rising Pressure",
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Assets/Raids/Ura.png"
+        },
+        { "warning": "Rising Pressure", "fillColor": [191, 115, 57, 0],
+          "warningDuration": 10, "timestamps": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600],
+          "icon": "Assets/Raids/Rising Pressure.png"
+        }
+      ]
+    }
+  ]
+}
