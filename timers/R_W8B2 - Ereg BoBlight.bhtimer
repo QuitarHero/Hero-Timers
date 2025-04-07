@@ -1,0 +1,206 @@
+{
+  "id": "htp.raid.w8.b2.ereg_blobsofblight",
+  "name": "Ereg, the Enabler\nBlobs of Blight",
+  "category": "W8: Mount Balrior",
+  "description": "• Type: Hotkey ( Trigger Key 2 )\n• Automatically begins on fight entry.\n• Activate when Ereg summons Blobs of Blight.\n---Disclaimer---\n• Ereg summons Blobs of Blight roughly every 80 seconds.\nIf Ereg summons Blobs of Blight while Greer is phasing at 65%/35%,\nit may be cancelled and Ereg will try to use it again as soon as possible.\n---Displays---\n• When Ereg will summon Blobs of Blight again.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Assets/Raids/Ereg.png",
+  "map": 1564,
+  "reset": { "position": [184.5767, -274.6587, 91.58971], "radius": 15,
+    "requireEntry": true
+  },
+  "phases": [
+    {
+      "name": "Ereg - Blobs of Blight 1",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "2",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 20, "alertDuration": 600, "timestamps": [20],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Blobs of Blight 2",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "2",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        },
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Blobs of Blight 3",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "2",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        },
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Blobs of Blight 4",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "2",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        },
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Blobs of Blight 5",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "2",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        },
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Blobs of Blight 6",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "2",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        },
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Blobs of Blight 7",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "2",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        },
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Blobs of Blight 8",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "2",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        },
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Blobs of Blight 9",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "2",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        },
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Blobs of Blight 10",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "2",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    }
+  ]
+}

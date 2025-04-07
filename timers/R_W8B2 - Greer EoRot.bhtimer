@@ -1,0 +1,146 @@
+{
+  "id": "htp.raid.w8.b2.eruptionofrot",
+  "name": "Greer, the Blightbringer\nEruption of Rot",
+  "category": "W8: Mount Balrior",
+  "description": "• Type: Hotkey ( Trigger Key 1 )\n• Automatically begins on fight entry.\n• Activate when Greer targets players for Eruption of Rot (greens).\n• Works for both Normal and Challenge modes.\n---Disclaimer---\n• Greer prioritizes Eruption of Rot after Blobs of Blight for\nP1 and 2, and at the start of P3.\nThis does not always happen, but will still be one of\nthe first few skills used at the start of each phase.\n---Displays---\n• When Greer will use Eruption of Rot again.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Assets/Raids/Greer.png",
+  "map": 1564,
+  "reset": { "position": [184.5767, -274.6587, 91.58971], "radius": 15,
+    "requireEntry": true
+  },
+  "phases": [
+    {
+      "name": "Greer - Eruption of Rot 1",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "1",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 4, "alertDuration": 600, "timestamps": [4],
+          "icon": "Assets/Raids/Greer.png"
+        }
+      ]
+    },
+    {
+      "name": "Greer - Eruption of Rot 2",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "1",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Greer.png"
+        },
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon / After Split Phase", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 110, "alertDuration": 600, "timestamps": [120],
+          "icon": "Assets/Raids/Greer.png"
+        }
+      ]
+    },
+    {
+      "name": "Greer - Eruption of Rot 3",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "1",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Greer.png"
+        },
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon / After Split Phase", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 110, "alertDuration": 600, "timestamps": [120],
+          "icon": "Assets/Raids/Greer.png"
+        }
+      ]
+    },
+    {
+      "name": "Greer - Eruption of Rot 4",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "1",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Greer.png"
+        },
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon / After Split Phase", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 110, "alertDuration": 600, "timestamps": [120],
+          "icon": "Assets/Raids/Greer.png"
+        }
+      ]
+    },
+    {
+      "name": "Greer - Eruption of Rot 5",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "1",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Greer.png"
+        },
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon / After Split Phase", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 110, "alertDuration": 600, "timestamps": [120],
+          "icon": "Assets/Raids/Greer.png"
+        }
+      ]
+    },
+    {
+      "name": "Greer - Eruption of Rot 6",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "1",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Greer.png"
+        },
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon / After Split Phase", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 110, "alertDuration": 600, "timestamps": [120],
+          "icon": "Assets/Raids/Greer.png"
+        }
+      ]
+    },
+    {
+      "name": "Greer - Eruption of Rot 7",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "1",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Greer.png"
+        }
+      ]
+    }
+  ]
+}

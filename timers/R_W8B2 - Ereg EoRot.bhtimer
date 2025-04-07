@@ -1,0 +1,202 @@
+{
+  "id": "htp.raid.w8.b2.ereg_eruptionofrot",
+  "name": "Ereg, the Enabler\nEruption of Rot",
+  "category": "W8: Mount Balrior",
+  "description": "• Type: Hotkey ( Trigger Key 3 )\n• Automatically begins on fight entry.\n• Activate when Ereg targets a player for Eruption of Rot (greens).\n---Disclaimer---\n• Ereg uses Eruption of Rot roughly every 80 seconds.\nIf Ereg uses Eruption of Rot while Greer is phasing at 65%/35%,\nit may be cancelled and Ereg will try to use it again as soon as possible.\n---Displays---\n• When Ereg will use Eruption of Rot again.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Assets/Raids/Ereg.png",
+  "map": 1564,
+  "reset": { "position": [184.5767, -274.6587, 91.58971], "radius": 15,
+    "requireEntry": true
+  },
+  "phases": [
+    {
+      "name": "Ereg - Eruption of Rot 1",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "3",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 40, "alertDuration": 600, "timestamps": [40],
+          "icon": "Assets/Raids/Ereg.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Eruption of Rot 2",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "3",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Ereg.png"
+        },
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/Ereg.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Eruption of Rot 3",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "3",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Ereg.png"
+        },
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/Ereg.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Eruption of Rot 4",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "3",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Ereg.png"
+        },
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/Ereg.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Eruption of Rot 5",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "3",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Ereg.png"
+        },
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/Ereg.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Eruption of Rot 6",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "3",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Ereg.png"
+        },
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/Ereg.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Eruption of Rot 7",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "3",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Ereg.png"
+        },
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/Ereg.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Eruption of Rot 8",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "3",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Ereg.png"
+        },
+        { "warning": "Prepare: Eruption of Rot", "alert": "Soon", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/Ereg.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Eruption of Rot 9",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "3",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Ereg.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Eruption of Rot 10",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "3",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Ereg.png"
+        }
+      ]
+    }
+  ]
+}

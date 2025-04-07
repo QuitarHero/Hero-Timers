@@ -1,0 +1,34 @@
+{
+  "id": "htp.raid.w8.b2.blobofblight",
+  "name": "Greer, the Blightbringer\nBlobs of Blight",
+  "category": "W8: Mount Balrior",
+  "description": "• Type: Hotkey ( Trigger Key 0 )\n• Automatically begins on fight entry.\n• Activate when Greer summons Blobs of Blight.\n(don't need to use hotkey for 1st one)\n• Works for both Normal and Challenge modes.\n---Disclaimer---\n• Greer prioritizes Blobs of Blight at the start of P1 and 2,\nand after Eruption of Rot (greens) in P3.\nThis does not always happen, but will still be one of\nthe first few skills used at the start of each phase.\n---Displays---\n• When Greer will use Blobs of Blight again.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Assets/Raids/Greer.png",
+  "map": 1564,
+  "reset": { "position": [184.5767, -274.6587, 91.58971], "radius": 15,
+    "requireEntry": true
+  },
+  "phases": [
+    {
+      "name": "Greer - Blobs of Blight",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Blobs of Blight", "fillColor": [184, 181, 6, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        },
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon / After Split Phase", "fillColor": [184, 181, 6, 0],
+          "warningDuration": 110, "alertDuration": 600, "timestamps": [120],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    }
+  ]
+}
