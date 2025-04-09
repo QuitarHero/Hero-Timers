@@ -197,6 +197,38 @@
           "icon": "Assets/Raids/Ereg.png"
         }
       ]
+    },
+    {
+      "name": "Ereg - Eruption of Rot 11",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "3",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Ereg.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Eruption of Rot 12",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "3",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Eruption of Rot", "fillColor": [33, 184, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Ereg.png"
+        }
+      ]
     }
   ]
 }

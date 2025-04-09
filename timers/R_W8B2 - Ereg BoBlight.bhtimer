@@ -20,7 +20,7 @@
         "requireEntry": true
       },
       "alerts": [
-        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [184, 181, 6, 0],
           "warningDuration": 20, "alertDuration": 600, "timestamps": [20],
           "icon": "Assets/Raids/BlobOfBlight.png"
         }
@@ -36,11 +36,11 @@
         "requireEntry": true
       },
       "alerts": [
-        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+        { "warning": "Blobs of Blight", "fillColor": [184, 181, 6, 0],
           "warningDuration": 10, "timestamps": [10],
           "icon": "Assets/Raids/BlobOfBlight.png"
         },
-        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [184, 181, 6, 0],
           "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
           "icon": "Assets/Raids/BlobOfBlight.png"
         }
@@ -56,11 +56,11 @@
         "requireEntry": true
       },
       "alerts": [
-        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+        { "warning": "Blobs of Blight", "fillColor": [184, 181, 6, 0],
           "warningDuration": 10, "timestamps": [10],
           "icon": "Assets/Raids/BlobOfBlight.png"
         },
-        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [184, 181, 6, 0],
           "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
           "icon": "Assets/Raids/BlobOfBlight.png"
         }
@@ -76,11 +76,11 @@
         "requireEntry": true
       },
       "alerts": [
-        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+        { "warning": "Blobs of Blight", "fillColor": [184, 181, 6, 0],
           "warningDuration": 10, "timestamps": [10],
           "icon": "Assets/Raids/BlobOfBlight.png"
         },
-        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [184, 181, 6, 0],
           "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
           "icon": "Assets/Raids/BlobOfBlight.png"
         }
@@ -96,11 +96,11 @@
         "requireEntry": true
       },
       "alerts": [
-        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+        { "warning": "Blobs of Blight", "fillColor": [184, 181, 6, 0],
           "warningDuration": 10, "timestamps": [10],
           "icon": "Assets/Raids/BlobOfBlight.png"
         },
-        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [184, 181, 6, 0],
           "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
           "icon": "Assets/Raids/BlobOfBlight.png"
         }
@@ -116,11 +116,11 @@
         "requireEntry": true
       },
       "alerts": [
-        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+        { "warning": "Blobs of Blight", "fillColor": [184, 181, 6, 0],
           "warningDuration": 10, "timestamps": [10],
           "icon": "Assets/Raids/BlobOfBlight.png"
         },
-        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [184, 181, 6, 0],
           "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
           "icon": "Assets/Raids/BlobOfBlight.png"
         }
@@ -136,11 +136,11 @@
         "requireEntry": true
       },
       "alerts": [
-        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+        { "warning": "Blobs of Blight", "fillColor": [184, 181, 6, 0],
           "warningDuration": 10, "timestamps": [10],
           "icon": "Assets/Raids/BlobOfBlight.png"
         },
-        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [184, 181, 6, 0],
           "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
           "icon": "Assets/Raids/BlobOfBlight.png"
         }
@@ -156,11 +156,11 @@
         "requireEntry": true
       },
       "alerts": [
-        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+        { "warning": "Blobs of Blight", "fillColor": [184, 181, 6, 0],
           "warningDuration": 10, "timestamps": [10],
           "icon": "Assets/Raids/BlobOfBlight.png"
         },
-        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [184, 181, 6, 0],
           "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
           "icon": "Assets/Raids/BlobOfBlight.png"
         }
@@ -176,11 +176,11 @@
         "requireEntry": true
       },
       "alerts": [
-        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+        { "warning": "Blobs of Blight", "fillColor": [184, 181, 6, 0],
           "warningDuration": 10, "timestamps": [10],
           "icon": "Assets/Raids/BlobOfBlight.png"
         },
-        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [0, 0, 0, 0],
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [184, 181, 6, 0],
           "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
           "icon": "Assets/Raids/BlobOfBlight.png"
         }
@@ -196,7 +196,47 @@
         "requireEntry": true
       },
       "alerts": [
-        { "warning": "Blobs of Blight", "fillColor": [0, 0, 0, 0],
+        { "warning": "Blobs of Blight", "fillColor": [184, 181, 6, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        },
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [184, 181, 6, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Blobs of Blight 11",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "2",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Blobs of Blight", "fillColor": [184, 181, 6, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        },
+        { "warning": "Prepare: Blobs of Blight", "alert": "Soon", "fillColor": [184, 181, 6, 0],
+          "warningDuration": 70, "alertDuration": 600, "timestamps": [80],
+          "icon": "Assets/Raids/BlobOfBlight.png"
+        }
+      ]
+    },
+    {
+      "name": "Ereg - Blobs of Blight 12",
+      "start": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [373.9121, -186.1194, 77.51468], "radius": 85,
+        "type": "key", "keyBind": "2",
+        "requireEntry": true
+      },
+      "alerts": [
+        { "warning": "Blobs of Blight", "fillColor": [184, 181, 6, 0],
           "warningDuration": 10, "timestamps": [10],
           "icon": "Assets/Raids/BlobOfBlight.png"
         }
