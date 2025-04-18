@@ -1,10 +1,10 @@
 {
-  "id": "htp.raid.w8.b3.toxicgeysers.alerts",
-  "name": "Godscream Ura (CM)\nToxic Geyser - Alerts",
+  "id": "htp.raid.w8.b3lcm.toxicgeysers.alerts",
+  "name": "Godscream Ura (LCM)\nToxic Geyser - Alerts",
   "category": "W8: Mount Balrior",
   "description": "• Type: Hotkey ( Trigger Key 0 )\n• Automatically begins on fight start.\n• Activate when:\n  • Ura spawns Phase 2's 1st toxic geyser in the middle of the arena.\n(marked with a dot + border when timer starts)\n  • Ura reaches 40% health.\n---Displays---\n• When the next toxic geyser spawns.\n• Where the 1st geyser for Phase 2 will spawn.",
   "author": "\nQuitarHero.1645",
-  "icon": "Assets/Raids/W8B3cm.png",
+  "icon": "Assets/Raids/W8B3lcm.png",
   "map": "1564",
   "reset": { "position": [194.095, 403.29, 265.844], "radius": 15,
     "requireEntry": true
@@ -30,7 +30,7 @@
           "icon": "Assets/Raids/Toxic Geyser.png"
         },
         { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
-          "warningDuration": 24, "timestamps": [34, 46, 58, 70, 82, 94, 106, 118, 130, 142, 154, 166, 178, 190, 202, 214, 226, 238, 250, 262, 274, 286, 298],
+          "warningDuration": 24, "timestamps": [34, 46, 58, 70, 82, 94, 106, 118, 130, 142, 154, 166, 178, 190, 202, 214, 226, 238, 250, 262, 274, 286, 298, 310, 322, 334, 346, 358, 370, 382, 394, 406, 418, 430, 442, 454, 466],
           "icon": "Assets/Raids/Toxic Geyser.png"
         }
       ],
@@ -57,11 +57,11 @@
       //Alerts
       "alerts": [
         { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
-          "warningDuration": 24, "timestamps": [24],
+          "warningDuration": 24, "timestamps": [12],
           "icon": "Assets/Raids/Toxic Geyser.png"
         },
         { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
-          "warningDuration": 48, "timestamps": [48, 72, 96, 120, 144, 168, 192, 216, 240, 264, 288, 312, 336],
+          "warningDuration": 24, "timestamps": [24, 36, 48, 60, 72, 84, 96, 108, 120, 132, 144, 156, 168, 180, 192, 204, 216, 228, 240, 252, 264, 276, 288, 300, 312, 324, 336, 348, 360, 372, 384, 396, 408, 420, 432, 444, 456, 468],
           "icon": "Assets/Raids/Toxic Geyser.png"
         }
       ]
@@ -78,11 +78,11 @@
       //Alerts
       "alerts": [
         { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
-          "warningDuration": 24, "timestamps": [24],
+          "warningDuration": 24, "timestamps": [12],
           "icon": "Assets/Raids/Toxic Geyser.png"
         },
         { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
-          "warningDuration": 48, "timestamps": [48, 72, 96, 120, 144, 168, 192, 216, 240, 264, 288, 312, 336],
+          "warningDuration": 24, "timestamps": [24, 36, 48, 60, 72, 84, 96, 108, 120, 132, 144, 156, 168, 180, 192, 204, 216, 228, 240, 252, 264, 276, 288, 300, 312, 324, 336, 348, 360, 372, 384, 396, 408, 420, 432, 444, 456, 468, 480, 492, 504, 516, 528, 540, 552, 564, 576, 588, 600, 612, 624, 636, 648, 660, 672, 684, 696, 708, 720],
           "icon": "Assets/Raids/Toxic Geyser.png"
         }
       ]
