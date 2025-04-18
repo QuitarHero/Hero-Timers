@@ -1,0 +1,758 @@
+{
+  "id": "htp.raid.w8.b3.toxicgeysers.trails",
+  "name": "Godscream Ura (CM)\nToxic Gesyer - Markers & Trails",
+  "category": "W8: Mount Balrior",
+  "description": "• Type: Hotkey ( Trigger Key 0 ) \n• Automatically begins on fight start.\n• Activate when:\n  • Ura spawns Phase 2's 1st toxic geyser in the middle of the arena.\n(marked with a dot + border when timer starts)\n  • Ura reaches 40% health.\n---Displays---\n• Where the next 2 toxic geysers will spawn.\n• Where the 1st geyser in each phase will spawn.\n• A trail from you to the next toxic geyser spawn.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Assets/Raids/W8B3cm.png",
+  "map": "1564",
+  "reset": { "position": [194.095, 403.29, 265.844], "radius": 15,
+    "requireEntry": true
+  },
+  "phases": [
+    {
+      "name": "Godscream Ura - Toxic Geysers Phase 1",
+      "start": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Markers
+      "markers": [
+        //Phase 1 => 2 Geyser spawn
+        { "position": [161.719, 228.768, 270.066], "rotation": [180, 0, 0], "size": 1.75, "fadeCenter": false, "opacity": 0.4,
+          "texture": "Assets/General/dot.png", "duration": 300, "timestamps": [0]
+        },
+        { "position": [161.719, 228.768, 270.066], "rotation": [180, 0, 0], "size": 1.75, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/General/dot-border.png", "duration": 300, "timestamps": [0]
+        },
+        // [1] Position
+        { "position": [196.737, 247.251, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [154]
+        },
+        { "position": [196.737, 247.251, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [166]
+        },
+        { "position": [196.737, 247.251, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 10, "timestamps": [0]
+        },
+        // [2] Position
+        { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [166]
+        },
+        { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 10, "timestamps": [0]
+        },
+        { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [10, 178]
+        },
+        // [3] Position
+        { "position": [193.88, 219.206, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [10, 178]
+        },
+        { "position": [193.88, 219.206, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [22, 190]
+        },
+        // [4] Position
+        { "position": [183.058, 235.223, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [22, 190]
+        },
+        { "position": [183.058, 235.223, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [34, 202]
+        },
+        // [5] Position
+        { "position": [165.246, 253.157, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [34, 202]
+        },
+        { "position": [165.246, 253.157, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [46, 214]
+        },
+        // [6] Position
+        { "position": [158.04, 280.916, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [46, 214]
+        },
+        { "position": [158.04, 280.916, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [58, 226]
+        },
+        // [7] Position
+        { "position": [178.848, 202.34, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [58, 226]
+        },
+        { "position": [178.848, 202.34, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [70, 238]
+        },
+        // [8] Position
+        { "position": [161.719, 228.768, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [70, 238]
+        },
+        { "position": [161.719, 228.768, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [82, 250]
+        },
+        // [9] Position
+        { "position": [145.962, 259.4, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [82, 250]
+        },
+        { "position": [145.962, 259.4, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [94, 262]
+        },
+        // [10] Position
+        { "position": [162.642, 200.384, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [94, 262]
+        },
+        { "position": [162.642, 200.384, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [106, 274]
+        },
+        // [11] Position
+        { "position": [145.578, 228.939, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [106, 274]
+        },
+        { "position": [145.578, 228.939, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [118, 286]
+        },
+        // [12] Position
+        { "position": [122.406, 249.628, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [118, 286]
+        },
+        { "position": [122.406, 249.628, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [130, 298]
+        },
+        // [13] Position
+        { "position": [136.756, 199.693, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [130]
+        },
+        { "position": [136.756, 199.693, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [142]
+        },
+        // [14] Position
+        { "position": [109.508, 218.631, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [142]
+        },
+        { "position": [109.508, 218.631, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [154]
+        }
+      ],
+      //Directions (Trails)
+      "directions": [
+        // [1] Position
+        { "name": "Toxic Geyser 1.3", "destination": [196.737, 247.251, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [166]
+        },
+        { "name": "Toxic Geyser 1.1", "destination": [196.737, 247.251, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 8, "timestamps": [0]
+        },
+        { "name": "Toxic Geyser 1.2", "destination": [196.737, 247.251, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [8, 176]
+        },
+        // [2] Position
+        { "name": "Toxic Geyser 2.1", "destination": [181.636, 276.954, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [10, 178]
+        },
+        { "name": "Toxic Geyser 2.2", "destination": [181.636, 276.954, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [20, 188]
+        },
+        // [3] Position
+        { "name": "Toxic Geyser 3.1", "destination": [193.88, 219.206, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [22, 190]
+        },
+        { "name": "Toxic Geyser 3.2", "destination": [193.88, 219.206, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [32, 200]
+        },
+        // [4] Position
+        { "name": "Toxic Geyser 4.1", "destination": [183.058, 235.223, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [34, 202]
+        },
+        { "name": "Toxic Geyser 4.2", "destination": [183.058, 235.223, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [44, 212]
+        },
+        // [5] Position
+        { "name": "Toxic Geyser 5.1", "destination": [165.246, 253.157, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [46, 214]
+        },
+        { "name": "Toxic Geyser 5.2", "destination": [165.246, 253.157, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [56, 224]
+        },
+        // [6] Position
+        { "name": "Toxic Geyser 6.1", "destination": [158.04, 280.916, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [58, 226]
+        },
+        { "name": "Toxic Geyser 6.2", "destination": [158.04, 280.916, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [68, 236]
+        },
+        // [7] Position
+        { "name": "Toxic Geyser 7.1", "destination": [178.848, 202.34, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [70, 238]
+        },
+        { "name": "Toxic Geyser 7.2", "destination": [178.848, 202.34, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [80, 248]
+        },
+        // [8] Position
+        { "name": "Toxic Geyser 8.1", "destination": [161.719, 228.768, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [82, 250]
+        },
+        { "name": "Toxic Geyser 8.2", "destination": [161.719, 228.768, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [92, 260]
+        },
+        // [9] Position
+        { "name": "Toxic Geyser 9.1", "destination": [145.962, 259.4, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [94, 262]
+        },
+        { "name": "Toxic Geyser 9.2", "destination": [145.962, 259.4, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [104, 272]
+        },
+        // [10] Position
+        { "name": "Toxic Geyser 10.1", "destination": [162.642, 200.384, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [106, 274]
+        },
+        { "name": "Toxic Geyser 10.2", "destination": [162.642, 200.384, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [116, 284]
+        },
+        // [11] Position
+        { "name": "Toxic Geyser 11.1", "destination": [145.578, 228.939, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [118, 286]
+        },
+        { "name": "Toxic Geyser 11.2", "destination": [145.578, 228.939, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [128, 296]
+        },
+        // [12] Position
+        { "name": "Toxic Geyser 12.1", "destination": [122.406, 249.628, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [130]
+        },
+        { "name": "Toxic Geyser 12.2", "destination": [122.406, 249.628, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [140]
+        },
+        // [13] Position
+        { "name": "Toxic Geyser 13.1", "destination": [136.756, 199.693, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [142]
+        },
+        { "name": "Toxic Geyser 13.2", "destination": [136.756, 199.693, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [152]
+        },
+        // [14] Position
+        { "name": "Toxic Geyser 14.1", "destination": [109.508, 218.631, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 10, "timestamps": [154]
+        },
+        { "name": "Toxic Geyser 14.1", "destination": [109.508, 218.631, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [164]
+        }
+      ]
+    },
+    {
+      "name": "Godscream Ura - Toxic Geysers Phase 2",
+      "start": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "requireEntry": true
+      },
+      "finish": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Markers
+      "markers": [
+        // First Phase 3's Toxic Geyser Spawn
+        { "position": [178.848, 202.34, 270.066], "rotation": [180, 0, 0], "size": 2, "fadeCenter": false, "opacity": 0.6,
+          "texture": "Assets/General/dot.png", "duration": 300, "timestamps": [0]
+        },
+        { "position": [178.848, 202.34, 270.066], "rotation": [180, 0, 0], "size": 2, "fadeCenter": false, "opacity": 0.75,
+          "texture": "Assets/General/dot-border.png", "duration": 300, "timestamps": [0]
+        },
+        // [1] Position
+        { "position": [145.962, 259.4, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [312]
+        },
+        { "position": [145.962, 259.4, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [0, 336]
+        },
+        // [2] Position
+        { "position": [162.642, 200.384, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [0]
+        },
+        { "position": [162.642, 200.384, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [24]
+        },
+        // [3] Position
+        { "position": [145.578, 228.939, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [24]
+        },
+        { "position": [145.578, 228.939, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [48]
+        },
+        // [4] Position
+        { "position": [122.406, 249.628, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [48]
+        },
+        { "position": [122.406, 249.628, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [72]
+        },
+        // [5] Position
+        { "position": [136.756, 199.693, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [72]
+        },
+        { "position": [136.756, 199.693, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [96]
+        },
+        // [6] Position
+        { "position": [109.508, 218.631, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [96]
+        },
+        { "position": [109.508, 218.631, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [120]
+        },
+        // [7] Position
+        { "position": [196.737, 247.251, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [120]
+        },
+        { "position": [196.737, 247.251, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [144]
+        },
+        // [8] Position
+        { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [144]
+        },
+        { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [168]
+        },
+        // [9] Position
+        { "position": [193.88, 219.206, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [168]
+        },
+        { "position": [193.88, 219.206, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [192]
+        },
+        // [10] Position
+        { "position": [183.058, 235.223, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [192]
+        },
+        { "position": [183.058, 235.223, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [216]
+        },
+        // [11] Position
+        { "position": [165.246, 253.157, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [216]
+        },
+        { "position": [165.246, 253.157, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [240]
+        },
+        // [12] Position
+        { "position": [158.04, 280.916, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [240]
+        },
+        { "position": [158.04, 280.916, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [264]
+        },
+        // [13] Position
+        { "position": [178.848, 202.34, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [264]
+        },
+        { "position": [178.848, 202.34, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [288]
+        },
+        // [14] Position
+        { "position": [161.719, 228.768, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [288]
+        },
+        { "position": [161.719, 228.768, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [312]
+        }
+      ],
+      //Directions (Trails)
+      "directions": [
+        // [1] Position
+        { "name": "Toxic Geyser 1.1", "destination": [145.962, 259.4, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [0]
+        },
+        { "name": "Toxic Geyser 1.2", "destination": [145.962, 259.4, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [22]
+        },
+        // [2] Position
+        { "name": "Toxic Geyser 2.1", "destination": [162.642, 200.384, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [24]
+        },
+        { "name": "Toxic Geyser 2.2", "destination": [162.642, 200.384, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [46]
+        },
+        // [3] Position
+        { "name": "Toxic Geyser 3.1", "destination": [145.578, 228.939, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [48]
+        },
+        { "name": "Toxic Geyser 3.2", "destination": [145.578, 228.939, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [70]
+        },
+        // [4] Position
+        { "name": "Toxic Geyser 4.1", "destination": [122.406, 249.628, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [72]
+        },
+        { "name": "Toxic Geyser 4.2", "destination": [122.406, 249.628, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [94]
+        },
+        // [5] Position
+        { "name": "Toxic Geyser 5.1", "destination": [136.756, 199.693, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [96]
+        },
+        { "name": "Toxic Geyser 5.2", "destination": [136.756, 199.693, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [118]
+        },
+        // [6] Position
+        { "name": "Toxic Geyser 6.1", "destination": [109.508, 218.631, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [120]
+        },
+        { "name": "Toxic Geyser 6.1", "destination": [109.508, 218.631, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [142]
+        },
+        // [7] Position
+        { "name": "Toxic Geyser 7.1", "destination": [196.737, 247.251, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [144]
+        },
+        { "name": "Toxic Geyser 7.2", "destination": [196.737, 247.251, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [166]
+        },
+        // [8] Position
+        { "name": "Toxic Geyser 8.1", "destination": [181.636, 276.954, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [168]
+        },
+        { "name": "Toxic Geyser 8.2", "destination": [181.636, 276.954, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [190]
+        },
+        // [9] Position
+        { "name": "Toxic Geyser 9.1", "destination": [193.88, 219.206, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [192]
+        },
+        { "name": "Toxic Geyser 9.2", "destination": [193.88, 219.206, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [214]
+        },
+        // [10] Position
+        { "name": "Toxic Geyser 10.1", "destination": [183.058, 235.223, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [216]
+        },
+        { "name": "Toxic Geyser 10.2", "destination": [183.058, 235.223, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [238]
+        },
+        // [11] Position
+        { "name": "Toxic Geyser 11.1", "destination": [165.246, 253.157, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [240]
+        },
+        { "name": "Toxic Geyser 11.2", "destination": [165.246, 253.157, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [262]
+        },
+        // [12] Position
+        { "name": "Toxic Geyser 12.1", "destination": [158.04, 280.916, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [264]
+        },
+        { "name": "Toxic Geyser 12.2", "destination": [158.04, 280.916, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [286]
+        },
+        // [13] Position
+        { "name": "Toxic Geyser 13.1", "destination": [178.848, 202.34, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [288]
+        },
+        { "name": "Toxic Geyser 13.2", "destination": [178.848, 202.34, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [310]
+        },
+        // [14] Position
+        { "name": "Toxic Geyser 14.1", "destination": [161.719, 228.768, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [312]
+        },
+        { "name": "Toxic Geyser 14.2", "destination": [161.719, 228.768, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [334]
+        }
+      ]
+    },
+    {
+      "name": "Godscream Ura - Toxic Geysers Phase 3",
+      "start": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "requireEntry": true
+      },
+      "finish": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Markers
+      "markers": [
+        // [1] Position
+        { "position": [161.719, 228.768, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [312]
+        },
+        { "position": [161.719, 228.768, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [0, 336]
+        },
+        // [2] Position
+        { "position": [145.962, 259.4, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [0]
+        },
+        { "position": [145.962, 259.4, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [24]
+        },
+        // [3] Position
+        { "position": [162.642, 200.384, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [24]
+        },
+        { "position": [162.642, 200.384, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [48]
+        },
+        // [4] Position
+        { "position": [145.578, 228.939, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [48]
+        },
+        { "position": [145.578, 228.939, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [72]
+        },
+        // [5] Position
+        { "position": [122.406, 249.628, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [72]
+        },
+        { "position": [122.406, 249.628, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [96]
+        },
+        // [6] Position
+        { "position": [136.756, 199.693, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [96]
+        },
+        { "position": [136.756, 199.693, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [120]
+        },
+        // [7] Position
+        { "position": [109.508, 218.631, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [120]
+        },
+        { "position": [109.508, 218.631, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [144]
+        },
+        // [8] Position
+        { "position": [196.737, 247.251, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [144]
+        },
+        { "position": [196.737, 247.251, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [168]
+        },
+        // [9] Position
+        { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [168]
+        },
+        { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [192]
+        },
+        // [10] Position
+        { "position": [193.88, 219.206, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [192]
+        },
+        { "position": [193.88, 219.206, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [216]
+        },
+        // [11] Position
+        { "position": [183.058, 235.223, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [216]
+        },
+        { "position": [183.058, 235.223, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [240]
+        },
+        // [12] Position
+        { "position": [165.246, 253.157, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [240]
+        },
+        { "position": [165.246, 253.157, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [264]
+        },
+        // [13] Position
+        { "position": [158.04, 280.916, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [264]
+        },
+        { "position": [158.04, 280.916, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [288]
+        },
+        // [14] Position
+        { "position": [178.848, 202.34, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [288]
+        },
+        { "position": [178.848, 202.34, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
+          "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 24, "timestamps": [312]
+        }
+      ],
+      //Directions (Trails)
+      "directions": [
+        // [1] Position
+        { "name": "Toxic Geyser 1.1", "destination": [161.719, 228.768, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [0]
+        },
+        { "name": "Toxic Geyser 1.2", "destination": [161.719, 228.768, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [22]
+        },
+        // [2] Position
+        { "name": "Toxic Geyser 2.1", "destination": [145.962, 259.4, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [24]
+        },
+        { "name": "Toxic Geyser 2.2", "destination": [145.962, 259.4, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [46]
+        },
+        // [3] Position
+        { "name": "Toxic Geyser 3.1", "destination": [162.642, 200.384, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [48]
+        },
+        { "name": "Toxic Geyser 3.2", "destination": [162.642, 200.384, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [70]
+        },
+        // [4] Position
+        { "name": "Toxic Geyser 4.1", "destination": [145.578, 228.939, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [72]
+        },
+        { "name": "Toxic Geyser 4.2", "destination": [145.578, 228.939, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [94]
+        },
+        // [5] Position
+        { "name": "Toxic Geyser 5.1", "destination": [122.406, 249.628, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [96]
+        },
+        { "name": "Toxic Geyser 5.2", "destination": [122.406, 249.628, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [118]
+        },
+        // [6] Position
+        { "name": "Toxic Geyser 6.1", "destination": [136.756, 199.693, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [120]
+        },
+        { "name": "Toxic Geyser 6.2", "destination": [136.756, 199.693, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [142]
+        },
+        // [7] Position
+        { "name": "Toxic Geyser 7.1", "destination": [109.508, 218.631, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [144]
+        },
+        { "name": "Toxic Geyser 7.1", "destination": [109.508, 218.631, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [166]
+        },
+        // [8] Position
+        { "name": "Toxic Geyser 8.1", "destination": [196.737, 247.251, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [168]
+        },
+        { "name": "Toxic Geyser 8.2", "destination": [196.737, 247.251, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [190]
+        },
+        // [9] Position
+        { "name": "Toxic Geyser 9.1", "destination": [181.636, 276.954, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [192]
+        },
+        { "name": "Toxic Geyser 9.2", "destination": [181.636, 276.954, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [214]
+        },
+        // [10] Position
+        { "name": "Toxic Geyser 10.1", "destination": [193.88, 219.206, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [216]
+        },
+        { "name": "Toxic Geyser 10.2", "destination": [193.88, 219.206, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [238]
+        },
+        // [11] Position
+        { "name": "Toxic Geyser 11.1", "destination": [183.058, 235.223, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [240]
+        },
+        { "name": "Toxic Geyser 11.2", "destination": [183.058, 235.223, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [262]
+        },
+        // [12] Position
+        { "name": "Toxic Geyser 12.1", "destination": [165.246, 253.157, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [264]
+        },
+        { "name": "Toxic Geyser 12.2", "destination": [165.246, 253.157, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [286]
+        },
+        // [13] Position
+        { "name": "Toxic Geyser 13.1", "destination": [158.04, 280.916, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [288]
+        },
+        { "name": "Toxic Geyser 13.2", "destination": [158.04, 280.916, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [310]
+        },
+        // [14] Position
+        { "name": "Toxic Geyser 14.1", "destination": [178.848, 202.34, 269.871],
+          "texture": "Assets/General/ArrowTrailBorder.png", "animSpeed": 0, "opacity": 0.7,
+          "duration": 22, "timestamps": [312]
+        },
+        { "name": "Toxic Geyser 14.2", "destination": [178.848, 202.34, 269.871],
+          "texture": "Assets/General/ArrowTrail.png", "animSpeed": 0, "opacity": 0.75,
+          "duration": 2, "timestamps": [334]
+        }
+      ]
+    }
+  ]
+}

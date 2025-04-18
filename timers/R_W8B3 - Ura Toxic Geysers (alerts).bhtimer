@@ -1,0 +1,91 @@
+{
+  "id": "htp.raid.w8.b3.toxicgeysers.alerts",
+  "name": "Godscream Ura (CM)\nToxic Geyser - Alerts",
+  "category": "W8: Mount Balrior",
+  "description": "• Type: Hotkey ( Trigger Key 0 )\n• Automatically begins on fight start.\n• Activate when:\n  • Ura spawns Phase 2's 1st toxic geyser in the middle of the arena.\n(marked with a dot + border when timer starts)\n  • Ura reaches 40% health.\n---Displays---\n• When the next toxic geyser spawns.\n• Where the 1st geyser for Phase 2 will spawn.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Assets/Raids/W8B3cm.png",
+  "map": "1564",
+  "reset": { "position": [194.095, 403.29, 265.844], "radius": 15,
+    "requireEntry": true
+  },
+  "phases": [
+    {
+      "name": "Godscream Ura - Toxic Geysers Phase 1",
+      "start": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Fake Toxic Geyser.png"
+        },
+        { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 22, "timestamps": [22],
+          "icon": "Assets/Raids/Fake Toxic Geyser.png"
+        },
+        { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [34, 46, 58, 70, 82, 94, 106, 118, 130, 142, 154, 166, 178, 190, 202, 214, 226, 238, 250, 262, 274, 286, 298],
+          "icon": "Assets/Raids/Fake Toxic Geyser.png"
+        }
+      ],
+      //Markers
+      "markers": [
+        //Phase 1 => 2 Geyser spawn
+        { "position": [161.719, 228.768, 270.066], "rotation": [180, 0, 0], "size": 1.75, "fadeCenter": false, "opacity": 0.4,
+          "texture": "Assets/General/dot.png", "duration": 300, "timestamps": [0]
+        },
+        { "position": [161.719, 228.768, 270.066], "rotation": [180, 0, 0], "size": 1.75, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/General/dot-border.png", "duration": 300, "timestamps": [0]
+        }
+      ]
+    },
+    {
+      "name": "Godscream Ura - Toxic Geysers Phase 2",
+      "start": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [24],
+          "icon": "Assets/Raids/Fake Toxic Geyser.png"
+        },
+        { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 48, "timestamps": [48, 72, 96, 120, 144, 168, 192, 216, 240, 264, 288, 312, 336],
+          "icon": "Assets/Raids/Fake Toxic Geyser.png"
+        }
+      ]
+    },
+    {
+      "name": "Godscream Ura - Toxic Geysers Phase 3",
+      "start": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [24],
+          "icon": "Assets/Raids/Fake Toxic Geyser.png"
+        },
+        { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 48, "timestamps": [48, 72, 96, 120, 144, 168, 192, 216, 240, 264, 288, 312, 336],
+          "icon": "Assets/Raids/Fake Toxic Geyser.png"
+        }
+      ]
+    }
+  ]
+}

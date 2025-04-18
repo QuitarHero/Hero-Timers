@@ -2,7 +2,7 @@
   "id": "htp.raid.w8.b3.rp",
   "name": "Ura, the Steamshrieker\nRising Pressure",
   "category": "W8: Mount Balrior",
-  "description": "• Type: Automatic\n• Automatically begins on fight start.\n---Displays---\n• When Ura receives Rising Pressure.",
+  "description": "• Type: Automatic\n• Automatically begins on fight start.\n• Works for both Normal and Challenge modes.\n---Displays---\n• When Ura receives Rising Pressure.",
   "author": "\nQuitarHero.1645",
   "icon": "Assets/Raids/Ura.png",
   "map": 1564,
