@@ -1,5 +1,5 @@
 {
-  "id": "htp.raid.w8.b3.toxicgeysers.alerts",
+  "id": "htp.raid.w8.b3.3_CM_toxicGeyserAlerts",
   "name": "Godscream Ura (CM)\nToxic Geyser - Alerts",
   "category": "W8: Mount Balrior",
   "description": "• Type: Hotkey ( Trigger Key 0 )\n• Automatically begins on fight start.\n• Activate when:\n  • Ura spawns Phase 2's 1st toxic geyser in the middle of the arena.\n(marked with a dot + border when timer starts)\n  • Ura reaches 40% health.\n---Displays---\n• When the next toxic geyser spawns.\n• Where the 1st geyser for Phase 2 will spawn.",
