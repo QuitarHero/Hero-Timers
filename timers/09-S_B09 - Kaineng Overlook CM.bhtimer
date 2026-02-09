@@ -849,37 +849,6 @@
         },
         { "position": [-545.509, -371.656, 266.251], "opacity": 0.083, "rotation": [180, 0, 0], "size": 19.6, "fadeCenter": false,
         "texture": "Assets/Shapes/Orb5-red.png", "duration": 0.25, "timestamps": [26.25, 186.75, 347.25]
-        },
-        
-        //First Mine
-        { "position": [-545.509, -371.656, 266.251], "opacity": 0.5, "rotation": [180, 0, 0], "size": 23.3, "fadeCenter": false,
-        "texture": "Assets/Shapes/Orb5-orange.png", "duration": 3.35, "timestamps": [22]
-        },
-        { "position": [-545.509, -371.656, 266.251], "opacity": 0.5, "rotation": [180, 0, 0], "size": 12.8, "fadeCenter": false,
-        "texture": "Assets/Shapes/Orb5-orange.png", "duration": 3.35, "timestamps": [22]
-        },
-        { "position": [-545.509, -371.656, 266.251], "opacity": 0.05, "rotation": [180, 0, 0], "size": 23.3, "fadeCenter": false,
-        "texture": "Assets/Shapes/Donut1-orange.png", "duration": 3.35, "timestamps": [22]
-        },
-        //Second Mine
-        { "position": [-545.509, -371.656, 266.251], "opacity": 0.5, "rotation": [180, 0, 0], "size": 27, "fadeCenter": false,
-        "texture": "Assets/Shapes/Orb5-orange.png", "duration": 1.08, "timestamps": [25.35]
-        },
-        { "position": [-545.509, -371.656, 266.251], "opacity": 0.5, "rotation": [180, 0, 0], "size": 16.5, "fadeCenter": false,
-        "texture": "Assets/Shapes/Orb5-orange.png", "duration": 1.08, "timestamps": [25.35]
-        },
-        { "position": [-545.509, -371.656, 266.251], "opacity": 0.05, "rotation": [180, 0, 0], "size": 27, "fadeCenter": false,
-        "texture": "Assets/Shapes/Donut2-orange.png", "duration": 1.08, "timestamps": [25.35]
-        },
-        //Third Mine
-        { "position": [-545.509, -371.656, 266.251], "opacity": 0.5, "rotation": [180, 0, 0], "size": 31.1, "fadeCenter": false,
-        "texture": "Assets/Shapes/Orb5-orange.png", "duration": 1.13, "timestamps": [26.43]
-        },
-        { "position": [-545.509, -371.656, 266.251], "opacity": 0.5, "rotation": [180, 0, 0], "size": 20.6, "fadeCenter": false,
-        "texture": "Assets/Shapes/Orb5-orange.png", "duration": 1.13, "timestamps": [26.43]
-        },
-        { "position": [-545.509, -371.656, 266.251], "opacity": 0.05, "rotation": [180, 0, 0], "size": 31.1, "fadeCenter": false,
-        "texture": "Assets/Shapes/Donut3-orange.png", "duration": 1.13, "timestamps": [26.43]
         }
       ]
     },

@@ -138,7 +138,7 @@
         "type": "key", "keyBind": "0",
         "requireEntry": true
       },
-      //Alerts (-0.5s offset, 43.7s / 44s rotation) (-16s, then -17s from Flux Nova onwards)
+      //Alerts (-0.5s offset, 43.7s / 44s rotation) (-16s, then -17s from Fulminate onwards)
       "alerts": [
         // ===== Initial Rotation =====
         { "alert": "Phase 2", 
