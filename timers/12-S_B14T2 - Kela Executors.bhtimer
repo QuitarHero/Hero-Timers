@@ -1,0 +1,204 @@
+{
+  "id": "htp.strike.b14.executors",
+  "name": "Kela, Seneschal of Waves\nExecutor of Waves spawns",
+  "category": "Visions of Eternity",
+  "description": "• Type: Hotkey (Trigger Key 0)\n• Automatically begins on combat start.\n• Activate when Kela unburrows / storm phase ends.\n--- Displays ---\n• When Executor of Waves spawn.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Assets/Strikes/B14/B14-Default.png",
+  "map": 1609,
+  "reset": { "position": [-406.0503, 333.2842, 43.04021], "radius": 10,
+    "requireEntry": true, "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "Executor of Waves Spawns 1",
+      "start": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      "alerts": [
+        //Timer Start
+        { "alert": "Timer: Executor of Waves Spawns",
+          "alertDuration": 5, "timestamps": [0],
+          "icon": "Assets/Strikes/B14/B14-Default.png"
+        },
+        //Executor Spawns
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 15, "alertDuration": 5, "timestamps": [15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        }
+      ]
+    },
+    {
+      "name": "Executor of Waves Spawns 2",
+      "start": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "requireEntry": true
+      },
+      "finish": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      "alerts": [
+        //Executor Spawns
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 19.5, "alertDuration": 5, "timestamps": [19.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        },
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 15, "alertDuration": 5, "timestamps": [34.5, 49.5, 64.5, 79.5, 94.5, 109.5, 124.5, 139.5, 154.5, 169.5, 184.5, 199.5, 214.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        }
+      ]
+    },
+    {
+      "name": "Executor of Waves Spawns 3",
+      "start": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "requireEntry": true
+      },
+      "finish": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      "alerts": [
+        //Executor Spawns
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 19.5, "alertDuration": 5, "timestamps": [19.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        },
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 15, "alertDuration": 5, "timestamps": [34.5, 49.5, 64.5, 79.5, 94.5, 109.5, 124.5, 139.5, 154.5, 169.5, 184.5, 199.5, 214.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        }
+      ]
+    },
+    {
+      "name": "Executor of Waves Spawns 4",
+      "start": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "requireEntry": true
+      },
+      "finish": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      "alerts": [
+        //Executor Spawns
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 19.5, "alertDuration": 5, "timestamps": [19.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        },
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 15, "alertDuration": 5, "timestamps": [34.5, 49.5, 64.5, 79.5, 94.5, 109.5, 124.5, 139.5, 154.5, 169.5, 184.5, 199.5, 214.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        }
+      ]
+    },
+    {
+      "name": "Executor of Waves Spawns 5",
+      "start": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "requireEntry": true
+      },
+      "finish": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      "alerts": [
+        //Executor Spawns
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 19.5, "alertDuration": 5, "timestamps": [19.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        },
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 15, "alertDuration": 5, "timestamps": [34.5, 49.5, 64.5, 79.5, 94.5, 109.5, 124.5, 139.5, 154.5, 169.5, 184.5, 199.5, 214.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        }
+      ]
+    },
+    {
+      "name": "Executor of Waves Spawns 6",
+      "start": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "requireEntry": true
+      },
+      "finish": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      "alerts": [
+        //Executor Spawns
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 19.5, "alertDuration": 5, "timestamps": [19.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        },
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 15, "alertDuration": 5, "timestamps": [34.5, 49.5, 64.5, 79.5, 94.5, 109.5, 124.5, 139.5, 154.5, 169.5, 184.5, 199.5, 214.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        }
+      ]
+    },
+    {
+      "name": "Executor of Waves Spawns 7",
+      "start": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "requireEntry": true
+      },
+      "finish": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      "alerts": [
+        //Executor Spawns
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 19.5, "alertDuration": 5, "timestamps": [19.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        },
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 15, "alertDuration": 5, "timestamps": [34.5, 49.5, 64.5, 79.5, 94.5, 109.5, 124.5, 139.5, 154.5, 169.5, 184.5, 199.5, 214.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        }
+      ]
+    },
+    {
+      "name": "Executor of Waves Spawns 8",
+      "start": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "requireEntry": true
+      },
+      "finish": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      "alerts": [
+        //Executor Spawns
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 19.5, "alertDuration": 5, "timestamps": [19.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        },
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 15, "alertDuration": 5, "timestamps": [34.5, 49.5, 64.5, 79.5, 94.5, 109.5, 124.5, 139.5, 154.5, 169.5, 184.5, 199.5, 214.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        }
+      ]
+    },
+    {
+      "name": "Executor of Waves Spawns 9",
+      "start": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "requireEntry": true
+      },
+      "finish": { "position": [-533.6645, 326.9879, 43.23339], "radius": 75,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      "alerts": [
+        //Executor Spawns
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 19.5, "alertDuration": 5, "timestamps": [19.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        },
+        { "warning": "Spawn: Executor of Waves", "alert": "Call of the Storm", "fillColor": [222, 209, 139, 255],
+          "warningDuration": 15, "alertDuration": 5, "timestamps": [34.5, 49.5, 64.5, 79.5, 94.5, 109.5, 124.5, 139.5, 154.5, 169.5, 184.5, 199.5, 214.5],
+          "icon": "Assets/Strikes/B14/B14-Crab.png"
+        }
+      ]
+    },
+  ]
+}
