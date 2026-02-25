@@ -2,7 +2,7 @@
   "id": "htp.raid.w8.b3.6_LCM_toxicGeyserMarkers",
   "name": "W8 - Mount Balrior\nGodscream Ura (LCM)\nToxic Gesyer - Markers & Trails",
   "category": "Janthir Wilds",
-  "description": "• Type: Hotkey ( Trigger Key 0 ) \n• Automatically begins on fight start.\n• Activate when:\n  • Ura spawns Phase 2's 1st toxic geyser in the middle of the arena.\n(marked with a dot + border when timer starts)\n  • Ura reaches 40% health.\n---Displays---\n• Where the next 2 toxic geysers will spawn.\n• Where the 1st geyser in each phase will spawn.\n• A trail from you to the next toxic geyser spawn.",
+  "description": "• Type: Hotkey ( Trigger Key 0 ) \n• Automatically begins on fight start.\n• Activate when:\n  • Ura spawns Phase 2's 1st toxic geyser in the middle of the arena.\n(marked with a dot + border when timer starts)\n  • Ura reaches 40% health.\n---Displays---\n• Where the next 2 toxic geysers will spawn.\n• Where the 1st geyser in each phase will spawn.\n• A trail from you to the next toxic geyser spawn.\n• The range that the SAK can be used in.",
   "author": "\nQuitarHero.1645",
   "icon": "Assets/Raids/W8B3lcm.png",
   "map": "1564",
@@ -38,6 +38,8 @@
         { "position": [196.737, 247.251, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 10, "timestamps": [0]
         },
+        { "position": [196.737, 247.251, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [0, 168, 336]},
+        { "position": [196.737, 247.251, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [10, 178, 346]},
         // [2] Position
         { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [166, 334]
@@ -48,6 +50,8 @@
         { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [10, 178, 346]
         },
+        { "position": [181.636, 276.954, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [12, 180, 348]},
+        { "position": [181.636, 276.954, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [22, 190, 358]},
         // [3] Position
         { "position": [193.88, 219.206, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [10, 178, 346]
@@ -55,6 +59,8 @@
         { "position": [193.88, 219.206, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [22, 190, 358]
         },
+        { "position": [193.88, 219.206, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [24, 192, 360]},
+        { "position": [193.88, 219.206, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [34, 202, 370]},
         // [4] Position
         { "position": [183.058, 235.223, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [22, 190, 358]
@@ -62,6 +68,8 @@
         { "position": [183.058, 235.223, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [34, 202, 370]
         },
+        { "position": [183.058, 235.223, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [36, 204, 372]},
+        { "position": [183.058, 235.223, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [46, 214, 382]},
         // [5] Position
         { "position": [165.246, 253.157, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [34, 202, 370]
@@ -69,6 +77,8 @@
         { "position": [165.246, 253.157, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [46, 214, 382]
         },
+        { "position": [165.246, 253.157, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [48, 216, 384]},
+        { "position": [165.246, 253.157, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [58, 226, 394]},
         // [6] Position
         { "position": [158.04, 280.916, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [46, 214, 382]
@@ -76,6 +86,8 @@
         { "position": [158.04, 280.916, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [58, 226, 394]
         },
+        { "position": [158.04, 280.916, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [60, 228, 396]},
+        { "position": [158.04, 280.916, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [70, 238, 406]},
         // [7] Position
         { "position": [178.848, 202.34, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [58, 226, 394]
@@ -83,6 +95,8 @@
         { "position": [178.848, 202.34, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [70, 238, 406]
         },
+        { "position": [178.848, 202.34, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [72, 240, 408]},
+        { "position": [178.848, 202.34, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [82, 250, 418]},
         // [8] Position
         { "position": [161.719, 228.768, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [70, 238, 406]
@@ -90,6 +104,8 @@
         { "position": [161.719, 228.768, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [82, 250, 418]
         },
+        { "position": [161.719, 228.768, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [84, 252, 420]},
+        { "position": [161.719, 228.768, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [94, 262, 430]},
         // [9] Position
         { "position": [145.962, 259.4, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [82, 250, 418]
@@ -97,6 +113,8 @@
         { "position": [145.962, 259.4, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [94, 262, 430]
         },
+        { "position": [145.962, 259.4, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [96, 264, 432]},
+        { "position": [145.962, 259.4, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [106, 274, 442]},
         // [10] Position
         { "position": [162.642, 200.384, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [94, 262, 430]
@@ -104,6 +122,8 @@
         { "position": [162.642, 200.384, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [106, 274, 442]
         },
+        { "position": [162.642, 200.384, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [108, 276, 444]},
+        { "position": [162.642, 200.384, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [118, 286, 454]},
         // [11] Position
         { "position": [145.578, 228.939, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [106, 274, 442]
@@ -111,6 +131,8 @@
         { "position": [145.578, 228.939, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [118, 286, 454]
         },
+        { "position": [145.578, 228.939, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [120, 288, 456]},
+        { "position": [145.578, 228.939, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [130, 298, 466]},
         // [12] Position
         { "position": [122.406, 249.628, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [118, 286, 454]
@@ -118,6 +140,8 @@
         { "position": [122.406, 249.628, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [130, 298, 466]
         },
+        { "position": [122.406, 249.628, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [132, 300]},
+        { "position": [122.406, 249.628, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [142, 310]},
         // [13] Position
         { "position": [136.756, 199.693, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [130, 298, 466]
@@ -125,13 +149,17 @@
         { "position": [136.756, 199.693, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [142, 310]
         },
+        { "position": [136.756, 199.693, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [144, 312]},
+        { "position": [136.756, 199.693, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [154, 322]},
         // [14] Position
         { "position": [109.508, 218.631, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [142, 310]
         },
         { "position": [109.508, 218.631, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [154, 322]
-        }
+        },
+        { "position": [109.508, 218.631, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [156, 324]},
+        { "position": [109.508, 218.631, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [166, 334]}
       ],
       //Directions (Trails)
       "directions": [
@@ -292,6 +320,8 @@
         { "position": [145.962, 259.4, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [0, 168, 336]
         },
+        { "position": [145.962, 259.4, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [2, 170, 338]},
+        { "position": [145.962, 259.4, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [12, 180, 348]},
         // [2] Position
         { "position": [162.642, 200.384, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [0, 168, 336]
@@ -299,6 +329,8 @@
         { "position": [162.642, 200.384, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [12, 180, 348]
         },
+        { "position": [162.642, 200.384, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [14, 182, 350]},
+        { "position": [162.642, 200.384, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [24, 192, 360]},
         // [3] Position
         { "position": [145.578, 228.939, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [12, 180, 348]
@@ -306,6 +338,8 @@
         { "position": [145.578, 228.939, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [24, 192, 360]
         },
+        { "position": [145.578, 228.939, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [26, 194, 362]},
+        { "position": [145.578, 228.939, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [36, 204, 372]},
         // [4] Position
         { "position": [122.406, 249.628, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [24, 192, 360]
@@ -313,6 +347,8 @@
         { "position": [122.406, 249.628, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [36, 204, 372]
         },
+        { "position": [122.406, 249.628, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [38, 206, 374]},
+        { "position": [122.406, 249.628, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [48, 216, 384]},
         // [5] Position
         { "position": [136.756, 199.693, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [36, 204, 372]
@@ -320,6 +356,8 @@
         { "position": [136.756, 199.693, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [48, 216, 384]
         },
+        { "position": [136.756, 199.693, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [50, 218, 386]},
+        { "position": [136.756, 199.693, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [60, 228, 396]},
         // [6] Position
         { "position": [109.508, 218.631, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [48, 216, 384]
@@ -327,6 +365,8 @@
         { "position": [109.508, 218.631, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [60, 228, 396]
         },
+        { "position": [109.508, 218.631, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [62, 230, 398]},
+        { "position": [109.508, 218.631, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [72, 240, 408]},
         // [7] Position
         { "position": [196.737, 247.251, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [60, 228, 396]
@@ -334,6 +374,8 @@
         { "position": [196.737, 247.251, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [72, 240, 408]
         },
+        { "position": [196.737, 247.251, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [74, 242, 410]},
+        { "position": [196.737, 247.251, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [84, 252, 420]},
         // [8] Position
         { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [72, 240, 408]
@@ -341,6 +383,8 @@
         { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [84, 252, 420]
         },
+        { "position": [181.636, 276.954, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [86, 254, 422]},
+        { "position": [181.636, 276.954, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [96, 264, 432]},
         // [9] Position
         { "position": [193.88, 219.206, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [84, 252, 420]
@@ -348,6 +392,8 @@
         { "position": [193.88, 219.206, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [96, 264, 432]
         },
+        { "position": [193.88, 219.206, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [98, 266, 434]},
+        { "position": [193.88, 219.206, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [108, 276, 444]},
         // [10] Position
         { "position": [183.058, 235.223, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [96, 264, 432]
@@ -355,6 +401,8 @@
         { "position": [183.058, 235.223, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [108, 276, 444]
         },
+        { "position": [183.058, 235.223, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [110, 278, 446]},
+        { "position": [183.058, 235.223, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [120, 288, 456]},
         // [11] Position
         { "position": [165.246, 253.157, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [108, 276, 444]
@@ -362,6 +410,8 @@
         { "position": [165.246, 253.157, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [120, 288, 456]
         },
+        { "position": [165.246, 253.157, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [122, 290, 458]},
+        { "position": [165.246, 253.157, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [132, 300, 468]},
         // [12] Position
         { "position": [158.04, 280.916, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [120, 288, 456]
@@ -369,6 +419,8 @@
         { "position": [158.04, 280.916, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [132, 300, 468]
         },
+        { "position": [158.04, 280.916, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [134, 302, 470]},
+        { "position": [158.04, 280.916, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [144, 312, 480]},
         // [13] Position
         { "position": [178.848, 202.34, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [132, 300, 468]
@@ -376,13 +428,17 @@
         { "position": [178.848, 202.34, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [144, 312]
         },
+        { "position": [178.848, 202.34, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [146, 314]},
+        { "position": [178.848, 202.34, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [156, 324]},
         // [14] Position
         { "position": [161.719, 228.768, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [144, 312]
         },
         { "position": [161.719, 228.768, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [156, 324]
-        }
+        },
+        { "position": [161.719, 228.768, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [158, 326]},
+        { "position": [161.719, 228.768, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [168, 336]}
       ],
       //Directions (Trails)
       "directions": [
@@ -532,6 +588,8 @@
         { "position": [161.719, 228.768, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [0, 168, 336, 504, 672]
         },
+        { "position": [161.719, 228.768, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [2, 170, 338, 506, 674]},
+        { "position": [161.719, 228.768, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [12, 180, 348, 516, 684]},
         // [2] Position
         { "position": [145.962, 259.4, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [0, 168, 336, 504, 672]
@@ -539,6 +597,8 @@
         { "position": [145.962, 259.4, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [12, 180, 348, 516, 684]
         },
+        { "position": [145.962, 259.4, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [14, 182, 350, 518, 686]},
+        { "position": [145.962, 259.4, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [24, 192, 360, 528, 696]},
         // [3] Position
         { "position": [162.642, 200.384, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [12, 180, 348, 516, 684]
@@ -546,6 +606,8 @@
         { "position": [162.642, 200.384, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [24, 192, 360, 528, 696]
         },
+        { "position": [162.642, 200.384, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [26, 194, 362, 530, 698]},
+        { "position": [162.642, 200.384, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [36, 204, 372, 540, 708]},
         // [4] Position
         { "position": [145.578, 228.939, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [24, 192, 360, 528, 696]
@@ -553,6 +615,8 @@
         { "position": [145.578, 228.939, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [36, 204, 372, 540, 708]
         },
+        { "position": [145.578, 228.939, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [38, 206, 374, 542, 710]},
+        { "position": [145.578, 228.939, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [48, 216, 384, 552, 720]},
         // [5] Position
         { "position": [122.406, 249.628, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [36, 204, 372, 540, 708]
@@ -560,6 +624,8 @@
         { "position": [122.406, 249.628, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [48, 216, 384, 552, 720]
         },
+        { "position": [122.406, 249.628, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [50, 218, 386, 554, 722]},
+        { "position": [122.406, 249.628, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [60, 228, 396, 564, 732]},
         // [6] Position
         { "position": [136.756, 199.693, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [48, 216, 384, 552, 720]
@@ -567,6 +633,8 @@
         { "position": [136.756, 199.693, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [60, 228, 396, 564]
         },
+        { "position": [136.756, 199.693, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [62, 230, 398, 566]},
+        { "position": [136.756, 199.693, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [72, 240, 408, 576]},
         // [7] Position
         { "position": [109.508, 218.631, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [60, 228, 396, 564]
@@ -574,6 +642,8 @@
         { "position": [109.508, 218.631, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [72, 240, 408, 576]
         },
+        { "position": [109.508, 218.631, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [74, 242, 410, 578]},
+        { "position": [109.508, 218.631, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [84, 252, 420, 588]},
         // [8] Position
         { "position": [196.737, 247.251, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [72, 240, 408, 576]
@@ -581,6 +651,8 @@
         { "position": [196.737, 247.251, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [84, 252, 420, 588]
         },
+        { "position": [196.737, 247.251, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [86, 254, 422, 590]},
+        { "position": [196.737, 247.251, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [96, 264, 432, 600]},
         // [9] Position
         { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [84, 252, 420, 588]
@@ -588,6 +660,8 @@
         { "position": [181.636, 276.954, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [96, 264, 432, 600]
         },
+        { "position": [181.636, 276.954, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [98, 266, 434, 602]},
+        { "position": [181.636, 276.954, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [108, 276, 444, 612]},
         // [10] Position
         { "position": [193.88, 219.206, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [96, 264, 432, 600]
@@ -595,6 +669,8 @@
         { "position": [193.88, 219.206, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [108, 276, 444, 612]
         },
+        { "position": [193.88, 219.206, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [110, 278, 446, 614]},
+        { "position": [193.88, 219.206, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [120, 288, 456, 624]},
         // [11] Position
         { "position": [183.058, 235.223, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [108, 276, 444, 612]
@@ -602,6 +678,8 @@
         { "position": [183.058, 235.223, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [120, 288, 456, 624]
         },
+        { "position": [183.058, 235.223, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [122, 290, 458, 626]},
+        { "position": [183.058, 235.223, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [132, 300, 468, 636]},
         // [12] Position
         { "position": [165.246, 253.157, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [120, 288, 456, 624]
@@ -609,6 +687,8 @@
         { "position": [165.246, 253.157, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [132, 300, 468, 636]
         },
+        { "position": [165.246, 253.157, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [134, 302, 470, 638]},
+        { "position": [165.246, 253.157, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [144, 312, 480, 648]},
         // [13] Position
         { "position": [158.04, 280.916, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [132, 300, 468, 636]
@@ -616,13 +696,17 @@
         { "position": [158.04, 280.916, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [144, 312, 480, 648]
         },
+        { "position": [158.04, 280.916, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [146, 314, 482, 650]},
+        { "position": [158.04, 280.916, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [156, 324, 492, 660]},
         // [14] Position
         { "position": [178.848, 202.34, 271.771], "size": 3, "fadeCenter": false, "opacity": 0.3,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [144, 312, 480, 648]
         },
         { "position": [178.848, 202.34, 271.771], "size": 3, "fadeCenter": false, "opacity": 1,
           "texture": "Assets/Raids/Toxic Geyser1.png", "duration": 12, "timestamps": [156, 324, 492, 660]
-        }
+        },
+        { "position": [178.848, 202.34, 269.921], "size": 16.2559912218, "opacity": 0.25, "duration": 10, "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [158, 326, 494, 662]},
+        { "position": [178.848, 202.34, 269.921], "size": 16.2559912218, "opacity": 0.65, "duration": 2,  "rotation": [180, 0, 0], "fadeCenter": false, "texture": "Assets/Shapes/Orb5-white.png", "timestamps": [168, 336, 504, 672]}
       ],
       //Directions (Trails)
       "directions": [
