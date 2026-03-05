@@ -4,7 +4,7 @@
   "category": "Heart of Thorns",
   "description": "• Type: Automatic\n---Displays---\n• When each cannon spawns.\n• Where to throw.",
   "author": "\nQuitarHero.1645",
-  "icon": "Assets/Raids/Sabetha.png",
+  "icon": "Assets/Raids/W1B4-Sabetha.png",
   "map": 1062,
   "reset": { "position": [-59.57044, 192.4689, 72.23109], "radius": 5,
     "requireEntry": true, "requireOutOfCombat": true
@@ -23,7 +23,7 @@
         //Initial Notification
         { "alert": "Timer: All Cannons", "fillColor": [113, 73, 65, 0],
           "alertDuration": 4, "timestamps": [0],
-          "icon": "Assets/Raids/Sabetha.png"
+          "icon": "Assets/Raids/W1B4-Sabetha.png"
         },
         //South Cannon
         { "warning": "Next: South Cannon", "fillColor": [113, 73, 65, 0],
@@ -84,11 +84,6 @@
         { "alert": "East", "fillColor": [113, 73, 65, 0],
           "alertDuration": 3, "timestamps": [124, 244, 364, 484],
           "icon": "Assets/Raids/SapperBomb.png", "uid": "htp.raid.w1.b4.eastCannon.Acannon2"
-        },
-        //Enrage
-        { "alert": "Enrage", "fillColor": [113, 73, 65, 0],
-          "alertDuration": 5, "timestamps": [540],
-          "icon": "Assets/Raids/Sabetha.png", "uid": "htp.raid.w1.b4.enrage"
         }
       ]
     }

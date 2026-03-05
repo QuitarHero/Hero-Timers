@@ -4,7 +4,7 @@
   "category": "Heart of Thorns",
   "description": "• Type: Automatic\n---Displays---\n• When each cannon spawns.\n• Where to throw.\n• Unique timings for 1/3 cannon spawns (with trails).\n› \"Prepare\" warnings are for your cannons.",
   "author": "\nQuitarHero.1645",
-  "icon": "Assets/Raids/Sabetha13.png",
+  "icon": "Assets/Raids/W1B4-Sabetha13.png",
   "map": 1062,
   "reset": { "position": [-59.57044, 192.4689, 72.23109], "radius": 5,
     "requireEntry": true, "requireOutOfCombat": true
@@ -23,7 +23,7 @@
         //Initial Notification
         { "alert": "Timer: Cannon 1/3", "fillColor": [113, 73, 65, 0],
           "alertDuration": 4, "timestamps": [0],
-          "icon": "Assets/Raids/Sabetha.png"
+          "icon": "Assets/Raids/W1B4-Sabetha.png"
         },
         //South Cannon
         { "warning": "Prepare: South Cannon", "fillColor": [33, 158, 42, 0],
