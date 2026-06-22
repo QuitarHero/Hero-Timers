@@ -1,0 +1,186 @@
+{
+  "id": "htp.raid.w4.b1.slowgreens",
+  "name": "W4 - Bastion of the Penitent\nCairn the Indomitable\nSlow Greens",
+  "category": "Heart of Thorns",
+  "description": "• Type: Hotkey ( Trigger Key 0 )\n• Activate at anytime when Cairn reaches\nsoft-phasing thresholds (75% / 50% / 25%).\n---Notice---\n• Do not pre-stack on Slow Greens;\nthe game does not register you inside the\ngreen if you do this. Walking in/out of it\nor having another player join you are\nwork-arounds if you do plan to pre-stack.\n---Displays---\n• Where the Slow Greens will spawn\nfor each soft-phase.",
+  "author": "\nQuitarHero.1645",
+  "icon": "Assets/Raids/W4B1-Cairn.png",
+  "map": 1188,
+  "reset": { "position": [365, 51, 34], "radius": 50,
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "Soft-Phase 1 (100% - 75%)",
+      "start": { "position": [365, 51, 34], "radius": 35,
+		    "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [365, 51, 34], "radius": 35,
+      "type": "key", "keyBind": "0",
+		    "requireEntry": true
+      },
+      "markers": [
+        //Slow Greens (Big / Medium / Medium / Small / Small)
+        { "position": [359.163, 59.055, 33.72], "rotation": [180, 0, 0], "size": 9.263182,  "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [359.163, 59.055, 33.72], "rotation": [180, 0, 0], "size": 9.263182,  "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [350.667, 55.9, 33.72],   "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [350.667, 55.9, 33.72],   "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [356.052, 37.097, 33.72], "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [356.052, 37.097, 33.72], "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [365.496, 42.753, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [365.496, 42.753, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [368.597, 58.575, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [368.597, 58.575, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        }
+      ]
+    },
+    {
+      "name": "Soft-Phase 2 (75% - 50%)",
+      "start": { "position": [365, 51, 34], "radius": 35,
+		    "requireEntry": true
+      },
+      "finish": { "position": [365, 51, 34], "radius": 35,
+      "type": "key", "keyBind": "0",
+		    "requireEntry": true
+      },
+      "markers": [
+        //Slow Greens (Big / Medium / Medium / Small / Small)
+        { "position": [371.63, 43.175, 33.72],  "rotation": [180, 0, 0], "size": 9.263182,  "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [371.63, 43.175, 33.72],  "rotation": [180, 0, 0], "size": 9.263182,  "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [360.497, 59.181, 33.72], "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [360.497, 59.181, 33.72], "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [382.298, 61.193, 33.72], "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [382.298, 61.193, 33.72], "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [348.427, 46.911, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [348.427, 46.911, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [360.738, 34.612, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [360.738, 34.612, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        }
+      ]
+    },
+    {
+      "name": "Soft-Phase 3 (50% - 25%)",
+      "start": { "position": [365, 51, 34], "radius": 35,
+		    "requireEntry": true
+      },
+      "finish": { "position": [365, 51, 34], "radius": 35,
+      "type": "key", "keyBind": "0",
+		    "requireEntry": true
+      },
+      "markers": [
+        //Slow Greens (Big / Medium / Medium / Small / Small)
+        { "position": [360.093, 29.186, 33.72], "rotation": [180, 0, 0], "size": 9.263182,  "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [360.093, 29.186, 33.72], "rotation": [180, 0, 0], "size": 9.263182,  "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [377.947, 70.691, 33.72], "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [377.947, 70.691, 33.72], "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [353.835, 65.678, 33.72], "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [353.835, 65.678, 33.72], "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [343.174, 43.344, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [343.174, 43.344, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [391.203, 50.452, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [391.203, 50.452, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        }
+      ]
+    },
+    {
+      "name": "Soft-Phase 4 (25% - 0%)",
+      "start": { "position": [365, 51, 34], "radius": 35,
+		    "requireEntry": true,
+      },
+      "finish": { "position": [365, 51, 34], "radius": 35,
+      "type": "key", "keyBind": "0",
+		    "requireEntry": true
+      },
+      "markers": [
+        //Slow Greens (Big / Medium / Medium / Small / Small)
+        { "position": [351.46, 77.419, 33.72],  "rotation": [180, 0, 0], "size": 9.263182,  "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [351.46, 77.419, 33.72],  "rotation": [180, 0, 0], "size": 9.263182,  "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [379.189, 57.493, 33.72], "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [379.189, 57.493, 33.72], "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [370.39, 22.503, 33.72],  "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [370.39, 22.503, 33.72],  "rotation": [180, 0, 0], "size": 4.2024326, "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [387.802, 71.052, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [387.802, 71.052, 33.72], "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [390.52, 53.084, 33.72],  "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.3,
+          "texture": "Assets/Shapes/Orb1-green.png", "duration": 9999, "timestamps": [0]
+        },
+        { "position": [390.52, 53.084, 33.72],  "rotation": [180, 0, 0], "size": 2.865302,  "fadeCenter": false, "opacity": 0.1,
+          "texture": "Assets/Shapes/Fill-green.png", "duration": 9999, "timestamps": [0]
+        }
+      ]
+    }
+  ]
+}
