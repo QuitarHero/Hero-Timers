@@ -26,28 +26,32 @@
         },
         //Boss Spawns
         { "warning": "Spawn: Berg", "fillColor": [194, 45, 45, 0],
-          "warningDuration": 126, "timestamps": [130],
+          "warningDuration": 127.7, "timestamps": [127.7],
           "icon": "Assets/Raids/W2B2-Berg.png"
         },
         { "warning": "Spawn: Zane", "fillColor": [194, 45, 45, 0],
-          "warningDuration": 95, "timestamps": [250],
+          "warningDuration": 95.5, "timestamps": [250],
           "icon": "Assets/Raids/W2B2-Zane.png"
         },
         { "warning": "Spawn: Narella", "fillColor": [194, 45, 45, 0],
-          "warningDuration": 95, "timestamps": [370],
+          "warningDuration": 97, "timestamps": [372],
           "icon": "Assets/Raids/W2B2-Narella.png"
         },
         //Saboteurs
         { "warning": "Next: Saboteur", "fillColor": [194, 45, 45, 0],
-          "warningDuration": 33, "timestamps": [308],
+          "warningDuration": 32, "timestamps": [307],
+          "icon": "Assets/Raids/Saboteur.png"
+        },
+        { "warning": "Next: Saboteur", "alert": "Saboteur Soon", "fillColor": [194, 45, 45, 0],
+          "warningDuration": 31, "alertDuration": 8, "timestamps": [399],
           "icon": "Assets/Raids/Saboteur.png"
         },
         { "warning": "Next: Saboteur", "fillColor": [194, 45, 45, 0],
-          "warningDuration": 31, "timestamps": [339, 370, 401, 432],
+          "warningDuration": 30.5, "timestamps": [337.5, 368],
           "icon": "Assets/Raids/Saboteur.png"
         },
         { "warning": "Next: Saboteur", "fillColor": [194, 45, 45, 0],
-          "warningDuration": 25, "timestamps": [155],
+          "warningDuration": 26.8, "timestamps": [154.5],
           "icon": "Assets/Raids/Saboteur.png"
         },
         //Mortars
@@ -56,7 +60,7 @@
           "icon": "Assets/Raids/Mortar.png"
         },
         { "warning": "Next: Mortars", "fillColor": [194, 45, 45, 0],
-          "warningDuration": 27, "timestamps": [335],
+          "warningDuration": 28, "timestamps": [335],
           "icon": "Assets/Raids/Mortar.png"
         },
         { "warning": "Next: Mortars", "fillColor": [194, 45, 45, 0],
